@@ -1,0 +1,808 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "cnt": "http://www.w3.org/2011/content#",
+    "cr": "http://mlcommons.org/croissant/",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dcatde": "http://dcat-ap.de/def/dcatde/",
+    "dcatus": "http://resources.data.gov/ontology/dcat-us#",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "gsp": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "time1": "http://www.w3.org/2006/time",
+    "vann": "http://purl.org/vocab/vann/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://publications.europa.eu/resource/authority/file-type/GML",
+      "@type": "dct:MediaTypeOrExtent"
+    },
+    {
+      "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.csv",
+      "@type": "rdfs:Resource"
+    },
+    {
+      "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.gml",
+      "@type": "rdfs:Resource"
+    },
+    {
+      "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.kml",
+      "@type": "rdfs:Resource"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/file-type/WMS",
+      "@type": "dct:MediaTypeOrExtent"
+    },
+    {
+      "@id": "http://dcat-ap.de/def/hashAlgorithms/sha/256",
+      "@type": "spdx:ChecksumAlgorithm"
+    },
+    {
+      "@id": "https://geo.sv.rostock.de/geodienste/baeume/wfs",
+      "@type": "rdfs:Resource"
+    },
+    {
+      "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.json",
+      "@type": "rdfs:Resource"
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/8df2ff94-cf9e-40f9-b98a-b07fe3c7868b",
+      "@type": "dcat:Distribution",
+      "adms:status": {
+        "@id": "http://purl.org/adms/status/Completed"
+      },
+      "dcat:accessURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.kml"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:decimal",
+        "@value": "55591957"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.kml"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:description": "Dieser Datensatz umfasst die Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock mit Informationen zu Gattung, Art, Status als Alleebaum, Höhe in der Einheit Meter, Stammdurchmesser in der Einheit Zentimeter, Stammumfang in der Einheit Zentimeter, Kronendurchmesser in der Einheit Meter und Baumpatenschaft.",
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/KML"
+      },
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-10-18T08:46:54"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:license": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:07:44"
+      },
+      "dct:rights": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:title": "Bäume",
+      "spdx:checksum": {
+        "@id": "_:Ncdfcf360ec08490b9a9760172dd5814f"
+      }
+    },
+    {
+      "@id": "_:Ncdfcf360ec08490b9a9760172dd5814f",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "http://dcat-ap.de/def/hashAlgorithms/sha/256"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "c2cfdba07bc87d29b6fd5568cef255d8c3826d29a2e6e5ccb8d9580dcc91f8d4"
+      }
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/0b951ac9-2909-4cc6-9796-edf8d598f78f",
+      "@type": "dcat:Distribution",
+      "adms:status": {
+        "@id": "http://purl.org/adms/status/Completed"
+      },
+      "dcat:accessURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.gml"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:decimal",
+        "@value": "78340185"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.gml"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/gml+xml"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:description": "Dieser Datensatz umfasst die Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock mit Informationen zu Gattung, Art, Status als Alleebaum, Höhe in der Einheit Meter, Stammdurchmesser in der Einheit Zentimeter, Stammumfang in der Einheit Zentimeter, Kronendurchmesser in der Einheit Meter und Baumpatenschaft.",
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/GML"
+      },
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-10-18T08:46:54"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:license": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:07:44"
+      },
+      "dct:rights": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:title": "Bäume",
+      "spdx:checksum": {
+        "@id": "_:Nb8035910b2a44fe1b4c91ae033771783"
+      }
+    },
+    {
+      "@id": "_:Nb8035910b2a44fe1b4c91ae033771783",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "http://dcat-ap.de/def/hashAlgorithms/sha/256"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "80f0e224554dc9314257e5aeb92f9ea55f4378a132928045a212a9d8e538a870"
+      }
+    },
+    {
+      "@id": "https://www.opendata-hro.de/organization/b952e781-ab4c-456a-8e7a-2845f7efaf83",
+      "@type": "foaf:Agent",
+      "foaf:name": "Hanse- und Universitätsstadt Rostock"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+      "@type": "dct:RightsStatement"
+    },
+    {
+      "@id": "http://dcat-ap.de/def/licenses/cc-zero",
+      "@type": [
+        "dct:LicenseDocument",
+        "dct:RightsStatement"
+      ],
+      "dct:type": {
+        "@id": "http://purl.org/adms/licencetype/UnknownIPR"
+      }
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/e41d3cb4-ac03-4f77-ba36-7d9f67d2fa04",
+      "@type": "dcat:Distribution",
+      "adms:status": {
+        "@id": "http://purl.org/adms/status/Completed"
+      },
+      "dcat:accessURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.json"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:decimal",
+        "@value": "30273299"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.json"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/geo+json"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:description": "Dieser Datensatz umfasst die Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock mit Informationen zu Gattung, Art, Status als Alleebaum, Höhe in der Einheit Meter, Stammdurchmesser in der Einheit Zentimeter, Stammumfang in der Einheit Zentimeter, Kronendurchmesser in der Einheit Meter und Baumpatenschaft.",
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/GEOJSON"
+      },
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-10-18T08:46:54"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:license": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:07:43"
+      },
+      "dct:rights": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:title": "Bäume",
+      "spdx:checksum": {
+        "@id": "_:N2c8be8562f84415a9018e87b4eb4d395"
+      }
+    },
+    {
+      "@id": "_:N2c8be8562f84415a9018e87b4eb4d395",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "http://dcat-ap.de/def/hashAlgorithms/sha/256"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "e4bc0d35bf27cbeafb6a30cab6ab28b5141c2d6599a335b5667ffdb4d55a070e"
+      }
+    },
+    {
+      "@id": "https://www.iana.org/assignments/media-types/application/geo+json",
+      "@type": "dct:MediaType"
+    },
+    {
+      "@id": "https://geo.sv.rostock.de/geodienste/baeume/wms",
+      "@type": "rdfs:Resource"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/file-type/GEOJSON",
+      "@type": "dct:MediaTypeOrExtent"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/file-type/CSV",
+      "@type": "dct:MediaTypeOrExtent"
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/30da3d95-c341-456f-a1df-420b9999fe94",
+      "@type": "dcat:Distribution",
+      "adms:status": {
+        "@id": "http://purl.org/adms/status/Completed"
+      },
+      "dcat:accessURL": {
+        "@id": "https://geo.sv.rostock.de/geodienste/baeume/wms"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:description": "Diese Karte umfasst die Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock mit Informationen zu Gattung, Art, Status als Alleebaum, Höhe in der Einheit Meter, Stammdurchmesser in der Einheit Zentimeter, Stammumfang in der Einheit Zentimeter, Kronendurchmesser in der Einheit Meter und Baumpatenschaft.",
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/WMS"
+      },
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-10-18T08:46:54"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:license": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:07:44"
+      },
+      "dct:rights": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:title": "Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock"
+    },
+    {
+      "@id": "https://www.iana.org/assignments/media-types/text/csv",
+      "@type": "dct:MediaType"
+    },
+    {
+      "@id": "https://www.iana.org/assignments/media-types/application/vnd.google-earth.kml+xml",
+      "@type": "dct:MediaType"
+    },
+    {
+      "@id": "dcatde:",
+      "@type": "dct:Standard"
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/be1c699f-14c6-4db3-a4eb-14335c65151c",
+      "@type": "dcat:Distribution",
+      "adms:status": {
+        "@id": "http://purl.org/adms/status/Completed"
+      },
+      "dcat:accessURL": {
+        "@id": "https://geo.sv.rostock.de/inspire/lcv-trees/download?service=WFS&version=2.0.0&request=GetCapabilities"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:description": "Diese Daten umfassen die Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock mit Informationen zu Gattung und Art.",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-06-24T10:48:27"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:license": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:07:44"
+      },
+      "dct:rights": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:title": "Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock"
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/7db3ac34-5f59-438e-9691-48715ef6f2f9",
+      "@type": "dcat:Distribution",
+      "adms:status": {
+        "@id": "http://purl.org/adms/status/Completed"
+      },
+      "dcat:accessURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.xlsx"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:decimal",
+        "@value": "4928428"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.xlsx"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:description": "Dieser Datensatz umfasst die Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock mit Informationen zu Gattung, Art, Status als Alleebaum, Höhe in der Einheit Meter, Stammdurchmesser in der Einheit Zentimeter, Stammumfang in der Einheit Zentimeter, Kronendurchmesser in der Einheit Meter und Baumpatenschaft.",
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX"
+      },
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-10-18T08:46:54"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:license": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:07:43"
+      },
+      "dct:rights": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:title": "Bäume",
+      "spdx:checksum": {
+        "@id": "_:N634fa5c2351049d09329383dd7ffaac8"
+      }
+    },
+    {
+      "@id": "_:N634fa5c2351049d09329383dd7ffaac8",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "http://dcat-ap.de/def/hashAlgorithms/sha/256"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "8c549d1ff4d20b0da2a4a710d772da80b618552862fafe3aaf8a3dfb65cb185d"
+      }
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/file-type/KML",
+      "@type": "dct:MediaTypeOrExtent"
+    },
+    {
+      "@id": "https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "@type": "dct:MediaType"
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/c22232f6-cb75-4927-8a49-2b3e40018112",
+      "@type": "dcat:Distribution",
+      "adms:status": {
+        "@id": "http://purl.org/adms/status/Completed"
+      },
+      "dcat:accessURL": {
+        "@id": "https://geo.sv.rostock.de/geodienste/baeume/wfs"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:description": "Diese Daten umfassen die Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock mit Informationen zu Gattung, Art, Status als Alleebaum, Höhe in der Einheit Meter, Stammdurchmesser in der Einheit Zentimeter, Stammumfang in der Einheit Zentimeter, Kronendurchmesser in der Einheit Meter und Baumpatenschaft.",
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/WFS"
+      },
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-10-18T08:46:54"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:license": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:07:44"
+      },
+      "dct:rights": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:title": "Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/language/DEU",
+      "@type": "dct:LinguisticSystem"
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e",
+      "@type": [
+        "dcat:Dataset",
+        "foaf:Document"
+      ],
+      "dcat:contactPoint": {
+        "@id": "_:N491dd332d789476ab3ebf21c7ecc7c93"
+      },
+      "dcat:distribution": [
+        {
+          "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/985ae459-ef3a-409d-a5bc-204d6600a253"
+        },
+        {
+          "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/0b951ac9-2909-4cc6-9796-edf8d598f78f"
+        },
+        {
+          "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/9ddc8191-eb62-4fdf-b98d-51eca8863d4e"
+        },
+        {
+          "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/c22232f6-cb75-4927-8a49-2b3e40018112"
+        },
+        {
+          "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/be1c699f-14c6-4db3-a4eb-14335c65151c"
+        },
+        {
+          "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/8df2ff94-cf9e-40f9-b98a-b07fe3c7868b"
+        },
+        {
+          "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/30da3d95-c341-456f-a1df-420b9999fe94"
+        },
+        {
+          "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/7db3ac34-5f59-438e-9691-48715ef6f2f9"
+        },
+        {
+          "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/e41d3cb4-ac03-4f77-ba36-7d9f67d2fa04"
+        }
+      ],
+      "dcat:keyword": [
+        "stadtplanung",
+        "städtische-grünfläche",
+        "baum",
+        "landschaftspflege",
+        "planung",
+        "naturpflege",
+        "grünstreifen"
+      ],
+      "dcat:landingPage": {
+        "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e"
+      },
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ENVI"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/REGI"
+        }
+      ],
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:hvdCategory": {
+        "@id": "http://data.europa.eu/bna/c_dd313021"
+      },
+      "dcatde:contributorID": {
+        "@id": "http://dcat-ap.de/def/contributors/openDataHRO"
+      },
+      "dcatde:geocodingDescription": "Rostock",
+      "dcatde:maintainer": {
+        "@id": "_:Nb09ae91c76d24a89b85673d25c6b13b9"
+      },
+      "dcatde:politicalGeocodingLevelURI": {
+        "@id": "http://dcat-ap.de/def/politicalGeocoding/Level/administrativeDistrict"
+      },
+      "dcatde:politicalGeocodingURI": {
+        "@id": "http://dcat-ap.de/def/politicalGeocoding/regionalKey/130030000000"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:creator": [
+        {
+          "@id": "_:Nac309376aa834daa9defe2442d8739a8"
+        },
+        {
+          "@id": "_:N62ea1717f11b4c9abc9b6c67c4f43176"
+        }
+      ],
+      "dct:description": "Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock",
+      "dct:identifier": "38db800d-a64d-4053-8c50-f96a7f51510e",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2017-08-01T10:46:45.590516"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:08:08.403632"
+      },
+      "dct:publisher": {
+        "@id": "https://www.opendata-hro.de/organization/b952e781-ab4c-456a-8e7a-2845f7efaf83"
+      },
+      "dct:spatial": [
+        {
+          "@id": "_:N9ff1999b5be345e0a4408e292430fe2e"
+        },
+        {
+          "@id": "_:N9538791cd4964eae8cd13f7b15778291"
+        }
+      ],
+      "dct:title": "Bäume"
+    },
+    {
+      "@id": "_:N9ff1999b5be345e0a4408e292430fe2e",
+      "@type": "dct:Location",
+      "locn:geometry": {
+        "@type": "gsp:wktLiteral",
+        "@value": "POLYGON ((11.9914 54.0386, 11.9914 54.2620, 12.3131 54.2620, 12.3131 54.0386, 11.9914 54.0386))"
+      }
+    },
+    {
+      "@id": "_:N9538791cd4964eae8cd13f7b15778291",
+      "@type": "dct:Location",
+      "locn:adminUnitL2": {
+        "@id": "http://dcat-ap.de/def/politicalGeocoding/regionalKey/130030000000"
+      }
+    },
+    {
+      "@id": "_:Nac309376aa834daa9defe2442d8739a8",
+      "@type": "foaf:Organization",
+      "foaf:mbox": "geodienste@rostock.de",
+      "foaf:name": "Hanse- und Universitätsstadt Rostock"
+    },
+    {
+      "@id": "_:N62ea1717f11b4c9abc9b6c67c4f43176",
+      "@type": "foaf:Agent",
+      "foaf:mbox": "geodienste@rostock.de",
+      "foaf:name": "Hanse- und Universitätsstadt Rostock"
+    },
+    {
+      "@id": "_:Nb09ae91c76d24a89b85673d25c6b13b9",
+      "@type": "foaf:Organization",
+      "foaf:mbox": "geodienste@rostock.de",
+      "foaf:name": "Hanse- und Universitätsstadt Rostock"
+    },
+    {
+      "@id": "_:N491dd332d789476ab3ebf21c7ecc7c93",
+      "@type": "vcard:Organization",
+      "vcard:fn": "Hanse- und Universitätsstadt Rostock",
+      "vcard:hasEmail": {
+        "@id": "mailto:geodienste@rostock.de"
+      }
+    },
+    {
+      "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.xlsx",
+      "@type": "rdfs:Resource"
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/985ae459-ef3a-409d-a5bc-204d6600a253",
+      "@type": "dcat:Distribution",
+      "adms:status": {
+        "@id": "http://purl.org/adms/status/Completed"
+      },
+      "dcat:accessURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.csv"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:decimal",
+        "@value": "10076553"
+      },
+      "dcat:downloadURL": {
+        "@id": "https://geo.sv.rostock.de/download/opendata/baeume/baeume.csv"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:description": "Dieser Datensatz umfasst die Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock mit Informationen zu Gattung, Art, Status als Alleebaum, Höhe in der Einheit Meter, Stammdurchmesser in der Einheit Zentimeter, Stammumfang in der Einheit Zentimeter, Kronendurchmesser in der Einheit Meter und Baumpatenschaft.",
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2016-10-18T08:46:54"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:license": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:07:43"
+      },
+      "dct:rights": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:title": "Bäume",
+      "spdx:checksum": {
+        "@id": "_:N2d775fb3855e4fb282de8dead61e268b"
+      }
+    },
+    {
+      "@id": "_:N2d775fb3855e4fb282de8dead61e268b",
+      "@type": "spdx:Checksum",
+      "spdx:algorithm": {
+        "@id": "http://dcat-ap.de/def/hashAlgorithms/sha/256"
+      },
+      "spdx:checksumValue": {
+        "@type": "xsd:hexBinary",
+        "@value": "de8ed0e740ec83b0c6f360fdd5b017175e7c7f2ed61b2de49c16d8ea1b143366"
+      }
+    },
+    {
+      "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj",
+      "@type": "http://data.europa.eu/eli/ontology#LegalResource"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+      "@type": "dct:MediaTypeOrExtent"
+    },
+    {
+      "@id": "http://publications.europa.eu/resource/authority/file-type/WFS",
+      "@type": "dct:MediaTypeOrExtent"
+    },
+    {
+      "@id": "https://geo.sv.rostock.de/inspire/lcv-trees/view?service=WMS&version=1.3.0&request=GetCapabilities",
+      "@type": "rdfs:Resource"
+    },
+    {
+      "@id": "https://www.iana.org/assignments/media-types/application/gml+xml",
+      "@type": "dct:MediaType"
+    },
+    {
+      "@id": "https://geo.sv.rostock.de/inspire/lcv-trees/download?service=WFS&version=2.0.0&request=GetCapabilities",
+      "@type": "rdfs:Resource"
+    },
+    {
+      "@id": "https://www.opendata-hro.de/dataset/38db800d-a64d-4053-8c50-f96a7f51510e/resource/9ddc8191-eb62-4fdf-b98d-51eca8863d4e",
+      "@type": "dcat:Distribution",
+      "adms:status": {
+        "@id": "http://purl.org/adms/status/Completed"
+      },
+      "dcat:accessURL": {
+        "@id": "https://geo.sv.rostock.de/inspire/lcv-trees/view?service=WMS&version=1.3.0&request=GetCapabilities"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/STABLE"
+      },
+      "dct:conformsTo": {
+        "@id": "dcatde:"
+      },
+      "dct:description": "Diese Karte umfasst die Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock.",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2022-06-24T10:48:27"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/DEU"
+      },
+      "dct:license": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-01-21T05:07:44"
+      },
+      "dct:rights": {
+        "@id": "http://dcat-ap.de/def/licenses/cc-zero"
+      },
+      "dct:title": "Bäume des Baumkatasters der Hanse- und Universitätsstadt Rostock"
+    }
+  ]
+}
