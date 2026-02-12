@@ -1,0 +1,1726 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Initial EDA for Senior Thesis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="EDA_20260210_files/libs/clipboard/clipboard.min.js"></script>
+<script src="EDA_20260210_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="EDA_20260210_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="EDA_20260210_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="EDA_20260210_files/libs/quarto-html/popper.min.js"></script>
+<script src="EDA_20260210_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="EDA_20260210_files/libs/quarto-html/anchor.min.js"></script>
+<link href="EDA_20260210_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="EDA_20260210_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="EDA_20260210_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="EDA_20260210_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="EDA_20260210_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Initial EDA for Senior Thesis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="dependencies" class="level2">
+<h2 class="anchored" data-anchor-id="dependencies">Dependencies</h2>
+<div id="0bd7e9cd" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># libraries that I may potential need:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> rasterio</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> rasterio.warp</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio.windows <span class="im">import</span> from_bounds</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio.warp <span class="im">import</span> transform_bounds</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> shapely.geometry <span class="im">import</span> Point, box</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pandas.plotting <span class="im">import</span> scatter_matrix</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">Variables</h2>
+<section id="used-google-translate-to-reencocde-variable-names" class="level3">
+<h3 class="anchored" data-anchor-id="used-google-translate-to-reencocde-variable-names">Used Google Translate to reencocde variable names:</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>original variable name</th>
+<th>translated variable name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>gattung_botanisch</td>
+<td>botanical genus</td>
+</tr>
+<tr class="even">
+<td>gattung_deutsch</td>
+<td>German genus</td>
+</tr>
+<tr class="odd">
+<td>art_botanisch</td>
+<td>botanical species</td>
+</tr>
+<tr class="even">
+<td>art_deutsch</td>
+<td>German species</td>
+</tr>
+<tr class="odd">
+<td>alleebaum</td>
+<td>avenue tree</td>
+</tr>
+<tr class="even">
+<td>hoehe</td>
+<td>height</td>
+</tr>
+<tr class="odd">
+<td>stammdurchmesser</td>
+<td>trunk diameter</td>
+</tr>
+<tr class="even">
+<td>stammumfang</td>
+<td>trunk circumference</td>
+</tr>
+<tr class="odd">
+<td>kronendurchmesser</td>
+<td>crown diameter</td>
+</tr>
+<tr class="even">
+<td>baumpatenschaft</td>
+<td>tree sponsorship</td>
+</tr>
+</tbody>
+</table>
+<div id="a2edabc1" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># set path to data set</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>path <span class="op">=</span> <span class="st">'../data/data_gov_de/trees/baeume.json'</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># create german to english variable name map</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>recoded_column_names <span class="op">=</span> {</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">'gattung_botanisch'</span> : <span class="st">'botanical_genus'</span>     ,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">'gattung_deutsch'</span>   : <span class="st">'German_genus'</span>        ,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">'art_botanisch'</span>     : <span class="st">'botanical_species'</span>   ,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">'art_deutsch'</span>       : <span class="st">'German-species'</span>      ,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">'alleebaum'</span>         : <span class="st">'avenue_tree'</span>         ,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">'hoehe'</span>             : <span class="st">'height'</span>              ,</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">'stammdurchmesser'</span>  : <span class="st">'trunk_diameter'</span>      ,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">'stammumfang'</span>       : <span class="st">'trunk_circumference'</span> ,</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">'kronendurchmesser'</span> : <span class="st">'crown_diameter'</span>      ,</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">'baumpatenschaft'</span>   : <span class="st">'tree_sponsorship'</span>    ,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    }</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+</section>
+<section id="functions" class="level2">
+<h2 class="anchored" data-anchor-id="functions">Functions</h2>
+<div id="226746b5" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> list_printer(a_list:<span class="bu">list</span>, number_of_items_to_print:<span class="bu">int</span> <span class="op">=</span> <span class="dv">10000</span>, span:<span class="bu">int</span><span class="op">=</span><span class="dv">80</span>):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">    # Formated list printer</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">    ## Expects: </span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">     - A list like object</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">     - number of items from list to print. Default 10000</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">     - max length of page in. Assumes terminal is using fixed width font. Default 80</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">    ## Returns: Prints a formated list.</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    counter <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    list_len <span class="op">=</span> <span class="bu">len</span>(a_list)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    max_len <span class="op">=</span> <span class="bu">len</span>(<span class="bu">max</span>(a_list, key<span class="op">=</span><span class="bu">len</span>)) <span class="op">+</span> <span class="dv">2</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> span <span class="op">&gt;</span> max_len:</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>        cols <span class="op">=</span> <span class="bu">round</span>(span <span class="op">/</span> max_len )</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>: <span class="cf">return</span> <span class="ss">f'span </span><span class="sc">{</span>span<span class="sc">}</span><span class="ss"> must be greater than len of longest item in list </span><span class="sc">{</span>max_len<span class="sc">}</span><span class="ss"> +2'</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> a_list:</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> counter <span class="op">&gt;</span> number_of_items_to_print:</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> counter <span class="op">%</span> cols <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f'</span><span class="sc">{</span>i<span class="sc">:</span><span class="op">^</span>{max_len}<span class="sc">}</span><span class="ss">'</span>)</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>: </span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f'</span><span class="sc">{</span>i<span class="sc">:</span><span class="op">^</span>{max_len}<span class="sc">}</span><span class="ss">'</span>, end<span class="op">=</span> <span class="st">' | '</span>)</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>        counter <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> round_to_nearest_n(x, base):</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a><span class="co">    Rounds a value to the nearest multiple of 'base'.</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> base <span class="op">*</span> <span class="bu">round</span>(x <span class="op">/</span> base)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="load-and-inspect-data" class="level2">
+<h2 class="anchored" data-anchor-id="load-and-inspect-data">Load and Inspect data</h2>
+<div id="2a88bb3f" class="cell" data-execution_count="4">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># read GeoJson data into a GeoPandas DF</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>gdf <span class="op">=</span> gpd.read_file(path, encoding<span class="op">=</span><span class="st">'utf-8'</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># map translated variable names</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>gdf <span class="op">=</span> gdf.rename(columns<span class="op">=</span>recoded_column_names)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>gdf.head()</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># inspect head</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>gdf.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="4">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">uuid</th>
+<th data-quarto-table-cell-role="th">botanical_genus</th>
+<th data-quarto-table-cell-role="th">German_genus</th>
+<th data-quarto-table-cell-role="th">botanical_species</th>
+<th data-quarto-table-cell-role="th">German-species</th>
+<th data-quarto-table-cell-role="th">avenue_tree</th>
+<th data-quarto-table-cell-role="th">height</th>
+<th data-quarto-table-cell-role="th">trunk_diameter</th>
+<th data-quarto-table-cell-role="th">trunk_circumference</th>
+<th data-quarto-table-cell-role="th">crown_diameter</th>
+<th data-quarto-table-cell-role="th">tree_sponsorship</th>
+<th data-quarto-table-cell-role="th">geometry</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">0</th>
+<td>fa3c43ce-8e5f-46e6-ac9d-aa950bf0f4a9</td>
+<td>Acer</td>
+<td>Ahorn</td>
+<td>Acer species</td>
+<td>Ahorn</td>
+<td>False</td>
+<td>10.0</td>
+<td>20.37</td>
+<td>64.0</td>
+<td>5.0</td>
+<td>False</td>
+<td>POINT (12.11649 54.06367)</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">1</th>
+<td>1140029d-8c75-47c4-ace0-19ac0ed66410</td>
+<td>Acer</td>
+<td>Ahorn</td>
+<td>Acer species</td>
+<td>Ahorn</td>
+<td>False</td>
+<td>14.0</td>
+<td>42.65</td>
+<td>134.0</td>
+<td>10.0</td>
+<td>False</td>
+<td>POINT (12.04897 54.14658)</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">2</th>
+<td>67e8b1df-0c5a-48b8-bd86-a8b5c126f6e3</td>
+<td>Acer</td>
+<td>Ahorn</td>
+<td>Acer species</td>
+<td>Ahorn</td>
+<td>False</td>
+<td>12.0</td>
+<td>28.97</td>
+<td>91.0</td>
+<td>7.0</td>
+<td>False</td>
+<td>POINT (12.04912 54.14656)</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">3</th>
+<td>b3663402-c4c7-49f0-9c9e-79f01f5c378a</td>
+<td>Acer</td>
+<td>Ahorn</td>
+<td>Acer species</td>
+<td>Ahorn</td>
+<td>False</td>
+<td>9.0</td>
+<td>37.24</td>
+<td>117.0</td>
+<td>9.0</td>
+<td>False</td>
+<td>POINT (12.04819 54.14642)</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">4</th>
+<td>09981ce2-fcc4-48c7-a390-8c2135071f00</td>
+<td>Prunus</td>
+<td>Kirsche</td>
+<td>Prunus species</td>
+<td>Kirsche</td>
+<td>False</td>
+<td>8.0</td>
+<td>32.79</td>
+<td>103.0</td>
+<td>7.0</td>
+<td>False</td>
+<td>POINT (12.0475 54.14627)</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="1f72319a" class="cell" data-execution_count="5">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># summarize</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>gdf.describe()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">height</th>
+<th data-quarto-table-cell-role="th">trunk_diameter</th>
+<th data-quarto-table-cell-role="th">trunk_circumference</th>
+<th data-quarto-table-cell-role="th">crown_diameter</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">count</th>
+<td>69485.000000</td>
+<td>69327.000000</td>
+<td>69327.000000</td>
+<td>69391.000000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">mean</th>
+<td>12.725637</td>
+<td>34.108017</td>
+<td>107.153498</td>
+<td>6.631641</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">std</th>
+<td>8.557337</td>
+<td>24.995161</td>
+<td>78.524687</td>
+<td>4.955328</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">min</th>
+<td>0.500000</td>
+<td>0.250000</td>
+<td>0.800000</td>
+<td>0.100000</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">25%</th>
+<td>7.000000</td>
+<td>18.140000</td>
+<td>57.000000</td>
+<td>4.000000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">50%</th>
+<td>11.000000</td>
+<td>29.920000</td>
+<td>94.000000</td>
+<td>6.000000</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">75%</th>
+<td>17.000000</td>
+<td>44.880000</td>
+<td>141.000000</td>
+<td>9.000000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">max</th>
+<td>915.000000</td>
+<td>2588.000000</td>
+<td>8130.440000</td>
+<td>812.000000</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="5060f38a" class="cell" data-execution_count="6">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># check for indications of missing data.</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>gdf.info()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt;class 'geopandas.geodataframe.GeoDataFrame'&gt;
+RangeIndex: 70606 entries, 0 to 70605
+Data columns (total 12 columns):
+ #   Column               Non-Null Count  Dtype   
+---  ------               --------------  -----   
+ 0   uuid                 70606 non-null  object  
+ 1   botanical_genus      70606 non-null  object  
+ 2   German_genus         70606 non-null  object  
+ 3   botanical_species    70606 non-null  object  
+ 4   German-species       70606 non-null  object  
+ 5   avenue_tree          70606 non-null  bool    
+ 6   height               69485 non-null  float64 
+ 7   trunk_diameter       69327 non-null  float64 
+ 8   trunk_circumference  69327 non-null  float64 
+ 9   crown_diameter       69391 non-null  float64 
+ 10  tree_sponsorship     70606 non-null  bool    
+ 11  geometry             70606 non-null  geometry
+dtypes: bool(2), float64(4), geometry(1), object(5)
+memory usage: 5.5+ MB</code></pre>
+</div>
+</div>
+<div id="286842d7" class="cell" data-execution_count="7">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># collect unique genuses</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>genus <span class="op">=</span> gdf[<span class="st">'botanical_genus'</span>].unique().tolist()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>list_printer(genus, number_of_items_to_print<span class="op">=</span><span class="dv">20</span>, span<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      Acer       |      Prunus      |      Betula      |      Ulmus       |      Salix       |      Sorbus      |      Pinus       |      Picea       |     Fraxinus    
+     Tilia       |     Species      |      Malus       |   Gruppenbäume   |     Viburnum     |     Populus      |     Quercus      |     Carpinus     |      Abies      
+     Pyrus       |      Fagus       | </code></pre>
+</div>
+</div>
+<div id="5b6e02a8" class="cell" data-execution_count="8">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># collect unique species</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>species <span class="op">=</span> gdf[<span class="st">'botanical_species'</span>].unique().tolist()</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>list_printer(species, number_of_items_to_print<span class="op">=</span><span class="dv">10</span>, span<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                 Acer species                   |                 Prunus species                  |                 Betula species                 
+                Betula pendula                  |               Ulmus carpinifolia                |                 Acer campestre                 
+              Acer pseudoplatanus               |                Prunus cerasifera                |                  Salix caprea                  
+               Sorbus intermedia                | </code></pre>
+</div>
+</div>
+<div id="20a1c365" class="cell" data-execution_count="9">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># remove common name from species variable and create two new features</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co"># - botanical_species_formal_name</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co"># - botanical_species_common_name</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>gdf[[<span class="st">'botanical_species_formal_name'</span>, <span class="st">'botanical_species_common_name'</span>]] <span class="op">=</span> gdf[<span class="st">'botanical_species'</span>].<span class="bu">str</span>.split(<span class="st">' „'</span>, expand<span class="op">=</span><span class="va">True</span>).fillna(pd.NA)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'botanical_species_common_name'</span>] <span class="op">=</span> gdf[<span class="st">'botanical_species_common_name'</span>].<span class="bu">str</span>.replace(<span class="st">'“'</span>, <span class="st">''</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="efa437ca" class="cell" data-execution_count="10">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create mask for botanical_species_formal_name containing the string 'species'</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># we are isolating units where a generalization from a species to a genus was made.</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>mask_botanical_species_formal_name <span class="op">=</span> gdf[<span class="st">'botanical_species_formal_name'</span>].<span class="bu">str</span>.contains(<span class="st">'species'</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># set masked recs to NA</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>gdf.loc[mask_botanical_species_formal_name, <span class="st">'botanical_species_formal_name'</span>] <span class="op">=</span> pd.NA</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co"># aint-subset units whose species has been generalized to a genus to a list</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>species <span class="op">=</span> gdf[<span class="st">'botanical_species_formal_name'</span>][<span class="op">~</span>mask_botanical_species_formal_name].unique().tolist()</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>list_printer(species, number_of_items_to_print<span class="op">=</span><span class="dv">30</span>, span<span class="op">=</span><span class="dv">150</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            Betula pendula             |           Ulmus carpinifolia           |             Acer campestre             |          Acer pseudoplatanus          
+          Prunus cerasifera            |              Salix caprea              |           Sorbus intermedia            |            Pinus sylvestris           
+             Picea abies               |           Fraxinus excelsior           |           Tilia platyphyllos           |            Acer platanoides           
+            Fraxinus ornus             |  Verschiedene oder Baumart unbekannt   |        Ahorn-Laub-Mischbestand         |             Tilia cordata             
+       Viburnum rhytidophyllum         |             Populus nigra              |            Tilia x euchlora            |             Quercus robur             
+          Abies nordmanniana           |                 Malus                  |            Pyrus calleryana            |            Tilia tomentosa            
+           Fagus sylvatica             |           Crataegus lavallei           |            Corylus colurna             |         Aesculus hippocastanum        
+             Prunus avium              |               Salix alba               | </code></pre>
+</div>
+</div>
+<div id="836f5e67" class="cell" data-execution_count="11">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>gdf</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="11">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">uuid</th>
+<th data-quarto-table-cell-role="th">botanical_genus</th>
+<th data-quarto-table-cell-role="th">German_genus</th>
+<th data-quarto-table-cell-role="th">botanical_species</th>
+<th data-quarto-table-cell-role="th">German-species</th>
+<th data-quarto-table-cell-role="th">avenue_tree</th>
+<th data-quarto-table-cell-role="th">height</th>
+<th data-quarto-table-cell-role="th">trunk_diameter</th>
+<th data-quarto-table-cell-role="th">trunk_circumference</th>
+<th data-quarto-table-cell-role="th">crown_diameter</th>
+<th data-quarto-table-cell-role="th">tree_sponsorship</th>
+<th data-quarto-table-cell-role="th">geometry</th>
+<th data-quarto-table-cell-role="th">botanical_species_formal_name</th>
+<th data-quarto-table-cell-role="th">botanical_species_common_name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">0</th>
+<td>fa3c43ce-8e5f-46e6-ac9d-aa950bf0f4a9</td>
+<td>Acer</td>
+<td>Ahorn</td>
+<td>Acer species</td>
+<td>Ahorn</td>
+<td>False</td>
+<td>10.0</td>
+<td>20.37</td>
+<td>64.00</td>
+<td>5.0</td>
+<td>False</td>
+<td>POINT (12.11649 54.06367)</td>
+<td>&lt;NA&gt;</td>
+<td>&lt;NA&gt;</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">1</th>
+<td>1140029d-8c75-47c4-ace0-19ac0ed66410</td>
+<td>Acer</td>
+<td>Ahorn</td>
+<td>Acer species</td>
+<td>Ahorn</td>
+<td>False</td>
+<td>14.0</td>
+<td>42.65</td>
+<td>134.00</td>
+<td>10.0</td>
+<td>False</td>
+<td>POINT (12.04897 54.14658)</td>
+<td>&lt;NA&gt;</td>
+<td>&lt;NA&gt;</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">2</th>
+<td>67e8b1df-0c5a-48b8-bd86-a8b5c126f6e3</td>
+<td>Acer</td>
+<td>Ahorn</td>
+<td>Acer species</td>
+<td>Ahorn</td>
+<td>False</td>
+<td>12.0</td>
+<td>28.97</td>
+<td>91.00</td>
+<td>7.0</td>
+<td>False</td>
+<td>POINT (12.04912 54.14656)</td>
+<td>&lt;NA&gt;</td>
+<td>&lt;NA&gt;</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">3</th>
+<td>b3663402-c4c7-49f0-9c9e-79f01f5c378a</td>
+<td>Acer</td>
+<td>Ahorn</td>
+<td>Acer species</td>
+<td>Ahorn</td>
+<td>False</td>
+<td>9.0</td>
+<td>37.24</td>
+<td>117.00</td>
+<td>9.0</td>
+<td>False</td>
+<td>POINT (12.04819 54.14642)</td>
+<td>&lt;NA&gt;</td>
+<td>&lt;NA&gt;</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">4</th>
+<td>09981ce2-fcc4-48c7-a390-8c2135071f00</td>
+<td>Prunus</td>
+<td>Kirsche</td>
+<td>Prunus species</td>
+<td>Kirsche</td>
+<td>False</td>
+<td>8.0</td>
+<td>32.79</td>
+<td>103.00</td>
+<td>7.0</td>
+<td>False</td>
+<td>POINT (12.0475 54.14627)</td>
+<td>&lt;NA&gt;</td>
+<td>&lt;NA&gt;</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">...</th>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">70601</th>
+<td>97c54563-ba82-458f-aab3-0916e99233ed</td>
+<td>Tilia</td>
+<td>Linde</td>
+<td>Tilia tomentosa „Brabant“</td>
+<td>Silber-Linde „Brabant“</td>
+<td>False</td>
+<td>2.0</td>
+<td>11.14</td>
+<td>35.00</td>
+<td>1.0</td>
+<td>False</td>
+<td>POINT (12.09179 54.08617)</td>
+<td>Tilia tomentosa</td>
+<td>Brabant</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">70602</th>
+<td>c6aa997b-17b5-4ac0-a29f-f2745997c654</td>
+<td>Salix</td>
+<td>Weide</td>
+<td>Salix alba „Tristis“</td>
+<td>Trauer-Weide „Tristis“</td>
+<td>False</td>
+<td>8.0</td>
+<td>17.00</td>
+<td>53.41</td>
+<td>5.0</td>
+<td>False</td>
+<td>POINT (12.14481 54.08689)</td>
+<td>Salix alba</td>
+<td>Tristis</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">70603</th>
+<td>50cfdee3-d244-4026-a7d0-99a93bf18e6c</td>
+<td>Prunus</td>
+<td>Kirsche</td>
+<td>Prunus padus „Schloss Tiefurt“</td>
+<td>Trauben-Kirsche „Schloss Tiefurt“</td>
+<td>False</td>
+<td>7.0</td>
+<td>14.32</td>
+<td>45.00</td>
+<td>1.0</td>
+<td>False</td>
+<td>POINT (12.11341 54.08167)</td>
+<td>Prunus padus</td>
+<td>Schloss Tiefurt</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">70604</th>
+<td>8323b378-921b-42a4-a40d-586b23d23897</td>
+<td>Prunus</td>
+<td>Kirsche</td>
+<td>Prunus padus „Schloss Tiefurt“</td>
+<td>Trauben-Kirsche „Schloss Tiefurt“</td>
+<td>False</td>
+<td>6.0</td>
+<td>7.96</td>
+<td>25.00</td>
+<td>1.0</td>
+<td>False</td>
+<td>POINT (12.11348 54.08165)</td>
+<td>Prunus padus</td>
+<td>Schloss Tiefurt</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">70605</th>
+<td>b3c5cd20-1130-436b-b769-cfbc67a1ab94</td>
+<td>Prunus</td>
+<td>Kirsche</td>
+<td>Prunus padus „Schloss Tiefurt“</td>
+<td>Trauben-Kirsche „Schloss Tiefurt“</td>
+<td>False</td>
+<td>8.0</td>
+<td>27.06</td>
+<td>85.00</td>
+<td>3.5</td>
+<td>False</td>
+<td>POINT (12.1134 54.08059)</td>
+<td>Prunus padus</td>
+<td>Schloss Tiefurt</td>
+</tr>
+</tbody>
+</table>
+
+<p>70606 rows × 14 columns</p>
+</div>
+</div>
+</div>
+<div id="81f3c48b" class="cell" data-execution_count="12">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># look for evidence of outliers</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>gdf[[<span class="st">'height'</span>,<span class="st">'trunk_diameter'</span>,<span class="st">'trunk_circumference'</span>,<span class="st">'crown_diameter'</span>]].plot.box()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-13-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="c0d7b164" class="cell" data-execution_count="13">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># set SD limit</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>numsd <span class="op">=</span> <span class="dv">3</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="bd085332" class="cell" data-execution_count="14">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># we subset by trees whose height within four standard deviations of the mean height</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: The tallest tree in Germany is about 68 meters.</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Trees taller than that are excluded.</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>smpsd <span class="op">=</span> gdf[<span class="st">'height'</span>].std()</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>smpmean <span class="op">=</span> gdf[<span class="st">'height'</span>].mean()</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>limit <span class="op">=</span> smpmean<span class="op">+</span>(smpsd<span class="op">*</span>numsd)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>mask_height <span class="op">=</span> gdf[<span class="st">'height'</span>] <span class="op">&lt;=</span> limit</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'height'</span>][mask_height].plot.hist(bins<span class="op">=</span><span class="dv">30</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-15-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="e67ce44d" class="cell" data-execution_count="15">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># we subset by trees whose trunk_diameter is within four standard deviations of the mean trunk_diameter</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>smpsd <span class="op">=</span> gdf[<span class="st">'trunk_diameter'</span>].std()</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>smpmean <span class="op">=</span> gdf[<span class="st">'trunk_diameter'</span>].mean()</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>limit <span class="op">=</span> smpmean<span class="op">+</span>(smpsd<span class="op">*</span>numsd)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>mask_trunk_diameter <span class="op">=</span> gdf[<span class="st">'trunk_diameter'</span>] <span class="op">&lt;=</span> limit</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'trunk_diameter'</span>][mask_trunk_diameter].plot.hist(bins<span class="op">=</span><span class="dv">30</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-16-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="fd72f606" class="cell" data-execution_count="16">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># we subset by trees whose trunk_circumference is within four standard deviations of the mean trunk_circumference</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>smpsd <span class="op">=</span> gdf[<span class="st">'trunk_circumference'</span>].std()</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>smpmean <span class="op">=</span> gdf[<span class="st">'trunk_circumference'</span>].mean()</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>limit <span class="op">=</span> smpmean<span class="op">+</span>(smpsd<span class="op">*</span>numsd)</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>mask_trunk_circumference <span class="op">=</span> gdf[<span class="st">'trunk_circumference'</span>] <span class="op">&lt;=</span> limit</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'trunk_circumference'</span>][mask_trunk_circumference].plot.hist(bins<span class="op">=</span><span class="dv">30</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-17-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="ead02742" class="cell" data-execution_count="17">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># we subset by trees whose crown_diameter is within four standard deviations of the mean crown_diameter</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>smpsd <span class="op">=</span> gdf[<span class="st">'crown_diameter'</span>].std()</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>smpmean <span class="op">=</span> gdf[<span class="st">'crown_diameter'</span>].mean()</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>limit <span class="op">=</span> smpmean<span class="op">+</span>(smpsd<span class="op">*</span>numsd)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>mask_crown_diameter <span class="op">=</span> gdf[<span class="st">'crown_diameter'</span>] <span class="op">&lt;=</span> limit</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'crown_diameter'</span>][mask_crown_diameter].plot.hist(bins<span class="op">=</span><span class="dv">30</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-18-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="e1a0b693" class="cell" data-execution_count="18">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># generate a uniform mask that excludes outliers across all continuious variables</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: we do not drop these units, as these are still trees and may contribute to a future competitive density feature</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>mask_non_outlier <span class="op">=</span> mask_height <span class="op">&amp;</span> mask_trunk_diameter <span class="op">&amp;</span> mask_trunk_circumference <span class="op">&amp;</span> mask_crown_diameter</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>gdf.loc[mask_non_outlier,[<span class="st">'height'</span>,<span class="st">'trunk_diameter'</span>,<span class="st">'trunk_circumference'</span>,<span class="st">'crown_diameter'</span>]].plot.box()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-19-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="7cd1d5d2" class="cell" data-execution_count="19">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># isolate cohorts for analysis that are not outliers and have less than n units </span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>min_count <span class="op">=</span> <span class="dv">50</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="co"># counts by species of non outliers.</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>non_outlier_counts <span class="op">=</span> gdf[mask_non_outlier].groupby(<span class="st">'botanical_species_formal_name'</span>)[<span class="st">'botanical_species_formal_name'</span>].count()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="eb608531" class="cell" data-execution_count="20">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># list of cohorts that meet minimum representation</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>valid_species <span class="op">=</span> non_outlier_counts[non_outlier_counts <span class="op">&gt;</span> min_count].index.to_list()</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>list_printer(valid_species)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>            Abies grandis             |            Acer campestre            
+            Acer negundo              |           Acer platanoides           
+         Acer pseudoplatanus          |              Acer rubrum             
+          Acer saccharinum            |        Aesculus hippocastanum        
+          Aesculus x carnea           |        Ahorn-Laub-Mischbestand       
+         Ailanthus altissima          |            Alnus glutinosa           
+            Alnus incana              |            Betula pendula            
+            Betula utilis             |        Buchen-Eichen-Mischwald       
+          Carpinus betulus            |            Castanea sativa           
+      Chamaecyparis lawsoniana        |            Corylus colurna           
+         Crataegus laevigata          |          Crataegus lavallei          
+         Crataegus monogyna           |            Fagus sylvatica           
+         Fraxinus excelsior           |            Fraxinus ornus            
+            Ginkgo biloba             |         Gleditsia triacanthos        
+            Juglans regia             |             Larix decidua            
+           Larix kaempferi            |        Liquidambar styraciflua       
+           Malus domestica            |           Malus sylvestris           
+          Malus tschonoskii           |          Ostrya carpinifolia         
+             Picea abies              |             Picea omorika            
+          Picea orientalis            |             Picea pungens            
+             Pinus nigra              |           Pinus sylvestris           
+        Platanus x acerifolia         |             Populus alba             
+         Populus balsamifera          |             Populus nigra            
+           Populus tremula            |         Populus x canadensis         
+            Prunus avium              |           Prunus cerasifera          
+          Prunus domestica            |             Prunus padus             
+          Prunus serrulata            |         Pseudotsuga menziesii        
+          Pyrus calleryana            |            Pyrus communis            
+          Quercus palustris           |            Quercus petraea           
+            Quercus robur             |             Quercus rubra            
+        Robinia pseudoacacia          |              Salix alba              
+            Salix caprea              |            Salix fragilis            
+           Salix matsudana            |           Sophora japonica           
+             Sorbus aria              |           Sorbus aucuparia           
+          Sorbus intermedia           |             Taxus baccata            
+            Thuja plicata             |             Tilia cordata            
+         Tilia platyphyllos           |            Tilia tomentosa           
+          Tilia x euchlora            |                 Ulmus                
+         Ulmus carpinifolia           |             Ulmus glabra             
+            Ulmus laevis              |  Verschiedene oder Baumart unbekannt 
+       Weichholz-Weidenbestand        |     Windschutz Laub-Mischbestand     </code></pre>
+</div>
+</div>
+<div id="8bf63d1b" class="cell" data-execution_count="21">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># mark those records whoes species cohort meets minimum representation...</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'qualified_species_representation'</span>] <span class="op">=</span> gdf[<span class="st">'botanical_species_formal_name'</span>].isin(valid_species)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="co"># ... and that do not contain outliers.</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'in_qualified_cohort'</span>] <span class="op">=</span> gdf[<span class="st">'botanical_species_formal_name'</span>].isin(valid_species) <span class="op">&amp;</span> mask_non_outlier</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="co"># describe subset</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>gdf[gdf[<span class="st">'in_qualified_cohort'</span>]].describe()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="21">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">height</th>
+<th data-quarto-table-cell-role="th">trunk_diameter</th>
+<th data-quarto-table-cell-role="th">trunk_circumference</th>
+<th data-quarto-table-cell-role="th">crown_diameter</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">count</th>
+<td>53777.000000</td>
+<td>53777.000000</td>
+<td>53777.000000</td>
+<td>53777.000000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">mean</th>
+<td>12.424886</td>
+<td>32.873602</td>
+<td>103.275459</td>
+<td>6.464168</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">std</th>
+<td>6.379131</td>
+<td>19.407620</td>
+<td>60.970927</td>
+<td>3.555929</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">min</th>
+<td>0.500000</td>
+<td>0.270000</td>
+<td>0.850000</td>
+<td>0.100000</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">25%</th>
+<td>7.000000</td>
+<td>18.000000</td>
+<td>56.550000</td>
+<td>4.000000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">50%</th>
+<td>11.000000</td>
+<td>29.280000</td>
+<td>92.000000</td>
+<td>6.000000</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">75%</th>
+<td>16.000000</td>
+<td>44.000000</td>
+<td>138.230000</td>
+<td>8.900000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">max</th>
+<td>38.000000</td>
+<td>109.000000</td>
+<td>342.430000</td>
+<td>21.000000</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="0a390ca9" class="cell" data-execution_count="22">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reexamine key variables in qualified subset</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>gdf[[<span class="st">'height'</span>,<span class="st">'trunk_diameter'</span>,<span class="st">'trunk_circumference'</span>,<span class="st">'crown_diameter'</span>]][gdf[<span class="st">'in_qualified_cohort'</span>]].plot.box()</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>gdf[[<span class="st">'height'</span>,<span class="st">'crown_diameter'</span>]][gdf[<span class="st">'in_qualified_cohort'</span>]].plot.box()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-23-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-23-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="f609780f" class="cell" data-execution_count="23">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># matrix plot of qualified subset</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>data_subset <span class="op">=</span> gdf[[<span class="st">'height'</span>,<span class="st">'trunk_diameter'</span>,<span class="st">'trunk_circumference'</span>,<span class="st">'crown_diameter'</span>]][gdf[<span class="st">'in_qualified_cohort'</span>]]</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>scatter_matrix(data_subset, figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">10</span>),)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="23">
+<pre><code>array([[&lt;Axes: xlabel='height', ylabel='height'&gt;,
+        &lt;Axes: xlabel='trunk_diameter', ylabel='height'&gt;,
+        &lt;Axes: xlabel='trunk_circumference', ylabel='height'&gt;,
+        &lt;Axes: xlabel='crown_diameter', ylabel='height'&gt;],
+       [&lt;Axes: xlabel='height', ylabel='trunk_diameter'&gt;,
+        &lt;Axes: xlabel='trunk_diameter', ylabel='trunk_diameter'&gt;,
+        &lt;Axes: xlabel='trunk_circumference', ylabel='trunk_diameter'&gt;,
+        &lt;Axes: xlabel='crown_diameter', ylabel='trunk_diameter'&gt;],
+       [&lt;Axes: xlabel='height', ylabel='trunk_circumference'&gt;,
+        &lt;Axes: xlabel='trunk_diameter', ylabel='trunk_circumference'&gt;,
+        &lt;Axes: xlabel='trunk_circumference', ylabel='trunk_circumference'&gt;,
+        &lt;Axes: xlabel='crown_diameter', ylabel='trunk_circumference'&gt;],
+       [&lt;Axes: xlabel='height', ylabel='crown_diameter'&gt;,
+        &lt;Axes: xlabel='trunk_diameter', ylabel='crown_diameter'&gt;,
+        &lt;Axes: xlabel='trunk_circumference', ylabel='crown_diameter'&gt;,
+        &lt;Axes: xlabel='crown_diameter', ylabel='crown_diameter'&gt;]],
+      dtype=object)</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-24-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="884777c8" class="cell" data-execution_count="24">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reexamine the non uniform distribution seen before qalified subsetting</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'crown_diameter'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].plot.hist(bins<span class="op">=</span><span class="dv">50</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-25-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="e654d0f9" class="cell" data-execution_count="25">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb31"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We see methodological inconsisitency.</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="co"># The majority of the observations are rounded to the nearest whole number. But not all.</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="co"># We must work around this methodological gap</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Evidience</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>crown_diameter <span class="op">=</span>       gdf[gdf[<span class="st">'in_qualified_cohort'</span>]].groupby(<span class="st">'crown_diameter'</span>)[<span class="st">'crown_diameter'</span>].count().index.to_list()</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>crown_diameter_count <span class="op">=</span> gdf[gdf[<span class="st">'in_qualified_cohort'</span>]].groupby(<span class="st">'crown_diameter'</span>)[<span class="st">'crown_diameter'</span>].count().to_list()</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a><span class="co"># for i in range(len(crown_diameter_count)):</span></span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a><span class="co">#     print(f'crown_diameter {crown_diameter[i]:&lt;5} →   count {crown_diameter_count[i]:&lt;10}')</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="e635038e" class="cell" data-execution_count="26">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb32"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># When adjusting bins to match range of whole numbers, inconsitencies are accounted.</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="co"># This will factor into the irreducible error of estimates.</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>whole_bins <span class="op">=</span> <span class="bu">round</span>(gdf[<span class="st">'crown_diameter'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].<span class="bu">max</span>())</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'crown_diameter'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].plot.hist(bins<span class="op">=</span>whole_bins)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-27-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="61781937" class="cell" data-execution_count="27">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb33"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We assume that this methodological inconsitency will appear in all of core variables.</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking assumption:</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="606be697" class="cell" data-execution_count="28">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>height <span class="op">=</span>       gdf[gdf[<span class="st">'in_qualified_cohort'</span>]].groupby(<span class="st">'height'</span>)[<span class="st">'height'</span>].count().index.to_list()</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>height_count <span class="op">=</span> gdf[gdf[<span class="st">'in_qualified_cohort'</span>]].groupby(<span class="st">'height'</span>)[<span class="st">'height'</span>].count().to_list()</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="co"># for i in range(len(height_count)):</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="co">#     print(f'height {height[i]:&lt;5} →   count {height_count[i]:&lt;10}')</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="74eab41c" class="cell" data-execution_count="29">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb35"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>whole_bins <span class="op">=</span> <span class="bu">round</span>(gdf[<span class="st">'height'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].<span class="bu">max</span>())</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'height'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].plot.hist(bins<span class="op">=</span>whole_bins)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-30-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="8fdb4d57" class="cell" data-execution_count="30">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb36"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>trunk_diameter <span class="op">=</span>       gdf[gdf[<span class="st">'in_qualified_cohort'</span>]].groupby(<span class="st">'trunk_diameter'</span>)[<span class="st">'trunk_diameter'</span>].count().index.to_list()</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>trunk_diameter_count <span class="op">=</span> gdf[gdf[<span class="st">'in_qualified_cohort'</span>]].groupby(<span class="st">'trunk_diameter'</span>)[<span class="st">'trunk_diameter'</span>].count().to_list()</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="co"># for i in range(len(trunk_diameter_count)):</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="co">#     print(f'trunk_diameter {trunk_diameter[i]:&lt;5} →   count {trunk_diameter_count[i]:&lt;10}')</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="c4d79a65" class="cell" data-execution_count="31">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb37"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Here we must divide into 3 cm bins. Instead of the nearest whole number.</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>whole_bins <span class="op">=</span> <span class="bu">round</span>(gdf[<span class="st">'trunk_diameter'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].<span class="bu">max</span>()<span class="op">/</span><span class="dv">3</span>)</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'trunk_diameter'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].plot.hist(bins<span class="op">=</span>whole_bins)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-32-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="26fceb08" class="cell" data-execution_count="32">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb38"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>trunk_circumference <span class="op">=</span>       gdf[gdf[<span class="st">'in_qualified_cohort'</span>]].groupby(<span class="st">'trunk_circumference'</span>)[<span class="st">'trunk_circumference'</span>].count().index.to_list()</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>trunk_circumference_count <span class="op">=</span> gdf[gdf[<span class="st">'in_qualified_cohort'</span>]].groupby(<span class="st">'trunk_circumference'</span>)[<span class="st">'trunk_circumference'</span>].count().to_list()</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a><span class="co"># for i in range(len(trunk_circumference_count)):</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a><span class="co">#     print(f'trunk_circumference {trunk_circumference[i]:&lt;5} →   count {trunk_circumference_count[i]:&lt;10}')</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="6ff32d2d" class="cell" data-execution_count="33">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># here we must divide into 9 cm bins. Instead of the nearest whole number.</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>whole_bins <span class="op">=</span> <span class="bu">round</span>(gdf[<span class="st">'trunk_circumference'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].<span class="bu">max</span>()<span class="op">/</span><span class="dv">9</span>)</span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'trunk_circumference'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].plot.hist(bins<span class="op">=</span>whole_bins)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-34-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="01f355ca" class="cell" data-execution_count="34">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># generate features with gausian smoother</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>smother_sd <span class="op">=</span> <span class="dv">1</span><span class="op">/</span><span class="dv">2</span></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="co"># round height to nearest integer ...</span></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'height_standardized'</span>] <span class="op">=</span> gdf[<span class="st">'height'</span>].<span class="bu">round</span>()</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a><span class="co"># ...and apply smoother:</span></span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'height_standardized'</span>] <span class="op">=</span> gdf[<span class="st">'height_standardized'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x<span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>smother_sd))</span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a><span class="co"># round crown_diameter to nearest integer ...</span></span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'crown_diameter_standardized'</span>] <span class="op">=</span> gdf[<span class="st">'crown_diameter'</span>].<span class="bu">round</span>()</span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a><span class="co"># ...and apply smoother:</span></span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'crown_diameter_standardized'</span>] <span class="op">=</span> gdf[<span class="st">'crown_diameter_standardized'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x<span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>smother_sd))</span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a><span class="co"># round trunk_circumference to nearest 9th centimeter ...</span></span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'trunk_circumference_standardized'</span>] <span class="op">=</span> gdf[<span class="st">'trunk_circumference'</span>][gdf[<span class="st">'trunk_circumference'</span>].notna()].<span class="bu">apply</span>(<span class="kw">lambda</span> x: round_to_nearest_n(x, base<span class="op">=</span><span class="dv">9</span>))</span>
+<span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a><span class="co"># ...and apply smoother:</span></span>
+<span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'trunk_circumference_standardized'</span>] <span class="op">=</span> gdf[<span class="st">'trunk_circumference_standardized'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x<span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>smother_sd<span class="op">*</span><span class="dv">9</span>))</span>
+<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a><span class="co"># round trunk_diameter to nearest 3rd centimeter ...</span></span>
+<span id="cb40-20"><a href="#cb40-20" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'trunk_diameter_standardized'</span>] <span class="op">=</span> gdf[<span class="st">'trunk_diameter'</span>][gdf[<span class="st">'trunk_diameter'</span>].notna()].<span class="bu">apply</span>(<span class="kw">lambda</span> x: round_to_nearest_n(x, base<span class="op">=</span><span class="dv">3</span>))</span>
+<span id="cb40-21"><a href="#cb40-21" aria-hidden="true" tabindex="-1"></a><span class="co"># ...and apply smoother:</span></span>
+<span id="cb40-22"><a href="#cb40-22" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'trunk_diameter_standardized'</span>] <span class="op">=</span> gdf[<span class="st">'trunk_diameter_standardized'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x<span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>smother_sd<span class="op">*</span><span class="dv">3</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="2d5a9a5a" class="cell" data-execution_count="35">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb41"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># revisit matrix plot of qualified subset</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="co"># with observational methodology standardized.</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>data_subset <span class="op">=</span> gdf[[<span class="st">'height_standardized'</span>,<span class="st">'trunk_diameter_standardized'</span>,<span class="st">'trunk_circumference_standardized'</span>,<span class="st">'crown_diameter_standardized'</span>]][gdf[<span class="st">'in_qualified_cohort'</span>]]</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>scatter_matrix(data_subset, figsize<span class="op">=</span>(<span class="dv">12</span>,<span class="dv">12</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="35">
+<pre><code>array([[&lt;Axes: xlabel='height_standardized', ylabel='height_standardized'&gt;,
+        &lt;Axes: xlabel='trunk_diameter_standardized', ylabel='height_standardized'&gt;,
+        &lt;Axes: xlabel='trunk_circumference_standardized', ylabel='height_standardized'&gt;,
+        &lt;Axes: xlabel='crown_diameter_standardized', ylabel='height_standardized'&gt;],
+       [&lt;Axes: xlabel='height_standardized', ylabel='trunk_diameter_standardized'&gt;,
+        &lt;Axes: xlabel='trunk_diameter_standardized', ylabel='trunk_diameter_standardized'&gt;,
+        &lt;Axes: xlabel='trunk_circumference_standardized', ylabel='trunk_diameter_standardized'&gt;,
+        &lt;Axes: xlabel='crown_diameter_standardized', ylabel='trunk_diameter_standardized'&gt;],
+       [&lt;Axes: xlabel='height_standardized', ylabel='trunk_circumference_standardized'&gt;,
+        &lt;Axes: xlabel='trunk_diameter_standardized', ylabel='trunk_circumference_standardized'&gt;,
+        &lt;Axes: xlabel='trunk_circumference_standardized', ylabel='trunk_circumference_standardized'&gt;,
+        &lt;Axes: xlabel='crown_diameter_standardized', ylabel='trunk_circumference_standardized'&gt;],
+       [&lt;Axes: xlabel='height_standardized', ylabel='crown_diameter_standardized'&gt;,
+        &lt;Axes: xlabel='trunk_diameter_standardized', ylabel='crown_diameter_standardized'&gt;,
+        &lt;Axes: xlabel='trunk_circumference_standardized', ylabel='crown_diameter_standardized'&gt;,
+        &lt;Axes: xlabel='crown_diameter_standardized', ylabel='crown_diameter_standardized'&gt;]],
+      dtype=object)</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-36-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="b32d9e63" class="cell" data-execution_count="36">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb43"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># generate baseline abstraction feature: volume</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'volume'</span>] <span class="op">=</span> gdf[<span class="st">'height_standardized'</span>] <span class="op">*</span> (math.pi<span class="op">*</span>((gdf[<span class="st">'crown_diameter_standardized'</span>]<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>))</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a><span class="co"># generate baseline abstraction feature: cover_area</span></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">'cover_area'</span>] <span class="op">=</span> (math.pi<span class="op">*</span>((gdf[<span class="st">'crown_diameter_standardized'</span>]<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="4b90b169" class="cell" data-execution_count="37">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb44"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># sample per species metrics from qualified subset with abstraction</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>rand_species <span class="op">=</span> random.choice(valid_species)</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>gdf.loc[gdf[<span class="st">'botanical_species_formal_name'</span>] <span class="op">==</span> rand_species, <span class="st">'volume'</span>][gdf[<span class="st">'in_qualified_cohort'</span>]].plot.hist(bins<span class="op">=</span><span class="dv">50</span>)</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Here we begin to see patters of exponetial decay</span></span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a><span class="co"># This suggests there is a replacement rate that needs to be taken into account.</span></span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>gdf.loc[(gdf[<span class="st">'botanical_species_formal_name'</span>] <span class="op">==</span> rand_species) <span class="op">&amp;</span> (gdf[<span class="st">'in_qualified_cohort'</span>])]<span class="op">\</span></span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a>    .plot(kind<span class="op">=</span><span class="st">'scatter'</span>, x<span class="op">=</span><span class="st">'trunk_circumference_standardized'</span>, y<span class="op">=</span><span class="st">'volume'</span>, title<span class="op">=</span><span class="ss">f'</span><span class="sc">{</span>rand_species<span class="sc">}</span><span class="ss">'</span>)</span>
+<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-11"><a href="#cb44-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Trunk diameter is not absolute measure of age.</span></span>
+<span id="cb44-12"><a href="#cb44-12" aria-hidden="true" tabindex="-1"></a><span class="co"># It is a solid measurement relative to a species within a constrained environment.</span></span>
+<span id="cb44-13"><a href="#cb44-13" aria-hidden="true" tabindex="-1"></a><span class="co"># We see that volume is somewhat age dependent.</span></span>
+<span id="cb44-14"><a href="#cb44-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Accelerating as a tree ages.</span></span>
+<span id="cb44-15"><a href="#cb44-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-16"><a href="#cb44-16" aria-hidden="true" tabindex="-1"></a><span class="co"># We can fit a confidence interval to these plots suggesting maxumum upper and lower volumes.</span></span>
+<span id="cb44-17"><a href="#cb44-17" aria-hidden="true" tabindex="-1"></a><span class="co"># I suspect that these upper and lower bounds have much to do with competitive density.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-38-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-38-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="297e6794" class="cell" data-execution_count="38">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb45"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># matrix by species</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>rand_species <span class="op">=</span> random.choice(valid_species)</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a><span class="co"># print(f'Species = {rand_species}.\nn = {gdf[gdf['botanical_species_formal_name'] == rand_species].shape[0]}')</span></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>data_subset <span class="op">=</span> gdf[[<span class="st">'volume'</span>,<span class="st">'cover_area'</span>,<span class="st">'height_standardized'</span>,<span class="st">'trunk_diameter_standardized'</span>,<span class="st">'trunk_circumference_standardized'</span>,<span class="st">'crown_diameter_standardized'</span>]]<span class="op">\</span></span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>    [(gdf[<span class="st">'botanical_species_formal_name'</span>] <span class="op">==</span> rand_species) <span class="op">&amp;</span> (gdf[<span class="st">'in_qualified_cohort'</span>])]</span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>scatter_matrix(data_subset, figsize<span class="op">=</span>(<span class="dv">14</span>,<span class="dv">14</span>), )</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="ss">f'Species = </span><span class="sc">{</span>rand_species<span class="sc">}</span><span class="ss">.</span><span class="ch">\n</span><span class="ss">n = </span><span class="sc">{</span>gdf[gdf[<span class="st">'botanical_species_formal_name'</span>] <span class="op">==</span> rand_species]<span class="sc">.</span>shape[<span class="dv">0</span>]<span class="sc">}</span><span class="ss">'</span>, fontsize<span class="op">=</span><span class="dv">16</span>, y<span class="op">=</span><span class="fl">1.02</span>)</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a><span class="co"># This strengthens my suspicion of a unique per species contribution</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="38">
+<pre><code>Text(0.5, 1.02, 'Species = Prunus domestica.\nn = 150')</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-39-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="c6b64b0b" class="cell" data-execution_count="43">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb47"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># matrix by species - comparison</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a><span class="co">## randomly select two valid species</span></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>rand_species_A <span class="op">=</span> random.choice(valid_species)</span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>rand_species_B <span class="op">=</span> random.choice(valid_species)</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a><span class="co"># subset by species A</span></span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a>subset_A_with_labels <span class="op">=</span> gdf.loc[(gdf[<span class="st">'botanical_species_formal_name'</span>] <span class="op">==</span> rand_species_A) <span class="op">&amp;</span> </span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>                             (gdf[<span class="st">'in_qualified_cohort'</span>]), </span>
+<span id="cb47-10"><a href="#cb47-10" aria-hidden="true" tabindex="-1"></a>                             [<span class="st">'botanical_species_formal_name'</span>, <span class="st">'volume'</span>,<span class="st">'cover_area'</span>,<span class="st">'height_standardized'</span>, </span>
+<span id="cb47-11"><a href="#cb47-11" aria-hidden="true" tabindex="-1"></a>                              <span class="st">'trunk_diameter_standardized'</span>,<span class="st">'crown_diameter_standardized'</span>]]</span>
+<span id="cb47-12"><a href="#cb47-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-13"><a href="#cb47-13" aria-hidden="true" tabindex="-1"></a><span class="co"># subset by species B</span></span>
+<span id="cb47-14"><a href="#cb47-14" aria-hidden="true" tabindex="-1"></a>subset_B_with_labels <span class="op">=</span> gdf.loc[(gdf[<span class="st">'botanical_species_formal_name'</span>] <span class="op">==</span> rand_species_B) <span class="op">&amp;</span> </span>
+<span id="cb47-15"><a href="#cb47-15" aria-hidden="true" tabindex="-1"></a>                             (gdf[<span class="st">'in_qualified_cohort'</span>]), </span>
+<span id="cb47-16"><a href="#cb47-16" aria-hidden="true" tabindex="-1"></a>                             [<span class="st">'botanical_species_formal_name'</span>, <span class="st">'volume'</span>,<span class="st">'cover_area'</span>,<span class="st">'height_standardized'</span>, </span>
+<span id="cb47-17"><a href="#cb47-17" aria-hidden="true" tabindex="-1"></a>                              <span class="st">'trunk_diameter_standardized'</span>,<span class="st">'crown_diameter_standardized'</span>]]</span>
+<span id="cb47-18"><a href="#cb47-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-19"><a href="#cb47-19" aria-hidden="true" tabindex="-1"></a><span class="co"># sample from each species 70% of the size of the smallest population</span></span>
+<span id="cb47-20"><a href="#cb47-20" aria-hidden="true" tabindex="-1"></a>sizeA <span class="op">=</span> subset_A_with_labels.shape[<span class="dv">0</span>]</span>
+<span id="cb47-21"><a href="#cb47-21" aria-hidden="true" tabindex="-1"></a>sizeB <span class="op">=</span> subset_B_with_labels.shape[<span class="dv">0</span>]</span>
+<span id="cb47-22"><a href="#cb47-22" aria-hidden="true" tabindex="-1"></a>size <span class="op">=</span> [sizeA <span class="cf">if</span> sizeA <span class="op">&lt;=</span> sizeB <span class="cf">else</span> sizeB]</span>
+<span id="cb47-23"><a href="#cb47-23" aria-hidden="true" tabindex="-1"></a>size <span class="op">=</span> <span class="bu">round</span>(size[<span class="dv">0</span>]<span class="op">*</span><span class="fl">.7</span>)</span>
+<span id="cb47-24"><a href="#cb47-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f'Sample size = </span><span class="sc">{</span>size<span class="sc">}</span><span class="ss">:'</span>)</span>
+<span id="cb47-25"><a href="#cb47-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-26"><a href="#cb47-26" aria-hidden="true" tabindex="-1"></a><span class="co"># join subsets (Interesting that there is no gpd.concat. gpd relies on pd.conccat)</span></span>
+<span id="cb47-27"><a href="#cb47-27" aria-hidden="true" tabindex="-1"></a>subset_with_labels <span class="op">=</span> pd.concat([subset_A_with_labels.sample(size),subset_B_with_labels.sample(size)])</span>
+<span id="cb47-28"><a href="#cb47-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-29"><a href="#cb47-29" aria-hidden="true" tabindex="-1"></a><span class="co"># pairplot</span></span>
+<span id="cb47-30"><a href="#cb47-30" aria-hidden="true" tabindex="-1"></a>sns.pairplot(subset_with_labels, </span>
+<span id="cb47-31"><a href="#cb47-31" aria-hidden="true" tabindex="-1"></a>             hue<span class="op">=</span><span class="st">'botanical_species_formal_name'</span>, </span>
+<span id="cb47-32"><a href="#cb47-32" aria-hidden="true" tabindex="-1"></a>             palette<span class="op">=</span>{rand_species_A: <span class="st">'red'</span>, rand_species_B: <span class="st">'blue'</span>},</span>
+<span id="cb47-33"><a href="#cb47-33" aria-hidden="true" tabindex="-1"></a>             diag_kind<span class="op">=</span><span class="st">'hist'</span>, <span class="co"># Can also use 'kde' for smooth curves</span></span>
+<span id="cb47-34"><a href="#cb47-34" aria-hidden="true" tabindex="-1"></a>             plot_kws<span class="op">=</span>{<span class="st">'alpha'</span>: <span class="fl">0.5</span>})</span>
+<span id="cb47-35"><a href="#cb47-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-36"><a href="#cb47-36" aria-hidden="true" tabindex="-1"></a><span class="co"># This strengthens my suspicion of a unique per species contribution</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Sample size = 91:</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260210_files/figure-html/cell-40-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div id="10658e17" class="cell" data-execution_count="40">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb49"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(rand_species_A)</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(rand_species_B)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Malus domestica
+Verschiedene oder Baumart unbekannt</code></pre>
+</div>
+</div>
+</section>
+<section id="observations" class="level2">
+<h2 class="anchored" data-anchor-id="observations">Observations</h2>
+<section id="volume-vs-crown-diameter" class="level3">
+<h3 class="anchored" data-anchor-id="volume-vs-crown-diameter">Volume vs Crown Diameter</h3>
+<ul>
+<li>We see that as a species increases in volume, it’s crown spread may or may not expand significantly, Affecting vertical shade cover.</li>
+<li>Some species are more likley than others to provide more crown diameter as their volume increases.</li>
+<li>Other, are not as inclined.</li>
+<li>For instance, one species of tree may be inclined to grow tall and narrow, thus having an increasing volume, but not crown diameter.</li>
+<li>Vertical shade cover (crown diameter) to volume ratio is a relevant measure.</li>
+<li>See proposed formula in desmos [s99y`cbphzq]</li>
+<li>Formula may be nessesary to noramlize along this dimention, or for species specific characterizations
+<ul>
+<li>The closer the concave hull is to the y axis, the ‘bushier’ the tree is.</li>
+<li>The closer it is to the x axis, the taller and narrower the tree is.</li>
+</ul></li>
+<li>This relationship (internal to the species) seems to be governed by some sort of gravity
+<ul>
+<li>Younger trees grow much faster than older trees?</li>
+</ul></li>
+</ul>
+</section>
+<section id="trunk_diameter-vs-trunk_circumfernece" class="level3">
+<h3 class="anchored" data-anchor-id="trunk_diameter-vs-trunk_circumfernece">trunk_diameter vs trunk_circumfernece</h3>
+<ul>
+<li>Nearly perfect correlation.</li>
+<li>These are indipendently meaningless.</li>
+<li>Tree trunks are (unsuprisingly) regular ellipses and diameter and circumference are very closeley related.</li>
+<li>However, the species-wise, and inter species comparisons are useful (These are Interval not Ratio)
+<ul>
+<li>Trees of the same species, that are in the same geogreaphic region, as in this study, can be ranked for age,</li>
+<li>This tells us something about intra-speceies characteristics (hight, volume, diameter)</li>
+<li>Being normal in form, it suggests a tipping point within a species, after which die off is more likely. (Survival)</li>
+</ul></li>
+<li>Without tree ring data, we cannot make cross species comparision with this.</li>
+</ul>
+</section>
+<section id="volume-vs.-height" class="level3">
+<h3 class="anchored" data-anchor-id="volume-vs.-height">volume vs.&nbsp;height</h3>
+<ul>
+<li>While height and crown_diameter seem to move in lock step, the same cannot be said for height and volume</li>
+<li>some trees get very tall, but vary little in volume. Conniferous trees would likely follow this morphology.</li>
+<li>This speaks to the species specific cover value.</li>
+<li>certain speceies will not vary in cover reguardless of other factors.</li>
+<li>Other species will, and may or may not be more valuable because of it.</li>
+</ul>
+<hr>
+<p>There are more relationships to dig into here. But other features need to be developed. We can say that, in genreal we see distinct and sometimes seperable morphologies based on species. After ajusting for outliers, vanishing populations, methodological quirks, and normalizing sample size This suggests to us that spcies specific contributions to UTC may still be a viable path of inquiry.</p>
+<p>Next steps include working on a way to represent a competitive density and competitive diversity metric.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
