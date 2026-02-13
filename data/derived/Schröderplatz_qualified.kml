@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Schröderplatz_qualified" name="Schröderplatz_qualified">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Schr__derplatz_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Schr__derplatz_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Schr__derplatz_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Document id="Schr__derplatz_qualified">
+      <name>Schröderplatz_qualified</name>
+      <Placemark id="Schr__derplatz_qualified.1">
+        <name>Acer rubrum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">b0061ef2-593f-413b-93ad-95f138da8d8c</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer rubrum</SimpleData>
+            <SimpleData name="German-species">Rot-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">57.3</SimpleData>
+            <SimpleData name="trunk_circumference">180</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer rubrum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.83872697895514</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.6813180223611</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">177.47190290418</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">56.3791689550349</SimpleData>
+            <SimpleData name="volume_m^2">1054.41721052802</SimpleData>
+            <SimpleData name="cover_area_m^2">107.170085396556</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.343</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1282187,54.0884251977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.2">
+        <name>Acer pseudoplatanus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">b3b63272-c375-4a9e-bef0-9a0d3620aec4</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">33.42</SimpleData>
+            <SimpleData name="trunk_circumference">105</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.77009155117799</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.39715529062044</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">106.49200260511</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.5008621138445</SimpleData>
+            <SimpleData name="volume_m^2">677.612364740484</SimpleData>
+            <SimpleData name="cover_area_m^2">69.3557845585166</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.001</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1279407,54.0882619977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.3">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">b5edcc27-293b-4433-b40d-df69b8c3755e</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">34</SimpleData>
+            <SimpleData name="trunk_circumference">106.81</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.15607830871857</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.53008978327465</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">113.390091931458</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.4977174107783</SimpleData>
+            <SimpleData name="volume_m^2">407.755369411481</SimpleData>
+            <SimpleData name="cover_area_m^2">44.5338446945359</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.964</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276515,54.0879926977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.4">
+        <name>Acer rubrum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">5fbb0084-a9e4-46d8-af48-a057a7580d08</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer rubrum</SimpleData>
+            <SimpleData name="German-species">Rot-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">55.7</SimpleData>
+            <SimpleData name="trunk_circumference">175</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer rubrum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">10.1650466264113</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.69328070804561</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">169.443959184585</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">55.0399389914435</SimpleData>
+            <SimpleData name="volume_m^2">750.137429204315</SimpleData>
+            <SimpleData name="cover_area_m^2">73.7957686544467</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.451</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128077,54.0883994977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.5">
+        <name>Acer rubrum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">51efc818-9901-4c70-8801-a09fdaff53c3</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer rubrum</SimpleData>
+            <SimpleData name="German-species">Rot-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">49.34</SimpleData>
+            <SimpleData name="trunk_circumference">155</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer rubrum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.60291333552631</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.46311909199269</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">161.14622353093</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">46.4706948313108</SimpleData>
+            <SimpleData name="volume_m^2">675.400693357182</SimpleData>
+            <SimpleData name="cover_area_m^2">70.3328947954277</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.428</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1281151,54.0884226977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.6">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">d3d5d0d7-1c65-4a8d-ac75-504532fb6342</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">48.7</SimpleData>
+            <SimpleData name="trunk_circumference">153</SimpleData>
+            <SimpleData name="crown_diameter">10.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">12.9386951292278</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.06114969975429</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">148.745106052383</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">48.1122606531081</SimpleData>
+            <SimpleData name="volume_m^2">834.347506045837</SimpleData>
+            <SimpleData name="cover_area_m^2">64.4846715772052</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.216</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1282897,54.0881535977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.7">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">daa8b03d-a327-4022-bbee-f1e459f0a78c</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">79.26</SimpleData>
+            <SimpleData name="trunk_circumference">249</SimpleData>
+            <SimpleData name="crown_diameter">14.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">19.5904631728472</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.1501101915121</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">254.343937517832</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">75.8858326590581</SimpleData>
+            <SimpleData name="volume_m^2">3080.73419520382</SimpleData>
+            <SimpleData name="cover_area_m^2">157.256832981559</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.728</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276396,54.0874891977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.8">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">daa8b03d-a327-4022-bbee-f1e459f0a78c</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">79.26</SimpleData>
+            <SimpleData name="trunk_circumference">249</SimpleData>
+            <SimpleData name="crown_diameter">14.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">19.5904631728472</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.1501101915121</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">254.343937517832</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">75.8858326590581</SimpleData>
+            <SimpleData name="volume_m^2">3080.73419520382</SimpleData>
+            <SimpleData name="cover_area_m^2">157.256832981559</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.728</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276396,54.0874891977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.9">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">53655dd1-ffb6-46e8-bc88-f41f7e1cc604</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">66.21</SimpleData>
+            <SimpleData name="trunk_circumference">208</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">15.7984132515729</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.6433434224763</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">207.631814155922</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">64.5444935406239</SimpleData>
+            <SimpleData name="volume_m^2">1153.87461159624</SimpleData>
+            <SimpleData name="cover_area_m^2">73.0373736413913</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.134</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1274245,54.0875355977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.10">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">2450b736-ef90-4da9-9abb-8c58950fd284</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">86.9</SimpleData>
+            <SimpleData name="trunk_circumference">273</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">15.2702407273522</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.8799152972993</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">267.22143978806</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">86.4421609211047</SimpleData>
+            <SimpleData name="volume_m^2">1692.63163402335</SimpleData>
+            <SimpleData name="cover_area_m^2">110.845117915626</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.771</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275596,54.0876408977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.11">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">de3f6efd-3800-461d-9044-87df5c7aae23</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">76.08</SimpleData>
+            <SimpleData name="trunk_circumference">239</SimpleData>
+            <SimpleData name="crown_diameter">11</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">13.3463500913007</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.9175433001159</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">243.867475799197</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">74.6506362359637</SimpleData>
+            <SimpleData name="volume_m^2">1249.40212487412</SimpleData>
+            <SimpleData name="cover_area_m^2">93.6137682832476</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.546</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275395,54.087306697763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.12">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">8dbe1086-70a0-48ed-85d4-800cc5f1649d</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">71.62</SimpleData>
+            <SimpleData name="trunk_circumference">225</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">16.78918243035</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.3955382022592</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">222.03491562747</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">74.1673760567377</SimpleData>
+            <SimpleData name="volume_m^2">2732.59482963234</SimpleData>
+            <SimpleData name="cover_area_m^2">162.759255310288</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.424</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1277237,54.086919297763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.13">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">eda38a5c-88c5-43bf-aad8-07a76ef46aa1</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">79.58</SimpleData>
+            <SimpleData name="trunk_circumference">250</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">19.8190151978965</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.8034502832131</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">253.855774674872</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">78.4696577415551</SimpleData>
+            <SimpleData name="volume_m^2">2168.65217561893</SimpleData>
+            <SimpleData name="cover_area_m^2">109.422801989127</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275969,54.0875651977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.14">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">eda38a5c-88c5-43bf-aad8-07a76ef46aa1</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">79.58</SimpleData>
+            <SimpleData name="trunk_circumference">250</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">19.8190151978965</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.8034502832131</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">253.855774674872</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">78.4696577415551</SimpleData>
+            <SimpleData name="volume_m^2">2168.65217561893</SimpleData>
+            <SimpleData name="cover_area_m^2">109.422801989127</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275969,54.0875651977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.15">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">aaca5588-8baa-4e09-986f-92481daef16b</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="German-species">Gewöhnliche Rosskastanie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">64.3</SimpleData>
+            <SimpleData name="trunk_circumference">202</SimpleData>
+            <SimpleData name="crown_diameter">11.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.712274771319</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.9504946501021</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">194.945630424381</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">63.4385417580589</SimpleData>
+            <SimpleData name="volume_m^2">1650.21857894188</SimpleData>
+            <SimpleData name="cover_area_m^2">112.166106505768</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.874</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276933,54.086996397763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.16">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">aaca5588-8baa-4e09-986f-92481daef16b</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="German-species">Gewöhnliche Rosskastanie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">64.3</SimpleData>
+            <SimpleData name="trunk_circumference">202</SimpleData>
+            <SimpleData name="crown_diameter">11.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.712274771319</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.9504946501021</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">194.945630424381</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">63.4385417580589</SimpleData>
+            <SimpleData name="volume_m^2">1650.21857894188</SimpleData>
+            <SimpleData name="cover_area_m^2">112.166106505768</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.874</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276933,54.086996397763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.17">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">cd7528f9-d30d-4b40-ad6b-53c1a3599611</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">74.48</SimpleData>
+            <SimpleData name="trunk_circumference">234</SimpleData>
+            <SimpleData name="crown_diameter">11.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">15.4010211496657</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.3397611974781</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">232.300458453697</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">76.5847552287924</SimpleData>
+            <SimpleData name="volume_m^2">1293.18427750398</SimpleData>
+            <SimpleData name="cover_area_m^2">83.9674372846407</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.495</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275218,54.0877207977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.18">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">bfce1ed5-e1c3-4311-9c42-dfcc67b27904</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur „Fastigiata“</SimpleData>
+            <SimpleData name="German-species">Pyramiden-Eiche „Fastigiata“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">12.57</SimpleData>
+            <SimpleData name="crown_diameter">0.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name">Fastigiata</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">3.88972044646063</SimpleData>
+            <SimpleData name="crown_diameter_standardized">-0.13710316246447</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">0.137543314579002</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">2.89265515188651</SimpleData>
+            <SimpleData name="volume_m^2">0.0574252925151883</SimpleData>
+            <SimpleData name="cover_area_m^2">0.0147633469565766</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.49</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1279664,54.0883285977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.19">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">2e7e8457-e5f9-48f8-b966-05357f24eb6a</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur „Fastigiata“</SimpleData>
+            <SimpleData name="German-species">Pyramiden-Eiche „Fastigiata“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">12.57</SimpleData>
+            <SimpleData name="crown_diameter">0.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name">Fastigiata</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.85758975315861</SimpleData>
+            <SimpleData name="crown_diameter_standardized">-0.792569052870133</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">10.0339966258355</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">4.37854573816784</SimpleData>
+            <SimpleData name="volume_m^2">2.39654140303163</SimpleData>
+            <SimpleData name="cover_area_m^2">0.493360189891149</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.259</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1279718,54.0883830977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.20">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">b521e559-ed47-45fb-84d3-ef01b4f22606</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur „Fastigiata“</SimpleData>
+            <SimpleData name="German-species">Pyramiden-Eiche „Fastigiata“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name">Fastigiata</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.32840585236133</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.847717065518001</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">36.6432562481529</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.0914439132056</SimpleData>
+            <SimpleData name="volume_m^2">3.00738500639839</SimpleData>
+            <SimpleData name="cover_area_m^2">0.56440614505099</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.927</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1283506,54.0885012977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.21">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">b2eed8c6-b7ec-4ace-8fa7-29f4ba32e716</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur „Fastigiata“</SimpleData>
+            <SimpleData name="German-species">Pyramiden-Eiche „Fastigiata“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">25.13</SimpleData>
+            <SimpleData name="crown_diameter">0.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name">Fastigiata</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.86207867917518</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.186193108866997</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">26.2669744850102</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.21594349976936</SimpleData>
+            <SimpleData name="volume_m^2">0.159613173054856</SimpleData>
+            <SimpleData name="cover_area_m^2">0.0272280844032129</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.055</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1286262,54.0884919977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.22">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">4d90bebb-d52e-4aeb-af61-7d5cf84ac1af</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur „Fastigiata“</SimpleData>
+            <SimpleData name="German-species">Pyramiden-Eiche „Fastigiata“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">0.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name">Fastigiata</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.84902137400281</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.09046975356775</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">43.6420000880962</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.0272813498864</SimpleData>
+            <SimpleData name="volume_m^2">5.4626117913018</SimpleData>
+            <SimpleData name="cover_area_m^2">0.933936028269876</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.676</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128864,54.0885213977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.23">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">4610dc5a-3f93-4eb3-9058-6438247efc06</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">82.44</SimpleData>
+            <SimpleData name="trunk_circumference">259</SimpleData>
+            <SimpleData name="crown_diameter">14.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.6930162938371</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.7350616183291</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">259.698327496962</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">79.6119155693678</SimpleData>
+            <SimpleData name="volume_m^2">2177.01822998924</SimpleData>
+            <SimpleData name="cover_area_m^2">148.166869651018</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.311</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273873,54.0876168977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.24">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">ea510aa7-4112-44ba-a36e-2f570de197f0</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">62.07</SimpleData>
+            <SimpleData name="trunk_circumference">195</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">15.8961747325902</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.09404783041398</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">200.726328702531</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">61.9899540320395</SimpleData>
+            <SimpleData name="volume_m^2">628.305315537967</SimpleData>
+            <SimpleData name="cover_area_m^2">39.5255667547376</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.728</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276531,54.087073597763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.25">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">1146d5b0-e4c2-44b6-aff9-780a13e2b56e</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">76.08</SimpleData>
+            <SimpleData name="trunk_circumference">239</SimpleData>
+            <SimpleData name="crown_diameter">16</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">15.0104691237693</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.6919215545056</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">250.378731766625</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">74.1333823761178</SimpleData>
+            <SimpleData name="volume_m^2">2902.92893096558</SimpleData>
+            <SimpleData name="cover_area_m^2">193.393617949539</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.271</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275427,54.0874736977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.26">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">1146d5b0-e4c2-44b6-aff9-780a13e2b56e</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">76.08</SimpleData>
+            <SimpleData name="trunk_circumference">239</SimpleData>
+            <SimpleData name="crown_diameter">16</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">15.0104691237693</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.6919215545056</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">250.378731766625</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">74.1333823761178</SimpleData>
+            <SimpleData name="volume_m^2">2902.92893096558</SimpleData>
+            <SimpleData name="cover_area_m^2">193.393617949539</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.271</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275427,54.0874736977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.27">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">234baa15-9125-418b-8a7d-d28ed3c46a00</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">68.44</SimpleData>
+            <SimpleData name="trunk_circumference">215</SimpleData>
+            <SimpleData name="crown_diameter">10.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">15.3665768163317</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.59250642115679</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">213.50898772923</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">68.3462341980275</SimpleData>
+            <SimpleData name="volume_m^2">1110.53233898985</SimpleData>
+            <SimpleData name="cover_area_m^2">72.2693383349744</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.418</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276135,54.087149897763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.28">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">4ce04ba6-4b43-4436-b7f0-fd16fb59ac0e</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">66.85</SimpleData>
+            <SimpleData name="trunk_circumference">210</SimpleData>
+            <SimpleData name="crown_diameter">9.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.6393514911518</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.6447358551079</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">205.400154753738</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">67.0388807551312</SimpleData>
+            <SimpleData name="volume_m^2">1302.81124311876</SimpleData>
+            <SimpleData name="cover_area_m^2">88.9937811730383</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.544</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275793,54.087224497763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.29">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">a580fadc-7e2e-4af6-a21a-8d2cabac7eec</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">70.03</SimpleData>
+            <SimpleData name="trunk_circumference">220</SimpleData>
+            <SimpleData name="crown_diameter">9.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">15.5046809639316</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.4212628345067</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">219.255372594776</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">69.1310578650511</SimpleData>
+            <SimpleData name="volume_m^2">1322.49309872171</SimpleData>
+            <SimpleData name="cover_area_m^2">85.2963760943046</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.25</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1274633,54.0874603977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schr__derplatz_qualified.30">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schr__derplatz_qualified.schema">
+            <SimpleData name="uuid">ff49e0f1-b316-4027-a56a-d109e2f29e88</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum „Baumannii“</SimpleData>
+            <SimpleData name="German-species">Gefüllblühende Rosskastanie „Baumannii“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">68.44</SimpleData>
+            <SimpleData name="trunk_circumference">215</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name">Baumannii</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.7235549736701</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.1051871335715</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">209.021107549094</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">67.8670936355054</SimpleData>
+            <SimpleData name="volume_m^2">1180.8406208976</SimpleData>
+            <SimpleData name="cover_area_m^2">80.200781877018</SimpleData>
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.195</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275008,54.0873822977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

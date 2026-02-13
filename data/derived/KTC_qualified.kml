@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="KTC_qualified" name="KTC_qualified">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="KTC_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="KTC_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="KTC_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Document id="KTC_qualified">
+      <name>KTC_qualified</name>
+      <Placemark id="KTC_qualified.1">
+        <name>Liquidambar styraciflua</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">144b9468-d111-47fa-8347-7716ba6da45e</SimpleData>
+            <SimpleData name="botanical_genus">Liquidambar</SimpleData>
+            <SimpleData name="German_genus">Amberbaum</SimpleData>
+            <SimpleData name="botanical_species">Liquidambar styraciflua</SimpleData>
+            <SimpleData name="German-species">Amerikanischer Amberbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Liquidambar styraciflua</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.2829077007816</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.88871438425379</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">36.9036898077165</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.34159232062</SimpleData>
+            <SimpleData name="volume_m^2">41.1774803944892</SimpleData>
+            <SimpleData name="cover_area_m^2">6.55388911560274</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.93</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1282398,54.0887097977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.2">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">2bf1742a-e90f-430e-8dbd-313430055a2c</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">14</SimpleData>
+            <SimpleData name="trunk_circumference">43.98</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.04535562657419</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.28337971823107</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">34.3626502767973</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.4356939087603</SimpleData>
+            <SimpleData name="volume_m^2">87.1133845204118</SimpleData>
+            <SimpleData name="cover_area_m^2">14.4099685612338</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.109</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1287552,54.0891680977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.3">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">8a72dcb4-275e-4adf-9014-ce066db1e259</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.80116677063229</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.23794749576745</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">51.5372841345508</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.7331617870617</SimpleData>
+            <SimpleData name="volume_m^2">81.8307206444027</SimpleData>
+            <SimpleData name="cover_area_m^2">14.1059072906955</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.888</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.12867,54.0892262977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.4">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">847a9863-6915-4c73-9024-bd98d9ec9e64</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">14</SimpleData>
+            <SimpleData name="trunk_circumference">43.98</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.91087094074379</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.58922467168222</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">49.9655789623332</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.4813778898895</SimpleData>
+            <SimpleData name="volume_m^2">59.8057095102951</SimpleData>
+            <SimpleData name="cover_area_m^2">10.1179183422959</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.943</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1288905,54.0895145977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.5">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">def0cf6c-f3de-4075-b501-7e69e840febf</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">14</SimpleData>
+            <SimpleData name="trunk_circumference">43.98</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.31749701612651</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.8256736824872</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">39.5347806211445</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.1658262611428</SimpleData>
+            <SimpleData name="volume_m^2">61.1241711326193</SimpleData>
+            <SimpleData name="cover_area_m^2">11.4949140445677</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.963</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1286044,54.0894300977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.6">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">58c3af0b-e8d8-4676-a90e-2881a06cac4f</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">17</SimpleData>
+            <SimpleData name="trunk_circumference">53.41</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.35704688964031</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.14553995099805</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">63.6833407830473</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.1243501158082</SimpleData>
+            <SimpleData name="volume_m^2">49.400996231348</SimpleData>
+            <SimpleData name="cover_area_m^2">7.7710605394234</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.952</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1288974,54.0894435977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.7">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">aae19294-0785-4e1f-8d4f-cb6d1529b644</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.44089915970375</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.5959725775095</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">38.565397158258</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.0466786849313</SimpleData>
+            <SimpleData name="volume_m^2">28.7978960166335</SimpleData>
+            <SimpleData name="cover_area_m^2">5.2928560466468</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.597</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128825,54.0893045977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.8">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">3f9229b9-16ed-4ebb-829e-c9e2f521f514</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.04205688028272</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.84272890068807</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">33.9826870738252</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.9828982932016</SimpleData>
+            <SimpleData name="volume_m^2">70.0735603660888</SimpleData>
+            <SimpleData name="cover_area_m^2">11.5976333481339</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.187</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1286151,54.0895000977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.9">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">d212ca58-4dce-4c5e-aa85-13d18d31c5f1</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">40.84</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.84366289759762</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.43338025916642</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">47.3739188809112</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.4336239226477</SimpleData>
+            <SimpleData name="volume_m^2">105.644880627985</SimpleData>
+            <SimpleData name="cover_area_m^2">15.4368913560997</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.739</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1287552,54.0893680977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.10">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">90892ecf-80f6-4f1f-bfb5-d5c25eea2deb</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">4.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.72834198016145</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.32840459113971</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">58.86399400475</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.1966292972195</SimpleData>
+            <SimpleData name="volume_m^2">99.0042040450474</SimpleData>
+            <SimpleData name="cover_area_m^2">14.714502374725</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.544</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1286504,54.0893595977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.11">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">668831c8-cdef-4128-b54f-6a1add3373fc</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.00236310843444</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.37102257693908</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">40.8423284190287</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.8969449559199</SimpleData>
+            <SimpleData name="volume_m^2">90.0696022603631</SimpleData>
+            <SimpleData name="cover_area_m^2">15.005690364483</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.084</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1286595,54.0892770977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.12">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">56700cf5-48f0-47e7-86c8-026edb6dfc45</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.85186282304084</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.66755200176606</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">36.2818981262517</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.8310540725043</SimpleData>
+            <SimpleData name="volume_m^2">14.9643312481688</SimpleData>
+            <SimpleData name="cover_area_m^2">2.18397998247251</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.544</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1287581,54.0892260977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.13">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">e8207f8b-901a-4791-9848-cea100648b75</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">14</SimpleData>
+            <SimpleData name="trunk_circumference">43.98</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.64200963555341</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.81580721614995</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">50.0487190660079</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.9136649403873</SimpleData>
+            <SimpleData name="volume_m^2">35.1341571933474</SimpleData>
+            <SimpleData name="cover_area_m^2">6.22724161475154</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.233</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1287506,54.0894366977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.14">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">2c724c8e-fab2-4764-a8fe-4375d4ad9664</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">40.84</SimpleData>
+            <SimpleData name="crown_diameter">4.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.08778619226914</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.76099867727277</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">44.0828363362429</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.7446646462667</SimpleData>
+            <SimpleData name="volume_m^2">56.5229857870539</SimpleData>
+            <SimpleData name="cover_area_m^2">11.1095442400745</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.461</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1284878,54.0894328977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.15">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">936e3420-7068-41f5-964e-42fc4ef4ca43</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.26732111695731</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.66428402713642</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">36.0242449498569</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.3486125387423</SimpleData>
+            <SimpleData name="volume_m^2">66.0921815863192</SimpleData>
+            <SimpleData name="cover_area_m^2">10.5455234147003</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.98</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1287376,54.0895823977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.16">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">5a6a536e-bdc1-4e62-98e8-80c33001d90c</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">40.84</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.06016527724291</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.97720827211014</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">38.4685942900218</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.5382419240419</SimpleData>
+            <SimpleData name="volume_m^2">18.6071212489883</SimpleData>
+            <SimpleData name="cover_area_m^2">3.07039831386475</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.008</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1286035,54.0891621977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.17">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">811ca4fd-7915-46ba-aeac-35a0cbb6ec3e</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.49616816690529</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.04108418877644</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">35.9979396356565</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.6171353477197</SimpleData>
+            <SimpleData name="volume_m^2">109.697768888552</SimpleData>
+            <SimpleData name="cover_area_m^2">19.9589542308927</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.28</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1287376,54.0895124977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.18">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">80e64a9e-5926-4a91-a54e-b1fe148d068e</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.92946598160978</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.85762768778089</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">51.6854679296772</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.0940754233747</SimpleData>
+            <SimpleData name="volume_m^2">38.0291618168089</SimpleData>
+            <SimpleData name="cover_area_m^2">6.41358967818623</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.035</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1289216,54.0891728977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.19">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">4d34e2ee-0ac8-4741-8c70-2c3f6bd10a76</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">40.84</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.42279537039262</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.05485276577812</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">39.9772857101737</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.4068166497947</SimpleData>
+            <SimpleData name="volume_m^2">70.0266380640734</SimpleData>
+            <SimpleData name="cover_area_m^2">12.9133838327009</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.351</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1285359,54.0892813977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.20">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">d907466c-2d2d-4e9e-8736-0313a94a6683</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">2.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.88448176735084</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.988813028332984</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">41.3910999059027</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.146931983289</SimpleData>
+            <SimpleData name="volume_m^2">4.5188347806388</SimpleData>
+            <SimpleData name="cover_area_m^2">0.767924000667464</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.356</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1285649,54.0892161977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.21">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">9434e93f-92f3-436d-a093-a090bac39285</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.41081042137995</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.20489221806945</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">52.5001103073099</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.961131347999</SimpleData>
+            <SimpleData name="volume_m^2">136.403745867118</SimpleData>
+            <SimpleData name="cover_area_m^2">21.2771454623293</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.092</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1286686,54.0891650977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.22">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">2284c2bb-28d9-4d74-bb40-c48deadcc51b</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">14</SimpleData>
+            <SimpleData name="trunk_circumference">43.98</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.23331406478304</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.55994324050976</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">41.4154823930023</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.4430408153801</SimpleData>
+            <SimpleData name="volume_m^2">32.0826004732115</SimpleData>
+            <SimpleData name="cover_area_m^2">5.1469571627189</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.153</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1284714,54.0894998977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.23">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">1f71fad0-9de5-4b1c-853e-387e552d6b77</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">14</SimpleData>
+            <SimpleData name="trunk_circumference">43.98</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.30680266256345</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.1302487911784</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">45.320211855918</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.0564085085156</SimpleData>
+            <SimpleData name="volume_m^2">40.8395109441607</SimpleData>
+            <SimpleData name="cover_area_m^2">7.69569052044478</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.518</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1288482,54.0892385977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.24">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">15a12cc0-8241-4ed4-ac0d-094155144ac9</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">40.84</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.27452400122562</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.39583231113814</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">41.7551229034866</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.9504072127893</SimpleData>
+            <SimpleData name="volume_m^2">95.225420722955</SimpleData>
+            <SimpleData name="cover_area_m^2">15.1765170878866</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.011</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1289038,54.0893711977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.25">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">b0d4046a-27db-4a5c-9620-0a6cf2ec7ded</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">34.56</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.53071757986449</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.90923306291444</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">31.4891273045841</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.8621019500621</SimpleData>
+            <SimpleData name="volume_m^2">66.3826354154712</SimpleData>
+            <SimpleData name="cover_area_m^2">12.0025357391504</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.949</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128599,54.0895783977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.26">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">b7143b96-054c-4715-8ca8-3137af3e0f0c</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">34.56</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.33323716785393</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.09867145120767</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">37.4849569573499</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.7945275218414</SimpleData>
+            <SimpleData name="volume_m^2">129.309278561348</SimpleData>
+            <SimpleData name="cover_area_m^2">20.4175645304572</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.071</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128911,54.0892905977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.27">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">4232581f-4d9d-4dbb-8676-9d9c32cf9ccd</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.58792597322758</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.98971085955446</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">37.1708120502357</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.407204688557</SimpleData>
+            <SimpleData name="volume_m^2">39.2282471970181</SimpleData>
+            <SimpleData name="cover_area_m^2">7.02018018580871</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.445</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1285142,54.0893430977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.28">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">e95a924d-8536-4207-913f-c64f7d768d6c</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">40.84</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.25529489025964</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.48731066747826</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">39.2646316293338</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.2803184709652</SimpleData>
+            <SimpleData name="volume_m^2">50.1959003571525</SimpleData>
+            <SimpleData name="cover_area_m^2">9.55149071656996</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.442</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1288828,54.0895863977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.29">
+        <name>Fraxinus ornus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">cf89d64e-fdac-4242-ab37-1b24e00f7bd3</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus ornus</SimpleData>
+            <SimpleData name="German-species">Blumen-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">25.13</SimpleData>
+            <SimpleData name="crown_diameter">1.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus ornus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.04481657579212</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.25296974726572</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">26.9496722221436</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.0044622394387</SimpleData>
+            <SimpleData name="volume_m^2">16.1249892418453</SimpleData>
+            <SimpleData name="cover_area_m^2">3.98658108215634</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.496</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128462,54.0895739977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.30">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">0921f713-f054-4286-adca-758f2ed89be2</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus</SimpleData>
+            <SimpleData name="German-species">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">31.42</SimpleData>
+            <SimpleData name="crown_diameter">2.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.58463268234617</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.51485210142905</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">22.5833188332627</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.139883267085</SimpleData>
+            <SimpleData name="volume_m^2">27.7401875803009</SimpleData>
+            <SimpleData name="cover_area_m^2">4.96723583414745</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.716</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1281698,54.0887406977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.31">
+        <name>Ginkgo biloba</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">587cf285-1fd4-46ac-a805-8c088d7c30c7</SimpleData>
+            <SimpleData name="botanical_genus">Ginkgo</SimpleData>
+            <SimpleData name="German_genus">Ginkgo</SimpleData>
+            <SimpleData name="botanical_species">Ginkgo biloba</SimpleData>
+            <SimpleData name="German-species">Ginkgo</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">40.84</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Ginkgo biloba</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.54114214144903</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.21690356140755</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">47.280832673563</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.9438087937281</SimpleData>
+            <SimpleData name="volume_m^2">53.1642327932313</SimpleData>
+            <SimpleData name="cover_area_m^2">8.12766817225196</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.478</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1281677,54.0894698977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="KTC_qualified.32">
+        <name>Larix decidua</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#KTC_qualified.schema">
+            <SimpleData name="uuid">f4f490a2-a17d-42b1-870c-e3bcc04b57c2</SimpleData>
+            <SimpleData name="botanical_genus">Larix</SimpleData>
+            <SimpleData name="German_genus">Lärche</SimpleData>
+            <SimpleData name="botanical_species">Larix decidua</SimpleData>
+            <SimpleData name="German-species">Europäische Lärche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7.5</SimpleData>
+            <SimpleData name="trunk_diameter">23</SimpleData>
+            <SimpleData name="trunk_circumference">72.26</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Larix decidua</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">8.3828187870287</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.98833507919811</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">66.1965127199416</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.0702881191198</SimpleData>
+            <SimpleData name="volume_m^2">104.728102782522</SimpleData>
+            <SimpleData name="cover_area_m^2">12.4931846247918</SimpleData>
+            <SimpleData name="designation">KTC</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.977</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1280825,54.0893571977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

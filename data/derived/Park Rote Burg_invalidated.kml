@@ -1,0 +1,2747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Park_Rote_Burg_invalidated" name="Park_Rote_Burg_invalidated">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Park_Rote_Burg_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Park_Rote_Burg_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Park_Rote_Burg_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Folder>
+      <name>Park_Rote_Burg_invalidated</name>
+      <Placemark id="Park_Rote_Burg_invalidated.1">
+        <name>02453d0f-3955-4518-9d67-098d96ae23ac</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">122</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">120.59017349507</SimpleData>
+            <SimpleData name="crown_diameter_standardized">41.2144497014595</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">597.415147024711</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">72.8077975977828</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.548874639340549</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1177354,54.0641424977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.2">
+        <name>a5274af5-f35b-44b9-b2e4-07a83ae21771</name>
+        <description>Fagus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Buche</SimpleData>
+            <SimpleData name="botanical_genus">Fagus species</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">50</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">55.8349059574724</SimpleData>
+            <SimpleData name="crown_diameter_standardized">18.123542926195</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">87.7022907450196</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.7206252168034</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">42.56509806843335</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1209604,54.0635590977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.3">
+        <name>c1021602-a5c8-4c7c-91aa-cba9517f6e5e</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer species</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">59</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">57.193942001576</SimpleData>
+            <SimpleData name="crown_diameter_standardized">17.8908612452719</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">166.568281842594</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.5570705571899</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">14.25480025236548</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1201026,54.0631440977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.4">
+        <name>f35943b8-b33e-41c1-8fdc-1db4d242daec</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">16</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">59.69</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">61.8216516614641</SimpleData>
+            <SimpleData name="crown_diameter_standardized">20.0588287448809</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">302.068401075169</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">19.8710070783818</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">13.22127787845869</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119199,54.063335897759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.5">
+        <name>811caa5c-2ccb-4567-a04c-f5b4313bb720</name>
+        <description>Malus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Zierapfel</SimpleData>
+            <SimpleData name="botanical_genus">Malus species</SimpleData>
+            <SimpleData name="German_genus">Apfel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">62.83</SimpleData>
+            <SimpleData name="trunk_diameter">2</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">59.5420968189386</SimpleData>
+            <SimpleData name="crown_diameter_standardized">20.1967412879996</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">8.09926438578361</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">4.58388483311403</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.741266213998367</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.118984,54.0642752977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.6">
+        <name>cb78f55f-6c22-41b5-a47b-21232e971b9e</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">106</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">108.732821408561</SimpleData>
+            <SimpleData name="crown_diameter_standardized">32.7958535907635</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">28.2233065773547</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.6945591170932</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.210356637551415</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1207859,54.063082097759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.7">
+        <name>79cea72f-7fd5-4eb7-8abd-5d16821f4ed5</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">63</SimpleData>
+            <SimpleData name="trunk_diameter">3</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">56.6272034144023</SimpleData>
+            <SimpleData name="crown_diameter_standardized">20.6672618163451</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">12.4140470260134</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">4.34808537935225</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.750297225145168</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1208981,54.063085697759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.8">
+        <name>2f5ef15f-b01d-43b3-a78f-51f17f62cb0a</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">15</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">200</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">195.98679859089</SimpleData>
+            <SimpleData name="crown_diameter_standardized">60.3430586717785</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1005.29794300827</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">68.2767474077378</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">29.22205827039631</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1213595,54.0627278977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.9">
+        <name>aba3f670-e05b-4460-a658-5ca797400ee8</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">119.38</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="height_standardized">105.914975289148</SimpleData>
+            <SimpleData name="crown_diameter_standardized">40.7571321503317</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">45.35690885610006</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1216678,54.0626027977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.10">
+        <name>ba3bc022-103f-4eb1-af2d-9ff0fe69c499</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">219.91</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="height_standardized">208.860422217636</SimpleData>
+            <SimpleData name="crown_diameter_standardized">67.2865897558653</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">28.04026062085255</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1213376,54.0626103977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.11">
+        <name>3d2e72f9-8eab-4adb-a2e2-3e94e007396b</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">144.51</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="height_standardized">143.509084984712</SimpleData>
+            <SimpleData name="crown_diameter_standardized">43.2038281431971</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">27.51202831739601</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1214224,54.0625267977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.12">
+        <name>4699f8c9-170f-4690-b7d7-0af3bf812b3f</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">235.62</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="height_standardized">235.447143335935</SimpleData>
+            <SimpleData name="crown_diameter_standardized">75.8092079828802</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">26.40281250108091</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1213604,54.0625567977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.13">
+        <name>c759e144-8cf0-4006-ab9c-da15e869ca12</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">115</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">116.656725292329</SimpleData>
+            <SimpleData name="crown_diameter_standardized">37.0189701662433</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">87.5191039002418</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.6960709776919</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.083669270183862</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1252131,54.0625220977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.14">
+        <name>0e335ec1-c4d2-40b8-bcb8-6015538f83f3</name>
+        <description>Sorbus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus torminalis</SimpleData>
+            <SimpleData name="German_genus">Elsbeere</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">18.3330821585839</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.81322349776313</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">4.06982663472934</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.789464389022562</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.53744928197318</SimpleData>
+            <SimpleData name="type">Sorbus torminalis</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1198646,54.0631582977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.15">
+        <name>1c6bcdbf-a5bc-4026-b0e5-26980fd5d358</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia americana</SimpleData>
+            <SimpleData name="German_genus">Amerikanische Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">75</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">82.3695281483529</SimpleData>
+            <SimpleData name="crown_diameter_standardized">21.2688043315281</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">291.973309273791</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.4982738097089</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">13.1402667647732</SimpleData>
+            <SimpleData name="type">Tilia americana</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1221716,54.063432897759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.16">
+        <name>39eef71d-642e-422a-ac9d-8fb935764bbc</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia americana</SimpleData>
+            <SimpleData name="German_genus">Amerikanische Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">54</SimpleData>
+            <SimpleData name="trunk_diameter">3.7</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">46.0970659272797</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.7219836283511</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">40.1397255593642</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.61957468542836</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">19.95186217190697</SimpleData>
+            <SimpleData name="type">Tilia americana</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1221368,54.063175297759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.17">
+        <name>e9b8f56b-32f9-43bd-b69b-6c889156266b</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia americana</SimpleData>
+            <SimpleData name="German_genus">Amerikanische Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">50</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">44.2160565336778</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.9816551364374</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">56.4609495937684</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">8.66304527054111</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.70694068043576</SimpleData>
+            <SimpleData name="type">Tilia americana</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.122188,54.0632280977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.18">
+        <name>3a63df3d-e469-4c74-aa9d-9a328c6921fa</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia americana</SimpleData>
+            <SimpleData name="German_genus">Amerikanische Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">69</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">68.0382697859039</SimpleData>
+            <SimpleData name="crown_diameter_standardized">21.1303399073099</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">186.548538732766</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">25.8510158733798</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">17.32150240318943</SimpleData>
+            <SimpleData name="type">Tilia americana</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.122135,54.063330397759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.19">
+        <name>1ad20ee4-9d4c-4244-b254-abd8945cd91a</name>
+        <description>Sorbus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus intermedia</SimpleData>
+            <SimpleData name="German_genus">Schwedische Mehlbeere</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">55</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">32</SimpleData>
+            <SimpleData name="trunk_diameter">2</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">30.2803485138987</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.3490577289367</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">164.627410727914</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">2.94335168107549</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.050742884263021</SimpleData>
+            <SimpleData name="type">Sorbus intermedia</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1177021,54.063339097759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.20">
+        <name>8710f572-cd02-481b-b069-d629eaf82724</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia americana</SimpleData>
+            <SimpleData name="German_genus">Amerikanische Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">68</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">77.9260974453584</SimpleData>
+            <SimpleData name="crown_diameter_standardized">23.1434301897299</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">201.418424822731</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.231233012373</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.661742253168621</SimpleData>
+            <SimpleData name="type">Tilia americana</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1222227,54.0640949977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.21">
+        <name>4f32fe3c-8c8c-43cc-ab99-de55c44ea1cc</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia americana</SimpleData>
+            <SimpleData name="German_genus">Amerikanische Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">72</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">71.0432933681126</SimpleData>
+            <SimpleData name="crown_diameter_standardized">26.1103571677853</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">192.815712232843</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.9872742270223</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">14.45512001707865</SimpleData>
+            <SimpleData name="type">Tilia americana</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1220505,54.0641134977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.22">
+        <name>66c34ee7-f321-4c0c-8597-a10c12804fc8</name>
+        <description>Sorbus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus torminalis</SimpleData>
+            <SimpleData name="German_genus">Elsbeere</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">0</SimpleData>
+            <SimpleData name="height_standardized">16.2050362826589</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.43906844282401</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1.42837750710048</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.24278009950213</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.820192288671672</SimpleData>
+            <SimpleData name="type">Sorbus torminalis</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1194616,54.063101697759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.23">
+        <name>45c1595f-94fd-4524-a7f4-9f6c6101fcdf</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus species</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">80</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">81.0127978783833</SimpleData>
+            <SimpleData name="crown_diameter_standardized">25.3922429136574</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">406.32859165321</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.7927001465268</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.514110683506677</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1242548,54.0619356977587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.24">
+        <name>2d1dbb27-5be2-4424-954d-49b8f2a804f7</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">33</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">34.5337584758783</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.51098360076748</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">222.165929483133</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">34.4732969600547</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">30.69586319819582</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1225549,54.0619215977587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.25">
+        <name>de616bd8-7502-4047-a0cb-eceb21097f4b</name>
+        <description>Crataegus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weißdorn</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus species</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">50</SimpleData>
+            <SimpleData name="trunk_diameter">4.8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">52.825863656644</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.1745281753994</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">95.1062244865289</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">19.8475221082855</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.407369869297734</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1290929,54.0622193977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.26">
+        <name>9ad56a73-3871-4db1-bedd-7b272a95974e</name>
+        <description>Crataegus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weißdorn</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus species</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">47.12</SimpleData>
+            <SimpleData name="trunk_diameter">2.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">38.9993604442596</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.2367918407629</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">27.987938386675</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">3.99933376826068</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.45630341760806</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1284989,54.0622681977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.27">
+        <name>b4362b4f-871f-48f6-8fda-eb887949489b</name>
+        <description>Populus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Pappel</SimpleData>
+            <SimpleData name="botanical_genus">Populus species</SimpleData>
+            <SimpleData name="German_genus">Pappel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">14</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">100.53</SimpleData>
+            <SimpleData name="trunk_diameter">5.3</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">96.6451568231774</SimpleData>
+            <SimpleData name="crown_diameter_standardized">33.7071413981182</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">311.556532549797</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">22.6762645674246</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">3.721054425426336</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1221026,54.0642484977592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.28">
+        <name>1810e4a0-41ac-4b2a-8e7a-aa1180d2c53f</name>
+        <description>Populus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Pappel</SimpleData>
+            <SimpleData name="botanical_genus">Populus species</SimpleData>
+            <SimpleData name="German_genus">Pappel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">12</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">103.67</SimpleData>
+            <SimpleData name="trunk_diameter">7.1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">108.857566797683</SimpleData>
+            <SimpleData name="crown_diameter_standardized">34.1785763676975</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">484.480373013879</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">42.8335437098193</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.511152730757778</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.122144,54.0642625977592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.29">
+        <name>4c0224c6-8297-4476-afa8-44158cefd5ef</name>
+        <description>Populus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Pappel</SimpleData>
+            <SimpleData name="botanical_genus">Populus species</SimpleData>
+            <SimpleData name="German_genus">Pappel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">14</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">106.81</SimpleData>
+            <SimpleData name="trunk_diameter">5.4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">118.894877844743</SimpleData>
+            <SimpleData name="crown_diameter_standardized">33.6980587583634</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">314.995303817149</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.0104393368804</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.543934495369272</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.122066,54.0642712977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.30">
+        <name>e031e1c4-c946-4609-b4bc-70d776197f58</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">66</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">59.7296617813029</SimpleData>
+            <SimpleData name="crown_diameter_standardized">21.8011368664272</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">221.54073963656</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">28.7086298367524</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">33.47361356378231</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1226367,54.0619971977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.31">
+        <name>40cd561f-03e2-43f5-a2c4-6de69596bafe</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus species</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">96</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">91.8466459168829</SimpleData>
+            <SimpleData name="crown_diameter_standardized">32.7062366458245</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">620.401489398379</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">71.7143071091864</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">3.072571048828214</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1241847,54.0618880977587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.32">
+        <name>967d3743-1aae-4be7-87a6-6108cae874e2</name>
+        <description>Crataegus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weißdorn</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus species</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">58</SimpleData>
+            <SimpleData name="trunk_diameter">3.9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">59.8185827758799</SimpleData>
+            <SimpleData name="crown_diameter_standardized">17.6615547078009</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">128.748593513635</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.5623872450375</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.550052043767772</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1284085,54.0622764977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.33">
+        <name>0cbe2bae-02fd-4928-9718-7946cb98c54b</name>
+        <description>Crataegus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weißdorn</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus species</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">4.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">56</SimpleData>
+            <SimpleData name="trunk_diameter">4.3</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">52.904150262362</SimpleData>
+            <SimpleData name="crown_diameter_standardized">17.0724349707676</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">54.6488347716114</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.0235149859425</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.485903383383812</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1285956,54.0622604977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.34">
+        <name>1f460743-760e-4495-81ae-0e3f0fd91c1a</name>
+        <description>Populus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Pappel</SimpleData>
+            <SimpleData name="botanical_genus">Populus species</SimpleData>
+            <SimpleData name="German_genus">Pappel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">14</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">100.53</SimpleData>
+            <SimpleData name="trunk_diameter">4.8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">93.8165658594927</SimpleData>
+            <SimpleData name="crown_diameter_standardized">32.0284026932421</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">295.131591622296</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">19.1171124379474</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.699388123524737</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1220928,54.0642604977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.35">
+        <name>e37b9b47-38dd-4bd7-bc06-f2e372d54368</name>
+        <description>Crataegus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weißdorn</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus species</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">57</SimpleData>
+            <SimpleData name="trunk_diameter">4.8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">59.9418483970966</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.5813189051186</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">146.160242546055</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.1685578650996</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.443947048990193</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1286822,54.0622529977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.36">
+        <name>267eabcc-9791-4062-b361-149e05529d97</name>
+        <description>Crataegus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Weißdorn</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus species</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">50.27</SimpleData>
+            <SimpleData name="trunk_diameter">2.9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">56.2618848528903</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.8223647284689</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">38.3147643394909</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.89767122753498</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.436956629837933</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128314,54.0622831977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.37">
+        <name>cd58194a-309f-4102-b981-72d7d1453afe</name>
+        <description>Sorbus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated">
+            <SimpleData name="uuid">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus torminalis</SimpleData>
+            <SimpleData name="German_genus">Elsbeere</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">10.3064597439976</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.41852764203191</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">7.14853614031553</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.25225318669836</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">14.2355463274064</SimpleData>
+            <SimpleData name="type">Sorbus torminalis</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1199466,54.0631457977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Document id="Park_Rote_Burg_invalidated">
+      <name>Park Rote Burg_invalidated</name>
+      <Placemark id="Park_Rote_Burg_invalidated.1">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">02453d0f-3955-4518-9d67-098d96ae23ac</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">38.83</SimpleData>
+            <SimpleData name="trunk_circumference">122</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.70652311505892</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.646173574287</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">124.812515485272</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">40.0352236867804</SimpleData>
+            <SimpleData name="volume_m^2">775.035729116019</SimpleData>
+            <SimpleData name="cover_area_m^2">89.0178224847881</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.549</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1177354,54.0641424977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.2">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">a5274af5-f35b-44b9-b2e4-07a83ae21771</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus species</SimpleData>
+            <SimpleData name="German-species">Buche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">15.92</SimpleData>
+            <SimpleData name="trunk_circumference">50</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.25614950170343</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.94997642145191</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">48.681352437446</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.1536423144761</SimpleData>
+            <SimpleData name="volume_m^2">120.393561011117</SimpleData>
+            <SimpleData name="cover_area_m^2">19.2440351654538</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">42.565</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1209604,54.0635590977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.3">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">c1021602-a5c8-4c7c-91aa-cba9517f6e5e</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer species</SimpleData>
+            <SimpleData name="German-species">Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">18.78</SimpleData>
+            <SimpleData name="trunk_circumference">59</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.98041654063415</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.68952822783048</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">56.0391321779791</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">18.8067371655728</SimpleData>
+            <SimpleData name="volume_m^2">103.295077087264</SimpleData>
+            <SimpleData name="cover_area_m^2">17.2722211547343</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">14.255</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1201026,54.0631440977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.4">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">f35943b8-b33e-41c1-8fdc-1db4d242daec</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">19</SimpleData>
+            <SimpleData name="trunk_circumference">59.69</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.2014789029087</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.83774990307862</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">62.5264678737131</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">18.1129194339357</SimpleData>
+            <SimpleData name="volume_m^2">297.804576029865</SimpleData>
+            <SimpleData name="cover_area_m^2">18.3813204840454</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">13.221</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119199,54.063335897759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.5">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">811caa5c-2ccb-4567-a04c-f5b4313bb720</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus species</SimpleData>
+            <SimpleData name="German-species">Apfel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.62578879563178</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.13996595532921</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">59.0316665768385</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">22.5875767723281</SimpleData>
+            <SimpleData name="volume_m^2">9.44416140264256</SimpleData>
+            <SimpleData name="cover_area_m^2">3.59669498870347</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.741</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.118984,54.0642752977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.6">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">cb78f55f-6c22-41b5-a47b-21232e971b9e</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2.5</SimpleData>
+            <SimpleData name="trunk_diameter">33.74</SimpleData>
+            <SimpleData name="trunk_circumference">106</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.01470038953719</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.80803709811571</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">106.750152866409</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.2797894043231</SimpleData>
+            <SimpleData name="volume_m^2">36.5793489655166</SimpleData>
+            <SimpleData name="cover_area_m^2">18.1562227095809</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.21</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1207859,54.063082097759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.7">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">79cea72f-7fd5-4eb7-8abd-5d16821f4ed5</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2.5</SimpleData>
+            <SimpleData name="trunk_diameter">20.05</SimpleData>
+            <SimpleData name="trunk_circumference">63</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.79832053611689</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.96738245389149</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">58.4993781994155</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.2190499938347</SimpleData>
+            <SimpleData name="volume_m^2">19.3523802944629</SimpleData>
+            <SimpleData name="cover_area_m^2">6.91571249422247</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.75</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1208981,54.063085697759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.8">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">2f5ef15f-b01d-43b3-a78f-51f17f62cb0a</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">63.66</SimpleData>
+            <SimpleData name="trunk_circumference">200</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.5000146226999</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.85190112281992</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">193.259347098959</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">64.4786131899535</SimpleData>
+            <SimpleData name="volume_m^2">1105.34642380413</SimpleData>
+            <SimpleData name="cover_area_m^2">76.2307109727802</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">29.222</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1213595,54.0627278977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.9">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">aba3f670-e05b-4460-a658-5ca797400ee8</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2.5</SimpleData>
+            <SimpleData name="trunk_diameter">38</SimpleData>
+            <SimpleData name="trunk_circumference">119.38</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">1.92388615405189</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">109.928474866323</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">38.9758861855659</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">45.357</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1216678,54.0626027977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.10">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">ba3bc022-103f-4eb1-af2d-9ff0fe69c499</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2.5</SimpleData>
+            <SimpleData name="trunk_diameter">70</SimpleData>
+            <SimpleData name="trunk_circumference">219.91</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">1.64593827927708</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">214.923050643419</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">68.4222339303472</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">28.04</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1213376,54.0626103977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.11">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">3d2e72f9-8eab-4adb-a2e2-3e94e007396b</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2.5</SimpleData>
+            <SimpleData name="trunk_diameter">46</SimpleData>
+            <SimpleData name="trunk_circumference">144.51</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.5409600282183</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">140.122696524141</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.9436626652462</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">27.512</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1214224,54.0625267977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.12">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">4699f8c9-170f-4690-b7d7-0af3bf812b3f</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2.5</SimpleData>
+            <SimpleData name="trunk_diameter">75</SimpleData>
+            <SimpleData name="trunk_circumference">235.62</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">1.65168971350248</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">234.68416433514</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">76.2120078148481</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">26.403</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1213604,54.0625567977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.13">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">c759e144-8cf0-4006-ab9c-da15e869ca12</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">36.61</SimpleData>
+            <SimpleData name="trunk_circumference">115</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.34964693554907</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.47080380510401</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">116.680344334847</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">37.0789770720728</SimpleData>
+            <SimpleData name="volume_m^2">146.77642867425</SimpleData>
+            <SimpleData name="cover_area_m^2">15.6986065555245</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.084</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1252131,54.0625220977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.14">
+        <name>Sorbus torminalis</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">0e335ec1-c4d2-40b8-bcb8-6015538f83f3</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus</SimpleData>
+            <SimpleData name="German_genus">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_species">Sorbus torminalis</SimpleData>
+            <SimpleData name="German-species">Elsbeere</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Sorbus torminalis</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.21164214582347</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.79497165963775</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">17.6140185195956</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.14345423813991</SimpleData>
+            <SimpleData name="volume_m^2">13.1880219367511</SimpleData>
+            <SimpleData name="cover_area_m^2">2.53049261014971</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.537</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1198646,54.0631582977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.15">
+        <name>Tilia americana</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">1c6bcdbf-a5bc-4026-b0e5-26980fd5d358</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia americana</SimpleData>
+            <SimpleData name="German-species">Amerikanische Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">23.87</SimpleData>
+            <SimpleData name="trunk_circumference">75</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia americana</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.11833300426468</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.21607400539385</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">65.3977414025757</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.4883033564203</SimpleData>
+            <SimpleData name="volume_m^2">276.718173683863</SimpleData>
+            <SimpleData name="cover_area_m^2">30.3474520566907</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">13.14</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1221716,54.063432897759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.16">
+        <name>Tilia americana</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">39eef71d-642e-422a-ac9d-8fb935764bbc</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia americana</SimpleData>
+            <SimpleData name="German-species">Amerikanische Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">17.19</SimpleData>
+            <SimpleData name="trunk_circumference">54</SimpleData>
+            <SimpleData name="crown_diameter">3.7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia americana</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.96754171634408</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.98607420145796</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">60.827671984123</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">18.6341166044115</SimpleData>
+            <SimpleData name="volume_m^2">74.4690995942856</SimpleData>
+            <SimpleData name="cover_area_m^2">12.4790245521581</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">19.952</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1221368,54.063175297759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.17">
+        <name>Tilia americana</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">e9b8f56b-32f9-43bd-b69b-6c889156266b</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia americana</SimpleData>
+            <SimpleData name="German-species">Amerikanische Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">15.92</SimpleData>
+            <SimpleData name="trunk_circumference">50</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia americana</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.71778812165877</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.63127171518943</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">54.0262219932828</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.1575167892298</SimpleData>
+            <SimpleData name="volume_m^2">59.2155044262517</SimpleData>
+            <SimpleData name="cover_area_m^2">10.3563656376048</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.707</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.122188,54.0632280977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.18">
+        <name>Tilia americana</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">3a63df3d-e469-4c74-aa9d-9a328c6921fa</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia americana</SimpleData>
+            <SimpleData name="German-species">Amerikanische Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">21.96</SimpleData>
+            <SimpleData name="trunk_circumference">69</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia americana</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.05525215867442</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.73186892327054</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">66.0149629990942</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.1321659717386</SimpleData>
+            <SimpleData name="volume_m^2">233.659224290304</SimpleData>
+            <SimpleData name="cover_area_m^2">25.8037236507514</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">17.322</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.122135,54.063330397759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.19">
+        <name>Sorbus intermedia</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">1ad20ee4-9d4c-4244-b254-abd8945cd91a</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus</SimpleData>
+            <SimpleData name="German_genus">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_species">Sorbus intermedia</SimpleData>
+            <SimpleData name="German-species">Schwedische Mehlbeere</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">55</SimpleData>
+            <SimpleData name="trunk_diameter">10.19</SimpleData>
+            <SimpleData name="trunk_circumference">32</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Sorbus intermedia</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">54.9475389012086</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.73216961861057</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">42.3391599977058</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.64593666016824</SimpleData>
+            <SimpleData name="volume_m^2">129.484850759674</SimpleData>
+            <SimpleData name="cover_area_m^2">2.3565177503669</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.051</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1177021,54.063339097759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.20">
+        <name>Tilia americana</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">8710f572-cd02-481b-b069-d629eaf82724</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia americana</SimpleData>
+            <SimpleData name="German-species">Amerikanische Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">21.65</SimpleData>
+            <SimpleData name="trunk_circumference">68</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia americana</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.45082692903872</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.25641054669698</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">73.3663809888754</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.2925956950608</SimpleData>
+            <SimpleData name="volume_m^2">183.386619510586</SimpleData>
+            <SimpleData name="cover_area_m^2">21.7004348864882</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.662</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1222227,54.0640949977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.21">
+        <name>Tilia americana</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">4f32fe3c-8c8c-43cc-ab99-de55c44ea1cc</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia americana</SimpleData>
+            <SimpleData name="German-species">Amerikanische Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">22.92</SimpleData>
+            <SimpleData name="trunk_circumference">72</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia americana</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.8995358977367</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.84925506733348</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">68.3455838728215</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.3636832559668</SimpleData>
+            <SimpleData name="volume_m^2">239.143378529464</SimpleData>
+            <SimpleData name="cover_area_m^2">26.8714437783527</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">14.455</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1220505,54.0641134977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.22">
+        <name>Sorbus torminalis</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">66c34ee7-f321-4c0c-8597-a10c12804fc8</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus</SimpleData>
+            <SimpleData name="German_genus">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_species">Sorbus torminalis</SimpleData>
+            <SimpleData name="German-species">Elsbeere</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Sorbus torminalis</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.77522243887577</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.50164818487946</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">22.3930272598766</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.60386870655286</SimpleData>
+            <SimpleData name="volume_m^2">11.9991319882913</SimpleData>
+            <SimpleData name="cover_area_m^2">1.77103144532069</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.82</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1194616,54.063101697759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.23">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">45c1595f-94fd-4524-a7f4-9f6c6101fcdf</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus species</SimpleData>
+            <SimpleData name="German-species">Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">25.46</SimpleData>
+            <SimpleData name="trunk_circumference">80</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.18393376335647</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.33430220022443</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">73.6321150322395</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.2704952148247</SimpleData>
+            <SimpleData name="volume_m^2">388.004020023225</SimpleData>
+            <SimpleData name="cover_area_m^2">42.2481291809121</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.514</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1242548,54.0619356977587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.24">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">2d1dbb27-5be2-4424-954d-49b8f2a804f7</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">10.5</SimpleData>
+            <SimpleData name="trunk_circumference">33</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.09281473199628</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.30303480936093</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">37.9141281087677</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.4319822866601</SimpleData>
+            <SimpleData name="volume_m^2">134.572651529758</SimpleData>
+            <SimpleData name="cover_area_m^2">22.0871071006071</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">30.696</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1225549,54.0619215977587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.25">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">de616bd8-7502-4047-a0cb-eceb21097f4b</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">Crataegus species</SimpleData>
+            <SimpleData name="German-species">Weißdorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">15.92</SimpleData>
+            <SimpleData name="trunk_circumference">50</SimpleData>
+            <SimpleData name="crown_diameter">4.8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.27657554529223</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.04438091378719</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">52.0824258843735</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.2182966524237</SimpleData>
+            <SimpleData name="volume_m^2">105.452720754727</SimpleData>
+            <SimpleData name="cover_area_m^2">19.9850679383928</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.407</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1290929,54.0622193977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.26">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">9ad56a73-3871-4db1-bedd-7b272a95974e</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">Crataegus species</SimpleData>
+            <SimpleData name="German-species">Weißdorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">2.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.85787076612541</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.69309383753822</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">36.14946300855</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.842200488956</SimpleData>
+            <SimpleData name="volume_m^2">13.1883883050149</SimpleData>
+            <SimpleData name="cover_area_m^2">2.25139625498057</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.456</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1284989,54.0622681977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.27">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">b4362b4f-871f-48f6-8fda-eb887949489b</SimpleData>
+            <SimpleData name="botanical_genus">Populus</SimpleData>
+            <SimpleData name="German_genus">Pappel</SimpleData>
+            <SimpleData name="botanical_species">Populus species</SimpleData>
+            <SimpleData name="German-species">Pappel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">32</SimpleData>
+            <SimpleData name="trunk_circumference">100.53</SimpleData>
+            <SimpleData name="crown_diameter">5.3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.1087899577874</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.16736833575168</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">99.9022154853458</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.8908349441671</SimpleData>
+            <SimpleData name="volume_m^2">295.881961197765</SimpleData>
+            <SimpleData name="cover_area_m^2">20.9714626189081</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.721</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1221026,54.0642484977592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.28">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">1810e4a0-41ac-4b2a-8e7a-aa1180d2c53f</SimpleData>
+            <SimpleData name="botanical_genus">Populus</SimpleData>
+            <SimpleData name="German_genus">Pappel</SimpleData>
+            <SimpleData name="botanical_species">Populus species</SimpleData>
+            <SimpleData name="German-species">Pappel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">7.1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.6215840790201</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.74864721578996</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">113.722468103742</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">30.2504338793791</SimpleData>
+            <SimpleData name="volume_m^2">451.478629689036</SimpleData>
+            <SimpleData name="cover_area_m^2">35.7703618549351</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.511</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.122144,54.0642625977592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.29">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">4c0224c6-8297-4476-afa8-44158cefd5ef</SimpleData>
+            <SimpleData name="botanical_genus">Populus</SimpleData>
+            <SimpleData name="German_genus">Pappel</SimpleData>
+            <SimpleData name="botanical_species">Populus species</SimpleData>
+            <SimpleData name="German-species">Pappel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">34</SimpleData>
+            <SimpleData name="trunk_circumference">106.81</SimpleData>
+            <SimpleData name="crown_diameter">5.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.0712003707967</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.94539749177759</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">109.162441159383</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.5702732000983</SimpleData>
+            <SimpleData name="volume_m^2">270.28592907543</SimpleData>
+            <SimpleData name="cover_area_m^2">19.2084486009011</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.544</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.122066,54.0642712977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.30">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">e031e1c4-c946-4609-b4bc-70d776197f58</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">21.01</SimpleData>
+            <SimpleData name="trunk_circumference">66</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.80921593685791</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.62259116144601</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">62.8133581339162</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">22.7071811771525</SimpleData>
+            <SimpleData name="volume_m^2">193.896658335972</SimpleData>
+            <SimpleData name="cover_area_m^2">24.8292094755402</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">33.474</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1226367,54.0619971977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.31">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">40cd561f-03e2-43f5-a2c4-6de69596bafe</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus species</SimpleData>
+            <SimpleData name="German-species">Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">30.56</SimpleData>
+            <SimpleData name="trunk_circumference">96</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.67001483295789</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.61163091308144</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">94.385823686611</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">31.0405314427725</SimpleData>
+            <SimpleData name="volume_m^2">701.634915440505</SimpleData>
+            <SimpleData name="cover_area_m^2">72.5577910231485</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.073</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1241847,54.0618880977587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.32">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">967d3743-1aae-4be7-87a6-6108cae874e2</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">Crataegus species</SimpleData>
+            <SimpleData name="German-species">Weißdorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">18.46</SimpleData>
+            <SimpleData name="trunk_circumference">58</SimpleData>
+            <SimpleData name="crown_diameter">3.9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.33090016900897</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.56912567203109</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">55.4228765195731</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">17.6637728894031</SimpleData>
+            <SimpleData name="volume_m^2">87.4090977973173</SimpleData>
+            <SimpleData name="cover_area_m^2">16.3966863055263</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.55</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1284085,54.0622764977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.33">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">0cbe2bae-02fd-4928-9718-7946cb98c54b</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">Crataegus species</SimpleData>
+            <SimpleData name="German-species">Weißdorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4.5</SimpleData>
+            <SimpleData name="trunk_diameter">17.83</SimpleData>
+            <SimpleData name="trunk_circumference">56</SimpleData>
+            <SimpleData name="crown_diameter">4.3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">4.0908002086478</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.09013938768098</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">57.7760953617649</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">18.7676619093997</SimpleData>
+            <SimpleData name="volume_m^2">53.7494924873066</SimpleData>
+            <SimpleData name="cover_area_m^2">13.1391145364866</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.486</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1285956,54.0622604977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.34">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">1f460743-760e-4495-81ae-0e3f0fd91c1a</SimpleData>
+            <SimpleData name="botanical_genus">Populus</SimpleData>
+            <SimpleData name="German_genus">Pappel</SimpleData>
+            <SimpleData name="botanical_species">Populus species</SimpleData>
+            <SimpleData name="German-species">Pappel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">32</SimpleData>
+            <SimpleData name="trunk_circumference">100.53</SimpleData>
+            <SimpleData name="crown_diameter">4.8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">13.6194949471422</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.47318221334713</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">98.2460962407553</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">34.4043368038343</SimpleData>
+            <SimpleData name="volume_m^2">214.034638236677</SimpleData>
+            <SimpleData name="cover_area_m^2">15.7153138987425</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.699</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1220928,54.0642604977591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.35">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">e37b9b47-38dd-4bd7-bc06-f2e372d54368</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">Crataegus species</SimpleData>
+            <SimpleData name="German-species">Weißdorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">18.14</SimpleData>
+            <SimpleData name="trunk_circumference">57</SimpleData>
+            <SimpleData name="crown_diameter">4.8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.30137384533022</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.46285224784012</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">57.2339210125966</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.327411199274</SimpleData>
+            <SimpleData name="volume_m^2">98.5712230172842</SimpleData>
+            <SimpleData name="cover_area_m^2">15.6428146364197</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.444</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1286822,54.0622529977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.36">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">267eabcc-9791-4062-b361-149e05529d97</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">Crataegus species</SimpleData>
+            <SimpleData name="German-species">Weißdorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">2.9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.54424232387126</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.86525866371551</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">53.9952904792766</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.1276015627744</SimpleData>
+            <SimpleData name="volume_m^2">35.7486588980574</SimpleData>
+            <SimpleData name="cover_area_m^2">6.44788896476227</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.437</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128314,54.0622831977588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Rote_Burg_invalidated.37">
+        <name>Sorbus torminalis</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Rote_Burg_invalidated.schema">
+            <SimpleData name="uuid">cd58194a-309f-4102-b981-72d7d1453afe</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus</SimpleData>
+            <SimpleData name="German_genus">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_species">Sorbus torminalis</SimpleData>
+            <SimpleData name="German-species">Elsbeere</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Sorbus torminalis</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.89671625090079</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.19402935929828</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">18.9477557677378</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">4.9814623981528</SimpleData>
+            <SimpleData name="volume_m^2">6.60283010193683</SimpleData>
+            <SimpleData name="cover_area_m^2">1.11974696101889</SimpleData>
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">14.236</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1199466,54.0631457977589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

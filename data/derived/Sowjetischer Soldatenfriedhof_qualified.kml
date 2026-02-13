@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Sowjetischer_Soldatenfriedhof_qualified" name="Sowjetischer_Soldatenfriedhof_qualified">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Sowjetischer_Soldatenfriedhof_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Sowjetischer_Soldatenfriedhof_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Sowjetischer_Soldatenfriedhof_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Folder>
+      <name>Sowjetischer_Soldatenfriedhof_qualified</name>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.1">
+        <name>4ce5628a-5b72-44ed-a6ee-739420196b57</name>
+        <description>Betula</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified">
+            <SimpleData name="uuid">Birke</SimpleData>
+            <SimpleData name="botanical_genus">Betula pendula</SimpleData>
+            <SimpleData name="German_genus">Sand-Birke</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">17</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">110</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">109.242127986176</SimpleData>
+            <SimpleData name="crown_diameter_standardized">36.3840267225113</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2039.49221914606</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">109.118233892542</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">0.9766990616761393</SimpleData>
+            <SimpleData name="type">Betula pendula</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408955,54.0764655977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.2">
+        <name>a63870b1-2db1-4cea-b7e2-5910cb8c9d4e</name>
+        <description>Ailanthus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified">
+            <SimpleData name="uuid">Götterbaum</SimpleData>
+            <SimpleData name="botanical_genus">Ailanthus altissima</SimpleData>
+            <SimpleData name="German_genus">Götterbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">15</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">141</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">146.61022827356</SimpleData>
+            <SimpleData name="crown_diameter_standardized">43.188206901316</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1351.90205422652</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">90.2424934278326</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.918409230143995</SimpleData>
+            <SimpleData name="type">Ailanthus altissima</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408162,54.0761691977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.3">
+        <name>12769526-3a38-4dc1-8e93-61b04035d423</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia cordata</SimpleData>
+            <SimpleData name="German_genus">Winter-Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">14</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">204</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">211.441281147889</SimpleData>
+            <SimpleData name="crown_diameter_standardized">64.0148944125181</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1773.61841353817</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">130.755890830623</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.768524696333129</SimpleData>
+            <SimpleData name="type">Tilia cordata</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.140413,54.0761595977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.4">
+        <name>917ec77b-806f-4f8f-8cb3-0618d25de837</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia cordata</SimpleData>
+            <SimpleData name="German_genus">Winter-Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">22</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">132</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">130.920488114626</SimpleData>
+            <SimpleData name="crown_diameter_standardized">41.9048412747554</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1508.82792918859</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">71.2410024782477</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.213627413212292</SimpleData>
+            <SimpleData name="type">Tilia cordata</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.140596,54.0760716977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.5">
+        <name>55e7e408-0e62-4ddc-a029-3a4999c3ceb1</name>
+        <description>Betula</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified">
+            <SimpleData name="uuid">Birke</SimpleData>
+            <SimpleData name="botanical_genus">Betula pendula</SimpleData>
+            <SimpleData name="German_genus">Sand-Birke</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">141</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">141.583538221737</SimpleData>
+            <SimpleData name="crown_diameter_standardized">44.9758849669655</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1537.73989021265</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">58.8750433083985</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">0.9398194481640704</SimpleData>
+            <SimpleData name="type">Betula pendula</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408927,54.0762239977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.6">
+        <name>72f9e363-e7a7-49c0-944e-959baa6c345c</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus robur</SimpleData>
+            <SimpleData name="German_genus">Stiel-Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">188</SimpleData>
+            <SimpleData name="trunk_diameter">14</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">189.632314686971</SimpleData>
+            <SimpleData name="crown_diameter_standardized">61.8573666864149</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">4194.66423611159</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">163.847894476303</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">11.2229440474254</SimpleData>
+            <SimpleData name="type">Quercus robur</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1405846,54.0761856977611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.7">
+        <name>63763014-0fd1-43f1-a954-e8f858d6e1f0</name>
+        <description>Fagus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified">
+            <SimpleData name="uuid">Buche</SimpleData>
+            <SimpleData name="botanical_genus">Fagus sylvatica „Purpurea“</SimpleData>
+            <SimpleData name="German_genus">Blutbuche „Purpurea“</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">15</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">157</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">154.987586760054</SimpleData>
+            <SimpleData name="crown_diameter_standardized">47.61452518166</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1753.07315654882</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">112.046098501667</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.10973563352845</SimpleData>
+            <SimpleData name="type">Fagus sylvatica</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1410536,54.0764957977613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Document id="Sowjetischer_Soldatenfriedhof_qualified">
+      <name>Sowjetischer Soldatenfriedhof_qualified</name>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.1">
+        <name>Betula pendula</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified.schema">
+            <SimpleData name="uuid">4ce5628a-5b72-44ed-a6ee-739420196b57</SimpleData>
+            <SimpleData name="botanical_genus">Betula</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">Betula pendula</SimpleData>
+            <SimpleData name="German-species">Sand-Birke</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">35.01</SimpleData>
+            <SimpleData name="trunk_circumference">110</SimpleData>
+            <SimpleData name="crown_diameter">11</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">17.4407882318276</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.0936603234138</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">95.4119370142016</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">38.8665859257591</SimpleData>
+            <SimpleData name="volume_m^2">1685.79871482114</SimpleData>
+            <SimpleData name="cover_area_m^2">96.6584016968191</SimpleData>
+            <SimpleData name="designation">Sowjetischer Soldatenfriedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">0.977</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408955,54.0764655977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.2">
+        <name>Ailanthus altissima</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified.schema">
+            <SimpleData name="uuid">a63870b1-2db1-4cea-b7e2-5910cb8c9d4e</SimpleData>
+            <SimpleData name="botanical_genus">Ailanthus</SimpleData>
+            <SimpleData name="German_genus">Götterbaum</SimpleData>
+            <SimpleData name="botanical_species">Ailanthus altissima</SimpleData>
+            <SimpleData name="German-species">Götterbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">44.88</SimpleData>
+            <SimpleData name="trunk_circumference">141</SimpleData>
+            <SimpleData name="crown_diameter">11</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Ailanthus altissima</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.6105058114784</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.4958681519677</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">151.237314395287</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">42.646402440773</SimpleData>
+            <SimpleData name="volume_m^2">1264.13037171247</SimpleData>
+            <SimpleData name="cover_area_m^2">86.5220128600428</SimpleData>
+            <SimpleData name="designation">Sowjetischer Soldatenfriedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">2.918</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408162,54.0761691977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.3">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified.schema">
+            <SimpleData name="uuid">12769526-3a38-4dc1-8e93-61b04035d423</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">64.94</SimpleData>
+            <SimpleData name="trunk_circumference">204</SimpleData>
+            <SimpleData name="crown_diameter">13</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">13.3761794502881</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.4121772772958</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">212.705639960886</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">64.5685525317291</SimpleData>
+            <SimpleData name="volume_m^2">1618.51939280997</SimpleData>
+            <SimpleData name="cover_area_m^2">121.000125545947</SimpleData>
+            <SimpleData name="designation">Sowjetischer Soldatenfriedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">4.769</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.140413,54.0761595977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.4">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified.schema">
+            <SimpleData name="uuid">917ec77b-806f-4f8f-8cb3-0618d25de837</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">42.02</SimpleData>
+            <SimpleData name="trunk_circumference">132</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">22.3750316179327</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.97878388276815</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">131.729142589874</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.9390514501929</SimpleData>
+            <SimpleData name="volume_m^2">1749.88203646292</SimpleData>
+            <SimpleData name="cover_area_m^2">78.206907875851</SimpleData>
+            <SimpleData name="designation">Sowjetischer Soldatenfriedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">4.214</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.140596,54.0760716977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.5">
+        <name>Betula pendula</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified.schema">
+            <SimpleData name="uuid">55e7e408-0e62-4ddc-a029-3a4999c3ceb1</SimpleData>
+            <SimpleData name="botanical_genus">Betula</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">Betula pendula</SimpleData>
+            <SimpleData name="German-species">Sand-Birke</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">44.88</SimpleData>
+            <SimpleData name="trunk_circumference">141</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">25.2498653041526</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.02133195294575</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">149.212066852326</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">46.4813371535523</SimpleData>
+            <SimpleData name="volume_m^2">1275.97429659455</SimpleData>
+            <SimpleData name="cover_area_m^2">50.5339050812561</SimpleData>
+            <SimpleData name="designation">Sowjetischer Soldatenfriedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">0.94</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408927,54.0762239977612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.6">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified.schema">
+            <SimpleData name="uuid">72f9e363-e7a7-49c0-944e-959baa6c345c</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur</SimpleData>
+            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">59.84</SimpleData>
+            <SimpleData name="trunk_circumference">188</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">25.0072077138606</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.9140071633743</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">188.851630193705</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">58.4447850099365</SimpleData>
+            <SimpleData name="volume_m^2">3802.41511824432</SimpleData>
+            <SimpleData name="cover_area_m^2">152.052766616434</SimpleData>
+            <SimpleData name="designation">Sowjetischer Soldatenfriedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">11.223</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1405846,54.0761856977611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Sowjetischer_Soldatenfriedhof_qualified.7">
+        <name>Fagus sylvatica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Sowjetischer_Soldatenfriedhof_qualified.schema">
+            <SimpleData name="uuid">63763014-0fd1-43f1-a954-e8f858d6e1f0</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus sylvatica „Purpurea“</SimpleData>
+            <SimpleData name="German-species">Blutbuche „Purpurea“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">49.97</SimpleData>
+            <SimpleData name="trunk_circumference">157</SimpleData>
+            <SimpleData name="crown_diameter">11</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
+            <SimpleData name="botanical_species_common_name">Purpurea</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.6888665033887</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.9425201493903</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">149.839232516561</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">51.4521194505456</SimpleData>
+            <SimpleData name="volume_m^2">1381.37908178204</SimpleData>
+            <SimpleData name="cover_area_m^2">94.0425921539527</SimpleData>
+            <SimpleData name="designation">Sowjetischer Soldatenfriedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">4.11</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1410536,54.0764957977613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

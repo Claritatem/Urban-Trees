@@ -1,0 +1,2707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Jüdischer_Friedhof_invalidated" name="Jüdischer_Friedhof_invalidated">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="J__discher_Friedhof_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="J__discher_Friedhof_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="J__discher_Friedhof_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Folder>
+      <name>Jüdischer_Friedhof_invalidated</name>
+      <Placemark id="Jüdischer_Friedhof_invalidated.1">
+        <name>2050e33c-7e2b-4194-90ad-f39bd3390e19</name>
+        <description>Ulmus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Ulme</SimpleData>
+            <SimpleData name="botanical_genus">Ulmus species</SimpleData>
+            <SimpleData name="German_genus">Ulme</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">10</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">62.83</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">57.4949330254426</SimpleData>
+            <SimpleData name="crown_diameter_standardized">19.792903728874</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">128.805712518351</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.3285727167009</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.016689213354201</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1189705,54.0817464977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.2">
+        <name>410ef78a-956f-465e-9b51-56fddf2d034c</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">15</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">122.52</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">122.244377425474</SimpleData>
+            <SimpleData name="crown_diameter_standardized">38.7551756201871</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">252.462922960359</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">18.2993921307965</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">7.71096185436817</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1190394,54.0818027977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.3">
+        <name>8b23091c-f02f-4c49-a465-7e07871585f3</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">23</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">150.8</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">151.84907069582</SimpleData>
+            <SimpleData name="crown_diameter_standardized">46.8558389604931</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1159.79997123774</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.982110022234</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">9.321745693937384</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1190247,54.0818146977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.4">
+        <name>c7a17653-acc7-4021-b183-ec420bf7f468</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">197.92</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">194.772791883076</SimpleData>
+            <SimpleData name="crown_diameter_standardized">63.217035315332</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2919.37133283665</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">115.260146500749</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.711366958135004</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119164,54.0818479977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.5">
+        <name>10df9587-d098-4437-a0f4-5e7008af5b1f</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">245.04</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">243.758337805539</SimpleData>
+            <SimpleData name="crown_diameter_standardized">79.9786297945896</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2716.451940292</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">109.990518990901</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.633192297024166</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1193001,54.0818856977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.6">
+        <name>919d5266-06ad-4e0d-88c0-e1ad673e6200</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">204.2</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">203.394994658064</SimpleData>
+            <SimpleData name="crown_diameter_standardized">64.6450449271715</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2638.97251217602</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">105.835937502387</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.732078651937432</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1195144,54.0819434977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.7">
+        <name>1b7807e5-5f1a-4a0a-b47c-525d49da0d22</name>
+        <description>Ulmus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Ulme</SimpleData>
+            <SimpleData name="botanical_genus">Ulmus species</SimpleData>
+            <SimpleData name="German_genus">Ulme</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">56.55</SimpleData>
+            <SimpleData name="trunk_diameter">2</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">51.5200405943973</SimpleData>
+            <SimpleData name="crown_diameter_standardized">18.3290572990879</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">6.16558723305631</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.993091558551303</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.834841955960813</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1195422,54.0818863977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.8">
+        <name>d62b26b2-0cbe-4a37-a27e-7448e8ef92d4</name>
+        <description>Ulmus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Ulme</SimpleData>
+            <SimpleData name="botanical_genus">Ulmus species</SimpleData>
+            <SimpleData name="German_genus">Ulme</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">10</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">81.68</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">75.7988769886903</SimpleData>
+            <SimpleData name="crown_diameter_standardized">25.3506198701782</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">117.745042069251</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.5467351972982</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.255155819686189</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1189268,54.0817165977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.9">
+        <name>dbca7458-7b8d-49aa-b3ff-7f28771d972a</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">13</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">81.68</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">86.3807138187996</SimpleData>
+            <SimpleData name="crown_diameter_standardized">28.6310896204232</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">376.571714357741</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">29.277769062864</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.363909232262641</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.118994,54.0817266977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.10">
+        <name>2287fc9f-e92f-4f3b-9510-77c6fcd23eb2</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">150.8</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">148.944617197674</SimpleData>
+            <SimpleData name="crown_diameter_standardized">48.3021379209579</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1416.15444354076</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">55.030928185207</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.618731419185734</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119441,54.0820277977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.11">
+        <name>ac6094bb-bc0a-4a19-9310-a9f668dd99ca</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">188.5</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">185.624729274948</SimpleData>
+            <SimpleData name="crown_diameter_standardized">58.7762325050054</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1395.47803869318</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">56.6371888433166</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.457387087194475</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1194622,54.0820071977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.12">
+        <name>d9190181-0b08-4773-8d25-60f1f200f470</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">172.79</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">179.447050415983</SimpleData>
+            <SimpleData name="crown_diameter_standardized">55.171690363122</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1364.09239000277</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">55.7995227891378</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">10.83232961265299</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1193559,54.0820029977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.13">
+        <name>3a2c04ef-7171-4379-92af-a81dbe8f4c64</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">157.08</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">154.756080121414</SimpleData>
+            <SimpleData name="crown_diameter_standardized">49.9623930943664</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1363.59668726709</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">54.5376597273506</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">10.45543485475434</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119381,54.0819821977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.14">
+        <name>e2782263-63a3-4ac3-8a4d-499c09f5f066</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">172.79</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">171.381052572821</SimpleData>
+            <SimpleData name="crown_diameter_standardized">52.658390811703</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1257.12190037585</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">50.7091795980374</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.25280162626652</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1192938,54.0819870977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.15">
+        <name>3b4203f5-3d8f-492e-acf5-3d5f5a9a15f9</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">157.08</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">157.962072705943</SimpleData>
+            <SimpleData name="crown_diameter_standardized">51.2709101870459</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1226.65935314212</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.917618475518</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.56468771977782</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1193113,54.0819614977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.16">
+        <name>c649c39d-82b6-4bdd-918b-91b46e0794c6</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">157.08</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">142.953088294739</SimpleData>
+            <SimpleData name="crown_diameter_standardized">48.5095922156275</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1470.58695741522</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">58.3882389920566</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.26571894505965</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1192176,54.0819678977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.17">
+        <name>2eacb266-02a3-44b3-b5c3-0dea91b95c01</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">150.8</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">150.939941378675</SimpleData>
+            <SimpleData name="crown_diameter_standardized">51.3971118409293</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">80.350142821742</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">48.3970324639664</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">16.03788979684791</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119241,54.0819427977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.18">
+        <name>a078f17d-cdb2-4272-b4f3-9d2605851bd4</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">157.08</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">146.326499251935</SimpleData>
+            <SimpleData name="crown_diameter_standardized">51.2955820413245</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">972.076217389516</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">39.9518764258004</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.12059500618926</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1191491,54.0819499977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.19">
+        <name>d5d74e22-d816-44f1-8cf1-670387981dcc</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">169.65</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">168.569524895081</SimpleData>
+            <SimpleData name="crown_diameter_standardized">53.6458047412306</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">103.857686933351</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">47.6705319978192</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.9566665345592</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1191756,54.0819234977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.20">
+        <name>dc1d47d0-10ca-49a9-924b-ac9edf0b02b8</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">172.79</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">177.494700620346</SimpleData>
+            <SimpleData name="crown_diameter_standardized">53.3190845309927</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1181.07022241103</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">46.1911244712685</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.18103126046564</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1190397,54.0819184977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.21">
+        <name>dfbee76b-b885-4ecd-a9b3-747d3874a6f5</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">135.09</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">136.727173991385</SimpleData>
+            <SimpleData name="crown_diameter_standardized">38.6161320373328</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1209.2263380221</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">48.0742688570198</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.54052551014088</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1190686,54.0818890977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.22">
+        <name>b9cac890-e97e-41fe-981e-91e59bfda51c</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">188.5</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">186.452151939663</SimpleData>
+            <SimpleData name="crown_diameter_standardized">59.683755874341</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1361.35449563421</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">53.7711659863441</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.99660060532813</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1188833,54.0818661977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.23">
+        <name>9a836f45-797e-4e82-995e-171a93a668f3</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">216.77</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">215.126020906634</SimpleData>
+            <SimpleData name="crown_diameter_standardized">70.1725594188028</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1249.55882547448</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.1372805452628</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.12273322553384</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1189086,54.0818396977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.24">
+        <name>040e487f-d1ee-44c0-abdf-475cbf00066f</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">191.64</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">189.180415723982</SimpleData>
+            <SimpleData name="crown_diameter_standardized">59.7585527185735</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1137.50206975175</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">46.9528525518636</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">16.27251673532436</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187245,54.0818185977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.25">
+        <name>8b724db4-d469-42c4-ae88-41d22ad7cbf6</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">219.91</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">210.374216107966</SimpleData>
+            <SimpleData name="crown_diameter_standardized">69.6385491458504</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1178.08864537454</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">47.2495890944388</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">14.50552434789387</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187516,54.0817891977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.26">
+        <name>0b0bffea-4c93-41c0-bdec-4c1f33a71c90</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">213.63</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">218.804284784935</SimpleData>
+            <SimpleData name="crown_diameter_standardized">69.3331842169629</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1344.32667973228</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">53.0756660449877</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">17.18465787943985</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1185053,54.0817475977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.27">
+        <name>b1163b17-5718-4b46-9ec0-700eb0b6d728</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">223.05</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">220.788845781317</SimpleData>
+            <SimpleData name="crown_diameter_standardized">70.9901839892993</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1043.52992938423</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.5861257839341</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">14.42016263632915</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1185274,54.0817249977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.28">
+        <name>85815dd9-e497-4192-a7e4-a04141aa228d</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">194.78</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">190.482407867086</SimpleData>
+            <SimpleData name="crown_diameter_standardized">62.9214927833156</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1914.63842688122</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">75.3104706616272</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">14.20304076387635</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183991,54.0817219977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.29">
+        <name>c827d215-ca11-4adc-b743-1d7716d436c7</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">235.62</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">233.921901395131</SimpleData>
+            <SimpleData name="crown_diameter_standardized">76.8026351493459</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1840.01809468576</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">74.8443999618862</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">13.88647490103827</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1184189,54.0816911977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.30">
+        <name>6ecd7add-e896-4726-b836-f6c6d6b37856</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">219.91</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">213.59716835773</SimpleData>
+            <SimpleData name="crown_diameter_standardized">68.4643068397124</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1707.0487964089</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">66.9853513121163</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">7.964403635882445</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1182859,54.0817310977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.31">
+        <name>9d1b1d47-999e-4f16-9db7-81313625d7a9</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">229.34</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">219.197842068168</SimpleData>
+            <SimpleData name="crown_diameter_standardized">73.9131709906788</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1904.16507443</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">75.9584554404331</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">7.871663174070469</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183537,54.0816461977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.32">
+        <name>a06d4662-acb2-4556-8b59-bdfb3af089ec</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">23</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">141.37</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">141.327191918666</SimpleData>
+            <SimpleData name="crown_diameter_standardized">46.3815924559344</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1017.30856411132</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.6874031793421</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.345012952721921</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1184292,54.0818440977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.33">
+        <name>c3c66b0a-4024-44ed-b28b-e3e7cdb3c349</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">207.35</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">212.606399993735</SimpleData>
+            <SimpleData name="crown_diameter_standardized">63.6948516140979</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1949.95790428224</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">77.4305898703346</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.888130135742772</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1185691,54.0818781977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.34">
+        <name>1346b4bf-ceb1-43ed-9d50-60cc96959e59</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">23</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">157.08</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">150.573874637222</SimpleData>
+            <SimpleData name="crown_diameter_standardized">51.226301714441</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1476.36460665668</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">62.8576514674726</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">6.243012005683351</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.118645,54.0818960977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.35">
+        <name>d7022e2d-306c-4038-bc05-f7f62a590d1a</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">13</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">72.26</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">68.0773543826288</SimpleData>
+            <SimpleData name="crown_diameter_standardized">22.2061887776636</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">341.715141702522</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">28.3915484685997</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">9.302279458796995</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1186502,54.0817086977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_invalidated.36">
+        <name>7bdfc588-fb2c-4d1d-b37b-38b522e5f119</name>
+        <description>Tilia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_invalidated">
+            <SimpleData name="uuid">Linde</SimpleData>
+            <SimpleData name="botanical_genus">Tilia species</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">13</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">78.54</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">82.7785811558268</SimpleData>
+            <SimpleData name="crown_diameter_standardized">24.7113842118933</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">311.738082198122</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.9566793045627</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.680973314681273</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187566,54.0816627977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Document id="J__discher_Friedhof_invalidated">
+      <name>Jüdischer Friedhof_invalidated</name>
+      <Placemark id="J__discher_Friedhof_invalidated.1">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">2050e33c-7e2b-4194-90ad-f39bd3390e19</SimpleData>
+            <SimpleData name="botanical_genus">Ulmus</SimpleData>
+            <SimpleData name="German_genus">Ulme</SimpleData>
+            <SimpleData name="botanical_species">Ulmus species</SimpleData>
+            <SimpleData name="German-species">Ulme</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">10.2081602184185</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.11826471945189</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">70.5855599242753</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">18.8354331183141</SimpleData>
+            <SimpleData name="volume_m^2">135.977132289128</SimpleData>
+            <SimpleData name="cover_area_m^2">13.3204347678425</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">4.017</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1189705,54.0817464977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.2">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">410ef78a-956f-465e-9b51-56fddf2d034c</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">39</SimpleData>
+            <SimpleData name="trunk_circumference">122.52</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.643799508637</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.99933210013924</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">137.741513055741</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">38.6040892809151</SimpleData>
+            <SimpleData name="volume_m^2">103.464834331448</SimpleData>
+            <SimpleData name="cover_area_m^2">7.06543641699165</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">7.711</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1190394,54.0818027977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.3">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">8b23091c-f02f-4c49-a465-7e07871585f3</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">48</SimpleData>
+            <SimpleData name="trunk_circumference">150.8</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">23.380333645051</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.99107855518957</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">148.263116008999</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">48.8680562848397</SimpleData>
+            <SimpleData name="volume_m^2">1172.60403876731</SimpleData>
+            <SimpleData name="cover_area_m^2">50.1534347870834</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">9.322</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1190247,54.0818146977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.4">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">c7a17653-acc7-4021-b183-ec420bf7f468</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">63</SimpleData>
+            <SimpleData name="trunk_circumference">197.92</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.3903214950725</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.89668952251</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">196.967010496599</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">62.5439241214859</SimpleData>
+            <SimpleData name="volume_m^2">2822.34653545485</SimpleData>
+            <SimpleData name="cover_area_m^2">111.15836150411</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">8.711</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119164,54.0818479977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.5">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">10df9587-d098-4437-a0f4-5e7008af5b1f</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">78</SimpleData>
+            <SimpleData name="trunk_circumference">245.04</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.0375565464789</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.9593073701222</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">243.040449323336</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">78.9139179122207</SimpleData>
+            <SimpleData name="volume_m^2">2700.17714031926</SimpleData>
+            <SimpleData name="cover_area_m^2">112.33159805982</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">8.633</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1193001,54.0818856977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.6">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">919d5266-06ad-4e0d-88c0-e1ad673e6200</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">65</SimpleData>
+            <SimpleData name="trunk_circumference">204.2</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.5506107046111</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.8798129233619</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">209.049235937534</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">66.0511057716727</SimpleData>
+            <SimpleData name="volume_m^2">2375.38506723401</SimpleData>
+            <SimpleData name="cover_area_m^2">92.9678391916218</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">4.732</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1195144,54.0819434977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.7">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">1b7807e5-5f1a-4a0a-b47c-525d49da0d22</SimpleData>
+            <SimpleData name="botanical_genus">Ulmus</SimpleData>
+            <SimpleData name="German_genus">Ulme</SimpleData>
+            <SimpleData name="botanical_species">Ulmus species</SimpleData>
+            <SimpleData name="German-species">Ulme</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">18</SimpleData>
+            <SimpleData name="trunk_circumference">56.55</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.99112671743716</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.67185351317663</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">52.1068613864172</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">19.1772804381401</SimpleData>
+            <SimpleData name="volume_m^2">33.5910573559597</SimpleData>
+            <SimpleData name="cover_area_m^2">5.60680134809918</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">1.835</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1195422,54.0818863977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.8">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">d62b26b2-0cbe-4a37-a27e-7448e8ef92d4</SimpleData>
+            <SimpleData name="botanical_genus">Ulmus</SimpleData>
+            <SimpleData name="German_genus">Ulme</SimpleData>
+            <SimpleData name="botanical_species">Ulmus species</SimpleData>
+            <SimpleData name="German-species">Ulme</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">26</SimpleData>
+            <SimpleData name="trunk_circumference">81.68</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.80429020822861</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.89573865739294</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">90.5641543508939</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">28.3439655797448</SimpleData>
+            <SimpleData name="volume_m^2">116.865324431752</SimpleData>
+            <SimpleData name="cover_area_m^2">11.9198148922264</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">2.255</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1189268,54.0817165977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.9">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">dbca7458-7b8d-49aa-b3ff-7f28771d972a</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">26</SimpleData>
+            <SimpleData name="trunk_circumference">81.68</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.7036651528244</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.43811824787932</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">86.6320675394998</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.1299639770171</SimpleData>
+            <SimpleData name="volume_m^2">295.06399136302</SimpleData>
+            <SimpleData name="cover_area_m^2">23.2266820491107</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">1.364</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.118994,54.0817266977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.10">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">2287fc9f-e92f-4f3b-9510-77c6fcd23eb2</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">48</SimpleData>
+            <SimpleData name="trunk_circumference">150.8</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.6650516081707</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.64775115851588</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">160.475744958479</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.5636477485236</SimpleData>
+            <SimpleData name="volume_m^2">1178.96122081718</SimpleData>
+            <SimpleData name="cover_area_m^2">45.9364445790495</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">4.619</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119441,54.0820277977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.11">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">ac6094bb-bc0a-4a19-9310-a9f668dd99ca</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">60</SimpleData>
+            <SimpleData name="trunk_circumference">188.5</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.3408138382729</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.69322771742833</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">186.467940022327</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">61.4327431708025</SimpleData>
+            <SimpleData name="volume_m^2">1177.95205745834</SimpleData>
+            <SimpleData name="cover_area_m^2">46.4843814794634</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">4.457</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1194622,54.0820071977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.12">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">d9190181-0b08-4773-8d25-60f1f200f470</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">55</SimpleData>
+            <SimpleData name="trunk_circumference">172.79</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.2502979913416</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.33113374604639</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">173.121828459237</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">53.9752841167402</SimpleData>
+            <SimpleData name="volume_m^2">1023.64470978632</SimpleData>
+            <SimpleData name="cover_area_m^2">42.211634271538</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">10.832</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1193559,54.0820029977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.13">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">3a2c04ef-7171-4379-92af-a81dbe8f4c64</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">50</SimpleData>
+            <SimpleData name="trunk_circumference">157.08</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.3569592786853</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.5461146932425</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">158.044074856342</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">48.842946526741</SimpleData>
+            <SimpleData name="volume_m^2">1454.53604668595</SimpleData>
+            <SimpleData name="cover_area_m^2">57.3624002270893</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">10.455</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119381,54.0819821977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.14">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">e2782263-63a3-4ac3-8a4d-499c09f5f066</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">55</SimpleData>
+            <SimpleData name="trunk_circumference">172.79</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.2259347011412</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.74196118413389</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">174.831335721307</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">52.8621933801208</SimpleData>
+            <SimpleData name="volume_m^2">1187.51506456119</SimpleData>
+            <SimpleData name="cover_area_m^2">47.075166039634</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">15.253</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1192938,54.0819870977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.15">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">3b4203f5-3d8f-492e-acf5-3d5f5a9a15f9</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">50</SimpleData>
+            <SimpleData name="trunk_circumference">157.08</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.3528514803413</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.98560392150515</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">149.359859362005</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">51.0939895741545</SimpleData>
+            <SimpleData name="volume_m^2">1269.79094349665</SimpleData>
+            <SimpleData name="cover_area_m^2">50.0847387711499</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">15.565</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1193113,54.0819614977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.16">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">c649c39d-82b6-4bdd-918b-91b46e0794c6</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">50</SimpleData>
+            <SimpleData name="trunk_circumference">157.08</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.946961885168</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.88520056774136</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">156.4139761309</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.3277082331109</SimpleData>
+            <SimpleData name="volume_m^2">1546.8279692546</SimpleData>
+            <SimpleData name="cover_area_m^2">62.0046631880354</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">15.266</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1192176,54.0819678977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.17">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">2eacb266-02a3-44b3-b5c3-0dea91b95c01</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2</SimpleData>
+            <SimpleData name="trunk_diameter">48</SimpleData>
+            <SimpleData name="trunk_circumference">150.8</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">1.95499401392357</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.77008973554964</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">156.838237534367</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">48.7679990626205</SimpleData>
+            <SimpleData name="volume_m^2">92.7016324834341</SimpleData>
+            <SimpleData name="cover_area_m^2">47.4178600155337</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">16.038</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.119241,54.0819427977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.18">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">a078f17d-cdb2-4272-b4f3-9d2605851bd4</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">50</SimpleData>
+            <SimpleData name="trunk_circumference">157.08</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.2314853069708</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.76060015848124</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">156.513700775988</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.9704156091702</SimpleData>
+            <SimpleData name="volume_m^2">1193.5024502216</SimpleData>
+            <SimpleData name="cover_area_m^2">47.3021082865804</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">15.121</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1191491,54.0819499977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.19">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">d5d74e22-d816-44f1-8cf1-670387981dcc</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2</SimpleData>
+            <SimpleData name="trunk_diameter">54</SimpleData>
+            <SimpleData name="trunk_circumference">169.65</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.58877069733729</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.49240201571664</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">170.45082585113</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">55.0205560599203</SimpleData>
+            <SimpleData name="volume_m^2">146.637333594069</SimpleData>
+            <SimpleData name="cover_area_m^2">56.6436161166746</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">15.957</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1191756,54.0819234977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.20">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">dc1d47d0-10ca-49a9-924b-ac9edf0b02b8</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">55</SimpleData>
+            <SimpleData name="trunk_circumference">172.79</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.2610741426596</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.21474817860972</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">170.56246949517</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">53.5455487824758</SimpleData>
+            <SimpleData name="volume_m^2">1617.95652938701</SimpleData>
+            <SimpleData name="cover_area_m^2">66.6894021209913</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">15.181</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1190397,54.0819184977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.21">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">dfbee76b-b885-4ecd-a9b3-747d3874a6f5</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">43</SimpleData>
+            <SimpleData name="trunk_circumference">135.09</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.1688159131441</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.26226814185548</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">128.427604427133</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.7310941406279</SimpleData>
+            <SimpleData name="volume_m^2">1349.43272006344</SimpleData>
+            <SimpleData name="cover_area_m^2">53.6152644097457</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">15.541</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1190686,54.0818890977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.22">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">b9cac890-e97e-41fe-981e-91e59bfda51c</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">60</SimpleData>
+            <SimpleData name="trunk_circumference">188.5</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.5245571598129</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.1751252902641</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">196.704080748055</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">61.2744621388636</SimpleData>
+            <SimpleData name="volume_m^2">1287.30035793634</SimpleData>
+            <SimpleData name="cover_area_m^2">52.4902590308857</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">15.997</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1188833,54.0818661977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.23">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">9a836f45-797e-4e82-995e-171a93a668f3</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">69</SimpleData>
+            <SimpleData name="trunk_circumference">216.77</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.587330467692</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.37408950801216</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">213.449084586954</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">67.5152730961708</SimpleData>
+            <SimpleData name="volume_m^2">1092.77731088272</SimpleData>
+            <SimpleData name="cover_area_m^2">42.7077499257892</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">15.123</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1189086,54.0818396977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.24">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">040e487f-d1ee-44c0-abdf-475cbf00066f</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">61</SimpleData>
+            <SimpleData name="trunk_circumference">191.64</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.8067830608798</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.41378950819784</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">187.95025143165</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">59.3077497690718</SimpleData>
+            <SimpleData name="volume_m^2">1114.04890272381</SimpleData>
+            <SimpleData name="cover_area_m^2">43.1688405368348</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">16.273</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187245,54.0818185977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.25">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">8b724db4-d469-42c4-ae88-41d22ad7cbf6</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">70</SimpleData>
+            <SimpleData name="trunk_circumference">219.91</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.0384720384024</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.44126766145926</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">212.251725403979</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">69.7694034221192</SimpleData>
+            <SimpleData name="volume_m^2">1088.90892334212</SimpleData>
+            <SimpleData name="cover_area_m^2">43.4894318499956</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">14.506</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187516,54.0817891977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.26">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">0b0bffea-4c93-41c0-bdec-4c1f33a71c90</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">68</SimpleData>
+            <SimpleData name="trunk_circumference">213.63</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.6778863596227</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.79995733700191</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">215.953379369835</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">69.208543573643</SimpleData>
+            <SimpleData name="volume_m^2">1561.74558608033</SimpleData>
+            <SimpleData name="cover_area_m^2">60.8206440439779</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">17.185</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1185053,54.0817475977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.27">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">b1163b17-5718-4b46-9ec0-700eb0b6d728</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">71</SimpleData>
+            <SimpleData name="trunk_circumference">223.05</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.0797884560158</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.92022092015084</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">227.293576315159</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">72.8211069447901</SimpleData>
+            <SimpleData name="volume_m^2">1186.36176063094</SimpleData>
+            <SimpleData name="cover_area_m^2">49.2679477977123</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">14.42</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1185274,54.0817249977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.28">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">85815dd9-e497-4192-a7e4-a04141aa228d</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">62</SimpleData>
+            <SimpleData name="trunk_circumference">194.78</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.0912556311668</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.39567953038882</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">198.612574721493</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">63.849574931239</SimpleData>
+            <SimpleData name="volume_m^2">1739.67718184187</SimpleData>
+            <SimpleData name="cover_area_m^2">69.3340025471245</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">14.203</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183991,54.0817219977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.29">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">c827d215-ca11-4adc-b743-1d7716d436c7</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">75</SimpleData>
+            <SimpleData name="trunk_circumference">235.62</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.5842676848361</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.87620607686114</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">237.689168603614</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">74.0392328830609</SimpleData>
+            <SimpleData name="volume_m^2">1883.33442189202</SimpleData>
+            <SimpleData name="cover_area_m^2">76.6073021184065</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">13.886</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1184189,54.0816911977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.30">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">6ecd7add-e896-4726-b836-f6c6d6b37856</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">70</SimpleData>
+            <SimpleData name="trunk_circumference">219.91</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.4434596688944</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.3765905430404</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">219.742709975777</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">68.9202858394993</SimpleData>
+            <SimpleData name="volume_m^2">1687.88346836261</SimpleData>
+            <SimpleData name="cover_area_m^2">69.0525601214518</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">7.964</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1182859,54.0817310977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.31">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">9d1b1d47-999e-4f16-9db7-81313625d7a9</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">73</SimpleData>
+            <SimpleData name="trunk_circumference">229.34</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.2664338100539</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.4200803614315</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">224.442748713602</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">75.2033746290829</SimpleData>
+            <SimpleData name="volume_m^2">2154.64619360282</SimpleData>
+            <SimpleData name="cover_area_m^2">85.2770204849984</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">7.872</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183537,54.0816461977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.32">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">a06d4662-acb2-4556-8b59-bdfb3af089ec</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">45</SimpleData>
+            <SimpleData name="trunk_circumference">141.37</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">22.3400737234115</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.5602557788128</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">147.403660575714</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.4402090477455</SimpleData>
+            <SimpleData name="volume_m^2">1285.72463830757</SimpleData>
+            <SimpleData name="cover_area_m^2">57.5523901230542</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">5.345</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1184292,54.0818440977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.33">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">c3c66b0a-4024-44ed-b28b-e3e7cdb3c349</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">66</SimpleData>
+            <SimpleData name="trunk_circumference">207.35</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">25.5632712521388</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.91693030107561</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">203.227647964716</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">66.1473668941467</SimpleData>
+            <SimpleData name="volume_m^2">1596.38285086219</SimpleData>
+            <SimpleData name="cover_area_m^2">62.4483007325845</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">5.888</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1185691,54.0818781977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.34">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">1346b4bf-ceb1-43ed-9d50-60cc96959e59</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">50</SimpleData>
+            <SimpleData name="trunk_circumference">157.08</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">23.4228607288986</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.86616943558386</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">153.752767731591</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">48.8725224422312</SimpleData>
+            <SimpleData name="volume_m^2">1446.11180238856</SimpleData>
+            <SimpleData name="cover_area_m^2">61.7393331722448</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">6.243</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.118645,54.0818960977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.35">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">d7022e2d-306c-4038-bc05-f7f62a590d1a</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">23</SimpleData>
+            <SimpleData name="trunk_circumference">72.26</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">13.6144512238058</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.69258474087756</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">78.5775903313344</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">27.4255961423439</SimpleData>
+            <SimpleData name="volume_m^2">346.504620672088</SimpleData>
+            <SimpleData name="cover_area_m^2">25.4512367025268</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">9.302</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1186502,54.0817086977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_invalidated.36">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_invalidated.schema">
+            <SimpleData name="uuid">7bdfc588-fb2c-4d1d-b37b-38b522e5f119</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">25</SimpleData>
+            <SimpleData name="trunk_circumference">78.54</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.6460535133769</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.70585674613007</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">82.7980065495532</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.9555696080995</SimpleData>
+            <SimpleData name="volume_m^2">323.360244342914</SimpleData>
+            <SimpleData name="cover_area_m^2">25.5700518743548</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">1.681</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187566,54.0816627977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

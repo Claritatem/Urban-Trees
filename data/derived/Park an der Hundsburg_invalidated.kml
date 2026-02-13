@@ -1,0 +1,2911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Park_an_der_Hundsburg_invalidated" name="Park_an_der_Hundsburg_invalidated">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Park_an_der_Hundsburg_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Park_an_der_Hundsburg_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Park_an_der_Hundsburg_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Folder>
+      <name>Park_an_der_Hundsburg_invalidated</name>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.1">
+        <name>025c5437-997e-4a47-bc42-9d2847093d29</name>
+        <description>Alnus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Erle</SimpleData>
+            <SimpleData name="botanical_genus">Alnus species</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">95</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">99.999612934989</SimpleData>
+            <SimpleData name="crown_diameter_standardized">29.8689682097264</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">100.114880704853</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.9716044950527</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">11.77620508571198</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0885721,54.1355487977712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.2">
+        <name>c1907fb8-7970-4933-a0fe-0a2172366fa4</name>
+        <description>Betula</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Birke</SimpleData>
+            <SimpleData name="botanical_genus">Betula species</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">40</SimpleData>
+            <SimpleData name="trunk_diameter">3</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">36.7794586262194</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.5051051341917</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">31.9481422575931</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.81938246548907</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.333942558919054</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0880208,54.1343898977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.3">
+        <name>c5acdfc7-ce1c-4ab1-b0d7-7c873fa17167</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">45</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">47.5004682307506</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.4077124610593</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">235.738217735196</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">27.0182628019333</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">25.00213063808198</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0856395,54.134497197771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.4">
+        <name>11f159d0-8d16-42e7-bdb3-a1b4289f21c3</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus species</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18.85</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">17.6485998895624</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.9112239952012</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2.89912492236829</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.0155595588062</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">48.11760237254489</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0858841,54.134252297771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.5">
+        <name>a783e4f2-c716-4bb2-a6f8-328a1e8a19d8</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">0</SimpleData>
+            <SimpleData name="height_standardized">12.9132923845119</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.41084207358504</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1.06309955794775</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.643946485206806</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">41.07737213958316</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0858854,54.134316797771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.6">
+        <name>8cc13312-2f0a-49d4-9827-d35a74c870f8</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">18.9849124162287</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.98301360696693</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">3.33304549276074</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.93505184915081</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">54.2202027416613</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0865222,54.1341331977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.7">
+        <name>40cb7774-536f-47b8-b304-d2a101be359a</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">15.7914809795396</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.02516024896935</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1.58156307967674</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.34715735005522</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">49.26326015887233</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0866171,54.134170597771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.8">
+        <name>d4bad153-9f04-4766-89f5-d60299e0aee8</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">0</SimpleData>
+            <SimpleData name="height_standardized">16.3214784810144</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.87124206774869</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1.00039264438763</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.369354753440358</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">56.5432362788975</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0866273,54.134103797771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.9">
+        <name>8c72b191-90bf-4bdb-b701-3816374dbd02</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus species</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">94</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">82.3926304656418</SimpleData>
+            <SimpleData name="crown_diameter_standardized">30.7536344459348</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">216.400316122577</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.8379776932761</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">9.921765248934896</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0849428,54.1347360977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.10">
+        <name>9e62fdfd-8c16-4635-a2f9-c09418c1cf89</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus species</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">83</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">75.403352164625</SimpleData>
+            <SimpleData name="crown_diameter_standardized">24.524467616167</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">192.725192412571</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.5722247508942</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">9.81698801539099</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0848163,54.1347667977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.11">
+        <name>d83b866a-21a5-43ca-bb89-a2e5394dae59</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus species</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">54</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">53.601231064334</SimpleData>
+            <SimpleData name="crown_diameter_standardized">18.4358769626222</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">164.554373579146</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.0167783908159</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">9.608199593077465</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0845948,54.1348207977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.12">
+        <name>10a6415f-b0c0-4d58-8070-d612bc4a4a4d</name>
+        <description>Alnus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Erle</SimpleData>
+            <SimpleData name="botanical_genus">Alnus species</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">3</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">30</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">28.7080055674171</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.19059386365041</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">3.26176999037195</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.459985638179</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">51.9155706998074</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0870285,54.134108497771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.13">
+        <name>7d00c57a-02f0-42a2-961b-d0fcadf67595</name>
+        <description>Alnus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Erle</SimpleData>
+            <SimpleData name="botanical_genus">Alnus species</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">3</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">19</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">0</SimpleData>
+            <SimpleData name="height_standardized">17.8650350908162</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.73301260018542</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">0.0340521204445824</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.0128514433441975</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">48.4039847134708</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.086914,54.134150897771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.14">
+        <name>84d04012-c06c-47c1-934f-e80660887253</name>
+        <description>Hippophae</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Sanddorn</SimpleData>
+            <SimpleData name="botanical_genus">Hippophae rhamnoides</SimpleData>
+            <SimpleData name="German_genus">Gemeiner Sanddorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">3</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">0</SimpleData>
+            <SimpleData name="height_standardized">13.0510727956522</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.23522378889242</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2.2268529007442</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.737985720678929</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">6.057128499478354</SimpleData>
+            <SimpleData name="type">Hippophae rhamnoides</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0870606,54.1345225977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.15">
+        <name>0dd92e82-6367-4924-9553-344b91b10106</name>
+        <description>Platanus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Platane</SimpleData>
+            <SimpleData name="botanical_genus">Platanus hispanica</SimpleData>
+            <SimpleData name="German_genus">Ahornblättrige Platane</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">36</SimpleData>
+            <SimpleData name="trunk_diameter">2</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">34.0807256916402</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.044217507216</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">10.9880621201601</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.91294125490021</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">21.48809601945861</SimpleData>
+            <SimpleData name="type">Platanus hispanica</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0845242,54.134722397771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.16">
+        <name>642f609d-837d-4051-9759-d52d3b7882f9</name>
+        <description>Carpinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus species</SimpleData>
+            <SimpleData name="German_genus">Hainbuche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">84</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">69.6574854398349</SimpleData>
+            <SimpleData name="crown_diameter_standardized">27.5448847615317</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">127.703287564256</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.3190683426039</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">95.9080363201365</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0869029,54.1337198977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.17">
+        <name>fbe286a8-9c29-40c8-baf8-18b913c65d2a</name>
+        <description>Carpinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus species</SimpleData>
+            <SimpleData name="German_genus">Hainbuche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">65</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">65.9417486717711</SimpleData>
+            <SimpleData name="crown_diameter_standardized">24.1017924489011</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">72.5675777265611</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.4337910140255</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">97.93192751972263</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0870063,54.1336927977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.18">
+        <name>3e26033e-585b-4b00-8b12-01691d0bd3e6</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer species</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">276</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">282.08284058978</SimpleData>
+            <SimpleData name="crown_diameter_standardized">86.465663338628</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">223.08856099031</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.4528527402482</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">96.9519417428771</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0859202,54.133799297771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.19">
+        <name>488387b6-adf8-4de2-88bb-4d6155c9ed46</name>
+        <description>Fagus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Buche</SimpleData>
+            <SimpleData name="botanical_genus">Fagus species</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">3.4</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">21.99</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">25.2803761927836</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.55112724550171</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2.65828473975487</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.19192767453301</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">112.7608276020848</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0862719,54.1336226977708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.20">
+        <name>fbfd742b-0894-4703-98b5-81c74cad3edf</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus species</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">108</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">106.79314564446</SimpleData>
+            <SimpleData name="crown_diameter_standardized">34.6593657149133</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">415.258197388059</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">48.8439442536801</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">105.2454869106867</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0863105,54.1336876977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.21">
+        <name>eb53aaee-c217-4c15-af47-3d3e758504e0</name>
+        <description>Fagus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Buche</SimpleData>
+            <SimpleData name="botanical_genus">Fagus species</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">2.8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">12.57</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">0</SimpleData>
+            <SimpleData name="height_standardized">12.9969700519843</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.07862956214792</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2.16603307299696</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.666702273274852</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">102.9165979876098</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0864218,54.1336995977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.22">
+        <name>821a4253-2b63-461a-9b77-45635aeacec2</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus species</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">21.99</SimpleData>
+            <SimpleData name="trunk_diameter">1.9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">17.7816459009501</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.3253835519376</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">24.7031928635819</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">4.78018002245259</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">130.1482549099474</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0851669,54.1330171977707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.23">
+        <name>bbe26ec3-d40c-41b9-a724-09bee7d001e6</name>
+        <description>Alnus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Erle</SimpleData>
+            <SimpleData name="botanical_genus">Alnus species</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">78</SimpleData>
+            <SimpleData name="trunk_diameter">3</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">74.8586401924169</SimpleData>
+            <SimpleData name="crown_diameter_standardized">22.9414667675518</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">42.1708537845383</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.51137240860213</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">163.8683541231401</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.086191,54.1331655977708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.24">
+        <name>a4f541a3-bb6d-4e03-b463-03c4e5b6fa28</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix alba</SimpleData>
+            <SimpleData name="German_genus">Silber-Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">12</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">386.42</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">393.39513336322</SimpleData>
+            <SimpleData name="crown_diameter_standardized">122.793020133123</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">509.29578424019</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">40.5245184826602</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">0.3670716241604449</SimpleData>
+            <SimpleData name="type">Salix alba</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0886364,54.1340452977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.25">
+        <name>fb6e2411-759e-46e7-aefc-e3df2371bdfd</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix alba</SimpleData>
+            <SimpleData name="German_genus">Silber-Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">471</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">465.157544256533</SimpleData>
+            <SimpleData name="crown_diameter_standardized">150.456243064145</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">361.658543084772</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">37.8951852502906</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.206250266636744</SimpleData>
+            <SimpleData name="type">Salix alba</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0869367,54.1312265977705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.26">
+        <name>d6a56f1c-383e-46ea-a42b-5d81b561271b</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix alba</SimpleData>
+            <SimpleData name="German_genus">Silber-Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">471</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">471.996306479607</SimpleData>
+            <SimpleData name="crown_diameter_standardized">153.62071341995</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">208.321821846957</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">31.4385968110444</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.696877680083853</SimpleData>
+            <SimpleData name="type">Salix alba</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0869467,54.1312625977705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.27">
+        <name>68ac73f2-a2fb-4636-aa7b-d243c3dbfa86</name>
+        <description>Elaeagnus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Ölweide</SimpleData>
+            <SimpleData name="botanical_genus">Eleagnus x ebbingei</SimpleData>
+            <SimpleData name="German_genus">Ölweide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">46</SimpleData>
+            <SimpleData name="trunk_diameter">2</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">47.7591590667353</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.2313334763989</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">14.3034581723451</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">2.71881806296586</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">23.4905860477746</SimpleData>
+            <SimpleData name="type">Eleagnus x ebbingei</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0879868,54.1324328977707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.28">
+        <name>d31dd550-633e-4528-a695-e77072da3cd8</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer species</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">63</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">72.7787565268451</SimpleData>
+            <SimpleData name="crown_diameter_standardized">22.3234830359104</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">103.432645021516</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.9958918443826</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">48.25542223545103</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0823111,54.1327084977708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.29">
+        <name>ed5f4bb1-263f-4529-a1fa-de8086d883ac</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">4</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">28</SimpleData>
+            <SimpleData name="trunk_diameter">3</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">25.9610184224014</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.3173837396192</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">45.2759040089067</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.86749004554068</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.851251640025922</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0789987,54.1337372977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.30">
+        <name>e28851cd-c28d-44ad-bc7d-abf93e00bbff</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix nigra</SimpleData>
+            <SimpleData name="German_genus">Schwarze-Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">87</SimpleData>
+            <SimpleData name="trunk_diameter">3</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">80.945716645302</SimpleData>
+            <SimpleData name="crown_diameter_standardized">23.9701330406615</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">33.9789300429499</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.98384698941491</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">39.01260073422626</SimpleData>
+            <SimpleData name="type">Salix nigra</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0788196,54.134098997771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.31">
+        <name>42d5de21-5837-4b61-aa69-c97b3998219a</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">18</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">173</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">173.047073063222</SimpleData>
+            <SimpleData name="crown_diameter_standardized">55.8151428296947</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">5806.99568594333</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">316.074158031596</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.995939137807441</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0782734,54.134051997771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.32">
+        <name>88dc1554-23aa-4d08-912f-ce80faa434e1</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">144</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">140.148924109685</SimpleData>
+            <SimpleData name="crown_diameter_standardized">44.8657969486856</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">3050.33196802148</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">120.782098981682</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">49.98004877379658</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0804794,54.1338093977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.33">
+        <name>dcd62d1e-4ba7-41c8-bf92-efc587b5e91f</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix alba</SimpleData>
+            <SimpleData name="German_genus">Silber-Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">150</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="height_standardized">167.298301749989</SimpleData>
+            <SimpleData name="crown_diameter_standardized">49.3414705102365</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">40.54058901201206</SimpleData>
+            <SimpleData name="type">Salix alba</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0803431,54.1338380977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.34">
+        <name>e14a3a05-a29a-4ab5-94fb-eaea63f0de80</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus species</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">13</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">85</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">83.650879715539</SimpleData>
+            <SimpleData name="crown_diameter_standardized">28.2429857349483</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">358.364555743843</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">27.9378166841619</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">31.17657056445205</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0784826,54.134467397771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.35">
+        <name>c20de36b-f107-46c0-b64c-5d4c566646fe</name>
+        <description>Betula</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Birke</SimpleData>
+            <SimpleData name="botanical_genus">Betula species</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">13</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">66</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">63.6892992873776</SimpleData>
+            <SimpleData name="crown_diameter_standardized">23.833838807486</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">180.7308463097</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.6535174323538</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.169491556204634</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0795049,54.1360807977713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.36">
+        <name>7247a1d2-0579-4977-95d1-b311e3581892</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">75</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">68.5749998526564</SimpleData>
+            <SimpleData name="crown_diameter_standardized">24.7783951328907</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">444.921176570273</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">56.8542670399464</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">12.27215038769281</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0792146,54.1359917977713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.37">
+        <name>62ed43c2-9e2b-4a17-90fb-b690aea6a36c</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer species</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">95</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">92.9916030260827</SimpleData>
+            <SimpleData name="crown_diameter_standardized">30.8726791672889</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">188.12133038396</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">19.9263807385074</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.982355690292402</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0788479,54.1358999977713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.38">
+        <name>4fc27aba-de94-40e4-8514-2e1c304f241d</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">20</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">298</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">292.531994284085</SimpleData>
+            <SimpleData name="crown_diameter_standardized">95.8791680196791</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">3457.28907965335</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">170.340179666634</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.496844778289662</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0786952,54.1355678977712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.39">
+        <name>e1898fdd-3f18-445d-90b3-dcb2064bf198</name>
+        <description>Alnus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated">
+            <SimpleData name="uuid">Erle</SimpleData>
+            <SimpleData name="botanical_genus">Alnus species</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">31.42</SimpleData>
+            <SimpleData name="trunk_diameter">3.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">21.3300828027015</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.07389575882305</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">49.240311126919</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.48759718776814</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">75.41963592013049</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0818192,54.1336566977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Document id="Park_an_der_Hundsburg_invalidated">
+      <name>Park an der Hundsburg_invalidated</name>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.1">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">025c5437-997e-4a47-bc42-9d2847093d29</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus species</SimpleData>
+            <SimpleData name="German-species">Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">30.24</SimpleData>
+            <SimpleData name="trunk_circumference">95</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.6679450444008</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.02012989792813</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">93.4303057872551</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">29.9691521456778</SimpleData>
+            <SimpleData name="volume_m^2">131.981117985881</SimpleData>
+            <SimpleData name="cover_area_m^2">19.7933721869391</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.776</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0885721,54.1355487977712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.2">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">c1907fb8-7970-4933-a0fe-0a2172366fa4</SimpleData>
+            <SimpleData name="botanical_genus">Betula</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">Betula species</SimpleData>
+            <SimpleData name="German-species">Birke</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">12.73</SimpleData>
+            <SimpleData name="trunk_circumference">40</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.75812337248919</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.99325667751808</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">33.973477730266</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.8120873145018</SimpleData>
+            <SimpleData name="volume_m^2">72.1149489213147</SimpleData>
+            <SimpleData name="cover_area_m^2">12.5240367835571</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.334</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0880208,54.1343898977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.3">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">c5acdfc7-ce1c-4ab1-b0d7-7c873fa17167</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">14.32</SimpleData>
+            <SimpleData name="trunk_circumference">45</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.17450873903258</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.07105839157168</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">46.75856570765</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">17.1345526103384</SimpleData>
+            <SimpleData name="volume_m^2">236.635753791846</SimpleData>
+            <SimpleData name="cover_area_m^2">28.9480091521501</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">25.002</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0856395,54.134497197771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.4">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">11f159d0-8d16-42e7-bdb3-a1b4289f21c3</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus species</SimpleData>
+            <SimpleData name="German-species">Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">18.85</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.27154086629585</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.66359432614591</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">17.1317179702955</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.41176478541894</SimpleData>
+            <SimpleData name="volume_m^2">4.93747940093489</SimpleData>
+            <SimpleData name="cover_area_m^2">2.17362560990871</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">48.118</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0858841,54.134252297771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.5">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">a783e4f2-c716-4bb2-a6f8-328a1e8a19d8</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">1.81592972798325</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.66151331589663</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">16.0766515293685</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.66263441908793</SimpleData>
+            <SimpleData name="volume_m^2">3.93728246027486</SimpleData>
+            <SimpleData name="cover_area_m^2">2.16819098206381</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">41.077</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0858854,54.134316797771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.6">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">8cc13312-2f0a-49d4-9827-d35a74c870f8</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2</SimpleData>
+            <SimpleData name="trunk_diameter">6.37</SimpleData>
+            <SimpleData name="trunk_circumference">20</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">1.47766654731692</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.12130725591399</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">24.121277975119</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">4.67466361239246</SimpleData>
+            <SimpleData name="volume_m^2">1.45920257638358</SimpleData>
+            <SimpleData name="cover_area_m^2">0.987504643069259</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">54.22</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0865222,54.1341331977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.7">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">40cb7774-536f-47b8-b304-d2a101be359a</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2</SimpleData>
+            <SimpleData name="trunk_diameter">6.37</SimpleData>
+            <SimpleData name="trunk_circumference">20</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">1.70739765854878</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.29430269803822</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">13.7299861468607</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.48129031750814</SimpleData>
+            <SimpleData name="volume_m^2">2.2464475122097</SimpleData>
+            <SimpleData name="cover_area_m^2">1.31571429828427</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">49.263</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0866171,54.134170597771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.8">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">d4bad153-9f04-4766-89f5-d60299e0aee8</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2</SimpleData>
+            <SimpleData name="trunk_diameter">6.37</SimpleData>
+            <SimpleData name="trunk_circumference">20</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">1.93550456669995</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.411781196142659</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">12.5547356676979</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.29494458086564</SimpleData>
+            <SimpleData name="volume_m^2">0.25776093791359</SimpleData>
+            <SimpleData name="cover_area_m^2">0.133175060575069</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">56.543</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0866273,54.134103797771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.9">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">8c72b191-90bf-4bdb-b701-3816374dbd02</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus species</SimpleData>
+            <SimpleData name="German-species">Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">29.92</SimpleData>
+            <SimpleData name="trunk_circumference">94</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.1542827922245</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.77938608360339</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">85.4279315113987</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">29.5014241695434</SimpleData>
+            <SimpleData name="volume_m^2">146.291764951341</SimpleData>
+            <SimpleData name="cover_area_m^2">17.9404821587544</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.922</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0849428,54.1347360977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.10">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">9e62fdfd-8c16-4635-a2f9-c09418c1cf89</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus species</SimpleData>
+            <SimpleData name="German-species">Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">26.42</SimpleData>
+            <SimpleData name="trunk_circumference">83</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.74578705757372</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.14148441892818</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">77.4224138089858</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.1114031864709</SimpleData>
+            <SimpleData name="volume_m^2">160.817195026675</SimpleData>
+            <SimpleData name="cover_area_m^2">20.7618920880907</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.817</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0848163,54.1347667977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.11">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">d83b866a-21a5-43ca-bb89-a2e5394dae59</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus species</SimpleData>
+            <SimpleData name="German-species">Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">17.19</SimpleData>
+            <SimpleData name="trunk_circumference">54</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.83625252198167</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.10042593096413</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">45.469355004111</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">17.4306804484114</SimpleData>
+            <SimpleData name="volume_m^2">139.675703714144</SimpleData>
+            <SimpleData name="cover_area_m^2">20.4316185315014</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.608</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0845948,54.1348207977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.12">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">10a6415f-b0c0-4d58-8070-d612bc4a4a4d</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus species</SimpleData>
+            <SimpleData name="German-species">Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">3</SimpleData>
+            <SimpleData name="trunk_diameter">9.55</SimpleData>
+            <SimpleData name="trunk_circumference">30</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">3.32570778752902</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.323969403368943</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">27.5815031541288</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">8.5744229802255</SimpleData>
+            <SimpleData name="volume_m^2">0.274146029885772</SimpleData>
+            <SimpleData name="cover_area_m^2">0.0824323865475446</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">51.916</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0870285,54.134108497771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.13">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">7d00c57a-02f0-42a2-961b-d0fcadf67595</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus species</SimpleData>
+            <SimpleData name="German-species">Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">3</SimpleData>
+            <SimpleData name="trunk_diameter">6.05</SimpleData>
+            <SimpleData name="trunk_circumference">19</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.94706976967717</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.396305835624873</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">24.9332997827709</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.62496857720965</SimpleData>
+            <SimpleData name="volume_m^2">0.363530818029732</SimpleData>
+            <SimpleData name="cover_area_m^2">0.123353312422445</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">48.404</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.086914,54.134150897771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.14">
+        <name>Hippophae rhamnoides</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">84d04012-c06c-47c1-934f-e80660887253</SimpleData>
+            <SimpleData name="botanical_genus">Hippophae</SimpleData>
+            <SimpleData name="German_genus">Sanddorn</SimpleData>
+            <SimpleData name="botanical_species">Hippophae rhamnoides</SimpleData>
+            <SimpleData name="German-species">Gemeiner Sanddorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">3</SimpleData>
+            <SimpleData name="trunk_diameter">4.77</SimpleData>
+            <SimpleData name="trunk_circumference">15</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Hippophae rhamnoides</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.31685757246642</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.865246676287419</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">17.8566205522159</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.87750120690879</SimpleData>
+            <SimpleData name="volume_m^2">1.36228852161098</SimpleData>
+            <SimpleData name="cover_area_m^2">0.587989757247249</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.057</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0870606,54.1345225977711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.15">
+        <name>Platanus hispanica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">0dd92e82-6367-4924-9553-344b91b10106</SimpleData>
+            <SimpleData name="botanical_genus">Platanus</SimpleData>
+            <SimpleData name="German_genus">Platane</SimpleData>
+            <SimpleData name="botanical_species">Platanus hispanica</SimpleData>
+            <SimpleData name="German-species">Ahornblättrige Platane</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">11.46</SimpleData>
+            <SimpleData name="trunk_circumference">36</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Platanus hispanica</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.83175374107895</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.93542508669237</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">37.724310060291</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.5026899965463</SimpleData>
+            <SimpleData name="volume_m^2">17.1570173333262</SimpleData>
+            <SimpleData name="cover_area_m^2">2.94199962739715</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">21.488</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0845242,54.134722397771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.16">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">642f609d-837d-4051-9759-d52d3b7882f9</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">26.74</SimpleData>
+            <SimpleData name="trunk_circumference">84</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.10088845867546</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.02876437119442</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">74.2895030283745</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">30.8368415488376</SimpleData>
+            <SimpleData name="volume_m^2">121.172910561536</SimpleData>
+            <SimpleData name="cover_area_m^2">19.8615187578504</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">95.908</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0869029,54.1337198977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.17">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">fbe286a8-9c29-40c8-baf8-18b913c65d2a</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">20.69</SimpleData>
+            <SimpleData name="trunk_circumference">65</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.2431881102736</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.65407611448709</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">61.7256993174432</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">19.3389233165058</SimpleData>
+            <SimpleData name="volume_m^2">89.1974181635221</SimpleData>
+            <SimpleData name="cover_area_m^2">17.0120576045607</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">97.932</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0870063,54.1336927977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.18">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">3e26033e-585b-4b00-8b12-01691d0bd3e6</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer species</SimpleData>
+            <SimpleData name="German-species">Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">87.85</SimpleData>
+            <SimpleData name="trunk_circumference">276</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.90766431085602</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.98497565812221</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">277.108135839402</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">84.5804716756278</SimpleData>
+            <SimpleData name="volume_m^2">250.59851912198</SimpleData>
+            <SimpleData name="cover_area_m^2">28.1329100846974</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">96.952</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0859202,54.133799297771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.19">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">488387b6-adf8-4de2-88bb-4d6155c9ed46</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus species</SimpleData>
+            <SimpleData name="German-species">Buche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">3.4</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">21.99</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.33434123090156</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.22930514145905</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">11.5183244375701</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.73055970542895</SimpleData>
+            <SimpleData name="volume_m^2">2.77059865052666</SimpleData>
+            <SimpleData name="cover_area_m^2">1.18688673868671</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">112.761</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0862719,54.1336226977708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.20">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">fbfd742b-0894-4703-98b5-81c74cad3edf</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus species</SimpleData>
+            <SimpleData name="German-species">Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">34.38</SimpleData>
+            <SimpleData name="trunk_circumference">108</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.70458098461707</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.30615728315291</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">106.077503286539</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">31.275816032814</SimpleData>
+            <SimpleData name="volume_m^2">364.935225677392</SimpleData>
+            <SimpleData name="cover_area_m^2">41.9245023192171</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">105.245</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0863105,54.1336876977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.21">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">eb53aaee-c217-4c15-af47-3d3e758504e0</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus species</SimpleData>
+            <SimpleData name="German-species">Buche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">2.8</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">12.57</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">2.78807962011708</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.902253990110753</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">11.0810116140598</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.09172413476128</SimpleData>
+            <SimpleData name="volume_m^2">1.78259496686531</SimpleData>
+            <SimpleData name="cover_area_m^2">0.639363005992797</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">102.917</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0864218,54.1336995977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.22">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">821a4253-2b63-461a-9b77-45635aeacec2</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus species</SimpleData>
+            <SimpleData name="German-species">Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">21.99</SimpleData>
+            <SimpleData name="crown_diameter">1.9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.66393122394009</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.17254083799131</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">22.0714083805747</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">3.51860945076416</SimpleData>
+            <SimpleData name="volume_m^2">20.9963474098641</SimpleData>
+            <SimpleData name="cover_area_m^2">3.7070272536357</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">130.148</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0851669,54.1330171977707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.23">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">bbe26ec3-d40c-41b9-a724-09bee7d001e6</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus species</SimpleData>
+            <SimpleData name="German-species">Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">24.83</SimpleData>
+            <SimpleData name="trunk_circumference">78</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">4.92221506977239</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.6130313704833</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">86.3133090068475</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.6602314730743</SimpleData>
+            <SimpleData name="volume_m^2">50.4654246270432</SimpleData>
+            <SimpleData name="cover_area_m^2">10.2525842352876</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">163.868</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.086191,54.1331655977708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.24">
+        <name>Salix alba</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">a4f541a3-bb6d-4e03-b463-03c4e5b6fa28</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix alba</SimpleData>
+            <SimpleData name="German-species">Silber-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">123</SimpleData>
+            <SimpleData name="trunk_circumference">386.42</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix alba</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">11.573044543653</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.52575978031181</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">382.547376069597</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">121.361207757304</SimpleData>
+            <SimpleData name="volume_m^2">660.699061448612</SimpleData>
+            <SimpleData name="cover_area_m^2">57.0894770996937</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.367</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0886364,54.1340452977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.25">
+        <name>Salix alba</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">fb6e2411-759e-46e7-aefc-e3df2371bdfd</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix alba</SimpleData>
+            <SimpleData name="German-species">Silber-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">149.92</SimpleData>
+            <SimpleData name="trunk_circumference">471</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix alba</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.91969812232518</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.7538342829794</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">469.461785281543</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">149.940607229294</SimpleData>
+            <SimpleData name="volume_m^2">421.185166489926</SimpleData>
+            <SimpleData name="cover_area_m^2">47.2196660373223</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.206</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0869367,54.1312265977705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.26">
+        <name>Salix alba</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">d6a56f1c-383e-46ea-a42b-5d81b561271b</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix alba</SimpleData>
+            <SimpleData name="German-species">Silber-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">149.92</SimpleData>
+            <SimpleData name="trunk_circumference">471</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix alba</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.27018283371419</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.57353837755222</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">457.796249256938</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">149.250995641172</SimpleData>
+            <SimpleData name="volume_m^2">246.736624891524</SimpleData>
+            <SimpleData name="cover_area_m^2">33.9381595394447</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.697</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0869467,54.1312625977705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.27">
+        <name>Eleagnus x ebbingei</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">68ac73f2-a2fb-4636-aa7b-d243c3dbfa86</SimpleData>
+            <SimpleData name="botanical_genus">Elaeagnus</SimpleData>
+            <SimpleData name="German_genus">Ölweide</SimpleData>
+            <SimpleData name="botanical_species">Eleagnus x ebbingei</SimpleData>
+            <SimpleData name="German-species">Ölweide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">14.64</SimpleData>
+            <SimpleData name="trunk_circumference">46</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Eleagnus x ebbingei</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.93676346107979</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.07988604858271</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">40.9724947325977</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.9532992096152</SimpleData>
+            <SimpleData name="volume_m^2">20.1705950545122</SimpleData>
+            <SimpleData name="cover_area_m^2">3.39757431582822</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">23.491</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0879868,54.1324328977707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.28">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">d31dd550-633e-4528-a695-e77072da3cd8</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer species</SimpleData>
+            <SimpleData name="German-species">Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">20.05</SimpleData>
+            <SimpleData name="trunk_circumference">63</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.06036968876174</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.00225302202887</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">55.650846295741</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.709993499701</SimpleData>
+            <SimpleData name="volume_m^2">76.2426672624022</SimpleData>
+            <SimpleData name="cover_area_m^2">12.5805307560338</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">48.255</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0823111,54.1327084977708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.29">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">ed5f4bb1-263f-4529-a1fa-de8086d883ac</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4</SimpleData>
+            <SimpleData name="trunk_diameter">8.91</SimpleData>
+            <SimpleData name="trunk_circumference">28</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">4.38050111044914</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.20833718511999</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">30.1033863765179</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.23850272479005</SimpleData>
+            <SimpleData name="volume_m^2">16.7781644544632</SimpleData>
+            <SimpleData name="cover_area_m^2">3.83019294629123</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.851</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0789987,54.1337372977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.30">
+        <name>Salix nigra</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">e28851cd-c28d-44ad-bc7d-abf93e00bbff</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix nigra</SimpleData>
+            <SimpleData name="German-species">Schwarze-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">27.69</SimpleData>
+            <SimpleData name="trunk_circumference">87</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix nigra</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">4.62876376961845</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.7079618617105</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">89.9312003384354</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">27.3599538564538</SimpleData>
+            <SimpleData name="volume_m^2">26.6587624927984</SimpleData>
+            <SimpleData name="cover_area_m^2">5.75936984898148</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">39.013</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0788196,54.134098997771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.31">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">42d5de21-5837-4b61-aa69-c97b3998219a</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">55.07</SimpleData>
+            <SimpleData name="trunk_circumference">173</SimpleData>
+            <SimpleData name="crown_diameter">20</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">18.6404051693829</SimpleData>
+            <SimpleData name="crown_diameter_standardized">19.8522838088769</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">167.134613019554</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">56.2332424818609</SimpleData>
+            <SimpleData name="volume_m^2">5769.87201428818</SimpleData>
+            <SimpleData name="cover_area_m^2">309.535761795847</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.996</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0782734,54.134051997771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.32">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">88dc1554-23aa-4d08-912f-ce80faa434e1</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">45.84</SimpleData>
+            <SimpleData name="trunk_circumference">144</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.5715946787632</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.496399482309</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">139.474792503544</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">42.6970054239496</SimpleData>
+            <SimpleData name="volume_m^2">3013.65146992897</SimpleData>
+            <SimpleData name="cover_area_m^2">122.647777212995</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">49.98</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0804794,54.1338093977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.33">
+        <name>Salix alba</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">dcd62d1e-4ba7-41c8-bf92-efc587b5e91f</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix alba</SimpleData>
+            <SimpleData name="German-species">Silber-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="trunk_diameter">47.75</SimpleData>
+            <SimpleData name="trunk_circumference">150</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix alba</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">150.779379555584</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.6521728771113</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">40.541</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0803431,54.1338380977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.34">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">e14a3a05-a29a-4ab5-94fb-eaea63f0de80</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus species</SimpleData>
+            <SimpleData name="German-species">Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">27.06</SimpleData>
+            <SimpleData name="trunk_circumference">85</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.4037890050366</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.94426562638717</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">72.554660161244</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">27.7624052872366</SimpleData>
+            <SimpleData name="volume_m^2">344.223620142016</SimpleData>
+            <SimpleData name="cover_area_m^2">27.7514894845634</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">31.177</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0784826,54.134467397771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.35">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">c20de36b-f107-46c0-b64c-5d4c566646fe</SimpleData>
+            <SimpleData name="botanical_genus">Betula</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">Betula species</SimpleData>
+            <SimpleData name="German-species">Birke</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">21.01</SimpleData>
+            <SimpleData name="trunk_circumference">66</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.9329624202338</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.1665625572121</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">54.2566996783136</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.2437021367606</SimpleData>
+            <SimpleData name="volume_m^2">271.138557662229</SimpleData>
+            <SimpleData name="cover_area_m^2">20.964922718559</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.169</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0795049,54.1360807977713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.36">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">7247a1d2-0579-4977-95d1-b311e3581892</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">23.87</SimpleData>
+            <SimpleData name="trunk_circumference">75</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.07234954039425</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.5610056021851</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">71.4182690006382</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.3509307509371</SimpleData>
+            <SimpleData name="volume_m^2">522.226875496108</SimpleData>
+            <SimpleData name="cover_area_m^2">57.562473003373</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.272</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0792146,54.1359917977713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.37">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">62ed43c2-9e2b-4a17-90fb-b690aea6a36c</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer species</SimpleData>
+            <SimpleData name="German-species">Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">30.24</SimpleData>
+            <SimpleData name="trunk_circumference">95</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">10.077331054832</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.95635536509652</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">92.9225304706353</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">27.1064055318243</SimpleData>
+            <SimpleData name="volume_m^2">194.428659472193</SimpleData>
+            <SimpleData name="cover_area_m^2">19.2936659929383</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.982</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0788479,54.1358999977713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.38">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">4fc27aba-de94-40e4-8514-2e1c304f241d</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">94.86</SimpleData>
+            <SimpleData name="trunk_circumference">298</SimpleData>
+            <SimpleData name="crown_diameter">15</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.4763305621997</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.7973727895372</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">299.386243515895</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">94.7836103916392</SimpleData>
+            <SimpleData name="volume_m^2">3349.39408157195</SimpleData>
+            <SimpleData name="cover_area_m^2">171.972542305919</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.497</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0786952,54.1355678977712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_an_der_Hundsburg_invalidated.39">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_an_der_Hundsburg_invalidated.schema">
+            <SimpleData name="uuid">e1898fdd-3f18-445d-90b3-dcb2064bf198</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus species</SimpleData>
+            <SimpleData name="German-species">Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">31.42</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.67206103183278</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.77908796523123</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">21.8061321023739</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">8.38159385884002</SimpleData>
+            <SimpleData name="volume_m^2">63.6216281034545</SimpleData>
+            <SimpleData name="cover_area_m^2">11.2166684643196</SimpleData>
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">75.42</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0818192,54.1336566977709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

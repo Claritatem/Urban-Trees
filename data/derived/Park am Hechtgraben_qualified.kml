@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Park_am_Hechtgraben_qualified" name="Park_am_Hechtgraben_qualified">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Park_am_Hechtgraben_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Park_am_Hechtgraben_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Park_am_Hechtgraben_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Folder>
+      <name>Park_am_Hechtgraben_qualified</name>
+      <Placemark id="Park_am_Hechtgraben_qualified.1">
+        <name>1b1f5206-148a-439a-b348-c9295769b49d</name>
+        <description>Gruppenbäume</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_genus">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="German_genus">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">22</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">219.91</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">206.820827392929</SimpleData>
+            <SimpleData name="crown_diameter_standardized">70.9396950773392</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">735.255929853933</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.163336297664</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">34.2698233784236</SimpleData>
+            <SimpleData name="type">Weichholz-Weidenbestand</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.140869,54.1071248977664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.2">
+        <name>79129ae4-08be-414d-ba1e-d0b72f2cdc89</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer campestre</SimpleData>
+            <SimpleData name="German_genus">Feld-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">12</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">91.11</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">93.7534374089048</SimpleData>
+            <SimpleData name="crown_diameter_standardized">26.5537434854006</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">616.576505635127</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">55.8739099377655</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">15.42070326708537</SimpleData>
+            <SimpleData name="type">Acer campestre</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408599,54.1081979977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.3">
+        <name>d75afb2e-cd17-4552-8cf1-5a8b734d721d</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German_genus">Berg-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">17</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">131.95</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">136.572581349418</SimpleData>
+            <SimpleData name="crown_diameter_standardized">43.1509076576698</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1028.60824365456</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">59.363249379645</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">3.654344181104139</SimpleData>
+            <SimpleData name="type">Acer pseudoplatanus</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1413927,54.1065811977663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.4">
+        <name>3410b5a3-4faa-4cf8-98ae-67df72145595</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer platanoides</SimpleData>
+            <SimpleData name="German_genus">Spitz-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">11</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">81.68</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">76.697326467171</SimpleData>
+            <SimpleData name="crown_diameter_standardized">28.0123287155391</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">495.010521936677</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.5456142389497</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">25.71427972710945</SimpleData>
+            <SimpleData name="type">Acer platanoides</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.138997,54.1073400977664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.5">
+        <name>a7faaa5d-5af4-4c8e-b566-43b75541af7c</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer campestre</SimpleData>
+            <SimpleData name="German_genus">Feld-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">10</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">84.82</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">78.4534238053739</SimpleData>
+            <SimpleData name="crown_diameter_standardized">28.544336365386</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">642.055435430315</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">68.3454786931783</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">21.48822205915274</SimpleData>
+            <SimpleData name="type">Acer campestre</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1409751,54.1081491977665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.6">
+        <name>68a5efb7-b2fa-40d8-aa03-01d09e27c302</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer campestre</SimpleData>
+            <SimpleData name="German_genus">Feld-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">10</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">75.4</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">66.8529845077186</SimpleData>
+            <SimpleData name="crown_diameter_standardized">22.9347116713772</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">570.198739436438</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">59.5681731811728</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">22.49134751358115</SimpleData>
+            <SimpleData name="type">Acer campestre</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1410958,54.1081564977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.7">
+        <name>bc6bf4b3-5187-401a-b98b-4747a1a6238d</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus avium</SimpleData>
+            <SimpleData name="German_genus">Vogel-Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">34.56</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">34.9482998348354</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.6512280271595</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">144.032147509981</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.0412246305292</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">3.867591571684557</SimpleData>
+            <SimpleData name="type">Prunus avium</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1405066,54.1083923977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.8">
+        <name>fc1c0117-f078-4243-97c6-146047460eb6</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus avium</SimpleData>
+            <SimpleData name="German_genus">Vogel-Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">34.56</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">38.5950026841921</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.6370594461589</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">299.693037442105</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">41.2018851818242</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.79933881547502</SimpleData>
+            <SimpleData name="type">Prunus avium</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1404365,54.1083887977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.9">
+        <name>277b4408-e477-4fdf-8b0c-52877382b0e2</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus avium</SimpleData>
+            <SimpleData name="German_genus">Vogel-Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">34.56</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">34.9384952314569</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.6524127851734</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">179.030890919488</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.660916592228</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">12.08228499716202</SimpleData>
+            <SimpleData name="type">Prunus avium</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1405547,54.1083125977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.10">
+        <name>790d6a2e-b6d4-45f0-92e7-1fb8c0f9dea9</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German_genus">Gemeine Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">12</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">109.96</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">100.240321915415</SimpleData>
+            <SimpleData name="crown_diameter_standardized">33.7079880616893</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">668.753230682307</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">58.4740948731035</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">41.47773230838731</SimpleData>
+            <SimpleData name="type">Fraxinus excelsior</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1405461,54.1072034977664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.11">
+        <name>5d0fbeaa-890d-436c-94a8-d4a1ca09e58e</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus avium „Plena“</SimpleData>
+            <SimpleData name="German_genus">Gefülltblühende Vogelkirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">11</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">81.68</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">81.859957819907</SimpleData>
+            <SimpleData name="crown_diameter_standardized">27.9261669422858</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">446.351210399569</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">45.1160996397107</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">30.74697422727335</SimpleData>
+            <SimpleData name="type">Prunus avium</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408609,54.1074710977664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Document id="Park_am_Hechtgraben_qualified">
+      <name>Park am Hechtgraben_qualified</name>
+      <Placemark id="Park_am_Hechtgraben_qualified.1">
+        <name>Weichholz-Weidenbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">1b1f5206-148a-439a-b348-c9295769b49d</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="German-species">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">70</SimpleData>
+            <SimpleData name="trunk_circumference">219.91</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">21.6242210347056</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.52885462442397</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">215.648698875066</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">71.5035097446333</SimpleData>
+            <SimpleData name="volume_m^2">723.942961650326</SimpleData>
+            <SimpleData name="cover_area_m^2">33.4783371150545</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">34.27</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.140869,54.1071248977664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.2">
+        <name>Acer campestre</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">79129ae4-08be-414d-ba1e-d0b72f2cdc89</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer campestre</SimpleData>
+            <SimpleData name="German-species">Feld-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">29</SimpleData>
+            <SimpleData name="trunk_circumference">91.11</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer campestre</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">13.0216127689504</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.64583905565115</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">88.4436458789061</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">29.5052976899725</SimpleData>
+            <SimpleData name="volume_m^2">764.484969630358</SimpleData>
+            <SimpleData name="cover_area_m^2">58.7089313125057</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.421</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408599,54.1081979977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.3">
+        <name>Acer pseudoplatanus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">d75afb2e-cd17-4552-8cf1-5a8b734d721d</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">42</SimpleData>
+            <SimpleData name="trunk_circumference">131.95</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">16.9932541472462</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.2809751487946</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">139.2280090395</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.7457350774459</SimpleData>
+            <SimpleData name="volume_m^2">1149.61826077582</SimpleData>
+            <SimpleData name="cover_area_m^2">67.6514486757161</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.654</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1413927,54.1065811977663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.4">
+        <name>Acer platanoides</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">3410b5a3-4faa-4cf8-98ae-67df72145595</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer platanoides</SimpleData>
+            <SimpleData name="German-species">Spitz-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11</SimpleData>
+            <SimpleData name="trunk_diameter">26</SimpleData>
+            <SimpleData name="trunk_circumference">81.68</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer platanoides</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">11.4911295092462</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.02119745590061</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">82.682297167143</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.6824481110452</SimpleData>
+            <SimpleData name="volume_m^2">580.672174657944</SimpleData>
+            <SimpleData name="cover_area_m^2">50.5322104490002</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">25.714</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.138997,54.1073400977664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.5">
+        <name>Acer campestre</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">a7faaa5d-5af4-4c8e-b566-43b75541af7c</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer campestre</SimpleData>
+            <SimpleData name="German-species">Feld-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">27</SimpleData>
+            <SimpleData name="trunk_circumference">84.82</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer campestre</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">10.063902039103</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.98838801844564</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">77.8885049225013</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">25.9486176582004</SimpleData>
+            <SimpleData name="volume_m^2">638.58675480181</SimpleData>
+            <SimpleData name="cover_area_m^2">63.4531966150501</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">21.488</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1409751,54.1081491977665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.6">
+        <name>Acer campestre</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">68a5efb7-b2fa-40d8-aa03-01d09e27c302</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer campestre</SimpleData>
+            <SimpleData name="German-species">Feld-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">24</SimpleData>
+            <SimpleData name="trunk_circumference">75.4</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer campestre</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.98272665395107</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.70370082590271</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">67.5887158847161</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">25.0089543798377</SimpleData>
+            <SimpleData name="volume_m^2">593.946010937182</SimpleData>
+            <SimpleData name="cover_area_m^2">59.4973729649408</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">22.491</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1410958,54.1081564977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.7">
+        <name>Prunus avium</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">bc6bf4b3-5187-401a-b98b-4747a1a6238d</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus avium</SimpleData>
+            <SimpleData name="German-species">Vogel-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">34.56</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus avium</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.65628742825492</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.58259939371915</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">36.7753033228334</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.2016204963164</SimpleData>
+            <SimpleData name="volume_m^2">226.525344424978</SimpleData>
+            <SimpleData name="cover_area_m^2">34.0317852656742</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.868</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1405066,54.1083923977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.8">
+        <name>Prunus avium</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">fc1c0117-f078-4243-97c6-146047460eb6</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus avium</SimpleData>
+            <SimpleData name="German-species">Vogel-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">34.56</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus avium</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.57240746753249</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.98154906533283</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">37.3775300786807</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.3936135791857</SimpleData>
+            <SimpleData name="volume_m^2">184.689285346713</SimpleData>
+            <SimpleData name="cover_area_m^2">28.1007052984881</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.799</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1404365,54.1083887977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.9">
+        <name>Prunus avium</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">277b4408-e477-4fdf-8b0c-52877382b0e2</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus avium</SimpleData>
+            <SimpleData name="German-species">Vogel-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">34.56</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus avium</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.31753249464283</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.40195546396645</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">33.4365238325103</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.4508099556195</SimpleData>
+            <SimpleData name="volume_m^2">203.358656004655</SimpleData>
+            <SimpleData name="cover_area_m^2">32.1895702439362</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.082</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1405547,54.1083125977666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.10">
+        <name>Fraxinus excelsior</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">790d6a2e-b6d4-45f0-92e7-1fb8c0f9dea9</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German-species">Gemeine Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">35</SimpleData>
+            <SimpleData name="trunk_circumference">109.96</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus excelsior</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">11.8896072666056</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.01923397885335</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">107.978629031043</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">38.1220278444677</SimpleData>
+            <SimpleData name="volume_m^2">600.514033680609</SimpleData>
+            <SimpleData name="cover_area_m^2">50.5074743189605</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">41.478</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1405461,54.1072034977664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_am_Hechtgraben_qualified.11">
+        <name>Prunus avium</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_am_Hechtgraben_qualified.schema">
+            <SimpleData name="uuid">5d0fbeaa-890d-436c-94a8-d4a1ca09e58e</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus avium „Plena“</SimpleData>
+            <SimpleData name="German-species">Gefülltblühende Vogelkirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11</SimpleData>
+            <SimpleData name="trunk_diameter">26</SimpleData>
+            <SimpleData name="trunk_circumference">81.68</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus avium</SimpleData>
+            <SimpleData name="botanical_species_common_name">Plena</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">10.8334600543904</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.64005757428486</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">81.0929270635491</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.6369200281691</SimpleData>
+            <SimpleData name="volume_m^2">496.649874892913</SimpleData>
+            <SimpleData name="cover_area_m^2">45.8440675831575</SimpleData>
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">30.747</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408609,54.1074710977664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

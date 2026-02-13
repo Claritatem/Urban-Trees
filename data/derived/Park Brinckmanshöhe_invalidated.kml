@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Park_Brinckmanshöhe_invalidated" name="Park_Brinckmanshöhe_invalidated">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Park_Brinckmansh__he_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Park_Brinckmansh__he_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Park_Brinckmansh__he_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Folder>
+      <name>Park_Brinckmanshöhe_invalidated</name>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.1">
+        <name>ac614a4f-88a3-49a1-ac5b-f0099f22c610</name>
+        <description>Salix</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Weide</SimpleData>
+            <SimpleData name="botanical_genus">Salix species</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">12</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">81.68</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">82.1924176324957</SimpleData>
+            <SimpleData name="crown_diameter_standardized">25.4700063840739</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">233.268787952977</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.0869740805823</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">3.907308117065575</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1833074,54.0844212977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.2">
+        <name>fdfb1e2b-3686-43d4-a15b-bc54f8f5a246</name>
+        <description>Alnus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Erle</SimpleData>
+            <SimpleData name="botanical_genus">Alnus species</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">50.27</SimpleData>
+            <SimpleData name="trunk_diameter">2.4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">56.7811590709095</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.8641167265801</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">20.9888609632563</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">2.93342585278605</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.22440377517222</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1903728,54.0874255977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.3">
+        <name>2175b6af-cd44-4ae0-b163-887bfb0b78ef</name>
+        <description>Malus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Zierapfel</SimpleData>
+            <SimpleData name="botanical_genus">Malus species</SimpleData>
+            <SimpleData name="German_genus">Apfel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">43.98</SimpleData>
+            <SimpleData name="trunk_diameter">2.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">42.3605598895931</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.1759981105048</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">18.3832440446063</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">3.85727227724916</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">6.290571898468801</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.189176,54.0841642977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.4">
+        <name>11b6ed94-0f70-443b-b682-de84fc896695</name>
+        <description>Malus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Zierapfel</SimpleData>
+            <SimpleData name="botanical_genus">Malus species</SimpleData>
+            <SimpleData name="German_genus">Apfel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">47.12</SimpleData>
+            <SimpleData name="trunk_diameter">2.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">47.7716088939669</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.6647459438052</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">20.035801194179</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">3.45218246056965</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">12.49757597401165</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1895391,54.0842333977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.5">
+        <name>3a00999a-f4b0-4cd3-9bbf-94fe1fde12be</name>
+        <description>Pyrus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Birne</SimpleData>
+            <SimpleData name="botanical_genus">Pyrus species</SimpleData>
+            <SimpleData name="German_genus">Birne</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">34.56</SimpleData>
+            <SimpleData name="trunk_diameter">1.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">39.6690840788153</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.3356235921334</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">21.4415839422669</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">3.0737974183823</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">12.40960260091676</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1891753,54.0842193977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.6">
+        <name>e7992204-f0d1-403c-a94b-3675cba360e1</name>
+        <description>Alnus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Erle</SimpleData>
+            <SimpleData name="botanical_genus">Alnus species</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">13</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">78.54</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">86.3299693097944</SimpleData>
+            <SimpleData name="crown_diameter_standardized">22.9265837331027</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">122.431163883267</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.32441828288707</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.478691758992566</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1902761,54.087078597763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.7">
+        <name>fce566fa-0029-4415-bcdd-ea6d35f164be</name>
+        <description>Malus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Zierapfel</SimpleData>
+            <SimpleData name="botanical_genus">Malus species</SimpleData>
+            <SimpleData name="German_genus">Apfel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">40.84</SimpleData>
+            <SimpleData name="trunk_diameter">2</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">50.2039871961667</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.2303158339528</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">12.4372032376365</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">2.08969237512015</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">7.982225947157017</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1895335,54.0843418977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.8">
+        <name>46f96221-f6c2-4638-bc32-7e2a04590e28</name>
+        <description>Malus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Zierapfel</SimpleData>
+            <SimpleData name="botanical_genus">Malus species</SimpleData>
+            <SimpleData name="German_genus">Apfel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">31.42</SimpleData>
+            <SimpleData name="trunk_diameter">1.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">28.4174604038902</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.67173501859354</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">6.65428076769817</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.4778036138405</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">13.58187644102732</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1889348,54.0842924977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.9">
+        <name>2d80e332-902f-4bed-8a3f-2601014f810e</name>
+        <description>Pyrus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Birne</SimpleData>
+            <SimpleData name="botanical_genus">Pyrus species</SimpleData>
+            <SimpleData name="German_genus">Birne</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">37.7</SimpleData>
+            <SimpleData name="trunk_diameter">1.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">33.7386786806468</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.9516827505094</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">44.5482370102747</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.96900798232591</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">14.42104761199119</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1893001,54.0842843977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.10">
+        <name>75856114-4b50-4b62-9a26-a397c0575e8e</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer species</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">94.25</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">83.8561998241924</SimpleData>
+            <SimpleData name="crown_diameter_standardized">30.6367499946554</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">177.581133648748</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.1318279284326</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.159984041420236</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1903755,54.0875711977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.11">
+        <name>c754a1c0-eb2b-42d7-b0ab-f5eb236a0476</name>
+        <description>Malus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Zierapfel</SimpleData>
+            <SimpleData name="botanical_genus">Malus species</SimpleData>
+            <SimpleData name="German_genus">Apfel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">50.27</SimpleData>
+            <SimpleData name="trunk_diameter">3</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">56.9746363090312</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.5234893267584</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">49.705012044076</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.8751316507508</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">11.73726628727943</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1889305,54.0842249977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.12">
+        <name>8ea55abd-603a-4004-9c3d-084c06c1451a</name>
+        <description>Aesculus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Kastanie</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus species</SimpleData>
+            <SimpleData name="German_genus">Rosskastanie</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">109.96</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">100.145868384485</SimpleData>
+            <SimpleData name="crown_diameter_standardized">36.7796255902048</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">151.310204597076</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">18.6924384620957</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.546255048976839</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1828819,54.0833741977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.13">
+        <name>9eeb8674-4558-4854-b96b-58dabbbb1cfb</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus cerris</SimpleData>
+            <SimpleData name="German_genus">Zerr-Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">2</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">15.299552533664</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.12095779703789</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">15.8230300235204</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">3.42006402836566</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">7.40967405131065</SimpleData>
+            <SimpleData name="type">Quercus cerris</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1825465,54.0835218977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.14">
+        <name>01298e20-178c-408d-88cc-d08668c74ece</name>
+        <description>Aesculus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Kastanie</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus species</SimpleData>
+            <SimpleData name="German_genus">Rosskastanie</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">94.25</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">87.7154906714472</SimpleData>
+            <SimpleData name="crown_diameter_standardized">32.6008732887024</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">55.928298195957</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.63591292864345</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.095892277844527</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1828251,54.0835798977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.15">
+        <name>6a6a0591-65be-4a85-b06b-f8dccbd8bbb8</name>
+        <description>Aesculus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Kastanie</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus species</SimpleData>
+            <SimpleData name="German_genus">Rosskastanie</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">84.82</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">89.5634497991785</SimpleData>
+            <SimpleData name="crown_diameter_standardized">30.0930680985647</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">115.712772415291</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.2575342926914</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.43828974452562</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1827603,54.0833539977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.16">
+        <name>058f6235-8593-4349-b51d-f2dd7aa7a50c</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer platanoides</SimpleData>
+            <SimpleData name="German_genus">Spitz-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">389.56</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">390.772731846078</SimpleData>
+            <SimpleData name="crown_diameter_standardized">120.762011398702</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">153.555631709535</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.2896633585594</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">12.61815911896734</SimpleData>
+            <SimpleData name="type">Acer platanoides</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1833687,54.0841789977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.17">
+        <name>f540e906-849e-4ef3-83e5-8625c39e6db4</name>
+        <description>Aesculus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Kastanie</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus species</SimpleData>
+            <SimpleData name="German_genus">Rosskastanie</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">75.4</SimpleData>
+            <SimpleData name="trunk_diameter">3.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">76.0406191147517</SimpleData>
+            <SimpleData name="crown_diameter_standardized">23.7416923458949</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">105.374792146177</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.5597434279248</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.568661821757503</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1827774,54.0832908977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.18">
+        <name>96069349-2cec-4896-b841-e88303590f7a</name>
+        <description>Sorbus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus species</SimpleData>
+            <SimpleData name="German_genus">Eberesche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">2</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">8.13834117872686</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.8444509337809</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">12.2916443107451</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">2.44396426808603</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">3.470336065867175</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1825065,54.0833113977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.19">
+        <name>8d97b57e-e0b5-48c6-8820-3f55df210521</name>
+        <description>Aesculus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Kastanie</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus species</SimpleData>
+            <SimpleData name="German_genus">Rosskastanie</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">81.68</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">84.5181538759785</SimpleData>
+            <SimpleData name="crown_diameter_standardized">27.356053047582</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">72.8955613560043</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.603310804302</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.061520325740999</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1835154,54.0899633977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.20">
+        <name>1aa47f38-1725-4e8e-8159-d9f693d42241</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus pennsylvanica</SimpleData>
+            <SimpleData name="German_genus">Rot-Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">87.96</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">93.9522040874258</SimpleData>
+            <SimpleData name="crown_diameter_standardized">27.9810881324979</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">128.741732042039</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.2678379729042</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.28237677949166</SimpleData>
+            <SimpleData name="type">Fraxinus pennsylvanica</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1898744,54.0910651977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.21">
+        <name>87238c9f-fe4b-4fae-836c-a56a660fc73b</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer davidii</SimpleData>
+            <SimpleData name="German_genus">Davids-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">2.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">27.8561271980534</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.88274784422412</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">22.7199991545059</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">3.84221990458737</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.383128865941291</SimpleData>
+            <SimpleData name="type">Acer davidii</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1871636,54.0841410977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.22">
+        <name>4b6955ed-b965-4b52-9ad7-3e5079cefcae</name>
+        <description>Abies</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Tanne</SimpleData>
+            <SimpleData name="botanical_genus">Abies procera</SimpleData>
+            <SimpleData name="German_genus">Edel-Tanne</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">45</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">0</SimpleData>
+            <SimpleData name="height_standardized">46.0469488809972</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.4999225388753</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1.56215724855654</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.22883708509163</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">0.9795140659753467</SimpleData>
+            <SimpleData name="type">Abies procera</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1848334,54.0894551977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.23">
+        <name>61cbd0f9-a0cd-4e90-bef9-6e7bbaac64bd</name>
+        <description>Alnus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Erle</SimpleData>
+            <SimpleData name="botanical_genus">Alnus species</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">40.84</SimpleData>
+            <SimpleData name="trunk_diameter">1.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">45.1853601159599</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.0565940142162</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">19.1669888690392</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">2.5562244162096</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.747367814200848</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1903825,54.0883280977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.24">
+        <name>3364542b-b744-4a30-ae0b-365bd81febab</name>
+        <description>Abies</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Tanne</SimpleData>
+            <SimpleData name="botanical_genus">Abies species</SimpleData>
+            <SimpleData name="German_genus">Tanne</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">84.82</SimpleData>
+            <SimpleData name="trunk_diameter">3</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">73.3485009609789</SimpleData>
+            <SimpleData name="crown_diameter_standardized">26.4747589424523</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">61.3756991819604</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.97333958298409</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.752980724540881</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1861024,54.0865990977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.25">
+        <name>90ff8818-55e7-4492-94fd-3ca90a43a984</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus species</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">103.67</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">105.384695411633</SimpleData>
+            <SimpleData name="crown_diameter_standardized">29.9305033223969</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">154.542026407469</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">19.4259716317432</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.393717231717483</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1836936,54.0841846977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.26">
+        <name>9305dfd8-10a6-4092-9b7c-c15c61e10022</name>
+        <description>Paulownia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Blauglockenbaum</SimpleData>
+            <SimpleData name="botanical_genus">Paulownia tomentosa</SimpleData>
+            <SimpleData name="German_genus">Blauglockenbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">19.3568609461959</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.64104734056566</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">5.13049706254592</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.951592795457917</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.042515399932822</SimpleData>
+            <SimpleData name="type">Paulownia tomentosa</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1830871,54.0840350977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.27">
+        <name>7a67cc1e-59b9-42c3-b7c3-e3d3be05a5ed</name>
+        <description>Malus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Zierapfel</SimpleData>
+            <SimpleData name="botanical_genus">Malus x moerlandsii</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">12.1250939483173</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.80004414494233</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">10.0566926025173</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">2.17079613385307</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.7727968172723</SimpleData>
+            <SimpleData name="type">Malus x moerlandsii</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.186252,54.087119997763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.28">
+        <name>903b0c24-0b5f-4c77-81cc-9d883a9f8059</name>
+        <description>Malus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Zierapfel</SimpleData>
+            <SimpleData name="botanical_genus">Malus species</SimpleData>
+            <SimpleData name="German_genus">Apfel</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">28.27</SimpleData>
+            <SimpleData name="trunk_diameter">2</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">36.73470528105</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.4983374264271</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">7.97376712288488</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.27873705570843</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.599393615522779</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1895263,54.0841618977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.29">
+        <name>a8e5040e-7b5a-4408-b5d9-5b1fc402bde7</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus angustifolia</SimpleData>
+            <SimpleData name="German_genus">Schmalblättrige Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">75.4</SimpleData>
+            <SimpleData name="trunk_diameter">3.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">75.2570960792274</SimpleData>
+            <SimpleData name="crown_diameter_standardized">24.9433360778805</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">117.103446428835</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.5947462313869</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.03299284968871</SimpleData>
+            <SimpleData name="type">Fraxinus angustifolia</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1826385,54.0845664977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.30">
+        <name>673968e8-dcb2-42dc-a918-1477e184da37</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus angustifolia</SimpleData>
+            <SimpleData name="German_genus">Schmalblättrige Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">8</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">94.25</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">86.5363270484733</SimpleData>
+            <SimpleData name="crown_diameter_standardized">28.0995363771324</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">175.283497121752</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.4987127971351</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.180195397220456</SimpleData>
+            <SimpleData name="type">Fraxinus angustifolia</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1823888,54.0843389977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.31">
+        <name>e016ac2f-ffad-4c2b-a580-75d9f47029ec</name>
+        <description>Morus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Maulbeerebaum</SimpleData>
+            <SimpleData name="botanical_genus">Morus alba</SimpleData>
+            <SimpleData name="German_genus">Weiße Maulbeere</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">19.5775246869792</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.38115476536606</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">9.66190179912893</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">2.13355205936947</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">3.857045439567445</SimpleData>
+            <SimpleData name="type">Morus alba</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1862754,54.0854035977627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.32">
+        <name>284136fd-e00f-4aa1-ab8c-7856b9f9d943</name>
+        <description>Abies</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Tanne</SimpleData>
+            <SimpleData name="botanical_genus">Abies procera „Glauca“</SimpleData>
+            <SimpleData name="German_genus">Edel-Tanne „Glauca“</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">6.5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">75.4</SimpleData>
+            <SimpleData name="trunk_diameter">3.5</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">68.2827744872042</SimpleData>
+            <SimpleData name="crown_diameter_standardized">24.0226114487514</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">63.5438081361903</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.7520065473589</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">21.88927529704434</SimpleData>
+            <SimpleData name="type">Abies procera</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1847758,54.086927497763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.33">
+        <name>066f4844-7538-4e5e-9af0-8c0f54345809</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus syr. „Miragrande“</SimpleData>
+            <SimpleData name="German_genus">Mirabelle „Miragrande“</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18.85</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">0</SimpleData>
+            <SimpleData name="height_standardized">16.674209632981</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.48300366539708</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1.33023310363285</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">0.264869431982726</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">11.93281343887938</SimpleData>
+            <SimpleData name="type">Prunus syr.</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1894264,54.0842245977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmanshöhe_invalidated.34">
+        <name>3738e48a-c2b8-47b1-88fd-29e9d8b00c1a</name>
+        <description>Prunus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmanshöhe_invalidated">
+            <SimpleData name="uuid">Kirsche</SimpleData>
+            <SimpleData name="botanical_genus">Prunus syr. „Miragrande“</SimpleData>
+            <SimpleData name="German_genus">Mirabelle „Miragrande“</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">5</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">18.85</SimpleData>
+            <SimpleData name="trunk_diameter">1</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">15.8046731553073</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.976004278389</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">7.86207742263315</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">1.67695063578284</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.445080560288897</SimpleData>
+            <SimpleData name="type">Prunus syr.</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1891664,54.0843382977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Document id="Park_Brinckmansh__he_invalidated">
+      <name>Park Brinckmanshöhe_invalidated</name>
+      <Placemark id="Park_Brinckmansh__he_invalidated.1">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">ac614a4f-88a3-49a1-ac5b-f0099f22c610</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">26</SimpleData>
+            <SimpleData name="trunk_circumference">81.68</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.0152815621877</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.99515421461812</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">78.3402503360007</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">25.8623856476555</SimpleData>
+            <SimpleData name="volume_m^2">235.462437272939</SimpleData>
+            <SimpleData name="cover_area_m^2">19.5969138179785</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.907</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1833074,54.0844212977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.2">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">fdfb1e2b-3686-43d4-a15b-bc54f8f5a246</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus species</SimpleData>
+            <SimpleData name="German-species">Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">2.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.68756142855662</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.78207913677285</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">46.484997985305</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.766393509581</SimpleData>
+            <SimpleData name="volume_m^2">40.6533767198139</SimpleData>
+            <SimpleData name="cover_area_m^2">6.07895376425547</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.224</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1903728,54.0874255977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.3">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">2175b6af-cd44-4ae0-b163-887bfb0b78ef</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus species</SimpleData>
+            <SimpleData name="German-species">Apfel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">14</SimpleData>
+            <SimpleData name="trunk_circumference">43.98</SimpleData>
+            <SimpleData name="crown_diameter">2.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.70820746552137</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.59165255236562</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">46.308138672384</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.4955626291926</SimpleData>
+            <SimpleData name="volume_m^2">11.3575895733513</SimpleData>
+            <SimpleData name="cover_area_m^2">1.98969460061731</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.291</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.189176,54.0841642977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.4">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">11b6ed94-0f70-443b-b682-de84fc896695</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus species</SimpleData>
+            <SimpleData name="German-species">Apfel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">2.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.25368078963355</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.67253861259545</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">38.0064398994996</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.5966494465306</SimpleData>
+            <SimpleData name="volume_m^2">29.4714524816729</SimpleData>
+            <SimpleData name="cover_area_m^2">5.60967703630289</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.498</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1895391,54.0842333977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.5">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">3a00999a-f4b0-4cd3-9bbf-94fe1fde12be</SimpleData>
+            <SimpleData name="botanical_genus">Pyrus</SimpleData>
+            <SimpleData name="German_genus">Birne</SimpleData>
+            <SimpleData name="botanical_species">Pyrus species</SimpleData>
+            <SimpleData name="German-species">Birne</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">34.56</SimpleData>
+            <SimpleData name="crown_diameter">1.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.79977561077126</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.87717764450411</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">25.7014276462546</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.7152165168578</SimpleData>
+            <SimpleData name="volume_m^2">18.8189422631501</SimpleData>
+            <SimpleData name="cover_area_m^2">2.76758283513647</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.41</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1891753,54.0842193977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.6">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">e7992204-f0d1-403c-a94b-3675cba360e1</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus species</SimpleData>
+            <SimpleData name="German-species">Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">25</SimpleData>
+            <SimpleData name="trunk_circumference">78.54</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.2801526257309</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.79079657078339</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">77.7186627268984</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">25.3393875276859</SimpleData>
+            <SimpleData name="volume_m^2">138.597247073311</SimpleData>
+            <SimpleData name="cover_area_m^2">11.2862804964577</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.479</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1902761,54.087078597763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.7">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">fce566fa-0029-4415-bcdd-ea6d35f164be</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus species</SimpleData>
+            <SimpleData name="German-species">Apfel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">40.84</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.17580169194213</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.82369937553835</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">50.8338082543362</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.4046241602437</SimpleData>
+            <SimpleData name="volume_m^2">16.1320560509224</SimpleData>
+            <SimpleData name="cover_area_m^2">2.61213958213242</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.982</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1895335,54.0843418977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.8">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">46f96221-f6c2-4638-bc32-7e2a04590e28</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus species</SimpleData>
+            <SimpleData name="German-species">Apfel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">31.42</SimpleData>
+            <SimpleData name="crown_diameter">1.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.10874518900244</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.06050110833388</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">34.1462174043572</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.64224674012835</SimpleData>
+            <SimpleData name="volume_m^2">17.0353016444768</SimpleData>
+            <SimpleData name="cover_area_m^2">3.33453735002257</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">13.582</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1889348,54.0842924977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.9">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">2d80e332-902f-4bed-8a3f-2601014f810e</SimpleData>
+            <SimpleData name="botanical_genus">Pyrus</SimpleData>
+            <SimpleData name="German_genus">Birne</SimpleData>
+            <SimpleData name="botanical_species">Pyrus species</SimpleData>
+            <SimpleData name="German-species">Birne</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">1.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.87752150129912</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.04879552078264</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">35.3379074475353</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.9379104664255</SimpleData>
+            <SimpleData name="volume_m^2">19.3767680189612</SimpleData>
+            <SimpleData name="cover_area_m^2">3.29675833847283</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">14.421</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1893001,54.0842843977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.10">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">75856114-4b50-4b62-9a26-a397c0575e8e</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer species</SimpleData>
+            <SimpleData name="German-species">Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">30</SimpleData>
+            <SimpleData name="trunk_circumference">94.25</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.84662857734985</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.74594136110079</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">97.5417311174384</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">29.364591043426</SimpleData>
+            <SimpleData name="volume_m^2">229.398225697503</SimpleData>
+            <SimpleData name="cover_area_m^2">25.9305817681591</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.16</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1903755,54.0875711977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.11">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">c754a1c0-eb2b-42d7-b0ab-f5eb236a0476</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus species</SimpleData>
+            <SimpleData name="German-species">Apfel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.02232889359422</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.80558483781004</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">63.7883606462221</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.3189637504394</SimpleData>
+            <SimpleData name="volume_m^2">57.1265303172935</SimpleData>
+            <SimpleData name="cover_area_m^2">11.37451001868</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.737</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1889305,54.0842249977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.12">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">8ea55abd-603a-4004-9c3d-084c06c1451a</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus species</SimpleData>
+            <SimpleData name="German-species">Rosskastanie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">35</SimpleData>
+            <SimpleData name="trunk_circumference">109.96</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.38949753395748</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.52338902245277</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">109.826831997344</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.7769311082859</SimpleData>
+            <SimpleData name="volume_m^2">134.819810248849</SimpleData>
+            <SimpleData name="cover_area_m^2">16.0700697155163</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.546</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1828819,54.0833741977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.13">
+        <name>Quercus cerris</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">9eeb8674-4558-4854-b96b-58dabbbb1cfb</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus cerris</SimpleData>
+            <SimpleData name="German-species">Zerr-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">4.77</SimpleData>
+            <SimpleData name="trunk_circumference">15</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus cerris</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.0684973319013</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.88427125824913</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">20.3037712133636</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.28359822104691</SimpleData>
+            <SimpleData name="volume_m^2">33.1162618625366</SimpleData>
+            <SimpleData name="cover_area_m^2">6.53374357210404</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.41</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1825465,54.0835218977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.14">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">01298e20-178c-408d-88cc-d08668c74ece</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus species</SimpleData>
+            <SimpleData name="German-species">Rosskastanie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">30</SimpleData>
+            <SimpleData name="trunk_circumference">94.25</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.16274355780037</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.76767982895215</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">93.1090515056197</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">29.4832680703956</SimpleData>
+            <SimpleData name="volume_m^2">68.7087358078377</SimpleData>
+            <SimpleData name="cover_area_m^2">11.1490499585807</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.096</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1828251,54.0835798977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.15">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">6a6a0591-65be-4a85-b06b-f8dccbd8bbb8</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus species</SimpleData>
+            <SimpleData name="German-species">Rosskastanie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7.5</SimpleData>
+            <SimpleData name="trunk_diameter">27</SimpleData>
+            <SimpleData name="trunk_circumference">84.82</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.06477114845082</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.83854379094347</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">81.5966253954127</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.524379789273</SimpleData>
+            <SimpleData name="volume_m^2">93.3286380988357</SimpleData>
+            <SimpleData name="cover_area_m^2">11.5723851775712</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.438</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1827603,54.0833539977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.16">
+        <name>Acer platanoides</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">058f6235-8593-4349-b51d-f2dd7aa7a50c</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer platanoides</SimpleData>
+            <SimpleData name="German-species">Spitz-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">124</SimpleData>
+            <SimpleData name="trunk_circumference">389.56</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer platanoides</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.1482795720627</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.6882975937329</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">388.317842170297</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">123.726553440575</SimpleData>
+            <SimpleData name="volume_m^2">76.3736104049341</SimpleData>
+            <SimpleData name="cover_area_m^2">10.6841946562109</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.618</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1833687,54.0841789977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.17">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">f540e906-849e-4ef3-83e5-8625c39e6db4</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus species</SimpleData>
+            <SimpleData name="German-species">Rosskastanie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7.5</SimpleData>
+            <SimpleData name="trunk_diameter">24</SimpleData>
+            <SimpleData name="trunk_circumference">75.4</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.62664149875016</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.15704883159923</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">68.9182328955894</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">22.9802326582686</SimpleData>
+            <SimpleData name="volume_m^2">117.085168082229</SimpleData>
+            <SimpleData name="cover_area_m^2">13.5725088493816</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.569</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1827774,54.0832908977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.18">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">96069349-2cec-4896-b841-e88303590f7a</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus</SimpleData>
+            <SimpleData name="German_genus">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_species">Sorbus species</SimpleData>
+            <SimpleData name="German-species">Eberesche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">4.77</SimpleData>
+            <SimpleData name="trunk_circumference">15</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.18399857839942</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.81090281978964</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">17.1857253953409</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">3.9221175164945</SimpleData>
+            <SimpleData name="volume_m^2">13.3519606912417</SimpleData>
+            <SimpleData name="cover_area_m^2">2.57561040754841</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.47</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1825065,54.0833113977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.19">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">8d97b57e-e0b5-48c6-8820-3f55df210521</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus species</SimpleData>
+            <SimpleData name="German-species">Rosskastanie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">26</SimpleData>
+            <SimpleData name="trunk_circumference">81.68</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.15179937266747</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.62762455973312</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">84.3192580118505</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.1893431433486</SimpleData>
+            <SimpleData name="volume_m^2">84.2535154826051</SimpleData>
+            <SimpleData name="cover_area_m^2">10.335572752821</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.062</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1835154,54.0899633977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.20">
+        <name>Fraxinus pennsylvanica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">1aa47f38-1725-4e8e-8159-d9f693d42241</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus pennsylvanica</SimpleData>
+            <SimpleData name="German-species">Rot-Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">28</SimpleData>
+            <SimpleData name="trunk_circumference">87.96</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus pennsylvanica</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.2508640393816</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.58682884382777</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">87.2399201094115</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.8872638038675</SimpleData>
+            <SimpleData name="volume_m^2">177.750313948707</SimpleData>
+            <SimpleData name="cover_area_m^2">24.5143631135948</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.282</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1898744,54.0910651977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.21">
+        <name>Acer davidii</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">87238c9f-fe4b-4fae-836c-a56a660fc73b</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer davidii</SimpleData>
+            <SimpleData name="German-species">Davids-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">7.96</SimpleData>
+            <SimpleData name="trunk_circumference">25</SimpleData>
+            <SimpleData name="crown_diameter">2.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer davidii</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.05257832810388</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.1035723471405</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">19.6132812403116</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.92738277895305</SimpleData>
+            <SimpleData name="volume_m^2">21.0351302740831</SimpleData>
+            <SimpleData name="cover_area_m^2">3.47539992607957</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.383</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1871636,54.0841410977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.22">
+        <name>Abies procera</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">4b6955ed-b965-4b52-9ad7-3e5079cefcae</SimpleData>
+            <SimpleData name="botanical_genus">Abies</SimpleData>
+            <SimpleData name="German_genus">Tanne</SimpleData>
+            <SimpleData name="botanical_species">Abies procera</SimpleData>
+            <SimpleData name="German-species">Edel-Tanne</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">14.32</SimpleData>
+            <SimpleData name="trunk_circumference">45</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Abies procera</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.10694372203625</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.610436928849638</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">49.4351525530663</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.1132816750864</SimpleData>
+            <SimpleData name="volume_m^2">2.07995699297366</SimpleData>
+            <SimpleData name="cover_area_m^2">0.292665465539626</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.98</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1848334,54.0894551977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.23">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">61cbd0f9-a0cd-4e90-bef9-6e7bbaac64bd</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus species</SimpleData>
+            <SimpleData name="German-species">Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">13</SimpleData>
+            <SimpleData name="trunk_circumference">40.84</SimpleData>
+            <SimpleData name="crown_diameter">1.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.869178393585</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.74556271005322</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">43.0650091473238</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.9705948411545</SimpleData>
+            <SimpleData name="volume_m^2">16.4386287647742</SimpleData>
+            <SimpleData name="cover_area_m^2">2.39309970172356</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.747</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1903825,54.0883280977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.24">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">3364542b-b744-4a30-ae0b-365bd81febab</SimpleData>
+            <SimpleData name="botanical_genus">Abies</SimpleData>
+            <SimpleData name="German_genus">Tanne</SimpleData>
+            <SimpleData name="botanical_species">Abies species</SimpleData>
+            <SimpleData name="German-species">Tanne</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">27</SimpleData>
+            <SimpleData name="trunk_circumference">84.82</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.40757339500697</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.80762429206004</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">80.0920047573798</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">25.2291640357779</SimpleData>
+            <SimpleData name="volume_m^2">39.6699317722521</SimpleData>
+            <SimpleData name="cover_area_m^2">6.19110064399176</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.753</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1861024,54.0865990977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.25">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">90ff8818-55e7-4492-94fd-3ca90a43a984</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.8673943697473</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.59089692008212</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">102.543270576567</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">30.8905895977298</SimpleData>
+            <SimpleData name="volume_m^2">130.231452760266</SimpleData>
+            <SimpleData name="cover_area_m^2">16.5533144316559</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.394</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1836936,54.0841846977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.26">
+        <name>Paulownia tomentosa</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">9305dfd8-10a6-4092-9b7c-c15c61e10022</SimpleData>
+            <SimpleData name="botanical_genus">Paulownia</SimpleData>
+            <SimpleData name="German_genus">Blauglockenbaum</SimpleData>
+            <SimpleData name="botanical_species">Paulownia tomentosa</SimpleData>
+            <SimpleData name="German-species">Blauglockenbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Paulownia tomentosa</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.13770104939733</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.57208803933518</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">20.2393174669902</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.52140636990091</SimpleData>
+            <SimpleData name="volume_m^2">9.97269273938564</SimpleData>
+            <SimpleData name="cover_area_m^2">1.94108077591542</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.043</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1830871,54.0840350977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.27">
+        <name>Malus x moerlandsii</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">7a67cc1e-59b9-42c3-b7c3-e3d3be05a5ed</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus x moerlandsii</SimpleData>
+            <SimpleData name="German-species">Zierapfel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Malus x moerlandsii</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.67324848927821</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.99981386376761</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">8.76441667419693</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.31694395980077</SimpleData>
+            <SimpleData name="volume_m^2">17.819718417554</SimpleData>
+            <SimpleData name="cover_area_m^2">3.14100791658099</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.773</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.186252,54.087119997763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.28">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">903b0c24-0b5f-4c77-81cc-9d883a9f8059</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus species</SimpleData>
+            <SimpleData name="German-species">Apfel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">28.27</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.86408218030041</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.44503390352521</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">26.3864634088082</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.91953760527761</SimpleData>
+            <SimpleData name="volume_m^2">27.5333908873971</SimpleData>
+            <SimpleData name="cover_area_m^2">4.69526006642468</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.599</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1895263,54.0841618977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.29">
+        <name>Fraxinus angustifolia</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">a8e5040e-7b5a-4408-b5d9-5b1fc402bde7</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus angustifolia</SimpleData>
+            <SimpleData name="German-species">Schmalblättrige Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7.5</SimpleData>
+            <SimpleData name="trunk_diameter">24</SimpleData>
+            <SimpleData name="trunk_circumference">75.4</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus angustifolia</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.5278725794592</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.80344416259541</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">61.8226201484887</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.6522791569199</SimpleData>
+            <SimpleData name="volume_m^2">96.8912756468061</SimpleData>
+            <SimpleData name="cover_area_m^2">11.3617170922775</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.033</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1826385,54.0845664977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.30">
+        <name>Fraxinus angustifolia</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">673968e8-dcb2-42dc-a918-1477e184da37</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus angustifolia</SimpleData>
+            <SimpleData name="German-species">Schmalblättrige Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">30</SimpleData>
+            <SimpleData name="trunk_circumference">94.25</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus angustifolia</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.6853374132643</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.03033645597047</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">87.9712826063025</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">30.5201494012138</SimpleData>
+            <SimpleData name="volume_m^2">152.737925833859</SimpleData>
+            <SimpleData name="cover_area_m^2">19.8739388553384</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.18</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1823888,54.0843389977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.31">
+        <name>Morus alba</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">e016ac2f-ffad-4c2b-a580-75d9f47029ec</SimpleData>
+            <SimpleData name="botanical_genus">Morus</SimpleData>
+            <SimpleData name="German_genus">Maulbeerebaum</SimpleData>
+            <SimpleData name="botanical_species">Morus alba</SimpleData>
+            <SimpleData name="German-species">Weiße Maulbeere</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Morus alba</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">4.37862691985887</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.180664144993543</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">18.709535695203</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">3.42037839616393</SimpleData>
+            <SimpleData name="volume_m^2">0.11224623024768</SimpleData>
+            <SimpleData name="cover_area_m^2">0.0256350294971689</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.857</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1862754,54.0854035977627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.32">
+        <name>Abies procera</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">284136fd-e00f-4aa1-ab8c-7856b9f9d943</SimpleData>
+            <SimpleData name="botanical_genus">Abies</SimpleData>
+            <SimpleData name="German_genus">Tanne</SimpleData>
+            <SimpleData name="botanical_species">Abies procera „Glauca“</SimpleData>
+            <SimpleData name="German-species">Edel-Tanne „Glauca“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">24</SimpleData>
+            <SimpleData name="trunk_circumference">75.4</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Abies procera</SimpleData>
+            <SimpleData name="botanical_species_common_name">Glauca</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.49207746323798</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.96793625176409</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">74.1931178533651</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.8160606783894</SimpleData>
+            <SimpleData name="volume_m^2">67.9134679514717</SimpleData>
+            <SimpleData name="cover_area_m^2">12.3657155977971</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">21.889</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1847758,54.086927497763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.33">
+        <name>Prunus syr.</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">066f4844-7538-4e5e-9af0-8c0f54345809</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus syr. „Miragrande“</SimpleData>
+            <SimpleData name="German-species">Mirabelle „Miragrande“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">18.85</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus syr.</SimpleData>
+            <SimpleData name="botanical_species_common_name">Miragrande</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">4.87859463602462</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.443623562480197</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">19.8656588980485</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.25043163515972</SimpleData>
+            <SimpleData name="volume_m^2">0.754073754490304</SimpleData>
+            <SimpleData name="cover_area_m^2">0.15456782347155</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.933</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1894264,54.0842245977625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Park_Brinckmansh__he_invalidated.34">
+        <name>Prunus syr.</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Park_Brinckmansh__he_invalidated.schema">
+            <SimpleData name="uuid">3738e48a-c2b8-47b1-88fd-29e9d8b00c1a</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus syr. „Miragrande“</SimpleData>
+            <SimpleData name="German-species">Mirabelle „Miragrande“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">18.85</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus syr.</SimpleData>
+            <SimpleData name="botanical_species_common_name">Miragrande</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">4.14561622464844</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.73379951545513</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">25.3509198125052</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">4.59766112555476</SimpleData>
+            <SimpleData name="volume_m^2">9.78761169459809</SimpleData>
+            <SimpleData name="cover_area_m^2">2.36095459980214</SimpleData>
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.445</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1891664,54.0843382977626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

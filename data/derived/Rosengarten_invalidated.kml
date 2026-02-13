@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Rosengarten_invalidated" name="Rosengarten_invalidated">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Rosengarten_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Rosengarten_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Rosengarten_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Document id="Rosengarten_invalidated">
+      <name>Rosengarten_invalidated</name>
+      <Placemark id="Rosengarten_invalidated.1">
+        <name>Buchen-Nadel-Mischbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">933ee2d1-1d64-47e9-8072-0ff0566dab0f</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Buchen-Nadel-Mischbestand</SimpleData>
+            <SimpleData name="German-species">Buchen-Nadel-Mischbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Buchen-Nadel-Mischbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.311</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1378581,54.0860143977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.2">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">a28700ed-b311-42e4-8df8-eea7971c91d9</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus species</SimpleData>
+            <SimpleData name="German-species">Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">22</SimpleData>
+            <SimpleData name="trunk_circumference">69.12</SimpleData>
+            <SimpleData name="crown_diameter">6.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.76736727866555</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.55582621350316</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">66.8004985027671</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.7829262327</SimpleData>
+            <SimpleData name="volume_m^2">212.547688666745</SimpleData>
+            <SimpleData name="cover_area_m^2">24.2430460491779</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.514</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1389644,54.0860350977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.3">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">35a58033-8ca7-49de-988a-ed9cd4437990</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">62.39</SimpleData>
+            <SimpleData name="trunk_circumference">196</SimpleData>
+            <SimpleData name="crown_diameter">15</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.4541354253314</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.3810714368698</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">191.979496509042</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">60.1413630916137</SimpleData>
+            <SimpleData name="volume_m^2">3614.72276819689</SimpleData>
+            <SimpleData name="cover_area_m^2">185.807422903519</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.246</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1372611,54.0860769977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.4">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">4f9e6331-97a5-47ba-b8a9-d6c162707684</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23.5</SimpleData>
+            <SimpleData name="trunk_diameter">66.53</SimpleData>
+            <SimpleData name="trunk_circumference">209</SimpleData>
+            <SimpleData name="crown_diameter">15</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">23.8664820466036</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.7422521367512</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">206.541162184743</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">66.5690646275788</SimpleData>
+            <SimpleData name="volume_m^2">4073.85867360813</SimpleData>
+            <SimpleData name="cover_area_m^2">170.693722922934</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.613</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1389394,54.0861073977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.5">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">0cba84fa-2235-4c34-af6b-7d7b4aa9d527</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23.5</SimpleData>
+            <SimpleData name="trunk_diameter">70.98</SimpleData>
+            <SimpleData name="trunk_circumference">223</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">23.9980344708527</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.3358584849422</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">228.520688059312</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">66.7613646973071</SimpleData>
+            <SimpleData name="volume_m^2">3352.02702005881</SimpleData>
+            <SimpleData name="cover_area_m^2">139.679231819176</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.667</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1376866,54.0860846977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.6">
+        <name>Liriodendron tulipifera</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">00cb1cbc-8791-4726-934a-e8ca048b270d</SimpleData>
+            <SimpleData name="botanical_genus">Liriodendron</SimpleData>
+            <SimpleData name="German_genus">Tulpenbaum</SimpleData>
+            <SimpleData name="botanical_species">Liriodendron tulipifera</SimpleData>
+            <SimpleData name="German-species">Tulpenbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12.5</SimpleData>
+            <SimpleData name="trunk_diameter">45.52</SimpleData>
+            <SimpleData name="trunk_circumference">143</SimpleData>
+            <SimpleData name="crown_diameter">7.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Liriodendron tulipifera</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.3115436409819</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.7865098937898</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">137.095857603844</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.5990387980247</SimpleData>
+            <SimpleData name="volume_m^2">586.257038438986</SimpleData>
+            <SimpleData name="cover_area_m^2">47.6184835577798</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.736</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1404856,54.0863366977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.7">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">b02df18e-0a4b-4bbc-900b-fb420543b738</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">21</SimpleData>
+            <SimpleData name="trunk_diameter">79</SimpleData>
+            <SimpleData name="trunk_circumference">248.19</SimpleData>
+            <SimpleData name="crown_diameter">16</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.6376971757706</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.0017178437027</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">247.554109425367</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">76.6433192238366</SimpleData>
+            <SimpleData name="volume_m^2">3949.24117740586</SimpleData>
+            <SimpleData name="cover_area_m^2">201.105106268698</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.576</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1397739,54.0861217977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.8">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">e1bf25c1-05f4-498f-b1d9-76ab0df60ae1</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">64.94</SimpleData>
+            <SimpleData name="trunk_circumference">204</SimpleData>
+            <SimpleData name="crown_diameter">15</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.110588830518</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.2287472381346</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">207.070449643687</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">64.0696664445658</SimpleData>
+            <SimpleData name="volume_m^2">3833.81389752485</SimpleData>
+            <SimpleData name="cover_area_m^2">159.009550719566</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.901</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1369808,54.0860674977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.9">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">50a16b1f-aaa4-4660-a7a1-4a2ac0d4302d</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">64.3</SimpleData>
+            <SimpleData name="trunk_circumference">202</SimpleData>
+            <SimpleData name="crown_diameter">13</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">21.9236335467982</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.7073645550126</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">200.979257895087</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">61.9908622035682</SimpleData>
+            <SimpleData name="volume_m^2">3235.26859526368</SimpleData>
+            <SimpleData name="cover_area_m^2">147.569908444131</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.674</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1390774,54.0861107977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.10">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">fb8c93ef-8479-4d67-bdf5-67c71cfb1293</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">24</SimpleData>
+            <SimpleData name="trunk_diameter">61.12</SimpleData>
+            <SimpleData name="trunk_circumference">192</SimpleData>
+            <SimpleData name="crown_diameter">15</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.7734698619</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.3134627462153</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">186.365975398831</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">60.6589378001661</SimpleData>
+            <SimpleData name="volume_m^2">4562.71701076689</SimpleData>
+            <SimpleData name="cover_area_m^2">184.177551073863</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">18.414</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1367055,54.0860615977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.11">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">c7ad2ff0-a183-4ea0-9158-3e562b5ccc92</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">24.5</SimpleData>
+            <SimpleData name="trunk_diameter">68.12</SimpleData>
+            <SimpleData name="trunk_circumference">214</SimpleData>
+            <SimpleData name="crown_diameter">13.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">24.876098913196</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.0569171099397</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">214.37932630315</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">68.984428399268</SimpleData>
+            <SimpleData name="volume_m^2">4429.39361728198</SimpleData>
+            <SimpleData name="cover_area_m^2">178.058208915238</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.955</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.137546,54.0860832977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.12">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">98d9b71f-56c7-4920-9881-a516b40586ec</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">21</SimpleData>
+            <SimpleData name="trunk_diameter">51.88</SimpleData>
+            <SimpleData name="trunk_circumference">163</SimpleData>
+            <SimpleData name="crown_diameter">12.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">20.9243451823299</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.789645572425</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">167.15877135498</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.2320498599806</SimpleData>
+            <SimpleData name="volume_m^2">2688.18266446674</SimpleData>
+            <SimpleData name="cover_area_m^2">128.471531177799</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.545</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.136839,54.0860649977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.13">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">b4061346-751f-431b-82f9-e60ed752cc75</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">79</SimpleData>
+            <SimpleData name="trunk_circumference">248.19</SimpleData>
+            <SimpleData name="crown_diameter">11.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">23.024687804745</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.2149642508178</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">247.870627063631</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">75.7506866210641</SimpleData>
+            <SimpleData name="volume_m^2">2698.1620659798</SimpleData>
+            <SimpleData name="cover_area_m^2">117.185609154004</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.562</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1365647,54.0860597977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.14">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">a80d5e9d-d15c-42f7-9029-5848fd1a3b1f</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">64</SimpleData>
+            <SimpleData name="trunk_circumference">201.06</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">22.0708918651885</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.9706511611389</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">198.35431002609</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">62.8544070506977</SimpleData>
+            <SimpleData name="volume_m^2">2086.28951751863</SimpleData>
+            <SimpleData name="cover_area_m^2">94.5267427461438</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.214</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1374008,54.0860798977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.15">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">a04d1783-9a54-45cd-80e6-de1d042c97c9</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22.5</SimpleData>
+            <SimpleData name="trunk_diameter">66.85</SimpleData>
+            <SimpleData name="trunk_circumference">210</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">21.7467901933524</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.0393257551676</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">210.492260580399</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">68.2487000753084</SimpleData>
+            <SimpleData name="volume_m^2">3366.49170053656</SimpleData>
+            <SimpleData name="cover_area_m^2">154.804073180677</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.664</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1378247,54.0860885977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.16">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">aab800f9-2faa-4736-9697-00c21acc77a3</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">55.07</SimpleData>
+            <SimpleData name="trunk_circumference">173</SimpleData>
+            <SimpleData name="crown_diameter">11.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">21.9035043771659</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.2501104174472</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">168.441928926564</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">52.8899494798827</SimpleData>
+            <SimpleData name="volume_m^2">2177.29389679149</SimpleData>
+            <SimpleData name="cover_area_m^2">99.4039063019198</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.32</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1381024,54.0860933977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.17">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">cedfce50-c299-449f-b794-2af52fffdfae</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">62.07</SimpleData>
+            <SimpleData name="trunk_circumference">195</SimpleData>
+            <SimpleData name="crown_diameter">7.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">20.1571001714138</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.3161076249517</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">196.242854056945</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">61.5458299872504</SimpleData>
+            <SimpleData name="volume_m^2">1094.85886171672</SimpleData>
+            <SimpleData name="cover_area_m^2">54.3162881766799</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">13.278</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1401861,54.0861299977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.18">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">34e08195-9532-4b98-8443-4efc7ff648aa</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16.5</SimpleData>
+            <SimpleData name="trunk_diameter">22</SimpleData>
+            <SimpleData name="trunk_circumference">69.12</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.7346332802692</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.58051568641323</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">83.1726406521644</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.3486961258325</SimpleData>
+            <SimpleData name="volume_m^2">82.2923593044567</SimpleData>
+            <SimpleData name="cover_area_m^2">5.23001444257674</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.693</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1367594,54.0859709977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.19">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">b3c2370c-b817-4b24-9195-ae84778f9075</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18.5</SimpleData>
+            <SimpleData name="trunk_diameter">39</SimpleData>
+            <SimpleData name="trunk_circumference">122.52</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">17.7195892208699</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.2738859586055</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">119.718433513556</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">40.5622165684091</SimpleData>
+            <SimpleData name="volume_m^2">2835.48906251418</SimpleData>
+            <SimpleData name="cover_area_m^2">160.020022313755</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">13.94</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1367251,54.0859720977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.20">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">51711d1f-500e-4898-8387-3aec525a3bc2</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">19</SimpleData>
+            <SimpleData name="trunk_diameter">36</SimpleData>
+            <SimpleData name="trunk_circumference">113.1</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.0552868197117</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.6780445899263</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">105.720146997469</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.1183281018754</SimpleData>
+            <SimpleData name="volume_m^2">2799.97015291608</SimpleData>
+            <SimpleData name="cover_area_m^2">146.939281439713</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.31</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1390871,54.0860357977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.21">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">e49da6e7-02ca-44e0-b339-d1b081e40c2e</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">23</SimpleData>
+            <SimpleData name="trunk_circumference">72.26</SimpleData>
+            <SimpleData name="crown_diameter">6.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.3577895908788</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.8330045154641</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">69.7676833454932</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">25.5373403703641</SimpleData>
+            <SimpleData name="volume_m^2">599.843440972136</SimpleData>
+            <SimpleData name="cover_area_m^2">36.6702015354576</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.864</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1367721,54.0859716977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.22">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">6231cea9-f332-4b15-8524-86a40168970d</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus species</SimpleData>
+            <SimpleData name="German-species">Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11.5</SimpleData>
+            <SimpleData name="trunk_diameter">27</SimpleData>
+            <SimpleData name="trunk_circumference">84.82</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">11.9391332685818</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.63743245806829</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">80.3946304207545</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">25.8124112390842</SimpleData>
+            <SimpleData name="volume_m^2">413.107339406394</SimpleData>
+            <SimpleData name="cover_area_m^2">34.6011163551963</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.226</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1385195,54.0860233977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.23">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">94c82c1c-93a0-4b53-8089-c76907f0110d</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus species</SimpleData>
+            <SimpleData name="German-species">Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11.5</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.0547257941834</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.19645758346542</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">47.7323758967363</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.7947702268605</SimpleData>
+            <SimpleData name="volume_m^2">490.325813268725</SimpleData>
+            <SimpleData name="cover_area_m^2">40.6749868591218</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.28</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1370868,54.0859923977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.24">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">90bc6e56-c1ec-4d23-9c35-76d0601854f9</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus species</SimpleData>
+            <SimpleData name="German-species">Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13.5</SimpleData>
+            <SimpleData name="trunk_diameter">23</SimpleData>
+            <SimpleData name="trunk_circumference">72.26</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.0303536565541</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.73333543487678</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">67.6905877891615</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.5653134352291</SimpleData>
+            <SimpleData name="volume_m^2">499.596054744654</SimpleData>
+            <SimpleData name="cover_area_m^2">35.6082296265765</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.452</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1376581,54.0859919977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.25">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">dc36c427-aeda-4248-a230-4b8e51ec6bf2</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9.5</SimpleData>
+            <SimpleData name="trunk_diameter">23</SimpleData>
+            <SimpleData name="trunk_circumference">72.26</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">10.6303983245718</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.8879457040054</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">67.4957024859192</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.0042994412193</SimpleData>
+            <SimpleData name="volume_m^2">289.445640171711</SimpleData>
+            <SimpleData name="cover_area_m^2">27.2281086121361</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.305</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1387654,54.0860290977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.26">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">017f9209-30e9-4786-a39e-0186558bbda0</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8.5</SimpleData>
+            <SimpleData name="trunk_diameter">27</SimpleData>
+            <SimpleData name="trunk_circumference">84.82</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.9899618965507</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.38750676532001</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">83.2454849961697</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">27.0255621040793</SimpleData>
+            <SimpleData name="volume_m^2">342.476181639731</SimpleData>
+            <SimpleData name="cover_area_m^2">42.8633059924327</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.89</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1394993,54.0860626977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.27">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">e5e695af-700f-48b2-8a8b-846e6f0ae079</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">32</SimpleData>
+            <SimpleData name="trunk_circumference">100.53</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.5254986240563</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.01541954522509</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">93.151014986309</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.0277466746029</SimpleData>
+            <SimpleData name="volume_m^2">1054.91225540827</SimpleData>
+            <SimpleData name="cover_area_m^2">63.8354266583297</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.015</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1366183,54.0859667977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.28">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">730d95da-3be5-44f3-8234-572beedeccac</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">19</SimpleData>
+            <SimpleData name="trunk_diameter">46</SimpleData>
+            <SimpleData name="trunk_circumference">144.51</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">18.9062173945017</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.2476985553308</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">144.313198905731</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.1371281126487</SimpleData>
+            <SimpleData name="volume_m^2">1878.54613668229</SimpleData>
+            <SimpleData name="cover_area_m^2">99.3612893305992</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.186</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1366675,54.0859659977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.29">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">8e418088-582b-404f-b7cb-3fcba741765a</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus species</SimpleData>
+            <SimpleData name="German-species">Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">25</SimpleData>
+            <SimpleData name="trunk_circumference">78.54</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.70333135105357</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.51626814374683</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">73.07519420311</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.3208043590426</SimpleData>
+            <SimpleData name="volume_m^2">136.304195266867</SimpleData>
+            <SimpleData name="cover_area_m^2">23.8990489727881</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.723</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1368928,54.0859887977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.30">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">b844cb3b-a830-4f2b-b18e-ebacba602f73</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus species</SimpleData>
+            <SimpleData name="German-species">Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">19</SimpleData>
+            <SimpleData name="trunk_diameter">25</SimpleData>
+            <SimpleData name="trunk_circumference">78.54</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">18.5712273845837</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.48511745860297</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">80.7675197948251</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.1498877337663</SimpleData>
+            <SimpleData name="volume_m^2">817.198815511149</SimpleData>
+            <SimpleData name="cover_area_m^2">44.0034898387771</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.36</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1369675,54.0859813977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.31">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">5d60affd-2568-4225-8190-4926336a396b</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">63.98</SimpleData>
+            <SimpleData name="trunk_circumference">201</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.1210082248242</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.1868815624168</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">194.086181995329</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">60.3084945449187</SimpleData>
+            <SimpleData name="volume_m^2">1006.55540411697</SimpleData>
+            <SimpleData name="cover_area_m^2">52.6413352414227</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.738</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1400507,54.0861281977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.32">
+        <name>Fagus sylvatica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">75ced715-3ce0-4981-9f3c-cb63ff063dfc</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus sylvatica „Purpurea“</SimpleData>
+            <SimpleData name="German-species">Blutbuche „Purpurea“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">125</SimpleData>
+            <SimpleData name="trunk_circumference">392.7</SimpleData>
+            <SimpleData name="crown_diameter">19</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
+            <SimpleData name="botanical_species_common_name">Purpurea</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">22.0494904494116</SimpleData>
+            <SimpleData name="crown_diameter_standardized">18.8974886345775</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">395.761822404103</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">124.38647542572</SimpleData>
+            <SimpleData name="volume_m^2">6184.38651663364</SimpleData>
+            <SimpleData name="cover_area_m^2">280.477525356995</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.049</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1402579,54.0859365977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.33">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">57b6c8a9-806c-4b4a-9bc0-e42161c8283f</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus species</SimpleData>
+            <SimpleData name="German-species">Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15.5</SimpleData>
+            <SimpleData name="trunk_diameter">43</SimpleData>
+            <SimpleData name="trunk_circumference">135.09</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.3126354687467</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.08666517141193</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">139.427063847931</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.3786539651741</SimpleData>
+            <SimpleData name="volume_m^2">837.824267857337</SimpleData>
+            <SimpleData name="cover_area_m^2">51.3604481300719</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.189</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1369145,54.0859935977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.34">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">760a51ad-07c6-4a6d-8d41-e18cda45efc3</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13.5</SimpleData>
+            <SimpleData name="trunk_diameter">29</SimpleData>
+            <SimpleData name="trunk_circumference">91.11</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">13.5932826905643</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.29436678731278</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">87.3972658017748</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.6165290602588</SimpleData>
+            <SimpleData name="volume_m^2">568.053741875191</SimpleData>
+            <SimpleData name="cover_area_m^2">41.7892980530377</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.587</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1364493,54.0859617977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.35">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">d517e8dd-1dfa-457b-af0d-1e3df381e9bd</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17.5</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">17.4610253333875</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.51497405121346</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">107.246259815284</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.9996994389408</SimpleData>
+            <SimpleData name="volume_m^2">774.487824026521</SimpleData>
+            <SimpleData name="cover_area_m^2">44.3552316796432</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.231</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1365912,54.0859648977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.36">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">31640457-2844-43f2-8d7a-a6311cf532fa</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus species</SimpleData>
+            <SimpleData name="German-species">Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">31</SimpleData>
+            <SimpleData name="trunk_circumference">97.39</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">13.1555621526837</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.47776997129989</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">102.889451466562</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">29.8922723625576</SimpleData>
+            <SimpleData name="volume_m^2">207.16808483027</SimpleData>
+            <SimpleData name="cover_area_m^2">15.7475661188685</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.219</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1364641,54.0859606977628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.37">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">2f413d8d-95dd-4772-ac04-67881f556bcc</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus species</SimpleData>
+            <SimpleData name="German-species">Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17.5</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">18.1321310854795</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.00337254826352</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">105.598957399344</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">34.2240289402883</SimpleData>
+            <SimpleData name="volume_m^2">912.188931222608</SimpleData>
+            <SimpleData name="cover_area_m^2">50.3078720820139</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.176</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1371497,54.0859928977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Rosengarten_invalidated.38">
+        <name>Fagus sylvatica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Rosengarten_invalidated.schema">
+            <SimpleData name="uuid">71e4ffc9-08f8-4239-ae6a-956506eb153e</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus sylvatica „Purpurea“</SimpleData>
+            <SimpleData name="German-species">Blutbuche „Purpurea“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">144.51</SimpleData>
+            <SimpleData name="trunk_circumference">454</SimpleData>
+            <SimpleData name="crown_diameter">20</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
+            <SimpleData name="botanical_species_common_name">Purpurea</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">23.7640482994916</SimpleData>
+            <SimpleData name="crown_diameter_standardized">20.6107849394425</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">452.547042030304</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">146.507940328598</SimpleData>
+            <SimpleData name="volume_m^2">7928.65226947093</SimpleData>
+            <SimpleData name="cover_area_m^2">333.640639404042</SimpleData>
+            <SimpleData name="designation">Rosengarten</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.903</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1367969,54.0856461977627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

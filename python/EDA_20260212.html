@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Continued EDA for Senior Thesis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="EDA_20260212_files/libs/clipboard/clipboard.min.js"></script>
+<script src="EDA_20260212_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="EDA_20260212_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="EDA_20260212_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="EDA_20260212_files/libs/quarto-html/popper.min.js"></script>
+<script src="EDA_20260212_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="EDA_20260212_files/libs/quarto-html/anchor.min.js"></script>
+<link href="EDA_20260212_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="EDA_20260212_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="EDA_20260212_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="EDA_20260212_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="EDA_20260212_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Continued EDA for Senior Thesis</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Adding Geopatial Bounding</p>
+<section id="dependencies" class="level2">
+<h2 class="anchored" data-anchor-id="dependencies">Dependencies</h2>
+<div id="f92f6873" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># libraries that I may potential need:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> rasterio</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> rasterio.warp</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio.windows <span class="im">import</span> from_bounds</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rasterio.warp <span class="im">import</span> transform_bounds</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> shapely.geometry <span class="im">import</span> Point, box</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> pandas.plotting <span class="im">import</span> scatter_matrix</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> fiona</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">Variables</h2>
+<section id="used-google-translate-to-reencocde-variable-names" class="level3">
+<h3 class="anchored" data-anchor-id="used-google-translate-to-reencocde-variable-names">Used Google Translate to reencocde variable names:</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>original variable name</th>
+<th>translated variable name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>gattung_botanisch</td>
+<td>botanical genus</td>
+</tr>
+<tr class="even">
+<td>gattung_deutsch</td>
+<td>German genus</td>
+</tr>
+<tr class="odd">
+<td>art_botanisch</td>
+<td>botanical species</td>
+</tr>
+<tr class="even">
+<td>art_deutsch</td>
+<td>German species</td>
+</tr>
+<tr class="odd">
+<td>alleebaum</td>
+<td>avenue tree</td>
+</tr>
+<tr class="even">
+<td>hoehe</td>
+<td>height</td>
+</tr>
+<tr class="odd">
+<td>stammdurchmesser</td>
+<td>trunk diameter</td>
+</tr>
+<tr class="even">
+<td>stammumfang</td>
+<td>trunk circumference</td>
+</tr>
+<tr class="odd">
+<td>kronendurchmesser</td>
+<td>crown diameter</td>
+</tr>
+<tr class="even">
+<td>baumpatenschaft</td>
+<td>tree sponsorship</td>
+</tr>
+</tbody>
+</table>
+<div id="d9a6885d" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># set path to data set</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>path_tree               <span class="op">=</span> <span class="st">'../data/data_gov_de/trees/baeume.json'</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>path_parks              <span class="op">=</span> <span class="st">'../data/data_gov_de/parks/parkanlagen.json'</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>path_cemeteries         <span class="op">=</span> <span class="st">'../data/data_gov_de/cemeteries/friedhoefe.json'</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>convex_hull_test_kml    <span class="op">=</span> <span class="st">'../data/derived/rostock_convex_hull_test_subset.kml'</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>path_test_kml           <span class="op">=</span> <span class="st">'../data/derived/rostock_trees_test_subset.kml'</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># create german to english variable name map</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>recoded_column_names <span class="op">=</span> {</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">'gattung_botanisch'</span> : <span class="st">'botanical_genus'</span>     ,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">'gattung_deutsch'</span>   : <span class="st">'German_genus'</span>        ,</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">'art_botanisch'</span>     : <span class="st">'botanical_species'</span>   ,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">'art_deutsch'</span>       : <span class="st">'German-species'</span>      ,</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">'alleebaum'</span>         : <span class="st">'avenue_tree'</span>         ,</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="st">'hoehe'</span>             : <span class="st">'height'</span>              ,</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    <span class="st">'stammdurchmesser'</span>  : <span class="st">'trunk_diameter'</span>      ,</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="st">'stammumfang'</span>       : <span class="st">'trunk_circumference'</span> ,</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">'kronendurchmesser'</span> : <span class="st">'crown_diameter'</span>      ,</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">'baumpatenschaft'</span>   : <span class="st">'tree_sponsorship'</span>    ,</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">'bezeichnung'</span>   : <span class="st">'designation'</span>    ,</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="co"># set standard deviation limit to constrain outliers</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>sd_limit <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="co"># isolate cohorts for analysis that are not outliers and have less than n units min_count = 50</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>min_count <span class="op">=</span> <span class="dv">35</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Gausian smoother coefficient</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>smother_sd <span class="op">=</span> <span class="dv">1</span><span class="op">/</span><span class="dv">2</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+</section>
+<section id="functions" class="level2">
+<h2 class="anchored" data-anchor-id="functions">Functions</h2>
+<div id="7b2e035a" class="cell" data-execution_count="3">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> kml_export(gdf:gpd.GeoDataFrame, path:<span class="bu">str</span>, espg:<span class="bu">int</span> <span class="op">=</span> <span class="dv">4326</span>):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">    # Export a GeoPandas dataframe as a *.kml file</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">    ## Expects a gpd.DataFrame.</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">    ## Path literal must end in '.kml'.</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># depenencies</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="im">import</span> fiona</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># enable KML support</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    fiona.drvsupport.supported_drivers[<span class="st">'KML'</span>] <span class="op">=</span> <span class="st">'rw'</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># cast to required CRS</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    export_gdf <span class="op">=</span> gdf.to_crs(epsg<span class="op">=</span><span class="dv">4326</span>)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># export</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    export_gdf.to_file(path, driver<span class="op">=</span><span class="st">'KML'</span>)</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> CRS_printer(gpd:gpd.GeoDataFrame):</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="co">    # Prints the current Cordiante Reference System (CRS) for a GeoPandas (gpd) Dataframe.</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="co">    ## Expects:</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="co">    - a gpd.DataFrame object</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">hasattr</span>(gpd, <span class="st">'crs'</span>):</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"CRS Object: </span><span class="sc">{</span>gpd<span class="sc">.</span>crs<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> gpd.crs</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"No explicit CRS found using geojson library."</span>)</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> list_printer(a_list:<span class="bu">list</span>, number_of_items_to_print:<span class="bu">int</span> <span class="op">=</span> <span class="dv">10000</span>, span:<span class="bu">int</span><span class="op">=</span><span class="dv">80</span>):</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a><span class="co">    # Formated list printer</span></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="co">    ## Expects: </span></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a><span class="co">     - A list like object</span></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a><span class="co">     - number of items from list to print. Default 10000</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a><span class="co">     - max length of page in. Assumes terminal is using fixed width font. Default 80</span></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="co">    ## Returns: Prints a formated list.</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>    counter <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>    list_len <span class="op">=</span> <span class="bu">len</span>(a_list)</span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>    max_len <span class="op">=</span> <span class="bu">len</span>(<span class="bu">max</span>(a_list, key<span class="op">=</span><span class="bu">len</span>)) <span class="op">+</span> <span class="dv">2</span></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> span <span class="op">&gt;</span> max_len:</span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>        cols <span class="op">=</span> <span class="bu">round</span>(span <span class="op">/</span> max_len )</span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>: <span class="cf">return</span> <span class="ss">f'span </span><span class="sc">{</span>span<span class="sc">}</span><span class="ss"> must be greater than len of longest item in list </span><span class="sc">{</span>max_len<span class="sc">}</span><span class="ss"> +2'</span></span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> a_list:</span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> counter <span class="op">&gt;</span> number_of_items_to_print:</span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> counter <span class="op">%</span> cols <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f'</span><span class="sc">{</span>i<span class="sc">:</span><span class="op">^</span>{max_len}<span class="sc">}</span><span class="ss">'</span>)</span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>: </span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f'</span><span class="sc">{</span>i<span class="sc">:</span><span class="op">^</span>{max_len}<span class="sc">}</span><span class="ss">'</span>, end<span class="op">=</span> <span class="st">' | '</span>)</span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>        counter <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> round_to_nearest_n(x, base):</span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a><span class="co">    # Rounds a value to the nearest multiple of 'base'.</span></span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> base <span class="op">*</span> <span class="bu">round</span>(x <span class="op">/</span> base)</span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> series_limit(series:pd.Series, sd_limit:<span class="bu">int</span><span class="op">=</span> <span class="dv">1</span>) <span class="op">-&gt;</span> pd.Series:</span>
+<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a><span class="co">    # Mask values in a pandas series greater or equal to a limit.</span></span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a><span class="co">    Limit defined by the number of standard devations away from the series mean the value is.</span></span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a><span class="co">    Assumes a guasian distribution.</span></span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>    sample_sd <span class="op">=</span> series.std()</span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>    sample_mean <span class="op">=</span> series.mean()</span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>    limit <span class="op">=</span> sample_mean <span class="op">+</span> (sample_sd<span class="op">*</span>sd_limit)</span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>    mask <span class="op">=</span> series <span class="op">&lt;=</span> limit</span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> mask </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="load-tree-data" class="level2">
+<h2 class="anchored" data-anchor-id="load-tree-data">Load Tree Data</h2>
+<div id="692e87d4" class="cell" data-execution_count="4">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># read GeoJson data into a GeoPandas DF</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>tree_gdf <span class="op">=</span> gpd.read_file(path_tree, encoding<span class="op">=</span><span class="st">'utf-8'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="clean-tree-data" class="level2">
+<h2 class="anchored" data-anchor-id="clean-tree-data">Clean Tree Data</h2>
+<section id="translate-variable-names" class="level3">
+<h3 class="anchored" data-anchor-id="translate-variable-names">translate variable names</h3>
+<div id="461c271b" class="cell" data-execution_count="5">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># map translated variable names</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>tree_gdf <span class="op">=</span> tree_gdf.rename(columns<span class="op">=</span>recoded_column_names)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="split-variable" class="level3">
+<h3 class="anchored" data-anchor-id="split-variable">split variable</h3>
+<div id="5f469c5a" class="cell" data-execution_count="6">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Split common name and species variable and create two new features</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># - botanical_species_formal_name</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># - botanical_species_common_name</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>tree_gdf[[<span class="st">'botanical_species_formal_name'</span>, <span class="st">'botanical_species_common_name'</span>]] <span class="op">=</span> tree_gdf[<span class="st">'botanical_species'</span>].<span class="bu">str</span>.split(<span class="st">' „'</span>, expand<span class="op">=</span><span class="va">True</span>).fillna(pd.NA)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'botanical_species_common_name'</span>] <span class="op">=</span> tree_gdf[<span class="st">'botanical_species_common_name'</span>].<span class="bu">str</span>.replace(<span class="st">'“'</span>, <span class="st">''</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create mask for botanical_species_formal_name containing the string 'species'</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co"># - We are isolating units where a generalization from a species to a genus was made.</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>mask_botanical_species_formal_name <span class="op">=</span> tree_gdf[<span class="st">'botanical_species_formal_name'</span>].<span class="bu">str</span>.contains(<span class="st">'species'</span>)</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># set masked recs to NA</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>tree_gdf.loc[mask_botanical_species_formal_name, <span class="st">'botanical_species_formal_name'</span>] <span class="op">=</span> pd.NA</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="list-unique-species" class="level3">
+<h3 class="anchored" data-anchor-id="list-unique-species">list unique species</h3>
+<div id="a7936230" class="cell" data-execution_count="7">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># aint-subset units whose species has been generalized to a genus to a list</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>species <span class="op">=</span> tree_gdf[<span class="st">'botanical_species_formal_name'</span>][<span class="op">~</span>mask_botanical_species_formal_name].unique().tolist()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="mask-outliers" class="level3">
+<h3 class="anchored" data-anchor-id="mask-outliers">mask outliers</h3>
+<div id="f615e778" class="cell" data-execution_count="8">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># we create a mask to subset by trees whose height within </span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co"># `sd_limit` standard deviations of the mean height</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># - Note: The tallest tree in Germany is about 68 meters.</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># - Trees taller than that are excluded.</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>mask_height <span class="op">=</span> series_limit(tree_gdf[<span class="st">'height'</span>],sd_limit)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># we create a mask to subset by trees whose trunk_diameter is within </span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="co"># `sd_limit` standard deviations of the mean trunk_diameter</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>mask_trunk_diameter <span class="op">=</span> series_limit(tree_gdf[<span class="st">'trunk_diameter'</span>],sd_limit)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="co"># we create a mask to subset by trees whose trunk_circumference is within </span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a><span class="co"># `sd_limit` standard deviations of the mean trunk_circumference</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>mask_trunk_circumference <span class="op">=</span> series_limit(tree_gdf[<span class="st">'trunk_circumference'</span>], sd_limit)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a><span class="co"># we create a mask to subset by trees whose crown_diameter is within </span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a><span class="co"># `sd_limit` standard deviations of the mean crown_diameter</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>mask_crown_diameter <span class="op">=</span> series_limit(tree_gdf[<span class="st">'crown_diameter'</span>],sd_limit)</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a><span class="co"># generate a uniform mask that excludes outliers across all continuious variables</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a><span class="co"># - Note: We do not drop these units, as these are still trees </span></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a><span class="co">#         and may contribute to a future competitive density feature.</span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>mask_non_outlier <span class="op">=</span> mask_height <span class="op">&amp;</span> mask_trunk_diameter <span class="op">&amp;</span> mask_trunk_circumference <span class="op">&amp;</span> mask_crown_diameter</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a><span class="co"># isolate cohorts for analysis sans-outliers, having &gt;= n units </span></span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a><span class="co"># counts by species of non outliers.</span></span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a>non_outlier_cohort_counts <span class="op">=</span> tree_gdf[mask_non_outlier].groupby(<span class="st">'botanical_species_formal_name'</span>)<span class="op">\</span></span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a>    [<span class="st">'botanical_species_formal_name'</span>].count()</span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a><span class="co"># list of cohorts that meet minimum representation</span></span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>valid_species <span class="op">=</span> non_outlier_cohort_counts[non_outlier_cohort_counts <span class="op">&gt;</span> min_count].index.to_list()</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a><span class="co"># mark those records whoes species cohort meets minimum representation...</span></span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'qualified_species_representation'</span>] <span class="op">=</span> tree_gdf[<span class="st">'botanical_species_formal_name'</span>].isin(valid_species)</span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a><span class="co"># ... and that do not contain outliers.</span></span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'in_qualified_cohort'</span>] <span class="op">=</span> tree_gdf[<span class="st">'botanical_species_formal_name'</span>].isin(valid_species) <span class="op">&amp;</span> mask_non_outlier</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="correcting-digit-preference-bias" class="level3">
+<h3 class="anchored" data-anchor-id="correcting-digit-preference-bias">correcting digit preference bias</h3>
+<p>Note: See EDA_20260209 for evidence of rounding bias.</p>
+<div id="bc79645e" class="cell" data-execution_count="9">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># generate features with gausian smoother</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># round height to nearest integer ...</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'height_standardized'</span>] <span class="op">=</span> tree_gdf[<span class="st">'height'</span>].<span class="bu">round</span>()</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># ...and apply smoother:</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'height_standardized'</span>] <span class="op">=</span> tree_gdf[<span class="st">'height_standardized'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x<span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>smother_sd))</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co"># round crown_diameter to nearest integer ...</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'crown_diameter_standardized'</span>] <span class="op">=</span> tree_gdf[<span class="st">'crown_diameter'</span>].<span class="bu">round</span>()</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="co"># ...and apply smoother:</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'crown_diameter_standardized'</span>] <span class="op">=</span> tree_gdf[<span class="st">'crown_diameter_standardized'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x<span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>smother_sd))</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="co"># round trunk_circumference to nearest 9th centimeter ...</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'trunk_circumference_standardized'</span>] <span class="op">=</span> tree_gdf[<span class="st">'trunk_circumference'</span>][tree_gdf[<span class="st">'trunk_circumference'</span>].notna()].<span class="bu">apply</span>(<span class="kw">lambda</span> x: round_to_nearest_n(x, base<span class="op">=</span><span class="dv">9</span>))</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="co"># ...and apply smoother:</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'trunk_circumference_standardized'</span>] <span class="op">=</span> tree_gdf[<span class="st">'trunk_circumference_standardized'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x<span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>smother_sd<span class="op">*</span><span class="dv">9</span>))</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a><span class="co"># round trunk_diameter to nearest 3rd centimeter ...</span></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'trunk_diameter_standardized'</span>] <span class="op">=</span> tree_gdf[<span class="st">'trunk_diameter'</span>][tree_gdf[<span class="st">'trunk_diameter'</span>].notna()].<span class="bu">apply</span>(<span class="kw">lambda</span> x: round_to_nearest_n(x, base<span class="op">=</span><span class="dv">3</span>))</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a><span class="co"># ...and apply smoother:</span></span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'trunk_diameter_standardized'</span>] <span class="op">=</span> tree_gdf[<span class="st">'trunk_diameter_standardized'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x<span class="op">+</span> np.random.normal(loc<span class="op">=</span><span class="dv">0</span>, scale<span class="op">=</span>smother_sd<span class="op">*</span><span class="dv">3</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+</section>
+<section id="generate-abstraction-features" class="level2">
+<h2 class="anchored" data-anchor-id="generate-abstraction-features">Generate abstraction features</h2>
+<div id="623e719f" class="cell" data-execution_count="10">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># generate baseline abstraction feature: volume</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'volume_m^2'</span>] <span class="op">=</span> tree_gdf[<span class="st">'height_standardized'</span>] <span class="op">*</span> (math.pi<span class="op">*</span>((tree_gdf[<span class="st">'crown_diameter_standardized'</span>]<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>))</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># generate baseline abstraction feature: cover_area</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>tree_gdf[<span class="st">'cover_area_m^2'</span>] <span class="op">=</span> (math.pi<span class="op">*</span>((tree_gdf[<span class="st">'crown_diameter_standardized'</span>]<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="review" class="level2">
+<h2 class="anchored" data-anchor-id="review">Review</h2>
+<div id="e8e7af4f" class="cell" data-execution_count="11">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>tree_gdf.sample(<span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="11">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">uuid</th>
+<th data-quarto-table-cell-role="th">botanical_genus</th>
+<th data-quarto-table-cell-role="th">German_genus</th>
+<th data-quarto-table-cell-role="th">botanical_species</th>
+<th data-quarto-table-cell-role="th">German-species</th>
+<th data-quarto-table-cell-role="th">avenue_tree</th>
+<th data-quarto-table-cell-role="th">height</th>
+<th data-quarto-table-cell-role="th">trunk_diameter</th>
+<th data-quarto-table-cell-role="th">trunk_circumference</th>
+<th data-quarto-table-cell-role="th">crown_diameter</th>
+<th data-quarto-table-cell-role="th">...</th>
+<th data-quarto-table-cell-role="th">botanical_species_formal_name</th>
+<th data-quarto-table-cell-role="th">botanical_species_common_name</th>
+<th data-quarto-table-cell-role="th">qualified_species_representation</th>
+<th data-quarto-table-cell-role="th">in_qualified_cohort</th>
+<th data-quarto-table-cell-role="th">height_standardized</th>
+<th data-quarto-table-cell-role="th">crown_diameter_standardized</th>
+<th data-quarto-table-cell-role="th">trunk_circumference_standardized</th>
+<th data-quarto-table-cell-role="th">trunk_diameter_standardized</th>
+<th data-quarto-table-cell-role="th">volume_m^2</th>
+<th data-quarto-table-cell-role="th">cover_area_m^2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">51689</th>
+<td>655f53be-6114-4e05-b5a3-c0481b9e710f</td>
+<td>Sorbus</td>
+<td>Mehlbeere</td>
+<td>Sorbus aucuparia</td>
+<td>Gemeine Eberesche</td>
+<td>False</td>
+<td>4.5</td>
+<td>10.00</td>
+<td>31.42</td>
+<td>2.0</td>
+<td>...</td>
+<td>Sorbus aucuparia</td>
+<td>&lt;NA&gt;</td>
+<td>True</td>
+<td>True</td>
+<td>3.646654</td>
+<td>1.389678</td>
+<td>36.952397</td>
+<td>10.164514</td>
+<td>5.531116</td>
+<td>1.516765</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">6192</th>
+<td>f6267ae0-a91b-42b5-b411-e4d1d203bd33</td>
+<td>Betula</td>
+<td>Birke</td>
+<td>Betula pendula</td>
+<td>Sand-Birke</td>
+<td>True</td>
+<td>10.0</td>
+<td>23.00</td>
+<td>72.26</td>
+<td>5.0</td>
+<td>...</td>
+<td>Betula pendula</td>
+<td>&lt;NA&gt;</td>
+<td>True</td>
+<td>True</td>
+<td>10.022438</td>
+<td>5.181283</td>
+<td>66.677746</td>
+<td>25.445048</td>
+<td>211.318697</td>
+<td>21.084560</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">51937</th>
+<td>f70df423-fa1c-4ff7-b7dd-0b86342aba86</td>
+<td>Sorbus</td>
+<td>Mehlbeere</td>
+<td>Sorbus intermedia</td>
+<td>Schwedische Mehlbeere</td>
+<td>True</td>
+<td>5.0</td>
+<td>5.73</td>
+<td>18.00</td>
+<td>1.0</td>
+<td>...</td>
+<td>Sorbus intermedia</td>
+<td>&lt;NA&gt;</td>
+<td>True</td>
+<td>True</td>
+<td>5.345265</td>
+<td>1.035630</td>
+<td>19.698720</td>
+<td>7.205235</td>
+<td>4.502650</td>
+<td>0.842362</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">6361</th>
+<td>cc8b371b-8e6d-432f-98aa-e7f347c4fff5</td>
+<td>Tilia</td>
+<td>Linde</td>
+<td>Tilia platyphyllos</td>
+<td>Sommer-Linde</td>
+<td>True</td>
+<td>10.0</td>
+<td>30.00</td>
+<td>94.25</td>
+<td>8.0</td>
+<td>...</td>
+<td>Tilia platyphyllos</td>
+<td>&lt;NA&gt;</td>
+<td>True</td>
+<td>True</td>
+<td>9.698002</td>
+<td>8.555030</td>
+<td>87.252494</td>
+<td>29.726493</td>
+<td>557.462013</td>
+<td>57.482149</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">55362</th>
+<td>d4209f1c-a2b1-40b3-b9b7-131e5e9d1c48</td>
+<td>Crataegus</td>
+<td>Weißdorn</td>
+<td>Crataegus lavallei „Carrierei“</td>
+<td>Apfeldorn „Carrierei“</td>
+<td>False</td>
+<td>6.0</td>
+<td>17.00</td>
+<td>53.41</td>
+<td>7.0</td>
+<td>...</td>
+<td>Crataegus lavallei</td>
+<td>Carrierei</td>
+<td>True</td>
+<td>True</td>
+<td>6.440178</td>
+<td>7.337640</td>
+<td>47.656879</td>
+<td>18.687617</td>
+<td>272.333162</td>
+<td>42.286588</td>
+</tr>
+</tbody>
+</table>
+
+<p>5 rows × 22 columns</p>
+</div>
+</div>
+</div>
+<div id="87f185e5" class="cell" data-execution_count="12">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># matrix by species - comparison</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="co">## randomly select two valid species</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>rand_species_A <span class="op">=</span> random.choice(valid_species)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>rand_species_B <span class="op">=</span> random.choice(valid_species)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co"># subset by species A</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>subset_A_with_labels <span class="op">=</span> tree_gdf.loc[(tree_gdf[<span class="st">'botanical_species_formal_name'</span>] <span class="op">==</span> rand_species_A) <span class="op">&amp;</span> </span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>                             (tree_gdf[<span class="st">'in_qualified_cohort'</span>]), </span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>                             [<span class="st">'botanical_species_formal_name'</span>, <span class="st">'volume_m^2'</span>,<span class="st">'cover_area_m^2'</span>,<span class="st">'height_standardized'</span>, </span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>                              <span class="st">'trunk_diameter_standardized'</span>,<span class="st">'crown_diameter_standardized'</span>]]</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="co"># subset by species B</span></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>subset_B_with_labels <span class="op">=</span> tree_gdf.loc[(tree_gdf[<span class="st">'botanical_species_formal_name'</span>] <span class="op">==</span> rand_species_B) <span class="op">&amp;</span> </span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>                             (tree_gdf[<span class="st">'in_qualified_cohort'</span>]), </span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>                             [<span class="st">'botanical_species_formal_name'</span>, <span class="st">'volume_m^2'</span>,<span class="st">'cover_area_m^2'</span>,<span class="st">'height_standardized'</span>, </span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>                              <span class="st">'trunk_diameter_standardized'</span>,<span class="st">'crown_diameter_standardized'</span>]]</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a><span class="co"># sample from each species 70% of the size of the smallest population</span></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>sizeA <span class="op">=</span> subset_A_with_labels.shape[<span class="dv">0</span>]</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>sizeB <span class="op">=</span> subset_B_with_labels.shape[<span class="dv">0</span>]</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>size <span class="op">=</span> [sizeA <span class="cf">if</span> sizeA <span class="op">&lt;=</span> sizeB <span class="cf">else</span> sizeB]</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>size <span class="op">=</span> <span class="bu">round</span>(size[<span class="dv">0</span>]<span class="op">*</span><span class="fl">.7</span>)</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f'Sample size = </span><span class="sc">{</span>size<span class="sc">}</span><span class="ss">:'</span>)</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a><span class="co"># join subsets (Interesting that there is no gpd.concat. gpd relies on pd.conccat)</span></span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>subset_with_labels <span class="op">=</span> pd.concat([subset_A_with_labels.sample(size),subset_B_with_labels.sample(size)])</span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a><span class="co"># pairplot</span></span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>sns.pairplot(subset_with_labels, </span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>             hue<span class="op">=</span><span class="st">'botanical_species_formal_name'</span>, </span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>             palette<span class="op">=</span>{rand_species_A: <span class="st">'red'</span>, rand_species_B: <span class="st">'blue'</span>},</span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>             diag_kind<span class="op">=</span><span class="st">'hist'</span>, <span class="co"># Can also use 'kde' for smooth curves</span></span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>             plot_kws<span class="op">=</span>{<span class="st">'alpha'</span>: <span class="fl">0.5</span>})</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Sample size = 80:</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="EDA_20260212_files/figure-html/cell-13-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="eda---round-2" class="level1">
+<h1>EDA - Round 2</h1>
+<section id="remember" class="level3">
+<h3 class="anchored" data-anchor-id="remember">Remember:</h3>
+<p>Copernicus 10m pixel desity measurment is the response varaible</p>
+</section>
+<section id="consideration-convert-to-copernicus-crs-first" class="level3">
+<h3 class="anchored" data-anchor-id="consideration-convert-to-copernicus-crs-first">Consideration → Convert to Copernicus CRS first?</h3>
+<p>Copernicus uses EPSG:3035</p>
+</section>
+<section id="general-defintions-and-rules" class="level3">
+<h3 class="anchored" data-anchor-id="general-defintions-and-rules">General Defintions and rules</h3>
+<ul>
+<li><p>Rule: Competition is constrained by polygon membership</p></li>
+<li><p>Define radius (r) for competition and diveristy</p>
+<ul>
+<li>Notes on Neighborhood Competition Indices” (NCI)
+<ul>
+<li>esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.1273</li>
+<li>It appears that influence tapers beyond 10 meters</li>
+</ul></li>
+<li>Max crown_diameter in dataset is 21.95891198439781.</li>
+<li>So, we could pull
+<ul>
+<li>20 meters from trunk (Uniform)</li>
+<li>or 10 meters from edge of radius (Dynamic Crown-scaled radius) Note:</li>
+<li>We do not break sampling frame.<br>
+</li>
+<li>Trees across polygon boundaries, but within a radius are not considered.</li>
+</ul></li>
+</ul></li>
+<li><p>Define Polygon edge buffer</p>
+<ul>
+<li>(We are modeling the public forest network)</li>
+</ul></li>
+<li><p>Polygon buffer for inclusion in study</p>
+<ul>
+<li>Buffer outside the edge risks inclusion unobserved trees.</li>
+<li>Need to be able to adjust this dynamically</li>
+<li>Or… Make a choice on a park by park basis after manual review?</li>
+</ul></li>
+</ul>
+</section>
+<section id="for-each-tree" class="level3">
+<h3 class="anchored" data-anchor-id="for-each-tree">For each tree:</h3>
+<ul>
+<li>Define whether it is in a:
+<ul>
+<li>cemetery polygon</li>
+<li>parks polygon</li>
+</ul></li>
+<li>Mark the apporpreate (bezeichnung) for each.</li>
+<li>Mark it’s euclidian distance to the edge of the polygon</li>
+<li>Define denisty
+<ul>
+<li>n_neighbors: (count excluding self)</li>
+<li>crown_area_sum proxy: sum of crown_diameter^2</li>
+</ul></li>
+<li>Define diversity
+<ul>
+<li>species_richness: number of unique species</li>
+<li>shannon_index: robust diversity index</li>
+</ul></li>
+</ul>
+</section>
+<section id="for-each-municipal-polygon" class="level3">
+<h3 class="anchored" data-anchor-id="for-each-municipal-polygon">For each municipal polygon</h3>
+<ul>
+<li>Polygon-level density</li>
+<li>Tree-level local density</li>
+<li>Cross-scale competition</li>
+<li>Area (m^2)</li>
+<li>Perimiter (m^2)</li>
+</ul>
+</section>
+<section id="validate" class="level3">
+<h3 class="anchored" data-anchor-id="validate">Validate</h3>
+<ul>
+<li>Export inclusive trees as *.klm files and review in Google Earth on a per park basis</li>
+</ul>
+</section>
+<section id="load-public-bounding-boxes" class="level2">
+<h2 class="anchored" data-anchor-id="load-public-bounding-boxes">Load public bounding boxes</h2>
+<div id="38537017" class="cell" data-execution_count="39">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load parks polygons</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>parks_gdf <span class="op">=</span> gpd.read_file(path_parks, encoding<span class="op">=</span><span class="st">'utf-8'</span>)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># load cemeteries polygons</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>cem_gdf <span class="op">=</span> gpd.read_file(path_cemeteries, encoding<span class="op">=</span><span class="st">'utf-8'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="6805a1b5" class="cell" data-execution_count="40">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check cordiante reference system (CRS) for all loaded GeoJsons matches</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>CRS_printer(tree_gdf)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>CRS_printer(parks_gdf)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>CRS_printer(cem_gdf)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>CRS Object: EPSG:3035
+CRS Object: EPSG:4326
+CRS Object: EPSG:4326
+</code></pre>
+</div>
+</div>
+<div id="647e8876" class="cell" data-execution_count="41">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># convert CRS from `EPSG:4326` to `EPSG:3035` to align with copernicus data</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>tree_gdf.to_crs(epsg<span class="op">=</span><span class="dv">3035</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>parks_gdf.to_crs(epsg<span class="op">=</span><span class="dv">3035</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>cem_gdf.to_crs(epsg<span class="op">=</span><span class="dv">3035</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="271d89fb" class="cell" data-execution_count="42">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># map translated variable names</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>cem_gdf <span class="op">=</span> cem_gdf.rename(columns<span class="op">=</span>recoded_column_names)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>parks_gdf <span class="op">=</span> parks_gdf.rename(columns<span class="op">=</span>recoded_column_names)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="792e38dd" class="cell" data-execution_count="43">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># build features</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co"># type</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>cem_gdf[<span class="st">'type'</span>] <span class="op">=</span> <span class="st">'cemetery'</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>parks_gdf[<span class="st">'type'</span>] <span class="op">=</span> <span class="st">'park'</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co"># perimeter</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>cem_gdf[<span class="st">'perimeter_m'</span>] <span class="op">=</span> cem_gdf[<span class="st">'geometry'</span>].length</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>parks_gdf[<span class="st">'perimeter_m'</span>] <span class="op">=</span> parks_gdf[<span class="st">'geometry'</span>].length</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a><span class="co"># area</span></span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>cem_gdf[<span class="st">'area_m^2'</span>] <span class="op">=</span> cem_gdf[<span class="st">'geometry'</span>].area</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>parks_gdf[<span class="st">'area_m^2'</span>] <span class="op">=</span> parks_gdf[<span class="st">'geometry'</span>].area</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="68558218" class="cell" data-execution_count="44">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># concatnate parks and cemetery polygons</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>pc_gdf <span class="op">=</span> pd.concat([cem_gdf,parks_gdf])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="f9cafd39" class="cell" data-execution_count="45">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># spaitial leftouter-join trees to parks and cemeteries</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: Keeping all trees in origional dataset for now.</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>enriched_tree_gdf <span class="op">=</span> gpd.sjoin(left_df<span class="op">=</span> tree_gdf,</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>                              right_df<span class="op">=</span> pc_gdf[[<span class="st">'designation'</span>,<span class="st">'type'</span>,<span class="st">'geometry'</span>]],</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>                              how<span class="op">=</span><span class="st">'left'</span>, </span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>                              predicate<span class="op">=</span><span class="st">'intersects'</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>                              ).drop(columns<span class="op">=</span>[<span class="st">'index_right'</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="6196a196" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Heuristic Data Cleaning (Each Park and cemetery.)</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co"># --------------------------------------</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. The Context Dictionary</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="co"># You can tune each park's 'tightness' (ratio) or processing style here</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Parameter Override Map</span></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>park_configs <span class="op">=</span> {</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Neuer Friedhof Rostock'</span>: {<span class="st">'ratio'</span>: <span class="fl">0.1</span>, <span class="st">'explode'</span>: <span class="va">True</span>, <span class="st">'method'</span>: <span class="st">'concave'</span>},</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Barnstorfer Wald'</span>:       {<span class="st">'ratio'</span>: <span class="fl">0.3</span>, <span class="st">'explode'</span>: <span class="va">False</span>, <span class="st">'method'</span>: <span class="st">'concave'</span>},</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Wallanlagen'</span>:            {<span class="st">'ratio'</span>: <span class="fl">0.05</span>, <span class="st">'explode'</span>: <span class="va">True</span>, <span class="st">'method'</span>: <span class="st">'exterior'</span>}, <span class="co"># Very jagged!</span></span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ... add the rest of your 40 parks</span></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. The Universal Processor</span></span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_park_envelope(group):</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>    park_name <span class="op">=</span> group.name</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Fallback to defaults if park isn't in your dict</span></span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a>    config <span class="op">=</span> park_configs.get(park_name, {<span class="st">'ratio'</span>: <span class="fl">0.5</span>, <span class="st">'explode'</span>: <span class="va">False</span>, <span class="st">'method'</span>: <span class="st">'convex'</span>})</span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Handle Explosion</span></span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> config[<span class="st">'explode'</span>]:</span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a>        geom <span class="op">=</span> group.explode(index_parts<span class="op">=</span><span class="va">False</span>).geometry</span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a>        geom <span class="op">=</span> group.geometry</span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Handle Shape Logic</span></span>
+<span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> config[<span class="st">'method'</span>] <span class="op">==</span> <span class="st">'concave'</span>:</span>
+<span id="cb22-29"><a href="#cb22-29" aria-hidden="true" tabindex="-1"></a>        envelope <span class="op">=</span> geom.concave_hull(ratio<span class="op">=</span>config[<span class="st">'ratio'</span>], allow_holes<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb22-30"><a href="#cb22-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> config[<span class="st">'method'</span>] <span class="op">==</span> <span class="st">'exterior'</span>:</span>
+<span id="cb22-31"><a href="#cb22-31" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Follows the actual fence line but ignores internal holes</span></span>
+<span id="cb22-32"><a href="#cb22-32" aria-hidden="true" tabindex="-1"></a>        envelope <span class="op">=</span> geom.<span class="bu">apply</span>(<span class="kw">lambda</span> g: g.exterior <span class="cf">if</span> g.geom_type <span class="op">==</span> <span class="st">'Polygon'</span> <span class="cf">else</span> g.boundary)</span>
+<span id="cb22-33"><a href="#cb22-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb22-34"><a href="#cb22-34" aria-hidden="true" tabindex="-1"></a>        envelope <span class="op">=</span> geom.convex_hull</span>
+<span id="cb22-35"><a href="#cb22-35" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb22-36"><a href="#cb22-36" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> envelope</span>
+<span id="cb22-37"><a href="#cb22-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-38"><a href="#cb22-38" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Execution</span></span>
+<span id="cb22-39"><a href="#cb22-39" aria-hidden="true" tabindex="-1"></a><span class="co"># Group by your designation and apply the manual logic</span></span>
+<span id="cb22-40"><a href="#cb22-40" aria-hidden="true" tabindex="-1"></a>custom_hulls_series <span class="op">=</span> pc_gdf.groupby(<span class="st">'designation'</span>, group_keys<span class="op">=</span><span class="va">False</span>).<span class="bu">apply</span>(process_park_envelope)</span>
+<span id="cb22-41"><a href="#cb22-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-42"><a href="#cb22-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert back to a GeoDataFrame for your sjoin_nearest</span></span>
+<span id="cb22-43"><a href="#cb22-43" aria-hidden="true" tabindex="-1"></a>final_hulls_gdf <span class="op">=</span> gpd.GeoDataFrame(geometry<span class="op">=</span>custom_hulls_series, crs<span class="op">=</span>pc_gdf.crs)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="fc476ac3" class="cell" data-execution_count="46">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># For each tree within a polygon, find distance to nearest polygon edge</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="co"># subset the enriched_tree dataframe down to those records that are within polygons.</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: use of .copy()</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>subset_gdf <span class="op">=</span> enriched_tree_gdf[enriched_tree_gdf[<span class="st">'type'</span>].notna()].copy()</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># prep the envelope (Convex Hull)</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a><span class="co"># pc_hulls = pc_gdf.copy()</span></span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a><span class="co"># pc_hulls.geometry = pc_hulls.geometry.convex_hull.explode().exterior</span></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a><span class="co"># ---OPTION 1</span></span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a tighter 'Concave' Hull</span></span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a><span class="co"># ratio=0.2 is usually a good starting point for L and U shapes</span></span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a><span class="co"># pc_hulls = pc_gdf.copy()</span></span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a><span class="co"># pc_hulls.geometry = pc_hulls.geometry.concave_hull(ratio=0.4, allow_holes=False).boundary</span></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: allow_holes=False is key here because you specifically </span></span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a><span class="co"># told me you want to ignore the 'mess' on the interior!</span></span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure it's a GDF for the join</span></span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a><span class="co"># pc_hulls_gdf = gpd.GeoDataFrame(pc_hulls, crs=pc_gdf.crs)</span></span>
+<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a><span class="co">#---</span></span>
+<span id="cb23-23"><a href="#cb23-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-24"><a href="#cb23-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-25"><a href="#cb23-25" aria-hidden="true" tabindex="-1"></a><span class="co">#---OPTION 2</span></span>
+<span id="cb23-26"><a href="#cb23-26" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Separate the disjointed enclaves into individual shapes</span></span>
+<span id="cb23-27"><a href="#cb23-27" aria-hidden="true" tabindex="-1"></a>pc_exploded <span class="op">=</span> pc_gdf.explode(index_parts<span class="op">=</span><span class="va">False</span>).copy()</span>
+<span id="cb23-28"><a href="#cb23-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-29"><a href="#cb23-29" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Calculate the tight hull for each individual patch</span></span>
+<span id="cb23-30"><a href="#cb23-30" aria-hidden="true" tabindex="-1"></a>pc_exploded.geometry <span class="op">=</span> pc_exploded.geometry.concave_hull(ratio<span class="op">=</span><span class="fl">0.3</span>, allow_holes<span class="op">=</span><span class="va">False</span>).boundary</span>
+<span id="cb23-31"><a href="#cb23-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-32"><a href="#cb23-32" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Proceed with sjoin_nearest as before</span></span>
+<span id="cb23-33"><a href="#cb23-33" aria-hidden="true" tabindex="-1"></a>pc_hulls_gdf <span class="op">=</span> gpd.GeoDataFrame(pc_exploded, crs<span class="op">=</span>pc_gdf.crs)</span>
+<span id="cb23-34"><a href="#cb23-34" aria-hidden="true" tabindex="-1"></a><span class="co">#---</span></span>
+<span id="cb23-35"><a href="#cb23-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-36"><a href="#cb23-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-37"><a href="#cb23-37" aria-hidden="true" tabindex="-1"></a><span class="co"># spatial leftjoin-nearest subset to polygons and record distance to nearest edge </span></span>
+<span id="cb23-38"><a href="#cb23-38" aria-hidden="true" tabindex="-1"></a><span class="co"># (up to 500 meters away)</span></span>
+<span id="cb23-39"><a href="#cb23-39" aria-hidden="true" tabindex="-1"></a>subset_gdf <span class="op">=</span> subset_gdf.drop(columns<span class="op">=</span>[<span class="st">'index_right'</span>], errors<span class="op">=</span><span class="st">'ignore'</span>)</span>
+<span id="cb23-40"><a href="#cb23-40" aria-hidden="true" tabindex="-1"></a>subset_gdf <span class="op">=</span> gpd.sjoin_nearest(</span>
+<span id="cb23-41"><a href="#cb23-41" aria-hidden="true" tabindex="-1"></a>    left_df<span class="op">=</span>subset_gdf,</span>
+<span id="cb23-42"><a href="#cb23-42" aria-hidden="true" tabindex="-1"></a>    right_df<span class="op">=</span>pc_hulls_gdf,</span>
+<span id="cb23-43"><a href="#cb23-43" aria-hidden="true" tabindex="-1"></a>    how<span class="op">=</span><span class="st">'left'</span>,</span>
+<span id="cb23-44"><a href="#cb23-44" aria-hidden="true" tabindex="-1"></a>    max_distance<span class="op">=</span><span class="dv">500</span>,</span>
+<span id="cb23-45"><a href="#cb23-45" aria-hidden="true" tabindex="-1"></a>    distance_col<span class="op">=</span><span class="st">'dist_to_edge'</span></span>
+<span id="cb23-46"><a href="#cb23-46" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb23-47"><a href="#cb23-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-48"><a href="#cb23-48" aria-hidden="true" tabindex="-1"></a><span class="co"># join the subset_gdf back to enriched_tree_gdf.</span></span>
+<span id="cb23-49"><a href="#cb23-49" aria-hidden="true" tabindex="-1"></a>enriched_tree_gdf <span class="op">=</span> enriched_tree_gdf.join(subset_gdf[[<span class="st">'dist_to_edge'</span>]], how<span class="op">=</span><span class="st">'left'</span>)</span>
+<span id="cb23-50"><a href="#cb23-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-51"><a href="#cb23-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-52"><a href="#cb23-52" aria-hidden="true" tabindex="-1"></a><span class="co"># # delete temp dataframes</span></span>
+<span id="cb23-53"><a href="#cb23-53" aria-hidden="true" tabindex="-1"></a><span class="co"># del (pc_hulls)</span></span>
+<span id="cb23-54"><a href="#cb23-54" aria-hidden="true" tabindex="-1"></a><span class="co"># del (pc_exploded)</span></span>
+<span id="cb23-55"><a href="#cb23-55" aria-hidden="true" tabindex="-1"></a><span class="co"># del (pc_hulls_gdf)</span></span>
+<span id="cb23-56"><a href="#cb23-56" aria-hidden="true" tabindex="-1"></a><span class="kw">del</span> (subset_gdf)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="6948a56b" class="cell" data-execution_count="47">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>enriched_tree_gdf.sample(<span class="dv">5</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="47">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">uuid</th>
+<th data-quarto-table-cell-role="th">botanical_genus</th>
+<th data-quarto-table-cell-role="th">German_genus</th>
+<th data-quarto-table-cell-role="th">botanical_species</th>
+<th data-quarto-table-cell-role="th">German-species</th>
+<th data-quarto-table-cell-role="th">avenue_tree</th>
+<th data-quarto-table-cell-role="th">height</th>
+<th data-quarto-table-cell-role="th">trunk_diameter</th>
+<th data-quarto-table-cell-role="th">trunk_circumference</th>
+<th data-quarto-table-cell-role="th">crown_diameter</th>
+<th data-quarto-table-cell-role="th">...</th>
+<th data-quarto-table-cell-role="th">in_qualified_cohort</th>
+<th data-quarto-table-cell-role="th">height_standardized</th>
+<th data-quarto-table-cell-role="th">crown_diameter_standardized</th>
+<th data-quarto-table-cell-role="th">trunk_circumference_standardized</th>
+<th data-quarto-table-cell-role="th">trunk_diameter_standardized</th>
+<th data-quarto-table-cell-role="th">volume_m^2</th>
+<th data-quarto-table-cell-role="th">cover_area_m^2</th>
+<th data-quarto-table-cell-role="th">designation</th>
+<th data-quarto-table-cell-role="th">type</th>
+<th data-quarto-table-cell-role="th">dist_to_edge</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">67568</th>
+<td>a0d27e29-4222-443d-a4ed-7b7e7254dbce</td>
+<td>Prunus</td>
+<td>Kirsche</td>
+<td>Prunus serrulata „Shirofugen“</td>
+<td>Zier-Kirsche „Shirofugen“</td>
+<td>False</td>
+<td>5.0</td>
+<td>40.11</td>
+<td>126.00</td>
+<td>6.0</td>
+<td>...</td>
+<td>True</td>
+<td>4.580911</td>
+<td>6.372094</td>
+<td>132.443200</td>
+<td>38.862335</td>
+<td>146.085170</td>
+<td>31.889980</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">58574</th>
+<td>4c15ac7d-2351-432f-bbb5-162394adadf1</td>
+<td>Tilia</td>
+<td>Linde</td>
+<td>Tilia platyphyllos</td>
+<td>Sommer-Linde</td>
+<td>True</td>
+<td>15.0</td>
+<td>56.98</td>
+<td>179.00</td>
+<td>7.0</td>
+<td>...</td>
+<td>True</td>
+<td>15.256506</td>
+<td>6.830028</td>
+<td>181.625431</td>
+<td>57.303347</td>
+<td>558.971779</td>
+<td>36.638256</td>
+<td>Rosengarten</td>
+<td>park</td>
+<td>22.618651</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">57440</th>
+<td>4d3be78d-09ec-4d45-8d9e-45dd26bbd8f6</td>
+<td>Fraxinus</td>
+<td>Esche</td>
+<td>Fraxinus excelsior „Westhof’s Glorie“</td>
+<td>Esche „Westhof’s Glorie“</td>
+<td>True</td>
+<td>11.0</td>
+<td>31.83</td>
+<td>100.00</td>
+<td>7.0</td>
+<td>...</td>
+<td>True</td>
+<td>12.065468</td>
+<td>7.373496</td>
+<td>100.134138</td>
+<td>31.258572</td>
+<td>515.206068</td>
+<td>42.700877</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">32190</th>
+<td>017a4f8d-08fd-4ae1-a6e3-f5cef3c1cfa7</td>
+<td>Tilia</td>
+<td>Linde</td>
+<td>Tilia cordata</td>
+<td>Winter-Linde</td>
+<td>False</td>
+<td>15.0</td>
+<td>64.00</td>
+<td>201.06</td>
+<td>11.0</td>
+<td>...</td>
+<td>True</td>
+<td>14.559398</td>
+<td>10.598287</td>
+<td>204.688248</td>
+<td>63.033988</td>
+<td>1284.412902</td>
+<td>88.218817</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">16</th>
+<td>574c4cc1-1ca4-413c-a9b3-77ba6d84b777</td>
+<td>Prunus</td>
+<td>Kirsche</td>
+<td>Prunus species</td>
+<td>Kirsche</td>
+<td>False</td>
+<td>8.0</td>
+<td>30.00</td>
+<td>94.25</td>
+<td>7.0</td>
+<td>...</td>
+<td>False</td>
+<td>7.350763</td>
+<td>7.014220</td>
+<td>90.507138</td>
+<td>28.982786</td>
+<td>284.041074</td>
+<td>38.641031</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+</tr>
+</tbody>
+</table>
+
+<p>5 rows × 25 columns</p>
+</div>
+</div>
+</div>
+<div id="bac88300" class="cell" data-execution_count="48">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Valid trees that remain:</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>new_count <span class="op">=</span> enriched_tree_gdf[enriched_tree_gdf[<span class="st">'type'</span>].notna() <span class="op">&amp;</span> enriched_tree_gdf[<span class="st">'in_qualified_cohort'</span>]]<span class="op">\</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    .groupby(<span class="st">'botanical_species_formal_name'</span>)[<span class="st">'botanical_species_formal_name'</span>].count()</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>new_count[new_count<span class="op">&gt;</span>min_count].shape[<span class="dv">0</span>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="48">
+<pre><code>44</code></pre>
+</div>
+</div>
+<div id="90b77cc3" class="cell" data-execution_count="49">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>cem_gdf[<span class="st">'designation'</span>].unique()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="49">
+<pre><code>array(['Alter Friedhof Gehlsdorf', 'Friedhof Toitenwinkel',
+       'Westfriedhof', 'RuheForst Rostocker Heide', 'Friedhof Biestow',
+       'Kriegsgräberfelder Stephan-Jantzen-Park',
+       'Neuer Friedhof Rostock', 'Neuer Friedhof Warnemünde',
+       'Jüdischer Friedhof', 'Sowjetischer Soldatenfriedhof',
+       'Neuer Friedhof Biestow'], dtype=object)</code></pre>
+</div>
+</div>
+<div id="45d31a79" class="cell" data-execution_count="50">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Inspect in Google Earth as *.klm file</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>subset_to_kml <span class="op">=</span> enriched_tree_gdf[</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>    (enriched_tree_gdf[<span class="st">'designation'</span>] <span class="op">==</span> <span class="st">'Neuer Friedhof Rostock'</span>)].copy()</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>subset_to_kml[<span class="st">'Name'</span>] <span class="op">=</span> subset_to_kml[<span class="st">'botanical_species_formal_name'</span>]</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 'Google Earth looks specifically for a column named `Name` (case-sensitive) to use as the label that floats next to the pin.'</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>subset_to_kml.sample(<span class="dv">2</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display" data-execution_count="50">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">uuid</th>
+<th data-quarto-table-cell-role="th">botanical_genus</th>
+<th data-quarto-table-cell-role="th">German_genus</th>
+<th data-quarto-table-cell-role="th">botanical_species</th>
+<th data-quarto-table-cell-role="th">German-species</th>
+<th data-quarto-table-cell-role="th">avenue_tree</th>
+<th data-quarto-table-cell-role="th">height</th>
+<th data-quarto-table-cell-role="th">trunk_diameter</th>
+<th data-quarto-table-cell-role="th">trunk_circumference</th>
+<th data-quarto-table-cell-role="th">crown_diameter</th>
+<th data-quarto-table-cell-role="th">...</th>
+<th data-quarto-table-cell-role="th">height_standardized</th>
+<th data-quarto-table-cell-role="th">crown_diameter_standardized</th>
+<th data-quarto-table-cell-role="th">trunk_circumference_standardized</th>
+<th data-quarto-table-cell-role="th">trunk_diameter_standardized</th>
+<th data-quarto-table-cell-role="th">volume_m^2</th>
+<th data-quarto-table-cell-role="th">cover_area_m^2</th>
+<th data-quarto-table-cell-role="th">designation</th>
+<th data-quarto-table-cell-role="th">type</th>
+<th data-quarto-table-cell-role="th">dist_to_edge</th>
+<th data-quarto-table-cell-role="th">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">55307</th>
+<td>bd522a04-1b95-431d-bf2e-9df504b7799a</td>
+<td>Quercus</td>
+<td>Eiche</td>
+<td>Quercus robur „Fastigiata“</td>
+<td>Pyramiden-Eiche „Fastigiata“</td>
+<td>False</td>
+<td>10.0</td>
+<td>28.0</td>
+<td>87.96</td>
+<td>3.0</td>
+<td>...</td>
+<td>9.373376</td>
+<td>4.476537</td>
+<td>93.885126</td>
+<td>25.958059</td>
+<td>147.526594</td>
+<td>15.738897</td>
+<td>Neuer Friedhof Rostock</td>
+<td>cemetery</td>
+<td>142.138443</td>
+<td>Quercus robur</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">48132</th>
+<td>a7022d1e-489d-4dac-8cec-90e9a1d3cd41</td>
+<td>Picea</td>
+<td>Fichte</td>
+<td>Picea omorika</td>
+<td>Serbische Fichte</td>
+<td>False</td>
+<td>21.0</td>
+<td>39.0</td>
+<td>122.52</td>
+<td>4.0</td>
+<td>...</td>
+<td>20.401999</td>
+<td>3.537369</td>
+<td>117.721807</td>
+<td>39.712125</td>
+<td>200.504146</td>
+<td>9.827671</td>
+<td>Neuer Friedhof Rostock</td>
+<td>cemetery</td>
+<td>86.223590</td>
+<td>Picea omorika</td>
+</tr>
+</tbody>
+</table>
+
+<p>2 rows × 26 columns</p>
+</div>
+</div>
+</div>
+<div id="29b7c1e3" class="cell" data-execution_count="51">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>kml_export(pc_hulls_gdf, convex_hull_test_kml)</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="kw">del</span>(pc_hulls_gdf)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>kml_export(subset_to_kml, path_test_kml)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a><span class="kw">del</span>(subset_to_kml)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<section id="notes-on-review" class="level3">
+<h3 class="anchored" data-anchor-id="notes-on-review">Notes on review:</h3>
+<blockquote class="blockquote">
+<p>Some parks will need to be excluded due to polygon complexity. Or method will have to be fixed - Rostock, Hanse- und Universitätsstadt</p>
+</blockquote>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

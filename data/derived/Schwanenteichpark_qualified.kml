@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Schwanenteichpark_qualified" name="Schwanenteichpark_qualified">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Schwanenteichpark_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Schwanenteichpark_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Schwanenteichpark_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Document id="Schwanenteichpark_qualified">
+      <name>Schwanenteichpark_qualified</name>
+      <Placemark id="Schwanenteichpark_qualified.1">
+        <name>Ahorn-Laub-Mischbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">91752a42-74a7-4c59-8b44-4e2939638f4a</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="German-species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">40</SimpleData>
+            <SimpleData name="trunk_circumference">125.66</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">10.1603229880104</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.69635866274232</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">137.491119621039</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">38.6395335945537</SimpleData>
+            <SimpleData name="volume_m^2">603.493061638639</SimpleData>
+            <SimpleData name="cover_area_m^2">59.3970351484676</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.885</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0843051,54.0955885977645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.2">
+        <name>Weichholz-Weidenbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">a4c46134-2c1a-4fed-aee0-4481fea6aebd</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="German-species">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">25</SimpleData>
+            <SimpleData name="trunk_circumference">78.54</SimpleData>
+            <SimpleData name="crown_diameter">4.2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">13.6660400777405</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.88262271823355</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">75.3039391376584</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.2090600670376</SimpleData>
+            <SimpleData name="volume_m^2">161.801653004461</SimpleData>
+            <SimpleData name="cover_area_m^2">11.8396881674602</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">81.982</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0858705,54.0971645977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.3">
+        <name>Ahorn-Laub-Mischbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">1c3b34f2-413f-4eb5-a6d8-de9131bd6935</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="German-species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">45</SimpleData>
+            <SimpleData name="trunk_circumference">141.37</SimpleData>
+            <SimpleData name="crown_diameter">8.6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.3123952968252</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.21911070340751</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">134.9628555315</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.5432823149414</SimpleData>
+            <SimpleData name="volume_m^2">955.389060162791</SimpleData>
+            <SimpleData name="cover_area_m^2">66.7525624012577</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.674</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0834703,54.0958626977645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.4">
+        <name>Weichholz-Weidenbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">0b03fc6f-e89b-431e-9688-4c290ab6a13c</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="German-species">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">43</SimpleData>
+            <SimpleData name="trunk_circumference">135.09</SimpleData>
+            <SimpleData name="crown_diameter">6.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.53594843580594</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.79698964149581</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">131.542117861742</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.3754406734391</SimpleData>
+            <SimpleData name="volume_m^2">198.899113843463</SimpleData>
+            <SimpleData name="cover_area_m^2">26.3933751057031</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.399</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0827936,54.0964668977646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.5">
+        <name>Ahorn-Laub-Mischbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">bb312999-839b-4dcf-9aa3-878d7e6bfac9</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="German-species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11</SimpleData>
+            <SimpleData name="trunk_diameter">31</SimpleData>
+            <SimpleData name="trunk_circumference">97.39</SimpleData>
+            <SimpleData name="crown_diameter">5.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">10.989482267142</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.74643994742688</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">95.2813368905607</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">30.6110137255634</SimpleData>
+            <SimpleData name="volume_m^2">285.013124348979</SimpleData>
+            <SimpleData name="cover_area_m^2">25.9350820557903</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.156</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0844243,54.0969223977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.6">
+        <name>Buchen-Eichen-Mischwald</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">e320acd7-aae1-4e16-83a1-306547432ad2</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Buchen-Eichen-Mischwald</SimpleData>
+            <SimpleData name="German-species">Buchen-Eichen-Mischwald</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">38</SimpleData>
+            <SimpleData name="trunk_circumference">119.38</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Buchen-Eichen-Mischwald</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">11.5524573825616</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.50857811074107</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">116.24025854295</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">38.4765053233122</SimpleData>
+            <SimpleData name="volume_m^2">656.868198779341</SimpleData>
+            <SimpleData name="cover_area_m^2">56.8596080493562</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">54.565</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0857822,54.0975526977648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.7">
+        <name>Ahorn-Laub-Mischbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">1432d57d-04f5-43aa-b31f-17ee166a8aff</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="German-species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11</SimpleData>
+            <SimpleData name="trunk_diameter">41</SimpleData>
+            <SimpleData name="trunk_circumference">128.81</SimpleData>
+            <SimpleData name="crown_diameter">9.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">12.2184563770223</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.31340396253971</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">119.957278854248</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">40.1813073683354</SimpleData>
+            <SimpleData name="volume_m^2">832.382814594476</SimpleData>
+            <SimpleData name="cover_area_m^2">68.1250387863915</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.198</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0845264,54.0973362977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.8">
+        <name>Weichholz-Weidenbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">345bf65a-7487-47fa-a09d-7b67c19d6373</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="German-species">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">70</SimpleData>
+            <SimpleData name="trunk_circumference">219.91</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Weichholz-Weidenbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.9529652276272</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.70535325402723</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">214.934623018831</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">69.0124393848343</SimpleData>
+            <SimpleData name="volume_m^2">1106.21590793124</SimpleData>
+            <SimpleData name="cover_area_m^2">73.9797017575742</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.426</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0886824,54.0967052977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.9">
+        <name>Ahorn-Laub-Mischbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">3a6a217c-f447-4ab7-99f0-241f14b5fb9e</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="German-species">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">38</SimpleData>
+            <SimpleData name="trunk_circumference">119.38</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Ahorn-Laub-Mischbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">8.63827762315047</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.13409468317683</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">113.001039228075</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">39.5038243694488</SimpleData>
+            <SimpleData name="volume_m^2">448.885405774257</SimpleData>
+            <SimpleData name="cover_area_m^2">51.9646884896649</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.788</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0898328,54.0982422977649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.10">
+        <name>Prunus avium</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">d5cc8bfb-1ae9-481f-a4ca-c6460a123d34</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus avium</SimpleData>
+            <SimpleData name="German-species">Vogel-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">22</SimpleData>
+            <SimpleData name="crown_diameter">2.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus avium</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">3.39646701807879</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.75422655299767</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">4.52741832272681</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.83650469302591</SimpleData>
+            <SimpleData name="volume_m^2">20.2356241742638</SimpleData>
+            <SimpleData name="cover_area_m^2">5.95784503914012</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.14</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0904956,54.0976992977648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.11">
+        <name>Fagus sylvatica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">aca7ce97-3bc9-4e33-9e5d-bab6bcdca8a9</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus sylvatica</SimpleData>
+            <SimpleData name="German-species">Rotbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">3</SimpleData>
+            <SimpleData name="trunk_diameter">5.09</SimpleData>
+            <SimpleData name="trunk_circumference">16</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">2.81613048739735</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.39403612661073</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">25.2411424409351</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">8.61979919697738</SimpleData>
+            <SimpleData name="volume_m^2">4.29824051064521</SimpleData>
+            <SimpleData name="cover_area_m^2">1.52629309255397</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">45.3</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0883186,54.0979249977649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.12">
+        <name>Prunus avium</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">548128d6-e831-4bcc-a70c-435595c77fcf</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus avium</SimpleData>
+            <SimpleData name="German-species">Vogel-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">22</SimpleData>
+            <SimpleData name="crown_diameter">2.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus avium</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.2305324382958</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.7307163033128</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">22.2699513604825</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.34540669811884</SimpleData>
+            <SimpleData name="volume_m^2">9.95260298758832</SimpleData>
+            <SimpleData name="cover_area_m^2">2.35256510445233</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.335</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0906056,54.0976984977648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.13">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">854e79b4-599c-400a-89a3-4e3654fe5449</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">35.01</SimpleData>
+            <SimpleData name="trunk_circumference">110</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.48134720075632</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.5471706951284</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">101.935431422837</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.1718937175816</SimpleData>
+            <SimpleData name="volume_m^2">535.57348328825</SimpleData>
+            <SimpleData name="cover_area_m^2">71.5878395851093</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.271</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0895214,54.0983760977649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.14">
+        <name>Salix caprea</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">077a96fd-0711-450b-abba-4c2daf4dc536</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix caprea</SimpleData>
+            <SimpleData name="German-species">Sal-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">3</SimpleData>
+            <SimpleData name="trunk_diameter">12.73</SimpleData>
+            <SimpleData name="trunk_circumference">40</SimpleData>
+            <SimpleData name="crown_diameter">6.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix caprea</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">2.68981099641264</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.60614773897982</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">32.2235781715398</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.9704148951266</SimpleData>
+            <SimpleData name="volume_m^2">66.3958176007427</SimpleData>
+            <SimpleData name="cover_area_m^2">24.6841944245502</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.663</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0896827,54.0981914977649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.15">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">255888bd-5f0a-47a9-bdf9-6c6b9663edd0</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur</SimpleData>
+            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">22</SimpleData>
+            <SimpleData name="crown_diameter">1.7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.39698785293759</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.57604590229367</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">18.04537320242</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.95817752639937</SimpleData>
+            <SimpleData name="volume_m^2">8.57793738009847</SimpleData>
+            <SimpleData name="cover_area_m^2">1.95086674491666</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">23.763</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0894559,54.0973262977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.16">
+        <name>Alnus glutinosa</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">19bbf609-c0be-4271-ab82-a70408e38546</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus glutinosa</SimpleData>
+            <SimpleData name="German-species">Schwarz-Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">30.24</SimpleData>
+            <SimpleData name="trunk_circumference">95</SimpleData>
+            <SimpleData name="crown_diameter">7.8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Alnus glutinosa</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.40127516354184</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.31274727880015</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">104.807786375362</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">30.1712626994857</SimpleData>
+            <SimpleData name="volume_m^2">238.86777121025</SimpleData>
+            <SimpleData name="cover_area_m^2">54.2724011415878</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">34.491</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.084048,54.0964534977646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.17">
+        <name>Alnus glutinosa</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">6d5b8d0b-c122-40fa-930d-82566eb4e5a7</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus glutinosa</SimpleData>
+            <SimpleData name="German-species">Schwarz-Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4</SimpleData>
+            <SimpleData name="trunk_diameter">35.97</SimpleData>
+            <SimpleData name="trunk_circumference">113</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Alnus glutinosa</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.15103056669992</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.77424389279561</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">116.621550949473</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.730020503298</SimpleData>
+            <SimpleData name="volume_m^2">250.995084837984</SimpleData>
+            <SimpleData name="cover_area_m^2">60.4657279210368</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">35.258</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0839979,54.0964421977646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.18">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">453cfb7c-27bc-43ae-8fd0-f782d57bdc08</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur</SimpleData>
+            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">35.01</SimpleData>
+            <SimpleData name="trunk_circumference">110</SimpleData>
+            <SimpleData name="crown_diameter">5.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.94283652812756</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.987417920822</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">106.180160895751</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">37.4016569969332</SimpleData>
+            <SimpleData name="volume_m^2">223.637511757411</SimpleData>
+            <SimpleData name="cover_area_m^2">28.1558749151458</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.65</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0896247,54.098342597765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.19">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">04cbb047-43a6-4d5d-9ef3-341e0c6f276c</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur</SimpleData>
+            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">42.97</SimpleData>
+            <SimpleData name="trunk_circumference">135</SimpleData>
+            <SimpleData name="crown_diameter">12.3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.61534581464311</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.4551609617784</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">143.202060015336</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">42.8145318720252</SimpleData>
+            <SimpleData name="volume_m^2">990.962411974633</SimpleData>
+            <SimpleData name="cover_area_m^2">103.060506723066</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.385</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0896248,54.0983812977649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.20">
+        <name>Salix caprea</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">ee6e7f7b-3af4-4d22-8e3a-87248f2f5a47</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix caprea</SimpleData>
+            <SimpleData name="German-species">Sal-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">89.13</SimpleData>
+            <SimpleData name="trunk_circumference">280</SimpleData>
+            <SimpleData name="crown_diameter">16</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix caprea</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">16.4608902662302</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.9005090676774</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">280.321912823037</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">90.6275657057117</SimpleData>
+            <SimpleData name="volume_m^2">3268.62620970929</SimpleData>
+            <SimpleData name="cover_area_m^2">198.569224194085</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">68.154</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0860136,54.0969279977646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.21">
+        <name>Betula pendula</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">d8003005-b9db-452a-9961-8103b9d909d5</SimpleData>
+            <SimpleData name="botanical_genus">Betula</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">Betula pendula</SimpleData>
+            <SimpleData name="German-species">Sand-Birke</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">11.14</SimpleData>
+            <SimpleData name="trunk_circumference">35</SimpleData>
+            <SimpleData name="crown_diameter">2.9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.89821991291531</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.26928148109102</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">31.4117428931564</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.5702168420909</SimpleData>
+            <SimpleData name="volume_m^2">66.3015577079495</SimpleData>
+            <SimpleData name="cover_area_m^2">8.39449375162776</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">38.384</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0861936,54.0966580977646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.22">
+        <name>Fagus sylvatica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">baf0151a-040c-4a9c-ac3c-e8e3c0f953bc</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus sylvatica</SimpleData>
+            <SimpleData name="German-species">Rotbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">5</SimpleData>
+            <SimpleData name="trunk_circumference">15.71</SimpleData>
+            <SimpleData name="crown_diameter">1.3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.98743912606618</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.333703049557116</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">17.8162291169157</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.88994252224414</SimpleData>
+            <SimpleData name="volume_m^2">0.436202188634718</SimpleData>
+            <SimpleData name="cover_area_m^2">0.0874601529179507</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">20.605</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0885406,54.0965059977646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.23">
+        <name>Alnus glutinosa</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">ca1b63e0-1f11-4d23-8881-17c1a07b7128</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus glutinosa</SimpleData>
+            <SimpleData name="German-species">Schwarz-Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">30</SimpleData>
+            <SimpleData name="trunk_circumference">94.25</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Alnus glutinosa</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.21385978713148</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.9838462035591</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">99.0025709959637</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">29.1423534885508</SimpleData>
+            <SimpleData name="volume_m^2">311.082553689842</SimpleData>
+            <SimpleData name="cover_area_m^2">50.0626928103648</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">48.571</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0882621,54.0970796977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.24">
+        <name>Alnus glutinosa</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">611b6466-b90e-48c9-b681-9ad93e83b4b7</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus glutinosa</SimpleData>
+            <SimpleData name="German-species">Schwarz-Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">25</SimpleData>
+            <SimpleData name="trunk_circumference">78.54</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Alnus glutinosa</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.7270502038764</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.02937946356496</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">80.9509340587284</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.7885669405178</SimpleData>
+            <SimpleData name="volume_m^2">70.1097458351425</SimpleData>
+            <SimpleData name="cover_area_m^2">7.20770884961636</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">47.017</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0882456,54.0970379977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.25">
+        <name>Quercus palustris</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">489e6787-6ee4-4f79-8ceb-b817b1f393b4</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus palustris</SimpleData>
+            <SimpleData name="German-species">Sumpf-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">21.99</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus palustris</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.82561934156873</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.22301426786313</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">17.6850808464571</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.0437940631476</SimpleData>
+            <SimpleData name="volume_m^2">5.6689938929369</SimpleData>
+            <SimpleData name="cover_area_m^2">1.17477021946244</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">98.601</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0864931,54.0973306977648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.26">
+        <name>Betula pendula</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">a06990ea-61f1-496c-90c2-361dd04ca890</SimpleData>
+            <SimpleData name="botanical_genus">Betula</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">Betula pendula</SimpleData>
+            <SimpleData name="German-species">Sand-Birke</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">21.99</SimpleData>
+            <SimpleData name="crown_diameter">1.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.86531398102432</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.41584389137316</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">24.6224809735341</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.99783328006373</SimpleData>
+            <SimpleData name="volume_m^2">26.8855472985707</SimpleData>
+            <SimpleData name="cover_area_m^2">4.58382064209211</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.377</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0861286,54.098754297765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.27">
+        <name>Betula pendula</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">5a6b9375-1e56-4262-b7ce-2e934901c978</SimpleData>
+            <SimpleData name="botanical_genus">Betula</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">Betula pendula</SimpleData>
+            <SimpleData name="German-species">Sand-Birke</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">18.85</SimpleData>
+            <SimpleData name="crown_diameter">1.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.15813028440091</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.23725960675459</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">15.2859925447921</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.68521677347992</SimpleData>
+            <SimpleData name="volume_m^2">24.2087027210452</SimpleData>
+            <SimpleData name="cover_area_m^2">3.93117741960868</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.352</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0861752,54.098728797765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.28">
+        <name>Betula pendula</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">07c5c2ba-7994-47d4-9b24-cb98e22915bf</SimpleData>
+            <SimpleData name="botanical_genus">Betula</SimpleData>
+            <SimpleData name="German_genus">Birke</SimpleData>
+            <SimpleData name="botanical_species">Betula pendula</SimpleData>
+            <SimpleData name="German-species">Sand-Birke</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">18.85</SimpleData>
+            <SimpleData name="crown_diameter">1.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.18656569480811</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.92639401618912</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">18.4610300834876</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">4.71498943851839</SimpleData>
+            <SimpleData name="volume_m^2">15.1168048181212</SimpleData>
+            <SimpleData name="cover_area_m^2">2.91460779784464</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.935</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0860907,54.0986959977649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.29">
+        <name>Acer platanoides</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">c10ee6fe-c686-4777-a138-57e19460b029</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer platanoides</SimpleData>
+            <SimpleData name="German-species">Spitz-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">31.42</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer platanoides</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">3.91234014119019</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.85929768523099</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">23.0661506243606</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">7.02928338055439</SimpleData>
+            <SimpleData name="volume_m^2">25.1214806119588</SimpleData>
+            <SimpleData name="cover_area_m^2">6.42108807142636</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.869</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0859628,54.0984957977649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.30">
+        <name>Robinia pseudoacacia</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">abe7940f-59ed-4af0-b378-ea3aa949ff65</SimpleData>
+            <SimpleData name="botanical_genus">Robinia</SimpleData>
+            <SimpleData name="German_genus">Scheinakazie</SimpleData>
+            <SimpleData name="botanical_species">Robinia pseudoacacia</SimpleData>
+            <SimpleData name="German-species">Gemeine Robinie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">59.84</SimpleData>
+            <SimpleData name="trunk_circumference">188</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Robinia pseudoacacia</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">13.5574016828709</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.31714100414459</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">187.204412393473</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">61.61727239767</SimpleData>
+            <SimpleData name="volume_m^2">924.339859590165</SimpleData>
+            <SimpleData name="cover_area_m^2">68.1797206582749</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">23.5</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.088657,54.098553697765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.31">
+        <name>Fraxinus excelsior</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">67d1f88f-ba0c-4a49-9004-6913f638c729</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German-species">Gemeine Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">35.01</SimpleData>
+            <SimpleData name="trunk_circumference">110</SimpleData>
+            <SimpleData name="crown_diameter">9.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus excelsior</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">12.5752387748</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.76672469327317</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">106.944040098894</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">36.7397685911946</SimpleData>
+            <SimpleData name="volume_m^2">942.115205420889</SimpleData>
+            <SimpleData name="cover_area_m^2">74.9182756918166</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">41.157</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0883187,54.0970072977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.32">
+        <name>Pinus sylvestris</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">2d99bc45-1cd1-4f6a-aa71-e016c60fc2b3</SimpleData>
+            <SimpleData name="botanical_genus">Pinus</SimpleData>
+            <SimpleData name="German_genus">Kiefer</SimpleData>
+            <SimpleData name="botanical_species">Pinus sylvestris</SimpleData>
+            <SimpleData name="German-species">Gemeine Kiefer</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">43.61</SimpleData>
+            <SimpleData name="trunk_circumference">137</SimpleData>
+            <SimpleData name="crown_diameter">8.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Pinus sylvestris</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.87913072739731</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.35438350551215</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">139.514384862364</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">42.4904202069138</SimpleData>
+            <SimpleData name="volume_m^2">541.548589235695</SimpleData>
+            <SimpleData name="cover_area_m^2">54.8174332518796</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">19.441</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0832547,54.0962566977646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.33">
+        <name>Robinia pseudoacacia</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">74c3781d-9d36-4177-a9a4-4937e6c0e3e0</SimpleData>
+            <SimpleData name="botanical_genus">Robinia</SimpleData>
+            <SimpleData name="German_genus">Scheinakazie</SimpleData>
+            <SimpleData name="botanical_species">Robinia pseudoacacia</SimpleData>
+            <SimpleData name="German-species">Gemeine Robinie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11</SimpleData>
+            <SimpleData name="trunk_diameter">31.83</SimpleData>
+            <SimpleData name="trunk_circumference">100</SimpleData>
+            <SimpleData name="crown_diameter">9.1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Robinia pseudoacacia</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">11.8030262009413</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.83935111404149</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">107.162459046748</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">34.4719358710593</SimpleData>
+            <SimpleData name="volume_m^2">724.309235579154</SimpleData>
+            <SimpleData name="cover_area_m^2">61.3664007219935</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.419</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0847752,54.0975823977648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.34">
+        <name>Robinia pseudoacacia</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">1b93acaa-edbb-4a97-8276-69f8459a9e92</SimpleData>
+            <SimpleData name="botanical_genus">Robinia</SimpleData>
+            <SimpleData name="German_genus">Scheinakazie</SimpleData>
+            <SimpleData name="botanical_species">Robinia pseudoacacia</SimpleData>
+            <SimpleData name="German-species">Gemeine Robinie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">22.28</SimpleData>
+            <SimpleData name="trunk_circumference">70</SimpleData>
+            <SimpleData name="crown_diameter">0.9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Robinia pseudoacacia</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.74090707200783</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.25362235174635</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">70.942220571454</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">19.8548665360373</SimpleData>
+            <SimpleData name="volume_m^2">9.55465893494248</SimpleData>
+            <SimpleData name="cover_area_m^2">1.23430740687915</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.683</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0835612,54.0969382977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.35">
+        <name>Robinia pseudoacacia</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">94701eec-2b50-4970-ac50-d2bdb18a31cb</SimpleData>
+            <SimpleData name="botanical_genus">Robinia</SimpleData>
+            <SimpleData name="German_genus">Scheinakazie</SimpleData>
+            <SimpleData name="botanical_species">Robinia pseudoacacia</SimpleData>
+            <SimpleData name="German-species">Gemeine Robinie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11</SimpleData>
+            <SimpleData name="trunk_diameter">47.75</SimpleData>
+            <SimpleData name="trunk_circumference">150</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Robinia pseudoacacia</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">10.7018636306638</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.36563141560065</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">148.858095890758</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">47.5556524985006</SimpleData>
+            <SimpleData name="volume_m^2">456.004637055362</SimpleData>
+            <SimpleData name="cover_area_m^2">42.6098343982616</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.276</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0847831,54.0976038977648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.36">
+        <name>Crataegus monogyna</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">8fb33161-3cd3-46fe-acc8-55348b69407b</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">Crataegus monogyna</SimpleData>
+            <SimpleData name="German-species">Eingriffliger Weißdorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4.5</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">18.85</SimpleData>
+            <SimpleData name="crown_diameter">1.3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Crataegus monogyna</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">3.45431075352452</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.4612828770784</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">14.5450276718838</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.87369092398668</SimpleData>
+            <SimpleData name="volume_m^2">16.4351755264913</SimpleData>
+            <SimpleData name="cover_area_m^2">4.75787405916567</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.33</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0860552,54.098623197765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.37">
+        <name>Crataegus monogyna</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">a400ae3f-b064-494c-9c81-fa9998dc5f41</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">Crataegus monogyna</SimpleData>
+            <SimpleData name="German-species">Eingriffliger Weißdorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">18.85</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Crataegus monogyna</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.16251983933572</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.950780075475926</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">23.1708324938801</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">8.25408611735224</SimpleData>
+            <SimpleData name="volume_m^2">3.66531884005015</SimpleData>
+            <SimpleData name="cover_area_m^2">0.709986393102516</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.934</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0860214,54.098570497765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.38">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">11938caf-c28b-442c-af06-30b19885b249</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus</SimpleData>
+            <SimpleData name="German-species">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">35.03</SimpleData>
+            <SimpleData name="trunk_circumference">110.05</SimpleData>
+            <SimpleData name="crown_diameter">4.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">11.1239658457309</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.16004789005552</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">112.982855215669</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">37.084289326646</SimpleData>
+            <SimpleData name="volume_m^2">151.198049458102</SimpleData>
+            <SimpleData name="cover_area_m^2">13.5920993964691</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.457</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0865452,54.0982640977649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.39">
+        <name>Aesculus hippocastanum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">651682f3-b0d7-417f-85ad-f9e2d6376501</SimpleData>
+            <SimpleData name="botanical_genus">Aesculus</SimpleData>
+            <SimpleData name="German_genus">Kastanie</SimpleData>
+            <SimpleData name="botanical_species">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="German-species">Gewöhnliche Rosskastanie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11</SimpleData>
+            <SimpleData name="trunk_diameter">66.21</SimpleData>
+            <SimpleData name="trunk_circumference">208</SimpleData>
+            <SimpleData name="crown_diameter">11.3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Aesculus hippocastanum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">11.3181342723647</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.7746452918992</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">209.615575602906</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">64.6315984833954</SimpleData>
+            <SimpleData name="volume_m^2">1232.42468707572</SimpleData>
+            <SimpleData name="cover_area_m^2">108.889385601734</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">23.845</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0840185,54.0956841977645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.40">
+        <name>Tilia platyphyllos</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">011623ca-0dba-4dbe-a0ea-f72fd9e32032</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia platyphyllos</SimpleData>
+            <SimpleData name="German-species">Sommer-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">57.93</SimpleData>
+            <SimpleData name="trunk_circumference">182</SimpleData>
+            <SimpleData name="crown_diameter">11</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia platyphyllos</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">17.8246535454983</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.659673866312</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">180.741549728472</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">56.3880340343991</SimpleData>
+            <SimpleData name="volume_m^2">1590.73857928409</SimpleData>
+            <SimpleData name="cover_area_m^2">89.2437306129768</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.543</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0904861,54.0967633977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.41">
+        <name>Prunus avium</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">731285ef-0927-45b7-9b6f-e8a98a061e60</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus avium „Plena“</SimpleData>
+            <SimpleData name="German-species">Gefülltblühende Vogelkirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4.5</SimpleData>
+            <SimpleData name="trunk_diameter">7.96</SimpleData>
+            <SimpleData name="trunk_circumference">25</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus avium</SimpleData>
+            <SimpleData name="botanical_species_common_name">Plena</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.38532803284574</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.28612299420091</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">29.176678860865</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.626368664969</SimpleData>
+            <SimpleData name="volume_m^2">18.0007727949581</SimpleData>
+            <SimpleData name="cover_area_m^2">4.10477224511687</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.588</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.082936,54.0962857977646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.42">
+        <name>Prunus cerasifera</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">a56a005d-23ce-48a8-94e0-934161ec221e</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus cerasifera „Nigra“</SimpleData>
+            <SimpleData name="German-species">Blut-Pflaume „Nigra“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">11</SimpleData>
+            <SimpleData name="trunk_diameter">42.97</SimpleData>
+            <SimpleData name="trunk_circumference">135</SimpleData>
+            <SimpleData name="crown_diameter">11.8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus cerasifera</SimpleData>
+            <SimpleData name="botanical_species_common_name">Nigra</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">10.1511747994706</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.471030279006</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">139.365208308342</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">42.1058714785458</SimpleData>
+            <SimpleData name="volume_m^2">1049.08587542235</SimpleData>
+            <SimpleData name="cover_area_m^2">103.346252640341</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">13.573</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0829134,54.0965207977646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.43">
+        <name>Fagus sylvatica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">14aa4b89-78a4-4954-b24a-1eb08b6b5154</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus sylvatica</SimpleData>
+            <SimpleData name="German-species">Rotbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">4.59397805254934</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.05128972327919</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">26.4619390762264</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.35474948260329</SimpleData>
+            <SimpleData name="volume_m^2">3.98771062555391</SimpleData>
+            <SimpleData name="cover_area_m^2">0.868029968785115</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">41.31</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0844976,54.0961641977645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.44">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">ce062434-c670-4705-abee-7cfa9f304094</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">50.29</SimpleData>
+            <SimpleData name="trunk_circumference">158</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">18.3864709592039</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.40159192271532</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">159.519386042155</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.8669815718798</SimpleData>
+            <SimpleData name="volume_m^2">1276.41251819207</SimpleData>
+            <SimpleData name="cover_area_m^2">69.421289219894</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.591</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.0908118,54.0968814977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Schwanenteichpark_qualified.45">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Schwanenteichpark_qualified.schema">
+            <SimpleData name="uuid">98eceafa-88ec-4ed0-832b-b9ba5be872fc</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">50.61</SimpleData>
+            <SimpleData name="trunk_circumference">159</SimpleData>
+            <SimpleData name="crown_diameter">11</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">18.4923687077606</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.8167896032275</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">160.718239739985</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">49.8038662532858</SimpleData>
+            <SimpleData name="volume_m^2">1699.33573440145</SimpleData>
+            <SimpleData name="cover_area_m^2">91.8938920836195</SimpleData>
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.605</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.090915,54.0969188977647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

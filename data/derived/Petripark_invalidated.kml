@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Petripark_invalidated" name="Petripark_invalidated">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Petripark_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Petripark_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Petripark_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Document id="Petripark_invalidated">
+      <name>Petripark_invalidated</name>
+      <Placemark id="Petripark_invalidated.1">
+        <name>Sequoia sempervirens</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">193738bb-2525-491d-a602-57c78d54347c</SimpleData>
+            <SimpleData name="botanical_genus">Sequoia</SimpleData>
+            <SimpleData name="German_genus">Küstenmammutbaum</SimpleData>
+            <SimpleData name="botanical_species">Sequoia sempervirens</SimpleData>
+            <SimpleData name="German-species">Küsten-Sequoie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4.5</SimpleData>
+            <SimpleData name="trunk_diameter">7.96</SimpleData>
+            <SimpleData name="trunk_circumference">25</SimpleData>
+            <SimpleData name="crown_diameter">1.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Sequoia sempervirens</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">3.86553673700389</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.6808452169961</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">25.9220794840647</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.1144740567152</SimpleData>
+            <SimpleData name="volume_m^2">21.8194182086408</SimpleData>
+            <SimpleData name="cover_area_m^2">5.64460246872536</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.167</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1524883,54.0888176977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.2">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">6b952b79-9264-4d00-a328-5fb30b876297</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">25.13</SimpleData>
+            <SimpleData name="crown_diameter">0.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.44752622198704</SimpleData>
+            <SimpleData name="crown_diameter_standardized">-0.307955786530202</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">23.2797691331596</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.4172077889366</SimpleData>
+            <SimpleData name="volume_m^2">0.55472617695606</SimpleData>
+            <SimpleData name="cover_area_m^2">0.0744846221982225</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.993</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1522438,54.0891148977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.3">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">1304967e-bfbc-4810-9d60-9ed7580384e0</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">25.13</SimpleData>
+            <SimpleData name="crown_diameter">0.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.75272388162696</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.0429384642396538</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">26.5963950475908</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.55806160068724</SimpleData>
+            <SimpleData name="volume_m^2">0.00977826690581665</SimpleData>
+            <SimpleData name="cover_area_m^2">0.00144804779185799</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">5.582</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1523923,54.0890455977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.4">
+        <name>Acer pseudoplatanus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">61d2554e-eeb1-4c4a-9427-210a5e0f1d02</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.16499076235519</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.04963103209581</SimpleData>
+            <SimpleData name="volume_m^2">263.438769087734</SimpleData>
+            <SimpleData name="cover_area_m^2">28.744029963434</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.116</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1520682,54.0875184977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.5">
+        <name>Metasequoia glyptostroboides</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">e45a0416-0831-4c30-bcdb-7b39fea147b6</SimpleData>
+            <SimpleData name="botanical_genus">Metasequoia</SimpleData>
+            <SimpleData name="German_genus">Urweltmammutbaum</SimpleData>
+            <SimpleData name="botanical_species">Metasequoia glyptostroboides</SimpleData>
+            <SimpleData name="German-species">Urwelt-Mammutbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">40</SimpleData>
+            <SimpleData name="trunk_circumference">125.66</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Metasequoia glyptostroboides</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.7514183929931</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.57124434079694</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">132.415434643173</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">39.476084214979</SimpleData>
+            <SimpleData name="volume_m^2">359.606948083458</SimpleData>
+            <SimpleData name="cover_area_m^2">24.3777878508463</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.131</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1523421,54.0891008977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.6">
+        <name>Salix alba</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">a165c03e-3b1c-4582-85a5-549f98c6e96a</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix alba</SimpleData>
+            <SimpleData name="German-species">Silber-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">125</SimpleData>
+            <SimpleData name="trunk_circumference">392.7</SimpleData>
+            <SimpleData name="crown_diameter">16</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix alba</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.6848527894738</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.5869607143656</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">401.995415018445</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">124.226627815965</SimpleData>
+            <SimpleData name="volume_m^2">3389.25277599548</SimpleData>
+            <SimpleData name="cover_area_m^2">216.084449212685</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.949</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1536848,54.0914450977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.7">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">84d77db3-5731-4dc5-967d-24563ae9bb53</SimpleData>
+            <SimpleData name="botanical_genus">Pinus</SimpleData>
+            <SimpleData name="German_genus">Kiefer</SimpleData>
+            <SimpleData name="botanical_species">Pinus species</SimpleData>
+            <SimpleData name="German-species">Kiefer</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6.5</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.98272291410046</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.6811358223155</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">31.8564388220767</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.5420607707872</SimpleData>
+            <SimpleData name="volume_m^2">63.6725809596688</SimpleData>
+            <SimpleData name="cover_area_m^2">10.6427427567473</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">32.786</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1525102,54.0912337977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.8">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">5bcc78a2-9399-4fc7-a4a2-bc0c1a29d32f</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus species</SimpleData>
+            <SimpleData name="German-species">Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">34.56</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">11.5067490810769</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.74632894912996</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">28.9619031249522</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.1350324577905</SimpleData>
+            <SimpleData name="volume_m^2">203.590820442273</SimpleData>
+            <SimpleData name="cover_area_m^2">17.693165898358</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">13.77</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1522716,54.0913480977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.9">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">4b78ef16-3bd8-49d2-9576-e639daf4e961</SimpleData>
+            <SimpleData name="botanical_genus">Populus</SimpleData>
+            <SimpleData name="German_genus">Pappel</SimpleData>
+            <SimpleData name="botanical_species">Populus species</SimpleData>
+            <SimpleData name="German-species">Pappel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">80</SimpleData>
+            <SimpleData name="trunk_circumference">251.33</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">20.3791597306887</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.9080953284462</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">247.540717471521</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">82.5956745566056</SimpleData>
+            <SimpleData name="volume_m^2">2269.65977104955</SimpleData>
+            <SimpleData name="cover_area_m^2">111.371607124297</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">21.38</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1520859,54.0911828977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.10">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">66b16fd8-344f-4fd1-9a39-05b7a8d06a77</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.55550205187571</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.18831300086369</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">55.0407402246571</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.9942961175627</SimpleData>
+            <SimpleData name="volume_m^2">347.207693532049</SimpleData>
+            <SimpleData name="cover_area_m^2">40.5829712186122</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.183</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.151968,54.0913021977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.11">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">5ad029ab-0f7b-49e5-833b-0756eeed92bd</SimpleData>
+            <SimpleData name="botanical_genus">Robinia</SimpleData>
+            <SimpleData name="German_genus">Scheinakazie</SimpleData>
+            <SimpleData name="botanical_species">Robinia species</SimpleData>
+            <SimpleData name="German-species">Robinie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.3002014358466</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.63970866694567</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">50.0188496294017</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.932381066707</SimpleData>
+            <SimpleData name="volume_m^2">207.344181982074</SimpleData>
+            <SimpleData name="cover_area_m^2">24.9806204806794</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.544</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1516776,54.0911206977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.12">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">d38609b5-4e0a-4dd0-9b6c-9824e0d44680</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">3.62831567709377</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.31109531694937</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">43.3426510033481</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.7023987462966</SimpleData>
+            <SimpleData name="volume_m^2">15.2205610615673</SimpleData>
+            <SimpleData name="cover_area_m^2">4.19493848279452</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.377</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1537694,54.0911239977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.13">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">d77b7a02-1390-4b25-9a18-c9cc62985c42</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix species</SimpleData>
+            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">4</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">3.34838789829556</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.14931523335178</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">43.4127139352094</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.6260314787482</SimpleData>
+            <SimpleData name="volume_m^2">3.47379328252748</SimpleData>
+            <SimpleData name="cover_area_m^2">1.03745246609443</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.679</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1537535,54.0912492977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.14">
+        <name>Windschutz Laub-Mischbestand</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">101d16c2-9826-4365-9005-f42ad5ca10cc</SimpleData>
+            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
+            <SimpleData name="botanical_species">Windschutz Laub-Mischbestand</SimpleData>
+            <SimpleData name="German-species">Windschutz Laub-Mischbestand</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Windschutz Laub-Mischbestand</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">18.021</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1521961,54.0912730977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.15">
+        <name>Malus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">b7ca1592-e706-43f5-879f-13c2d20721c1</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
+            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">25.13</SimpleData>
+            <SimpleData name="crown_diameter">1.4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
+            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.63272953531559</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.503097808110603</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">24.0354920832092</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.2108732153255</SimpleData>
+            <SimpleData name="volume_m^2">1.11973081497047</SimpleData>
+            <SimpleData name="cover_area_m^2">0.198790090656774</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.723</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1515023,54.0873774977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.16">
+        <name>Malus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">8001c44e-1a83-4b5d-8480-68aa036f6860</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
+            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">25.13</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
+            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">4.5933736433556</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.746981455202498</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">19.9371538113799</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">8.82818185876019</SimpleData>
+            <SimpleData name="volume_m^2">2.0129885078232</SimpleData>
+            <SimpleData name="cover_area_m^2">0.438237483844804</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.55</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1516423,54.087331697763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.17">
+        <name>Malus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">69934c6e-0c18-43ad-a637-b3e95f3f0b65</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
+            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">6.37</SimpleData>
+            <SimpleData name="trunk_circumference">20</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
+            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.27509809911443</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.20987027253276</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">13.7728933065585</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.85280715836654</SimpleData>
+            <SimpleData name="volume_m^2">50.7791424468792</SimpleData>
+            <SimpleData name="cover_area_m^2">8.09216710955409</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.177</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1511382,54.086550397763,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.18">
+        <name>Morus alba</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">56d1588d-a4c1-4767-8896-545aaef36d9f</SimpleData>
+            <SimpleData name="botanical_genus">Morus</SimpleData>
+            <SimpleData name="German_genus">Maulbeerebaum</SimpleData>
+            <SimpleData name="botanical_species">Morus alba</SimpleData>
+            <SimpleData name="German-species">Weiße Maulbeere</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.5</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Morus alba</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.13735988065243</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.9731962108645</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">49.4595828616843</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.4445166701598</SimpleData>
+            <SimpleData name="volume_m^2">76.0941896866756</SimpleData>
+            <SimpleData name="cover_area_m^2">12.398521704187</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.73</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1509769,54.0870480977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.19">
+        <name>Malus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">81ab1d84-eb93-4fd7-9ed4-2fccc42acd7e</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
+            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">25.13</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
+            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.6870162381295</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.47211044779587</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">32.3706567852137</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">11.3064496047038</SimpleData>
+            <SimpleData name="volume_m^2">27.296696419932</SimpleData>
+            <SimpleData name="cover_area_m^2">4.79982740983172</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.104</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1509626,54.0866114977629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.20">
+        <name>Malus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">b329552b-a390-401a-82b5-de69d65f04f3</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
+            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5</SimpleData>
+            <SimpleData name="trunk_diameter">6.37</SimpleData>
+            <SimpleData name="trunk_circumference">20</SimpleData>
+            <SimpleData name="crown_diameter">0.6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
+            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">4.33475513496574</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.15673521348406</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">14.9469477414199</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">4.59717549290289</SimpleData>
+            <SimpleData name="volume_m^2">4.55535643763953</SimpleData>
+            <SimpleData name="cover_area_m^2">1.05089129508016</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.868</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1523942,54.0886876977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.21">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">89f09eba-fb3f-4bff-90c6-c006f6a99afa</SimpleData>
+            <SimpleData name="botanical_genus">Alnus</SimpleData>
+            <SimpleData name="German_genus">Erle</SimpleData>
+            <SimpleData name="botanical_species">Alnus species</SimpleData>
+            <SimpleData name="German-species">Erle</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">37.7</SimpleData>
+            <SimpleData name="crown_diameter">1.7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.06765151253095</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.7618006795758</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">33.4329112552319</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.0352542058316</SimpleData>
+            <SimpleData name="volume_m^2">14.791903245218</SimpleData>
+            <SimpleData name="cover_area_m^2">2.4378300590714</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.671</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1525807,54.0875619977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.22">
+        <name>Malus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">5c70dd3d-1609-4c27-9eb3-e19c08743168</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
+            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">5.4</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">21.99</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
+            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.1743930023772</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.657953159802406</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">21.953119441304</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">8.26764032510995</SimpleData>
+            <SimpleData name="volume_m^2">1.75929734048474</SimpleData>
+            <SimpleData name="cover_area_m^2">0.340000718862384</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">6.419</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1527906,54.0885539977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.23">
+        <name>Salix babylonica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">bd0281ab-c6ac-42d1-8d3a-4f4995c6f544</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix babylonica</SimpleData>
+            <SimpleData name="German-species">Chinesische-Hänge-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix babylonica</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.85064111302202</SimpleData>
+            <SimpleData name="crown_diameter_standardized">-0.211120138257835</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">16.5909185621887</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.56723193657</SimpleData>
+            <SimpleData name="volume_m^2">0.204810710078173</SimpleData>
+            <SimpleData name="cover_area_m^2">0.0350065413553255</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.303</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1536393,54.0910403977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.24">
+        <name>Salix babylonica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">77321c77-96af-47d6-8de6-7101f50ce6db</SimpleData>
+            <SimpleData name="botanical_genus">Salix</SimpleData>
+            <SimpleData name="German_genus">Weide</SimpleData>
+            <SimpleData name="botanical_species">Salix babylonica</SimpleData>
+            <SimpleData name="German-species">Chinesische-Hänge-Weide</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Salix babylonica</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.33501763333114</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.453274868321894</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">19.3053141533276</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.75968791201028</SimpleData>
+            <SimpleData name="volume_m^2">0.860892692422988</SimpleData>
+            <SimpleData name="cover_area_m^2">0.16136641930562</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.687</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1537011,54.0910855977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Petripark_invalidated.25">
+        <name>Malus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Petripark_invalidated.schema">
+            <SimpleData name="uuid">9fce6722-5982-4fd5-9f3f-8c6560658d26</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
+            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">5.73</SimpleData>
+            <SimpleData name="trunk_circumference">18</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
+            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.30985878882884</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.67251544228356</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">23.5759537140731</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">5.06505643357016</SimpleData>
+            <SimpleData name="volume_m^2">11.6657623650851</SimpleData>
+            <SimpleData name="cover_area_m^2">2.19700049079047</SimpleData>
+            <SimpleData name="designation">Petripark</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.459</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1514162,54.0872862977631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

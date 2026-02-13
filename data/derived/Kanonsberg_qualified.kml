@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Kanonsberg_qualified" name="Kanonsberg_qualified">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Kanonsberg_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Kanonsberg_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Kanonsberg_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Document id="Kanonsberg_qualified">
+      <name>Kanonsberg_qualified</name>
+      <Placemark id="Kanonsberg_qualified.1">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">415ac9fe-1ad6-4e8c-897a-d6c8b3895bb7</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">76.39</SimpleData>
+            <SimpleData name="trunk_circumference">240</SimpleData>
+            <SimpleData name="crown_diameter">13.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">24.3148309833722</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.9757166715471</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">241.30456256735</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">74.9573327542302</SimpleData>
+            <SimpleData name="volume_m^2">3730.00412184184</SimpleData>
+            <SimpleData name="cover_area_m^2">153.404484875614</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.119</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1279271,54.0906549977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.2">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">a00bb6f0-0ec6-4565-83e2-7916727b1908</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">60.48</SimpleData>
+            <SimpleData name="trunk_circumference">190</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">19.9293237031726</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.22292859343733</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">185.849445355908</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">58.5320926523887</SimpleData>
+            <SimpleData name="volume_m^2">816.599454452514</SimpleData>
+            <SimpleData name="cover_area_m^2">40.9747699728775</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">14.96</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1279602,54.0906955977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.3">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">5868ca13-e161-4d1b-8aa7-869f99976854</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">60.48</SimpleData>
+            <SimpleData name="trunk_circumference">190</SimpleData>
+            <SimpleData name="crown_diameter">9.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.8546949750198</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.4353547381284</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">189.487689875307</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">58.4036608381189</SimpleData>
+            <SimpleData name="volume_m^2">1270.4806468049</SimpleData>
+            <SimpleData name="cover_area_m^2">85.5272120323836</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.092</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1279904,54.0907385977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.4">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">61fb72ee-786b-4f0f-8711-c6a763fd946e</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">70.03</SimpleData>
+            <SimpleData name="trunk_circumference">220</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">18.7163613373299</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.0720859998486</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">216.127922585887</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">67.0328564823052</SimpleData>
+            <SimpleData name="volume_m^2">1491.24895745924</SimpleData>
+            <SimpleData name="cover_area_m^2">79.676221813742</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">14.929</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1280293,54.0907820977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.5">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">1a8e2c83-38ce-47f9-8938-8305755f5013</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">76.39</SimpleData>
+            <SimpleData name="trunk_circumference">240</SimpleData>
+            <SimpleData name="crown_diameter">16</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">21.6484518393192</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.4192581083821</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">242.149352010287</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">76.4825778934168</SimpleData>
+            <SimpleData name="volume_m^2">4042.44092315534</SimpleData>
+            <SimpleData name="cover_area_m^2">186.731178430654</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">14.945</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1280652,54.0908210977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.6">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">ac5298af-1a57-4f0d-bbbe-c48fd479f752</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">70.03</SimpleData>
+            <SimpleData name="trunk_circumference">220</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">24.0751694365291</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.0616655251304</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">212.905885507188</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">69.5298435621571</SimpleData>
+            <SimpleData name="volume_m^2">3738.80453322322</SimpleData>
+            <SimpleData name="cover_area_m^2">155.297122335113</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.593</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1281006,54.0908659977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.7">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">e80e514d-5970-45b0-ba24-d30703ca9e43</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">57.3</SimpleData>
+            <SimpleData name="trunk_circumference">180</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">17.6156243647372</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.20035771306611</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">182.403140740979</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">54.5750672497028</SimpleData>
+            <SimpleData name="volume_m^2">717.29213279631</SimpleData>
+            <SimpleData name="cover_area_m^2">40.7190865304882</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">17.339</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1281663,54.0909488977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.8">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">cce2992a-76ec-4159-8755-af360f4601f6</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">77.99</SimpleData>
+            <SimpleData name="trunk_circumference">245</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">22.7887514386385</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.6340361535818</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">242.227196182841</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">78.8799275757675</SimpleData>
+            <SimpleData name="volume_m^2">3327.04975331032</SimpleData>
+            <SimpleData name="cover_area_m^2">145.995262718487</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">20.538</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1282733,54.0910738977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.9">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">6bacd2fd-44cd-49a4-b393-f8c74df942e8</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">80</SimpleData>
+            <SimpleData name="trunk_circumference">251.33</SimpleData>
+            <SimpleData name="crown_diameter">16</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">21.5335374737913</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.2497664345586</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">258.096029770809</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">81.1367708547221</SimpleData>
+            <SimpleData name="volume_m^2">4465.80245282867</SimpleData>
+            <SimpleData name="cover_area_m^2">207.388240704252</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">22.204</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1283034,54.0911176977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.10">
+        <name>Acer campestre</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">de1d8f75-6c2b-4903-becd-0c8dd0a83e73</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer campestre</SimpleData>
+            <SimpleData name="German-species">Feld-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">76.39</SimpleData>
+            <SimpleData name="trunk_circumference">240</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer campestre</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">17.1864210843861</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.0817119338462</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">246.583396201234</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">74.6298136331695</SimpleData>
+            <SimpleData name="volume_m^2">2676.61705709131</SimpleData>
+            <SimpleData name="cover_area_m^2">155.74022328145</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">24.572</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1285985,54.0913216977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.11">
+        <name>Acer campestre</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">894cd23b-886f-4cf9-9517-f97778ba0707</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer campestre</SimpleData>
+            <SimpleData name="German-species">Feld-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">26.74</SimpleData>
+            <SimpleData name="trunk_circumference">84</SimpleData>
+            <SimpleData name="crown_diameter">5.7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer campestre</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">8.36614189736863</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.98780557414372</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">77.698220762839</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">26.8326151235546</SimpleData>
+            <SimpleData name="volume_m^2">235.586547762907</SimpleData>
+            <SimpleData name="cover_area_m^2">28.1595209181194</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.763</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1289854,54.0917446977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.12">
+        <name>Acer campestre</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">ee643ed3-6632-434a-ac02-e757668dd82b</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer campestre</SimpleData>
+            <SimpleData name="German-species">Feld-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">41</SimpleData>
+            <SimpleData name="trunk_circumference">128.81</SimpleData>
+            <SimpleData name="crown_diameter">11.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer campestre</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.3379415332871</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.8782877574938</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">129.8480615742</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">39.5740674698611</SimpleData>
+            <SimpleData name="volume_m^2">1588.85538636736</SimpleData>
+            <SimpleData name="cover_area_m^2">110.814748594047</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">20.017</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128458,54.0915258977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.13">
+        <name>Fagus sylvatica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">2d309bfe-e662-492f-b79b-631bc95d0cdf</SimpleData>
+            <SimpleData name="botanical_genus">Fagus</SimpleData>
+            <SimpleData name="German_genus">Buche</SimpleData>
+            <SimpleData name="botanical_species">Fagus sylvatica</SimpleData>
+            <SimpleData name="German-species">Rotbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">13.69</SimpleData>
+            <SimpleData name="trunk_circumference">43</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.02673539929613</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.91270159536769</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">40.424204382947</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.0893115860994</SimpleData>
+            <SimpleData name="volume_m^2">133.19387432889</SimpleData>
+            <SimpleData name="cover_area_m^2">18.9552995466759</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.109</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1277989,54.0917561977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.14">
+        <name>Acer campestre</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">5a396e11-74f1-46ae-b94d-df3235ebacc6</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer campestre</SimpleData>
+            <SimpleData name="German-species">Feld-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">22.28</SimpleData>
+            <SimpleData name="trunk_circumference">70</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer campestre</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">8.43064053589239</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.11705461403828</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">72.9322739590463</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">22.6091506956597</SimpleData>
+            <SimpleData name="volume_m^2">247.762269000534</SimpleData>
+            <SimpleData name="cover_area_m^2">29.3883089838449</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.899</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1281136,54.0916116977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.15">
+        <name>Acer campestre</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">499adaa1-8cec-4631-a09a-db9d081dc684</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer campestre</SimpleData>
+            <SimpleData name="German-species">Feld-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">25.46</SimpleData>
+            <SimpleData name="trunk_circumference">80</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer campestre</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">12.0378003837805</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.57731497895085</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">78.0415550510347</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.0391873551615</SimpleData>
+            <SimpleData name="volume_m^2">409.01035102017</SimpleData>
+            <SimpleData name="cover_area_m^2">33.9771667564171</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.828</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1281565,54.0914714977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.16">
+        <name>Acer campestre</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">f40d7add-44c7-42b3-a3d1-e480b5300d0a</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer campestre</SimpleData>
+            <SimpleData name="German-species">Feld-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer campestre</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.63060216816384</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.41487291424655</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">43.0194476254801</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.3068537817806</SimpleData>
+            <SimpleData name="volume_m^2">246.61802011775</SimpleData>
+            <SimpleData name="cover_area_m^2">32.3196013476737</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">22.223</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1287425,54.0913646977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.17">
+        <name>Quercus palustris</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">bac86d27-8669-4d16-b153-0f8248f0948d</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus palustris</SimpleData>
+            <SimpleData name="German-species">Sumpf-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">11.14</SimpleData>
+            <SimpleData name="trunk_circumference">35</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus palustris</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.08654274230058</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.8815242866935</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">40.9488347666948</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.9497206240133</SimpleData>
+            <SimpleData name="volume_m^2">83.8549893359554</SimpleData>
+            <SimpleData name="cover_area_m^2">11.8329899903677</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.407</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1282928,54.0915777977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.18">
+        <name>Quercus palustris</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">b805a1dd-87ca-470b-a177-10ae996279c2</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus palustris</SimpleData>
+            <SimpleData name="German-species">Sumpf-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">7.96</SimpleData>
+            <SimpleData name="trunk_circumference">25</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus palustris</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.70541732942098</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.51917375309273</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">25.756398713066</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.1988423006004</SimpleData>
+            <SimpleData name="volume_m^2">12.1543178857121</SimpleData>
+            <SimpleData name="cover_area_m^2">1.81261169716959</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">16.72</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1283245,54.0916602977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.19">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">7ec216ca-baf8-4bba-a0d5-90eade8ade04</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">10.2781766960551</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.83995592953109</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">69.5534079866965</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.7022786363719</SimpleData>
+            <SimpleData name="volume_m^2">275.311974069698</SimpleData>
+            <SimpleData name="cover_area_m^2">26.7860713248262</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.939</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276039,54.0900280977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.20">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">f19f5635-caa1-49bf-b6b9-6cbd58c44bc1</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">19</SimpleData>
+            <SimpleData name="trunk_circumference">59.69</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.0323326250295</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.62499670373995</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">62.4446369225557</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.7871953645734</SimpleData>
+            <SimpleData name="volume_m^2">311.358794398614</SimpleData>
+            <SimpleData name="cover_area_m^2">34.4715819627598</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.961</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276087,54.0900724977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.21">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">f60761a8-89d5-41dc-928a-b341aea18ef6</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus</SimpleData>
+            <SimpleData name="German-species">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.30618626132866</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.79386761757637</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">58.4738499253986</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.6581131149578</SimpleData>
+            <SimpleData name="volume_m^2">113.822664817359</SimpleData>
+            <SimpleData name="cover_area_m^2">18.0493661462797</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.864</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1272601,54.0899375977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.22">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">f7676038-f74f-4ac0-8d67-98d52669ae95</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus</SimpleData>
+            <SimpleData name="German-species">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">18</SimpleData>
+            <SimpleData name="trunk_circumference">56.55</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.07746442672769</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.60718189268619</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">56.5707145463753</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.7872443157175</SimpleData>
+            <SimpleData name="volume_m^2">117.988123422207</SimpleData>
+            <SimpleData name="cover_area_m^2">16.6709595849936</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.975</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273491,54.0899413977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.23">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">0ada3d1b-126c-4647-b0e9-bbd5622384df</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus</SimpleData>
+            <SimpleData name="German-species">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.82447571909514</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.07043520233047</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">45.2040232986405</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.5826019482661</SimpleData>
+            <SimpleData name="volume_m^2">157.992183999014</SimpleData>
+            <SimpleData name="cover_area_m^2">20.1920473231764</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.017</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1274413,54.0899446977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.24">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">0fb94de6-c960-455c-9674-8c8064f946fa</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">19</SimpleData>
+            <SimpleData name="trunk_circumference">59.69</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.9672622084399</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.56162076385324</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">59.9962566760595</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.0259960390537</SimpleData>
+            <SimpleData name="volume_m^2">169.260172941276</SimpleData>
+            <SimpleData name="cover_area_m^2">24.2936418750309</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">13.689</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276398,54.0902000977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.25">
+        <name>Tilia vulgaris</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">9b3d1662-3f93-473e-bd4a-e64a3c7c02e1</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia vulgaris „Pallida“</SimpleData>
+            <SimpleData name="German-species">Kaiserlinde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">9.55</SimpleData>
+            <SimpleData name="trunk_circumference">30</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia vulgaris</SimpleData>
+            <SimpleData name="botanical_species_common_name">Pallida</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.67771191902566</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.07351585880826</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">23.9233798688263</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">10.7104500126204</SimpleData>
+            <SimpleData name="volume_m^2">56.9629681259594</SimpleData>
+            <SimpleData name="cover_area_m^2">7.41926354188975</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">16.143</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.12879,54.0917242977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.26">
+        <name>Tilia vulgaris</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">ce6767a5-9375-4316-8004-8f9283371b5c</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia vulgaris „Pallida“</SimpleData>
+            <SimpleData name="German-species">Kaiserlinde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">9.87</SimpleData>
+            <SimpleData name="trunk_circumference">31</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia vulgaris</SimpleData>
+            <SimpleData name="botanical_species_common_name">Pallida</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.22207216800343</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.24550552519474</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">28.8313699011517</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">9.78441931748266</SimpleData>
+            <SimpleData name="volume_m^2">59.7470422891284</SimpleData>
+            <SimpleData name="cover_area_m^2">8.27283927649337</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">23.435</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1287287,54.0916615977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.27">
+        <name>Tilia vulgaris</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">88d75504-1412-4855-9e33-2e6aca300cf0</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia vulgaris „Pallida“</SimpleData>
+            <SimpleData name="German-species">Kaiserlinde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">18</SimpleData>
+            <SimpleData name="trunk_circumference">56.55</SimpleData>
+            <SimpleData name="crown_diameter">1</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia vulgaris</SimpleData>
+            <SimpleData name="botanical_species_common_name">Pallida</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">5.68247840612864</SimpleData>
+            <SimpleData name="crown_diameter_standardized">0.129720322231355</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">49.0028098801497</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.4915497919788</SimpleData>
+            <SimpleData name="volume_m^2">0.0751006529693518</SimpleData>
+            <SimpleData name="cover_area_m^2">0.0132161792094722</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">23.124</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1288371,54.0916589977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.28">
+        <name>Fraxinus excelsior</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">ac961b37-80eb-4678-b52e-029f3035aeb8</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German-species">Gemeine Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">35.01</SimpleData>
+            <SimpleData name="trunk_circumference">110</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus excelsior</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">18.3270680119663</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.32382142909333</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">106.971321960102</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.9321155378586</SimpleData>
+            <SimpleData name="volume_m^2">1251.32686156428</SimpleData>
+            <SimpleData name="cover_area_m^2">68.2775259385322</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.563</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.128131,54.0912466977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.29">
+        <name>Fraxinus excelsior</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">f9b8294e-b6c3-4d68-bae1-eda7c5852304</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German-species">Gemeine Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">29.28</SimpleData>
+            <SimpleData name="trunk_circumference">92</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus excelsior</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">18.1971287572446</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.45953102100631</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">94.2703545236103</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.7487493795334</SimpleData>
+            <SimpleData name="volume_m^2">795.272194140257</SimpleData>
+            <SimpleData name="cover_area_m^2">43.7031690410854</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.001</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1281132,54.0912370977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.30">
+        <name>Fraxinus excelsior</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">3038504b-188f-4816-9ad5-ac750331bb59</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German-species">Gemeine Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">70</SimpleData>
+            <SimpleData name="trunk_circumference">219.91</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus excelsior</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">16.2305102313319</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.5513839091094</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">213.182150888638</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">67.8910213094841</SimpleData>
+            <SimpleData name="volume_m^2">2008.19222454798</SimpleData>
+            <SimpleData name="cover_area_m^2">123.729457418492</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.961</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1280462,54.0912194977637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.31">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">f1f20249-4815-4b26-9ac5-7a1f085293de</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus „Frans Fontaine“</SimpleData>
+            <SimpleData name="German-species">Hainbuche „Frans Fontaine“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">10.5</SimpleData>
+            <SimpleData name="trunk_circumference">33</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name">Frans Fontaine</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.90693811375523</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.36624732469521</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">35.5627199025094</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">8.41707955666097</SimpleData>
+            <SimpleData name="volume_m^2">34.7711050381869</SimpleData>
+            <SimpleData name="cover_area_m^2">4.3975435924682</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.923</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1283408,54.0918214977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.32">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">f680883f-258d-488f-99cf-6a36442d06e1</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus „Frans Fontaine“</SimpleData>
+            <SimpleData name="German-species">Hainbuche „Frans Fontaine“</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">12.1</SimpleData>
+            <SimpleData name="trunk_circumference">38</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name">Frans Fontaine</SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">8.21241895370898</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.62153734866846</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">37.3640222682324</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.1610488242753</SimpleData>
+            <SimpleData name="volume_m^2">44.3274835044378</SimpleData>
+            <SimpleData name="cover_area_m^2">5.39761594656811</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.223</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1283937,54.0918537977638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.33">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">159e1f71-2bbd-43bd-afb2-6279621c3ffa</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">50.27</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.03255266244882</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.8087681317852</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">43.1454385568941</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">16.991971880311</SimpleData>
+            <SimpleData name="volume_m^2">127.723422685665</SimpleData>
+            <SimpleData name="cover_area_m^2">18.161744222359</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.477</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276149,54.0901127977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.34">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">c67a8ca3-37fc-4445-a4db-579e34920cc9</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.71442663863582</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.53528560219484</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">65.1461244172989</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.6323021330119</SimpleData>
+            <SimpleData name="volume_m^2">185.640873244038</SimpleData>
+            <SimpleData name="cover_area_m^2">24.0641180401278</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.375</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276296,54.0901572977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.35">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">7e9380f8-8e44-476f-b87f-328e615a4f0b</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.99888577959621</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.58425402952179</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">61.7457628736343</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">22.5947915595404</SimpleData>
+            <SimpleData name="volume_m^2">115.519722810787</SimpleData>
+            <SimpleData name="cover_area_m^2">16.5054447877348</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">16.789</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276747,54.0902869977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.36">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">355a674a-4179-4e4b-a78d-8041a1ed15c0</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">21</SimpleData>
+            <SimpleData name="trunk_circumference">65.97</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.33801947436443</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.29348572919767</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">69.6677312476649</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.1546292850318</SimpleData>
+            <SimpleData name="volume_m^2">161.492454198116</SimpleData>
+            <SimpleData name="cover_area_m^2">22.0076349977395</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">17.277</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276905,54.0903268977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.37">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">9b9d2a46-8e7f-4296-8f83-1a20b06e829c</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">54</SimpleData>
+            <SimpleData name="trunk_circumference">169.65</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.14700368264004</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.03626813239505</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">169.412458925653</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">54.4048897223587</SimpleData>
+            <SimpleData name="volume_m^2">463.956830231257</SimpleData>
+            <SimpleData name="cover_area_m^2">50.7222743456192</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">17.178</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1277187,54.0903716977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.38">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">459c52cb-3f21-4330-8ff4-d3f3a5a7fb97</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">87.54</SimpleData>
+            <SimpleData name="trunk_circumference">275</SimpleData>
+            <SimpleData name="crown_diameter">16</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">21.0075845136407</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.6755564707641</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">273.911258054822</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">86.4111311307472</SimpleData>
+            <SimpleData name="volume_m^2">4588.0344648393</SimpleData>
+            <SimpleData name="cover_area_m^2">218.398953095259</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">16.604</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1277526,54.0904126977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.39">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">fb8a334d-ae55-40b4-bf26-dd602e0fb088</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">56.98</SimpleData>
+            <SimpleData name="trunk_circumference">179</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">14.073372637029</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.73750932674448</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">176.345734373421</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">57.6276117303072</SimpleData>
+            <SimpleData name="volume_m^2">843.846344086047</SimpleData>
+            <SimpleData name="cover_area_m^2">59.9604917634149</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">16.751</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1277776,54.0904582977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.40">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">67e18071-b514-4763-951b-50613c7b25ba</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">63.03</SimpleData>
+            <SimpleData name="trunk_circumference">198</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">18.2211617323922</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.79307440364066</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">197.653525744735</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">62.7448767038711</SimpleData>
+            <SimpleData name="volume_m^2">869.127696131571</SimpleData>
+            <SimpleData name="cover_area_m^2">47.6988080615354</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">16.374</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1278128,54.0905062977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.41">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">75d1e71a-804c-4cdc-b292-7fbfb846b111</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">66.85</SimpleData>
+            <SimpleData name="trunk_circumference">210</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">23.3811978015155</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.4009155281395</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">209.480321111494</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">67.6236358716763</SimpleData>
+            <SimpleData name="volume_m^2">2386.91027037659</SimpleData>
+            <SimpleData name="cover_area_m^2">102.086740407366</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">16.167</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1278417,54.0905482977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Kanonsberg_qualified.42">
+        <name>Fraxinus excelsior</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Kanonsberg_qualified.schema">
+            <SimpleData name="uuid">24278953-a6b4-4e8e-a260-b355d6c065dd</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German-species">Gemeine Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">27</SimpleData>
+            <SimpleData name="trunk_diameter">79.26</SimpleData>
+            <SimpleData name="trunk_circumference">249</SimpleData>
+            <SimpleData name="crown_diameter">15</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus excelsior</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">26.4148335934143</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.96868675099</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">246.848842029196</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">76.2710853769741</SimpleData>
+            <SimpleData name="volume_m^2">4648.41785302414</SimpleData>
+            <SimpleData name="cover_area_m^2">175.977555814816</SimpleData>
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">24.431</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1276943,54.0905263977636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

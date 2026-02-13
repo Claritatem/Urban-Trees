@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Jüdischer_Friedhof_qualified" name="Jüdischer_Friedhof_qualified">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="J__discher_Friedhof_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="J__discher_Friedhof_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="J__discher_Friedhof_qualified.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Folder>
+      <name>Jüdischer_Friedhof_qualified</name>
+      <Placemark id="Jüdischer_Friedhof_qualified.1">
+        <name>3cb98b31-3892-481d-9b64-53931da246f1</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German_genus">Gemeine Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">235.62</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">235.049922481032</SimpleData>
+            <SimpleData name="crown_diameter_standardized">75.5771994565809</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2784.50457189869</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">113.365626842447</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.197950178561115</SimpleData>
+            <SimpleData name="type">Fraxinus excelsior</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1191233,54.0817615977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.2">
+        <name>7d64f9ba-d3de-4c71-8dfe-0dcd589622d7</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German_genus">Gemeine Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">188.5</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">194.326474902885</SimpleData>
+            <SimpleData name="crown_diameter_standardized">59.7887670180302</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1833.14046856257</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">71.3787572565835</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">3.175566408745861</SimpleData>
+            <SimpleData name="type">Fraxinus excelsior</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1191084,54.0817770977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.3">
+        <name>988888f0-5f95-416e-8aa7-5c8fbd8f34c4</name>
+        <description>Carpinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus betulus</SimpleData>
+            <SimpleData name="German_genus">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">10</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">62.83</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">59.4619014552229</SimpleData>
+            <SimpleData name="crown_diameter_standardized">19.6359637457542</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">244.369759016369</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.387696736881</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">0.9296462867112284</SimpleData>
+            <SimpleData name="type">Carpinus betulus</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1196099,54.0819100977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.4">
+        <name>eb0d36a5-04ef-458d-af0d-f87688c843c4</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German_genus">Berg-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">251.33</SimpleData>
+            <SimpleData name="trunk_diameter">11</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">254.49535529628</SimpleData>
+            <SimpleData name="crown_diameter_standardized">79.696252777647</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2205.75189546628</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">88.645977071242</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.49509077969055</SimpleData>
+            <SimpleData name="type">Acer pseudoplatanus</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1182098,54.0818204977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.5">
+        <name>8e88a96c-fe7b-4adf-a930-4d4ddd55c830</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus robur</SimpleData>
+            <SimpleData name="German_genus">Stiel-Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">23</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">131.95</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">130.90138491963</SimpleData>
+            <SimpleData name="crown_diameter_standardized">42.9292181804098</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1172.73242095254</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">50.4016671562165</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">6.679176800315777</SimpleData>
+            <SimpleData name="type">Quercus robur</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187744,54.0819282977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.6">
+        <name>57b8a0cc-58e4-4313-8599-810ac25b7526</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German_genus">Berg-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">13</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">81.68</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">74.7794132910804</SimpleData>
+            <SimpleData name="crown_diameter_standardized">25.3148563968767</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">410.146023862454</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">30.345154268448</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.481107527050915</SimpleData>
+            <SimpleData name="type">Acer pseudoplatanus</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1186997,54.0816845977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.7">
+        <name>fe134667-ba27-42c6-93d4-3acbf9dd8bfe</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer platanoides</SimpleData>
+            <SimpleData name="German_genus">Spitz-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">13</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">72.26</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">75.600708625905</SimpleData>
+            <SimpleData name="crown_diameter_standardized">22.1903858932006</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">416.688089807228</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.4948126903048</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">5.01469394829389</SimpleData>
+            <SimpleData name="type">Acer platanoides</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187951,54.0817068977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.8">
+        <name>18bd0f62-7260-4027-9b95-1292194896ce</name>
+        <description>Quercus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Eiche</SimpleData>
+            <SimpleData name="botanical_genus">Quercus robur</SimpleData>
+            <SimpleData name="German_genus">Stiel-Eiche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">25</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">157.08</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">148.439727602222</SimpleData>
+            <SimpleData name="crown_diameter_standardized">52.0080796621442</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2156.64174512178</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">86.4456287001788</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">10.09453353504258</SimpleData>
+            <SimpleData name="type">Quercus robur</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1188828,54.0817822977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.9">
+        <name>de34d92a-81bf-433d-81ff-90d52a428e39</name>
+        <description>Taxus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Eibe</SimpleData>
+            <SimpleData name="botanical_genus">Taxus baccata</SimpleData>
+            <SimpleData name="German_genus">Gemeine Eibe</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">47.12</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">48.8816038473925</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.965812315143</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">307.265819147432</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.2905983756022</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">7.088861664282264</SimpleData>
+            <SimpleData name="type">Taxus baccata</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183484,54.0818038977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.10">
+        <name>1e33e372-9308-4960-bf87-956cc2fb48b4</name>
+        <description>Taxus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Eibe</SimpleData>
+            <SimpleData name="botanical_genus">Taxus baccata</SimpleData>
+            <SimpleData name="German_genus">Gemeine Eibe</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">47.12</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">44.9271130716364</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.2373817361238</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">301.930599966558</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">40.7310066865101</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">6.506793892150628</SimpleData>
+            <SimpleData name="type">Taxus baccata</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183661,54.0818146977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.11">
+        <name>748fbdb3-ce29-4b93-96ab-37c6e25c1aa6</name>
+        <description>Taxus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Eibe</SimpleData>
+            <SimpleData name="botanical_genus">Taxus baccata</SimpleData>
+            <SimpleData name="German_genus">Gemeine Eibe</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">47.12</SimpleData>
+            <SimpleData name="trunk_diameter">7</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">39.7123732011054</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.436697831149</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">281.874147404912</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">41.8985382991723</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.066295253047901</SimpleData>
+            <SimpleData name="type">Taxus baccata</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183751,54.0818016977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Jüdischer_Friedhof_qualified.12">
+        <name>9ccd4361-0cf0-4d3b-b3ce-d379dcc8c06f</name>
+        <description>Carpinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Jüdischer_Friedhof_qualified">
+            <SimpleData name="uuid">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus betulus</SimpleData>
+            <SimpleData name="German_genus">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">10</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">62.83</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">1</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">64.8173389480845</SimpleData>
+            <SimpleData name="crown_diameter_standardized">23.2114438013086</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">68.2017395898369</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.42486410179629</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.219544971829031</SimpleData>
+            <SimpleData name="type">Carpinus betulus</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1194767,54.0818716977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Document id="J__discher_Friedhof_qualified">
+      <name>Jüdischer Friedhof_qualified</name>
+      <Placemark id="J__discher_Friedhof_qualified.1">
+        <name>Fraxinus excelsior</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">3cb98b31-3892-481d-9b64-53931da246f1</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German-species">Gemeine Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">75</SimpleData>
+            <SimpleData name="trunk_circumference">235.62</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus excelsior</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">24.9630058991551</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.7919606023093</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">238.723993284212</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">76.9336059507253</SimpleData>
+            <SimpleData name="volume_m^2">3208.19669479826</SimpleData>
+            <SimpleData name="cover_area_m^2">128.518044171389</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">1.198</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1191233,54.0817615977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.2">
+        <name>Fraxinus excelsior</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">7d64f9ba-d3de-4c71-8dfe-0dcd589622d7</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus excelsior</SimpleData>
+            <SimpleData name="German-species">Gemeine Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">60</SimpleData>
+            <SimpleData name="trunk_circumference">188.5</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Fraxinus excelsior</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">24.5807944374687</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.97346370611001</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">187.600238273816</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">59.1010334877256</SimpleData>
+            <SimpleData name="volume_m^2">1920.33863488658</SimpleData>
+            <SimpleData name="cover_area_m^2">78.1235382677214</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">3.176</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1191084,54.0817770977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.3">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">988888f0-5f95-416e-8aa7-5c8fbd8f34c4</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus</SimpleData>
+            <SimpleData name="German-species">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">10.286695534834</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.12753403518291</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">59.9716700158223</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.6619625122624</SimpleData>
+            <SimpleData name="volume_m^2">410.434979666991</SimpleData>
+            <SimpleData name="cover_area_m^2">39.8995944107734</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">0.93</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1196099,54.0819100977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.4">
+        <name>Acer pseudoplatanus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">eb0d36a5-04ef-458d-af0d-f87688c843c4</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">80</SimpleData>
+            <SimpleData name="trunk_circumference">251.33</SimpleData>
+            <SimpleData name="crown_diameter">11</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">25.4020736597637</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.6734068247027</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">247.023025931705</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">78.9344528970974</SimpleData>
+            <SimpleData name="volume_m^2">2272.82071395765</SimpleData>
+            <SimpleData name="cover_area_m^2">89.4738258143762</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">1.495</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1182098,54.0818204977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.5">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">8e88a96c-fe7b-4adf-a930-4d4ddd55c830</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur</SimpleData>
+            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">42</SimpleData>
+            <SimpleData name="trunk_circumference">131.95</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">22.6231245077986</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.73492474377251</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">137.166561434505</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">42.7744046614224</SimpleData>
+            <SimpleData name="volume_m^2">1355.69127914462</SimpleData>
+            <SimpleData name="cover_area_m^2">59.9250240026433</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">6.679</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187744,54.0819282977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.6">
+        <name>Acer pseudoplatanus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">57b8a0cc-58e4-4313-8599-810ac25b7526</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">26</SimpleData>
+            <SimpleData name="trunk_circumference">81.68</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">13.3659171722074</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.40196943145147</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">75.1439778017508</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">28.7104826772239</SimpleData>
+            <SimpleData name="volume_m^2">430.245007059859</SimpleData>
+            <SimpleData name="cover_area_m^2">32.1897107034671</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">5.481</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1186997,54.0816845977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.7">
+        <name>Acer platanoides</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">fe134667-ba27-42c6-93d4-3acbf9dd8bfe</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer platanoides</SimpleData>
+            <SimpleData name="German-species">Spitz-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">23</SimpleData>
+            <SimpleData name="trunk_circumference">72.26</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer platanoides</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">12.7218955911512</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.99069497045507</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">69.0736988535504</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">22.8608242221197</SimpleData>
+            <SimpleData name="volume_m^2">358.588305951093</SimpleData>
+            <SimpleData name="cover_area_m^2">28.1867040475094</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">5.015</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1187951,54.0817068977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.8">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">18bd0f62-7260-4027-9b95-1292194896ce</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur</SimpleData>
+            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">25</SimpleData>
+            <SimpleData name="trunk_diameter">50</SimpleData>
+            <SimpleData name="trunk_circumference">157.08</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">25.5591190266891</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.4880269630894</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">151.910310225191</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">50.3759781099759</SimpleData>
+            <SimpleData name="volume_m^2">2208.12346154679</SimpleData>
+            <SimpleData name="cover_area_m^2">86.3927844790364</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">10.095</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1188828,54.0817822977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.9">
+        <name>Taxus baccata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">de34d92a-81bf-433d-81ff-90d52a428e39</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus baccata</SimpleData>
+            <SimpleData name="German-species">Gemeine Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Taxus baccata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.83073624700858</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.33000602649623</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">46.6861885100317</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.5399961036155</SimpleData>
+            <SimpleData name="volume_m^2">288.247839728652</SimpleData>
+            <SimpleData name="cover_area_m^2">42.198648770092</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">7.089</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183484,54.0818038977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.10">
+        <name>Taxus baccata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">1e33e372-9308-4960-bf87-956cc2fb48b4</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus baccata</SimpleData>
+            <SimpleData name="German-species">Gemeine Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Taxus baccata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">7.54016408645779</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.99736578714805</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">49.1027499253496</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.9076269016944</SimpleData>
+            <SimpleData name="volume_m^2">289.961162865872</SimpleData>
+            <SimpleData name="cover_area_m^2">38.4555507733107</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">6.507</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183661,54.0818146977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.11">
+        <name>Taxus baccata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">748fbdb3-ce29-4b93-96ab-37c6e25c1aa6</SimpleData>
+            <SimpleData name="botanical_genus">Taxus</SimpleData>
+            <SimpleData name="German_genus">Eibe</SimpleData>
+            <SimpleData name="botanical_species">Taxus baccata</SimpleData>
+            <SimpleData name="German-species">Gemeine Eibe</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Taxus baccata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">6.80842570539666</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.94018672097598</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">40.2680313911885</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">15.9591437494867</SimpleData>
+            <SimpleData name="volume_m^2">257.560283300357</SimpleData>
+            <SimpleData name="cover_area_m^2">37.8296385163171</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">8.066</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1183751,54.0818016977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="J__discher_Friedhof_qualified.12">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#J__discher_Friedhof_qualified.schema">
+            <SimpleData name="uuid">9ccd4361-0cf0-4d3b-b3ce-d379dcc8c06f</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus</SimpleData>
+            <SimpleData name="German-species">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">10</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">true</SimpleData>
+            <SimpleData name="height_standardized">9.76728120508279</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.41406206603162</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">61.7373705333116</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.7598265666344</SimpleData>
+            <SimpleData name="volume_m^2">149.465322581882</SimpleData>
+            <SimpleData name="cover_area_m^2">15.3026537726898</SimpleData>
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+            <SimpleData name="type">cemetery</SimpleData>
+            <SimpleData name="dist_to_edge">2.22</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1194767,54.0818716977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

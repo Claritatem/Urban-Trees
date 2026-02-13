@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Am_Bussebart_invalidated" name="Am_Bussebart_invalidated">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Am_Bussebart_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Am_Bussebart_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Am_Bussebart_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Folder>
+      <name>Am_Bussebart_invalidated</name>
+      <Placemark id="Am_Bussebart_invalidated.1">
+        <name>d09154e2-3b08-4387-a042-1f30a495896c</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer species</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">17</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">166.5</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">166.019777266249</SimpleData>
+            <SimpleData name="crown_diameter_standardized">50.5940355509979</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2447.41949653314</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">139.309571780997</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.142291603417694</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.127051,54.0894228977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.2">
+        <name>06da08d7-75b4-4579-b918-fd0ff6858b0c</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus species</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">19</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">229.34</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">227.103228308214</SimpleData>
+            <SimpleData name="crown_diameter_standardized">71.3980760690963</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1977.42715901238</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">105.92130123977</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.902759269437795</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1269636,54.0895955977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.3">
+        <name>50e2f08f-2c14-42d4-9339-0447f44fa711</name>
+        <description>Gymnocladus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Geweihbaum</SimpleData>
+            <SimpleData name="botanical_genus">Gymnocladus dioicus</SimpleData>
+            <SimpleData name="German_genus">Geweihbaum</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">17</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">158</SimpleData>
+            <SimpleData name="trunk_diameter">4</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">159.067879666991</SimpleData>
+            <SimpleData name="crown_diameter_standardized">50.5903010663077</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">251.865174721</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.5008996368155</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.371865525815117</SimpleData>
+            <SimpleData name="type">Gymnocladus dioicus</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273072,54.0892231977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.4">
+        <name>1995846f-2b62-4967-81d2-3abb5ef0bc6e</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer saccharinum</SimpleData>
+            <SimpleData name="German_genus">Silber-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">19</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">455.53</SimpleData>
+            <SimpleData name="trunk_diameter">16</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">458.395224295183</SimpleData>
+            <SimpleData name="crown_diameter_standardized">145.779739820132</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">4012.13169104983</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">204.820608660724</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">1.868346239512221</SimpleData>
+            <SimpleData name="type">Acer saccharinum</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273196,54.0886234977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.5">
+        <name>e9770147-e4a5-4798-a50b-542f50dc7d2e</name>
+        <description>Robinia</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Scheinakazie</SimpleData>
+            <SimpleData name="botanical_genus">Robinia species</SimpleData>
+            <SimpleData name="German_genus">Robinie</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">12</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">76</SimpleData>
+            <SimpleData name="trunk_diameter">8</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">74.988384876256</SimpleData>
+            <SimpleData name="crown_diameter_standardized">23.7117325828831</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">638.242451762622</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">54.8498193224577</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.313753959863657</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.127113,54.0892581977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.6">
+        <name>887ec689-ff45-4d1c-aa0a-22fbd2ec2d6a</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German_genus">Berg-Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">157</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">86</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">82.5458766992712</SimpleData>
+            <SimpleData name="crown_diameter_standardized">24.1759002469498</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">12245.2731602625</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">77.4811455137688</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.56534523124758</SimpleData>
+            <SimpleData name="type">Acer pseudoplatanus</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273904,54.0890433977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.7">
+        <name>d4151ecb-6c67-4010-8889-96ce6900051f</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer species</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">18</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">142</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">146.224918177243</SimpleData>
+            <SimpleData name="crown_diameter_standardized">45.4792024534297</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">3368.12285086776</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">189.793189980836</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">4.252413703252222</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1270261,54.0896029977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.8">
+        <name>46bd4d40-4329-48a6-9726-6409f287d6b0</name>
+        <description>Crataegus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Weißdorn</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus species</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">46</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">44.8584777423636</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.7040656601589</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">311.100657956889</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">31.6577331895651</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">0.9468515472244773</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1271173,54.0891861977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.9">
+        <name>2f26bafa-4f3a-4968-9506-f70b4958101f</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus species</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">17</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">122.52</SimpleData>
+            <SimpleData name="trunk_diameter">12</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">131.083460092593</SimpleData>
+            <SimpleData name="crown_diameter_standardized">40.6319895300914</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1856.05807362942</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">111.454246832653</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.053072598683726</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273061,54.0886708977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.10">
+        <name>b9399f14-9d39-4e28-99f1-6a5e55c16851</name>
+        <description>Fraxinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Esche</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus species</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">17</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">146</SimpleData>
+            <SimpleData name="trunk_diameter">14</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">145.744465344321</SimpleData>
+            <SimpleData name="crown_diameter_standardized">44.7156322120371</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">2806.21535907305</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">170.94807245884</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">0.7937476241238817</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1272107,54.0889026977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.11">
+        <name>13412698-4091-415a-b4bd-2bb9abd374c3</name>
+        <description>Acer</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Ahorn</SimpleData>
+            <SimpleData name="botanical_genus">Acer species</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">9</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">75</SimpleData>
+            <SimpleData name="trunk_diameter">6</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">67.7196086071382</SimpleData>
+            <SimpleData name="crown_diameter_standardized">23.4738847201936</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">243.194130459701</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">28.1868987384454</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">8.251221574223681</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273402,54.0893775977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.12">
+        <name>5501c45f-cb94-4151-b644-a15cfc667abd</name>
+        <description>Sorbus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus species</SimpleData>
+            <SimpleData name="German_genus">Eberesche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">15</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">97</SimpleData>
+            <SimpleData name="trunk_diameter">10</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">0</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">100.308352331583</SimpleData>
+            <SimpleData name="crown_diameter_standardized">30.6942600206003</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">1125.8180621283</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">78.3620657508067</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">2.23697897434161</SimpleData>
+            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273951,54.0890217977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.13">
+        <name>13da908f-7b4b-41e7-bb7f-b36808334137</name>
+        <description>Carpinus</description>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated">
+            <SimpleData name="uuid">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus betulus</SimpleData>
+            <SimpleData name="German_genus">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="botanical_species">0</SimpleData>
+            <SimpleData name="German-species">7</SimpleData>
+            <SimpleData name="avenue_tree">1</SimpleData>
+            <SimpleData name="height">41</SimpleData>
+            <SimpleData name="trunk_diameter">32</SimpleData>
+            <SimpleData name="trunk_circumference">0</SimpleData>
+            <SimpleData name="crown_diameter">0</SimpleData>
+            <SimpleData name="tree_sponsorship">0</SimpleData>
+            <SimpleData name="botanical_species_formal_name">1</SimpleData>
+            <SimpleData name="botanical_species_common_name">0</SimpleData>
+            <SimpleData name="qualified_species_representation">1</SimpleData>
+            <SimpleData name="in_qualified_cohort">1</SimpleData>
+            <SimpleData name="height_standardized">50.9979496590337</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.55542021485339</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">5205.14746138524</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">767.024437594965</SimpleData>
+            <SimpleData name="volume_m^2">0</SimpleData>
+            <SimpleData name="cover_area_m^2">0</SimpleData>
+            <SimpleData name="designation">3.93365275161092</SimpleData>
+            <SimpleData name="type">Carpinus betulus</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275094,54.0896015977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Document id="Am_Bussebart_invalidated">
+      <name>Am Bussebart_invalidated</name>
+      <Placemark id="Am_Bussebart_invalidated.1">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">d09154e2-3b08-4387-a042-1f30a495896c</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer species</SimpleData>
+            <SimpleData name="German-species">Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">53</SimpleData>
+            <SimpleData name="trunk_circumference">166.5</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">17.5588803244253</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.5843857981432</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">166.485779598266</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">53.4365934148313</SimpleData>
+            <SimpleData name="volume_m^2">1850.6859387067</SimpleData>
+            <SimpleData name="cover_area_m^2">105.398858270723</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.142</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.127051,54.0894228977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.2">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">06da08d7-75b4-4579-b918-fd0ff6858b0c</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus species</SimpleData>
+            <SimpleData name="German-species">Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">19</SimpleData>
+            <SimpleData name="trunk_diameter">73</SimpleData>
+            <SimpleData name="trunk_circumference">229.34</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.191414191694</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.6113120703527</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">227.407573225695</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">72.8223500082339</SimpleData>
+            <SimpleData name="volume_m^2">2032.16728186079</SimpleData>
+            <SimpleData name="cover_area_m^2">105.889397287893</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.903</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1269636,54.0895955977635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.3">
+        <name>Gymnocladus dioicus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">50e2f08f-2c14-42d4-9339-0447f44fa711</SimpleData>
+            <SimpleData name="botanical_genus">Gymnocladus</SimpleData>
+            <SimpleData name="German_genus">Geweihbaum</SimpleData>
+            <SimpleData name="botanical_species">Gymnocladus dioicus</SimpleData>
+            <SimpleData name="German-species">Geweihbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">50.29</SimpleData>
+            <SimpleData name="trunk_circumference">158</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Gymnocladus dioicus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.8801870135042</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.57770945271326</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">162.889451202588</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">54.7944658532715</SimpleData>
+            <SimpleData name="volume_m^2">159.645113813389</SimpleData>
+            <SimpleData name="cover_area_m^2">10.053100361956</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.372</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273072,54.0892231977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.4">
+        <name>Acer saccharinum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">1995846f-2b62-4967-81d2-3abb5ef0bc6e</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer saccharinum</SimpleData>
+            <SimpleData name="German-species">Silber-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">19</SimpleData>
+            <SimpleData name="trunk_diameter">145</SimpleData>
+            <SimpleData name="trunk_circumference">455.53</SimpleData>
+            <SimpleData name="crown_diameter">16</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer saccharinum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.4543844357671</SimpleData>
+            <SimpleData name="crown_diameter_standardized">16.2571086578414</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">461.053685396549</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">143.416924700838</SimpleData>
+            <SimpleData name="volume_m^2">4038.25734733068</SimpleData>
+            <SimpleData name="cover_area_m^2">207.575693832096</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.868</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273196,54.0886234977632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.5">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">e9770147-e4a5-4798-a50b-542f50dc7d2e</SimpleData>
+            <SimpleData name="botanical_genus">Robinia</SimpleData>
+            <SimpleData name="German_genus">Scheinakazie</SimpleData>
+            <SimpleData name="botanical_species">Robinia species</SimpleData>
+            <SimpleData name="German-species">Robinie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">24.19</SimpleData>
+            <SimpleData name="trunk_circumference">76</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.3952850032332</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.84604637722708</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">74.8332427531084</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">22.25096836725</SimpleData>
+            <SimpleData name="volume_m^2">599.305329783861</SimpleData>
+            <SimpleData name="cover_area_m^2">48.349459462008</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.314</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.127113,54.0892581977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.6">
+        <name>Acer pseudoplatanus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">887ec689-ff45-4d1c-aa0a-22fbd2ec2d6a</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">157</SimpleData>
+            <SimpleData name="trunk_diameter">27.37</SimpleData>
+            <SimpleData name="trunk_circumference">86</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">156.803065405552</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.0394149505507</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">91.1064501912395</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">27.5954944254416</SimpleData>
+            <SimpleData name="volume_m^2">12412.5565427654</SimpleData>
+            <SimpleData name="cover_area_m^2">79.1601650813513</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.565</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273904,54.0890433977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.7">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">d4151ecb-6c67-4010-8889-96ce6900051f</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer species</SimpleData>
+            <SimpleData name="German-species">Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">45.2</SimpleData>
+            <SimpleData name="trunk_circumference">142</SimpleData>
+            <SimpleData name="crown_diameter">15</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">18.3076066977771</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.1919511446289</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">142.623625188047</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.4341582306057</SimpleData>
+            <SimpleData name="volume_m^2">2896.04742950284</SimpleData>
+            <SimpleData name="cover_area_m^2">158.188204351936</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">4.252</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1270261,54.0896029977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.8">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">46bd4d40-4329-48a6-9726-6409f287d6b0</SimpleData>
+            <SimpleData name="botanical_genus">Crataegus</SimpleData>
+            <SimpleData name="German_genus">Weißdorn</SimpleData>
+            <SimpleData name="botanical_species">Crataegus species</SimpleData>
+            <SimpleData name="German-species">Weißdorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">14.64</SimpleData>
+            <SimpleData name="trunk_circumference">46</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.84094049903271</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.76981496254412</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">50.023685743179</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">14.4044116767847</SimpleData>
+            <SimpleData name="volume_m^2">231.159698985694</SimpleData>
+            <SimpleData name="cover_area_m^2">26.1465054550458</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.947</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1271173,54.0891861977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.9">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">2f26bafa-4f3a-4968-9506-f70b4958101f</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus species</SimpleData>
+            <SimpleData name="German-species">Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">39</SimpleData>
+            <SimpleData name="trunk_circumference">122.52</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">17.8847271507742</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.2128414975526</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">122.293309386032</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">38.1821225712542</SimpleData>
+            <SimpleData name="volume_m^2">2095.104268797</SimpleData>
+            <SimpleData name="cover_area_m^2">117.144882957094</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.053</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273061,54.0886708977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.10">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">b9399f14-9d39-4e28-99f1-6a5e55c16851</SimpleData>
+            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
+            <SimpleData name="German_genus">Esche</SimpleData>
+            <SimpleData name="botanical_species">Fraxinus species</SimpleData>
+            <SimpleData name="German-species">Esche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">46.47</SimpleData>
+            <SimpleData name="trunk_circumference">146</SimpleData>
+            <SimpleData name="crown_diameter">14</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.9312430404844</SimpleData>
+            <SimpleData name="crown_diameter_standardized">14.0976030575216</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">147.961243618882</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">46.25995075958</SimpleData>
+            <SimpleData name="volume_m^2">2642.83032473105</SimpleData>
+            <SimpleData name="cover_area_m^2">156.091925348409</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.794</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1272107,54.0889026977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.11">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">13412698-4091-415a-b4bd-2bb9abd374c3</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer species</SimpleData>
+            <SimpleData name="German-species">Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">23.87</SimpleData>
+            <SimpleData name="trunk_circumference">75</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.55202459077391</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.70313456871204</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">80.8482658614004</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.0899860589635</SimpleData>
+            <SimpleData name="volume_m^2">244.012768009858</SimpleData>
+            <SimpleData name="cover_area_m^2">25.5456595291373</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.251</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273402,54.0893775977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.12">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">5501c45f-cb94-4151-b644-a15cfc667abd</SimpleData>
+            <SimpleData name="botanical_genus">Sorbus</SimpleData>
+            <SimpleData name="German_genus">Mehlbeere</SimpleData>
+            <SimpleData name="botanical_species">Sorbus species</SimpleData>
+            <SimpleData name="German-species">Eberesche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">30.88</SimpleData>
+            <SimpleData name="trunk_circumference">97</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.9347472456573</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.0402243639851</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">98.7778613721537</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">28.291841217441</SimpleData>
+            <SimpleData name="volume_m^2">1182.42769743419</SimpleData>
+            <SimpleData name="cover_area_m^2">79.1729299455015</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.237</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1273951,54.0890217977633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Am_Bussebart_invalidated.13">
+        <name>Carpinus betulus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Am_Bussebart_invalidated.schema">
+            <SimpleData name="uuid">13da908f-7b4b-41e7-bb7f-b36808334137</SimpleData>
+            <SimpleData name="botanical_genus">Carpinus</SimpleData>
+            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
+            <SimpleData name="botanical_species">Carpinus betulus</SimpleData>
+            <SimpleData name="German-species">Gemeine Hainbuche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7</SimpleData>
+            <SimpleData name="trunk_diameter">13.05</SimpleData>
+            <SimpleData name="trunk_circumference">41</SimpleData>
+            <SimpleData name="crown_diameter">32</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">7.06762097795509</SimpleData>
+            <SimpleData name="crown_diameter_standardized">32.1044439462364</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">41.8017950942472</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">13.62907612633</SimpleData>
+            <SimpleData name="volume_m^2">5721.28308721417</SimpleData>
+            <SimpleData name="cover_area_m^2">809.506212211953</SimpleData>
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.934</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1275094,54.0896015977634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

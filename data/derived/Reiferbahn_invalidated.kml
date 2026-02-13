@@ -1,0 +1,2602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Reiferbahn_invalidated" name="Reiferbahn_invalidated">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="int"/>
+      <SimpleField name="height" type="float"/>
+      <SimpleField name="trunk_diameter" type="float"/>
+      <SimpleField name="trunk_circumference" type="float"/>
+      <SimpleField name="crown_diameter" type="float"/>
+      <SimpleField name="tree_sponsorship" type="int"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="int"/>
+      <SimpleField name="in_qualified_cohort" type="int"/>
+      <SimpleField name="height_standardized" type="float"/>
+      <SimpleField name="crown_diameter_standardized" type="float"/>
+      <SimpleField name="trunk_circumference_standardized" type="float"/>
+      <SimpleField name="trunk_diameter_standardized" type="float"/>
+      <SimpleField name="volume_m^2" type="float"/>
+      <SimpleField name="cover_area_m^2" type="float"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="float"/>
+    </Schema>
+    <Schema id="Reiferbahn_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Reiferbahn_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Schema id="Reiferbahn_invalidated.schema">
+      <SimpleField name="uuid" type="string"/>
+      <SimpleField name="botanical_genus" type="string"/>
+      <SimpleField name="German_genus" type="string"/>
+      <SimpleField name="botanical_species" type="string"/>
+      <SimpleField name="German-species" type="string"/>
+      <SimpleField name="avenue_tree" type="bool"/>
+      <SimpleField name="height" type="double"/>
+      <SimpleField name="trunk_diameter" type="double"/>
+      <SimpleField name="trunk_circumference" type="double"/>
+      <SimpleField name="crown_diameter" type="double"/>
+      <SimpleField name="tree_sponsorship" type="bool"/>
+      <SimpleField name="botanical_species_formal_name" type="string"/>
+      <SimpleField name="botanical_species_common_name" type="string"/>
+      <SimpleField name="qualified_species_representation" type="bool"/>
+      <SimpleField name="in_qualified_cohort" type="bool"/>
+      <SimpleField name="height_standardized" type="double"/>
+      <SimpleField name="crown_diameter_standardized" type="double"/>
+      <SimpleField name="trunk_circumference_standardized" type="double"/>
+      <SimpleField name="trunk_diameter_standardized" type="double"/>
+      <SimpleField name="volume_m^2" type="double"/>
+      <SimpleField name="cover_area_m^2" type="double"/>
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="dist_to_edge" type="double"/>
+    </Schema>
+    <Document id="Reiferbahn_invalidated">
+      <name>Reiferbahn_invalidated</name>
+      <Placemark id="Reiferbahn_invalidated.1">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">6f9f7344-a7db-4f72-910b-eed52b94f3f7</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">36</SimpleData>
+            <SimpleData name="trunk_circumference">113.1</SimpleData>
+            <SimpleData name="crown_diameter">9.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">11.5589254598244</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.8356741461741</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">118.116617799242</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.081641540573</SimpleData>
+            <SimpleData name="volume_m^2">878.244844186184</SimpleData>
+            <SimpleData name="cover_area_m^2">75.9797999596689</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.947</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1402791,54.0829378977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.2">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">b0c6d2ff-672a-4ce2-8e67-66ae3fb0ecd6</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">85</SimpleData>
+            <SimpleData name="trunk_circumference">267.04</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">21.7758804310065</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.5032589052041</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">272.948113170645</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">84.7138298673342</SimpleData>
+            <SimpleData name="volume_m^2">1886.74734055589</SimpleData>
+            <SimpleData name="cover_area_m^2">86.6439061572625</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">26.953</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1390847,54.0826613977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.3">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">8d5952f8-8ef5-42aa-a377-0203c31b7944</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">38</SimpleData>
+            <SimpleData name="trunk_circumference">119.38</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.2669865261931</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.92952943449088</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">117.539715669586</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">36.8271007509381</SimpleData>
+            <SimpleData name="volume_m^2">605.79069846946</SimpleData>
+            <SimpleData name="cover_area_m^2">49.3838235801386</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">8.39</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1401666,54.0829254977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.4">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">241a001e-55ca-48a2-8b12-4afafde5bb7d</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">7.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.7795633152902</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.95667336145463</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">62.2050007793437</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">21.7917465795153</SimpleData>
+            <SimpleData name="volume_m^2">834.321806868068</SimpleData>
+            <SimpleData name="cover_area_m^2">49.7224982075546</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.536</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1398009,54.0828804977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.5">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">5a0864f5-b1c2-4a61-b71f-327594dbf371</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">45</SimpleData>
+            <SimpleData name="trunk_circumference">141.37</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.2659227512643</SimpleData>
+            <SimpleData name="crown_diameter_standardized">12.1572571132168</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">141.395104933429</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">45.1888108579188</SimpleData>
+            <SimpleData name="volume_m^2">1888.16433519516</SimpleData>
+            <SimpleData name="cover_area_m^2">116.080985018104</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.423</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1394342,54.0829113977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.6">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">93a5454a-992e-4d73-93e7-869a7fac62bf</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20</SimpleData>
+            <SimpleData name="trunk_diameter">42</SimpleData>
+            <SimpleData name="trunk_circumference">131.95</SimpleData>
+            <SimpleData name="crown_diameter">10.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.9252226347906</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.83554867559936</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">137.74486967511</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.1034341273851</SimpleData>
+            <SimpleData name="volume_m^2">1513.87580513743</SimpleData>
+            <SimpleData name="cover_area_m^2">75.977861471626</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">18.451</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1387648,54.0827538977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.7">
+        <name>Prunus cerasus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">de06ba81-36bf-4e57-a4b4-3d49f5d15ee9</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus cerasus</SimpleData>
+            <SimpleData name="German-species">Sauer-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">48</SimpleData>
+            <SimpleData name="trunk_circumference">150.8</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus cerasus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">17.3397299570949</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.58630560510587</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">156.255792206209</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">47.4039072313269</SimpleData>
+            <SimpleData name="volume_m^2">1251.51122957656</SimpleData>
+            <SimpleData name="cover_area_m^2">72.1759354195987</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.235</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.141024,54.0829442977624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.8">
+        <name>Acer palmatum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">b696e288-923b-4a3c-aa35-3551eea7410e</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer palmatum</SimpleData>
+            <SimpleData name="German-species">Fächer-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">19</SimpleData>
+            <SimpleData name="trunk_circumference">59.69</SimpleData>
+            <SimpleData name="crown_diameter">6.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer palmatum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.4552114309305</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.3042099355021</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">70.3363629172578</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">18.0436198558634</SimpleData>
+            <SimpleData name="volume_m^2">208.930832831734</SimpleData>
+            <SimpleData name="cover_area_m^2">22.0968969713639</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">26.549</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1404087,54.0827674977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.9">
+        <name>Parrotia persica</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">c3321d57-80ba-400c-bdd6-7106f21ba079</SimpleData>
+            <SimpleData name="botanical_genus">Parrotia</SimpleData>
+            <SimpleData name="German_genus">Eisenholz</SimpleData>
+            <SimpleData name="botanical_species">Parrotia persica</SimpleData>
+            <SimpleData name="German-species">Parrotie</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">28.27</SimpleData>
+            <SimpleData name="crown_diameter">2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Parrotia persica</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">6.83492654954343</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.14884764075733</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">28.7870376608385</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">6.98002326650991</SimpleData>
+            <SimpleData name="volume_m^2">7.08514278133314</SimpleData>
+            <SimpleData name="cover_area_m^2">1.03660847413297</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">20.329</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1407904,54.0829205977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.10">
+        <name>Acer palmatum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">d6e155f6-d85c-4f07-82b2-a5cc628b5037</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer palmatum</SimpleData>
+            <SimpleData name="German-species">Fächer-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">25</SimpleData>
+            <SimpleData name="trunk_circumference">78.54</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer palmatum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.32094892609344</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.65999915798338</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">82.0817967724144</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">22.9325980594051</SimpleData>
+            <SimpleData name="volume_m^2">429.54379859782</SimpleData>
+            <SimpleData name="cover_area_m^2">46.0836983448474</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.646</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.140912,54.0828608977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.11">
+        <name>Prunus cerasus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">075f3f2c-62b9-462c-adc5-d72596ecd2e4</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus cerasus</SimpleData>
+            <SimpleData name="German-species">Sauer-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">31</SimpleData>
+            <SimpleData name="trunk_circumference">97.39</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus cerasus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">18.1132182814412</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.75887281309729</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">100.755616423678</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.3738556923727</SimpleData>
+            <SimpleData name="volume_m^2">1354.8300415395</SimpleData>
+            <SimpleData name="cover_area_m^2">74.7978642165239</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">25.167</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1400253,54.0826989977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.12">
+        <name>Prunus cerasus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">313c5643-dfbc-4f07-b279-12ccf43ee4ec</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus cerasus</SimpleData>
+            <SimpleData name="German-species">Sauer-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">28</SimpleData>
+            <SimpleData name="trunk_circumference">87.96</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus cerasus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">17.5659084975109</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.79358531287455</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">92.4820293682551</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.8925586884127</SimpleData>
+            <SimpleData name="volume_m^2">1066.82322102301</SimpleData>
+            <SimpleData name="cover_area_m^2">60.7325958218547</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">24.35</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1400419,54.0826956977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.13">
+        <name>Prunus cerasus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">00878609-e010-44e9-be5c-5dcd752d85cb</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus cerasus</SimpleData>
+            <SimpleData name="German-species">Sauer-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus cerasus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.0610337504896</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.79125511463919</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">112.254632031816</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.25712052661</SimpleData>
+            <SimpleData name="volume_m^2">853.510558924168</SimpleData>
+            <SimpleData name="cover_area_m^2">60.7004132178014</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">22.28</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1401109,54.0826912977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.14">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">cfbb4918-c6c2-4f52-aa12-6a278695f73b</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">42</SimpleData>
+            <SimpleData name="trunk_circumference">131.95</SimpleData>
+            <SimpleData name="crown_diameter">10.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.4675957853993</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.0938365666255</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">130.230201412491</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.6013455487693</SimpleData>
+            <SimpleData name="volume_m^2">997.665908493478</SimpleData>
+            <SimpleData name="cover_area_m^2">80.0207133489071</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.025</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1403935,54.0829525977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.15">
+        <name>Prunus cerasus</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">e31b9a4b-6efe-46fb-8405-61df20ecc421</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus cerasus</SimpleData>
+            <SimpleData name="German-species">Sauer-Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Prunus cerasus</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.5116206367561</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.30954509591866</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">108.489822593861</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.0029451743392</SimpleData>
+            <SimpleData name="volume_m^2">485.001580180569</SimpleData>
+            <SimpleData name="cover_area_m^2">31.266983092103</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">22.841</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1400735,54.0826890977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.16">
+        <name>Acer palmatum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">5a3ac658-8533-4849-b2b9-7bc11857c98e</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer palmatum</SimpleData>
+            <SimpleData name="German-species">Fächer-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">23</SimpleData>
+            <SimpleData name="trunk_circumference">72.26</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer palmatum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.76953027543141</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.3664336871195</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">61.1783371735002</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">24.3781012606278</SimpleData>
+            <SimpleData name="volume_m^2">537.086592165175</SimpleData>
+            <SimpleData name="cover_area_m^2">54.9756822511569</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.527</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408055,54.0827471977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.17">
+        <name>Acer palmatum</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">eb10d469-e742-49b6-a954-22155d47467f</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer palmatum</SimpleData>
+            <SimpleData name="German-species">Fächer-Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">34</SimpleData>
+            <SimpleData name="trunk_circumference">106.81</SimpleData>
+            <SimpleData name="crown_diameter">6.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Acer palmatum</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.99904763134427</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.94810251348715</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">107.194842509606</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.4321470149146</SimpleData>
+            <SimpleData name="volume_m^2">250.059478740586</SimpleData>
+            <SimpleData name="cover_area_m^2">27.787326946644</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.381</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1408995,54.0828602977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.18">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">2e7dc178-4394-459c-8013-97ba9953d5c4</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">42</SimpleData>
+            <SimpleData name="trunk_circumference">131.95</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">17.8480637839222</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.3133235698155</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">134.351923926366</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.2728422020272</SimpleData>
+            <SimpleData name="volume_m^2">1491.00217744757</SimpleData>
+            <SimpleData name="cover_area_m^2">83.538595306382</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">14.124</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1374969,54.0825113977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.19">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">19eeed99-e7a0-4d6f-9919-aa4ec3c21bae</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">22</SimpleData>
+            <SimpleData name="trunk_diameter">39</SimpleData>
+            <SimpleData name="trunk_circumference">122.52</SimpleData>
+            <SimpleData name="crown_diameter">7.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">21.4394185955514</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.1101774108294</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">124.365404590042</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">36.7413487887726</SimpleData>
+            <SimpleData name="volume_m^2">1107.5506447028</SimpleData>
+            <SimpleData name="cover_area_m^2">51.6595466321374</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">30.491</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1379455,54.0825647977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.20">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">e8d2f7be-4aa2-4aee-aa9e-cdc3ade60beb</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15.5</SimpleData>
+            <SimpleData name="trunk_diameter">26</SimpleData>
+            <SimpleData name="trunk_circumference">81.68</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.8467259255107</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.28435383026993</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">79.7132144591255</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">29.2136564129165</SimpleData>
+            <SimpleData name="volume_m^2">854.17470692897</SimpleData>
+            <SimpleData name="cover_area_m^2">53.9022830926787</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">18.28</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1375608,54.0825066977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.21">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">e02796ef-6486-404a-9ca6-48fe36e3e6b8</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">21.5</SimpleData>
+            <SimpleData name="trunk_diameter">45</SimpleData>
+            <SimpleData name="trunk_circumference">141.37</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">23.1038551907389</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.00325819121512</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">144.811096506484</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.8116124339646</SimpleData>
+            <SimpleData name="volume_m^2">1162.27257631205</SimpleData>
+            <SimpleData name="cover_area_m^2">50.306434433416</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">29.773</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1380472,54.0825810977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.22">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">ce2f995b-ec0d-4f87-a030-0f9b625ea93d</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17.5</SimpleData>
+            <SimpleData name="trunk_diameter">38</SimpleData>
+            <SimpleData name="trunk_circumference">119.38</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">18.6622506122226</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.45298034230499</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">117.941468530792</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">39.2360004133928</SimpleData>
+            <SimpleData name="volume_m^2">1309.75905042819</SimpleData>
+            <SimpleData name="cover_area_m^2">70.1822667395957</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">18.041</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1380755,54.0823978977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.23">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">f857bdbf-5a7e-44fb-9437-f155c6c6fd34</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">19.5</SimpleData>
+            <SimpleData name="trunk_diameter">39</SimpleData>
+            <SimpleData name="trunk_circumference">122.52</SimpleData>
+            <SimpleData name="crown_diameter">13</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">20.8070518119698</SimpleData>
+            <SimpleData name="crown_diameter_standardized">13.2544364988666</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">120.803234765954</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">36.012228867018</SimpleData>
+            <SimpleData name="volume_m^2">2870.93240673086</SimpleData>
+            <SimpleData name="cover_area_m^2">137.978817598718</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">26.304</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1377123,54.0825380977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.24">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">21fbe96e-14b7-46b5-baa4-7a29699b5c02</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18.5</SimpleData>
+            <SimpleData name="trunk_diameter">35</SimpleData>
+            <SimpleData name="trunk_circumference">109.96</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">17.2965667829273</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.53998769420386</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">114.127064685871</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">36.5452646842928</SimpleData>
+            <SimpleData name="volume_m^2">990.750452073404</SimpleData>
+            <SimpleData name="cover_area_m^2">57.2801796164155</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">21.344</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1376047,54.0825288977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.25">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">ebcd0ff9-b56f-44d7-bd3d-68148f80c4b1</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18.5</SimpleData>
+            <SimpleData name="trunk_diameter">30</SimpleData>
+            <SimpleData name="trunk_circumference">94.25</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">17.8048928425938</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.77214710149411</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">95.8789857092212</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">31.7387424692229</SimpleData>
+            <SimpleData name="volume_m^2">641.330673471453</SimpleData>
+            <SimpleData name="cover_area_m^2">36.0199120062788</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">23.263</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1380572,54.0824435977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.26">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">9e6c6778-3a0a-483e-ad96-183a00479427</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">17</SimpleData>
+            <SimpleData name="trunk_diameter">35</SimpleData>
+            <SimpleData name="trunk_circumference">109.96</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.9718333227567</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.68518922222498</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">107.970474694753</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.2930114414925</SimpleData>
+            <SimpleData name="volume_m^2">1250.35938872882</SimpleData>
+            <SimpleData name="cover_area_m^2">73.6726177396682</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">27.813</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1386157,54.0826542977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.27">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">bf74f40e-9544-4f46-9204-5ffdc5bca70c</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">20.5</SimpleData>
+            <SimpleData name="trunk_diameter">36</SimpleData>
+            <SimpleData name="trunk_circumference">113.1</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.408704212203</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.6274586401464</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">113.21230589898</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.5619167197165</SimpleData>
+            <SimpleData name="volume_m^2">886.841781168293</SimpleData>
+            <SimpleData name="cover_area_m^2">45.6929927661375</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">30.256</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1380089,54.0825217977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.28">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">2223a3c8-6219-4be1-affc-0883e41a4034</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">19.5</SimpleData>
+            <SimpleData name="trunk_diameter">36</SimpleData>
+            <SimpleData name="trunk_circumference">113.1</SimpleData>
+            <SimpleData name="crown_diameter">10</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">20.1382038518961</SimpleData>
+            <SimpleData name="crown_diameter_standardized">10.0759244362675</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">105.967112867744</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.4061993965836</SimpleData>
+            <SimpleData name="volume_m^2">1605.75919607656</SimpleData>
+            <SimpleData name="cover_area_m^2">79.7369620392127</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">25.276</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1380295,54.0824691977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.29">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">e3b1008c-dce7-42d5-a370-83be199181b6</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">19.5</SimpleData>
+            <SimpleData name="trunk_diameter">23</SimpleData>
+            <SimpleData name="trunk_circumference">72.26</SimpleData>
+            <SimpleData name="crown_diameter">6.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">19.8820713605297</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.05839140654679</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">73.034786298216</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">23.6628387483258</SimpleData>
+            <SimpleData name="volume_m^2">777.970240847403</SimpleData>
+            <SimpleData name="cover_area_m^2">39.1292349142176</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">32.727</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.138009,54.0825449977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.30">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">01532f3f-03e7-4254-9ff4-c8b347dc3c18</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">35</SimpleData>
+            <SimpleData name="trunk_circumference">109.96</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.7726169126319</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.42995359651065</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">109.573506582573</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">34.7240253120391</SimpleData>
+            <SimpleData name="volume_m^2">479.692573173597</SimpleData>
+            <SimpleData name="cover_area_m^2">32.4717398420734</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.214</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1394312,54.0828309977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.31">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">19fd3931-6539-49a9-9ccf-9290d9b77971</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">8</SimpleData>
+            <SimpleData name="trunk_diameter">31</SimpleData>
+            <SimpleData name="trunk_circumference">97.39</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.22010764165715</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.05930281119601</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">105.02482065939</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">30.0143267854659</SimpleData>
+            <SimpleData name="volume_m^2">165.252764488295</SimpleData>
+            <SimpleData name="cover_area_m^2">20.1034793815645</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.042</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1359966,54.0819943977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.32">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">c2e79d4b-0c7c-470d-9a60-0815ebc97b7a</SimpleData>
+            <SimpleData name="botanical_genus">Ulmus</SimpleData>
+            <SimpleData name="German_genus">Ulme</SimpleData>
+            <SimpleData name="botanical_species">Ulmus species</SimpleData>
+            <SimpleData name="German-species">Ulme</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9.5</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.42159056877937</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.35839569908956</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">107.043618730302</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.0642690098891</SimpleData>
+            <SimpleData name="volume_m^2">299.163917780734</SimpleData>
+            <SimpleData name="cover_area_m^2">31.7530161809497</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.522</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1359414,54.0819831977621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.33">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">59d69ac7-1bb8-428f-8980-c38d1153241d</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">35</SimpleData>
+            <SimpleData name="trunk_circumference">109.96</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.2131363299613</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.3666675069709</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">106.281414530288</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.1962670074649</SimpleData>
+            <SimpleData name="volume_m^2">781.420542141702</SimpleData>
+            <SimpleData name="cover_area_m^2">54.9787551460028</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">20.05</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1391791,54.0827274977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.34">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">5649a467-6916-428e-96d6-c95ee9b33dcf</SimpleData>
+            <SimpleData name="botanical_genus">Ulmus</SimpleData>
+            <SimpleData name="German_genus">Ulme</SimpleData>
+            <SimpleData name="botanical_species">Ulmus species</SimpleData>
+            <SimpleData name="German-species">Ulme</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">21</SimpleData>
+            <SimpleData name="trunk_circumference">65.97</SimpleData>
+            <SimpleData name="crown_diameter">4</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">9.32579929309429</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.43116277528947</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">61.7561713981821</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.9349587763811</SimpleData>
+            <SimpleData name="volume_m^2">143.817373612555</SimpleData>
+            <SimpleData name="cover_area_m^2">15.4214527991237</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.255</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1360007,54.0821327977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.35">
+        <name>Liriodendron tulipifera</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">5059e6bc-d9e4-481a-88cc-9ea9dd36e133</SimpleData>
+            <SimpleData name="botanical_genus">Liriodendron</SimpleData>
+            <SimpleData name="German_genus">Tulpenbaum</SimpleData>
+            <SimpleData name="botanical_species">Liriodendron tulipifera</SimpleData>
+            <SimpleData name="German-species">Tulpenbaum</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">7.5</SimpleData>
+            <SimpleData name="trunk_diameter">9</SimpleData>
+            <SimpleData name="trunk_circumference">28.27</SimpleData>
+            <SimpleData name="crown_diameter">2.2</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Liriodendron tulipifera</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.20969057072065</SimpleData>
+            <SimpleData name="crown_diameter_standardized">1.80971142398916</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">23.2877645345695</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">8.56066451676909</SimpleData>
+            <SimpleData name="volume_m^2">21.1171510184974</SimpleData>
+            <SimpleData name="cover_area_m^2">2.5722225261218</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">25.575</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1390542,54.0825848977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.36">
+        <name>Malus x moerlandsii</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">3f9af89a-1b4e-4675-accd-b94db1b452c2</SimpleData>
+            <SimpleData name="botanical_genus">Malus</SimpleData>
+            <SimpleData name="German_genus">Zierapfel</SimpleData>
+            <SimpleData name="botanical_species">Malus x moerlandsii</SimpleData>
+            <SimpleData name="German-species">Zierapfel</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">6</SimpleData>
+            <SimpleData name="trunk_diameter">15</SimpleData>
+            <SimpleData name="trunk_circumference">47.12</SimpleData>
+            <SimpleData name="crown_diameter">3</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Malus x moerlandsii</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">5.26708203850027</SimpleData>
+            <SimpleData name="crown_diameter_standardized">2.6280578021312</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">38.6514323430611</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">12.0772891273368</SimpleData>
+            <SimpleData name="volume_m^2">28.5712861080029</SimpleData>
+            <SimpleData name="cover_area_m^2">5.42449992218808</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">7.163</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1406893,54.0826408977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.37">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">6086ad63-0df4-4193-88d5-b06f791890c6</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">35</SimpleData>
+            <SimpleData name="trunk_circumference">109.96</SimpleData>
+            <SimpleData name="crown_diameter">5.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.5920185029315</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.94098163338236</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">109.231729402066</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.0944873567775</SimpleData>
+            <SimpleData name="volume_m^2">432.223765294583</SimpleData>
+            <SimpleData name="cover_area_m^2">27.7208345547641</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">11.525</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1393227,54.0828181977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.38">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">73276fd4-e95a-4de0-bf51-ef06aa881ed0</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">36</SimpleData>
+            <SimpleData name="trunk_circumference">113.1</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.3477268519364</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.43448861894904</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">115.718055502263</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">38.1328235849484</SimpleData>
+            <SimpleData name="volume_m^2">857.534212427992</SimpleData>
+            <SimpleData name="cover_area_m^2">55.8736952188979</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">17.79</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1389579,54.0827698977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.39">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">efdd1b61-8781-483c-a6be-44e6c18985b1</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16.5</SimpleData>
+            <SimpleData name="trunk_diameter">35</SimpleData>
+            <SimpleData name="trunk_circumference">109.96</SimpleData>
+            <SimpleData name="crown_diameter">12.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.5606853755904</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.7786805825521</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">107.307891633665</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">38.3461538037509</SimpleData>
+            <SimpleData name="volume_m^2">1695.55504083466</SimpleData>
+            <SimpleData name="cover_area_m^2">108.964033389842</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">17.551</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1388655,54.0827717977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.40">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">e2468c24-9e63-408c-bf5f-d3f9ea4bbd16</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">19.246</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1384051,54.0827119977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.41">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">b98559b8-caae-42c8-8f83-99548901dbc8</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.859</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1365796,54.0825294977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.42">
+        <name>Tilia cordata</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">ac0682b1-78c1-48da-9c93-e6a973b734fe</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
+            <SimpleData name="German-species">Winter-Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.594</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1368098,54.0825616977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.43">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">38bbc549-f713-4863-afa4-4d7ee842eb68</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13.5</SimpleData>
+            <SimpleData name="trunk_diameter">39</SimpleData>
+            <SimpleData name="trunk_circumference">122.52</SimpleData>
+            <SimpleData name="crown_diameter">5.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">13.8073827248069</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.41814324490054</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">125.335538802986</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">40.4625495207419</SimpleData>
+            <SimpleData name="volume_m^2">318.348061723311</SimpleData>
+            <SimpleData name="cover_area_m^2">23.0563654291522</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">18.715</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1386579,54.0827411977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.44">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">fccd14fd-96f1-4800-9745-3e9ea33742c8</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14.5</SimpleData>
+            <SimpleData name="trunk_diameter">40</SimpleData>
+            <SimpleData name="trunk_circumference">125.66</SimpleData>
+            <SimpleData name="crown_diameter">7.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.0992979048374</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.73187270884837</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">124.089998117091</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">40.0245894871694</SimpleData>
+            <SimpleData name="volume_m^2">661.998124935686</SimpleData>
+            <SimpleData name="cover_area_m^2">46.9525595816057</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">20.411</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1379834,54.0826601977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.45">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">27b3d520-9499-4b78-9b0c-fa011c7acf4a</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.5973433242607</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.99455654260177</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">105.194697137215</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.3777005064148</SimpleData>
+            <SimpleData name="volume_m^2">246.809979051879</SimpleData>
+            <SimpleData name="cover_area_m^2">19.5922245428176</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.946</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1398622,54.0828826977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.46">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">d53fe08f-6676-4b41-aee9-6c1b258cfa52</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">39</SimpleData>
+            <SimpleData name="trunk_circumference">122.52</SimpleData>
+            <SimpleData name="crown_diameter">6.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.7531537422764</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.74427011446243</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">128.592160954004</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">37.8869747138206</SimpleData>
+            <SimpleData name="volume_m^2">408.250852421885</SimpleData>
+            <SimpleData name="cover_area_m^2">25.9154997850539</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">10.656</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.139547,54.0828475977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.47">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">9d70ad98-f6b3-4648-9992-7fe84003d4b0</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">69</SimpleData>
+            <SimpleData name="trunk_circumference">216.77</SimpleData>
+            <SimpleData name="crown_diameter">9.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">18.4831826245603</SimpleData>
+            <SimpleData name="crown_diameter_standardized">9.90404192125302</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">216.572137745811</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">69.2673236701378</SimpleData>
+            <SimpleData name="volume_m^2">1423.93962577726</SimpleData>
+            <SimpleData name="cover_area_m^2">77.0397422728024</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">30.993</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1382099,54.0825323977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.48">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">572196f3-86ae-4832-b595-1062b062aed7</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13</SimpleData>
+            <SimpleData name="trunk_diameter">23</SimpleData>
+            <SimpleData name="trunk_circumference">72.26</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">11.9535110383528</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.49242503385345</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">73.6078057327697</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.254505798506</SimpleData>
+            <SimpleData name="volume_m^2">283.213299837506</SimpleData>
+            <SimpleData name="cover_area_m^2">23.6928964995152</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">18.958</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1395204,54.0827692977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.49">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">620929e2-b34b-4fa6-a15b-31ac1273a9d6</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">36</SimpleData>
+            <SimpleData name="trunk_circumference">113.1</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">11.7250545447736</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.8108609588989</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">119.99565644074</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">37.8262592667068</SimpleData>
+            <SimpleData name="volume_m^2">561.826949051479</SimpleData>
+            <SimpleData name="cover_area_m^2">47.9167876708865</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.158</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1405043,54.0829676977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.50">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">dfe020bf-a59f-47dd-a4b8-fee619d22eef</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">37</SimpleData>
+            <SimpleData name="trunk_circumference">116.24</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.9629599199738</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.45648770224471</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">119.282906480325</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.6574006554018</SimpleData>
+            <SimpleData name="volume_m^2">349.891792673832</SimpleData>
+            <SimpleData name="cover_area_m^2">23.3838621867032</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">19.492</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1396413,54.0827768977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.51">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">0859c56c-16bb-4e18-97c2-d48cadb450fe</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">42</SimpleData>
+            <SimpleData name="trunk_circumference">131.95</SimpleData>
+            <SimpleData name="crown_diameter">5.6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.2273291679004</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.45130326030165</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">136.554689877808</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">43.4935240230707</SimpleData>
+            <SimpleData name="volume_m^2">378.736893693762</SimpleData>
+            <SimpleData name="cover_area_m^2">23.3394472851976</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">23.969</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1398479,54.0828060977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.52">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">cd49a47b-3114-4f75-b4d5-71f4d7c50ed5</SimpleData>
+            <SimpleData name="botanical_genus">Acer</SimpleData>
+            <SimpleData name="German_genus">Ahorn</SimpleData>
+            <SimpleData name="botanical_species">Acer species</SimpleData>
+            <SimpleData name="German-species">Ahorn</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">30</SimpleData>
+            <SimpleData name="trunk_circumference">94.25</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.7509589421805</SimpleData>
+            <SimpleData name="crown_diameter_standardized">4.39140766057913</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">87.009303217638</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">28.3592544469072</SimpleData>
+            <SimpleData name="volume_m^2">193.125774743527</SimpleData>
+            <SimpleData name="cover_area_m^2">15.1459804410994</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">2.903</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1359854,54.0822956977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.53">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">2545badd-4423-4072-a114-5a801b4135a3</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">18</SimpleData>
+            <SimpleData name="trunk_diameter">90</SimpleData>
+            <SimpleData name="trunk_circumference">282.74</SimpleData>
+            <SimpleData name="crown_diameter">12</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">18.1983721367999</SimpleData>
+            <SimpleData name="crown_diameter_standardized">11.1402556784307</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">276.533580835078</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">93.1009175740877</SimpleData>
+            <SimpleData name="volume_m^2">1773.83303924577</SimpleData>
+            <SimpleData name="cover_area_m^2">97.4720720024627</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">1.462</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1370721,54.0822539977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.54">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">9f6fbdac-3bae-4fbd-aa09-4b0dd283a232</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">45</SimpleData>
+            <SimpleData name="trunk_circumference">141.37</SimpleData>
+            <SimpleData name="crown_diameter">9</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.7309109410185</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.74125092272161</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">144.133842659478</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">44.2693406408805</SimpleData>
+            <SimpleData name="volume_m^2">944.041155739211</SimpleData>
+            <SimpleData name="cover_area_m^2">60.0118555930296</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">3.266</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.137238,54.0824773977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.55">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">e36c8615-0a59-4b36-8055-e0bbf92d7920</SimpleData>
+            <SimpleData name="botanical_genus">Prunus</SimpleData>
+            <SimpleData name="German_genus">Kirsche</SimpleData>
+            <SimpleData name="botanical_species">Prunus species</SimpleData>
+            <SimpleData name="German-species">Kirsche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">12</SimpleData>
+            <SimpleData name="trunk_diameter">37</SimpleData>
+            <SimpleData name="trunk_circumference">116.24</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.0956723293389</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.68355958180229</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">120.059937792697</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.1079008077087</SimpleData>
+            <SimpleData name="volume_m^2">716.333846232294</SimpleData>
+            <SimpleData name="cover_area_m^2">59.2223256986529</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">0.959</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1371245,54.0825624977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.56">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">2018ceea-ade3-4d28-b2b6-9873c1567743</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13.5</SimpleData>
+            <SimpleData name="trunk_diameter">31</SimpleData>
+            <SimpleData name="trunk_circumference">97.39</SimpleData>
+            <SimpleData name="crown_diameter">5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">13.3976895442869</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.10840537455761</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">95.8755299008455</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.1915813529644</SimpleData>
+            <SimpleData name="volume_m^2">274.593654863843</SimpleData>
+            <SimpleData name="cover_area_m^2">20.4955976891505</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">21.144</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1377601,54.0826258977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.57">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">691f45f8-ef10-4bf7-a286-2c5d3cec98bb</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16.5</SimpleData>
+            <SimpleData name="trunk_diameter">52</SimpleData>
+            <SimpleData name="trunk_circumference">163.36</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.3003024011588</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.63265544884905</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">160.54955229816</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">51.0792085657376</SimpleData>
+            <SimpleData name="volume_m^2">700.069588297648</SimpleData>
+            <SimpleData name="cover_area_m^2">45.7552778986006</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">28.068</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1385059,54.0826413977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.58">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">cc4e682d-1730-4a99-8c1a-38a913e71b3c</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">9</SimpleData>
+            <SimpleData name="trunk_diameter">20</SimpleData>
+            <SimpleData name="trunk_circumference">62.83</SimpleData>
+            <SimpleData name="crown_diameter">3.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">8.55591176468562</SimpleData>
+            <SimpleData name="crown_diameter_standardized">3.76143212392242</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">71.1485466249719</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">20.7775971153271</SimpleData>
+            <SimpleData name="volume_m^2">95.0741906500272</SimpleData>
+            <SimpleData name="cover_area_m^2">11.112105087671</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">20.915</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1381074,54.0826680977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.59">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">80c93950-56c2-4c9c-ac84-222d76232530</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">15</SimpleData>
+            <SimpleData name="trunk_diameter">36</SimpleData>
+            <SimpleData name="trunk_circumference">113.1</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.9010049173493</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.06520275170396</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">116.372358695492</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">33.7848917686678</SimpleData>
+            <SimpleData name="volume_m^2">459.414924915465</SimpleData>
+            <SimpleData name="cover_area_m^2">28.8921943803819</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">20.45</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.137861,54.0826480977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.60">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">6a331c45-213c-40ce-99a0-fab6ad5030fe</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">36</SimpleData>
+            <SimpleData name="trunk_circumference">113.1</SimpleData>
+            <SimpleData name="crown_diameter">6</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">13.6694848040234</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.71808408465646</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">117.589269578872</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.3715217943101</SimpleData>
+            <SimpleData name="volume_m^2">351.029085525475</SimpleData>
+            <SimpleData name="cover_area_m^2">25.679759739164</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">25.187</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1389546,54.0826955977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.61">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">40da819d-807e-436d-aa97-874381af71a8</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">42</SimpleData>
+            <SimpleData name="trunk_circumference">131.95</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">12.9607051765237</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.2060357537477</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">141.063731917759</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">39.4894029697444</SimpleData>
+            <SimpleData name="volume_m^2">528.580744365257</SimpleData>
+            <SimpleData name="cover_area_m^2">40.7833321695103</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">12.292</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1392142,54.0828014977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.62">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">3fab1efa-d328-4f85-bd54-df041dd5e6aa</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">175.5</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">175.651991557134</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.12335711082191</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">102.475688072994</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">34.4160904893538</SimpleData>
+            <SimpleData name="volume_m^2">7000.23135950638</SimpleData>
+            <SimpleData name="cover_area_m^2">39.8528436680402</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">9.875</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1374081,54.0825874977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.63">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">ae218ad5-4993-4f53-a2ee-c78fee5b4a4c</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14</SimpleData>
+            <SimpleData name="trunk_diameter">33</SimpleData>
+            <SimpleData name="trunk_circumference">103.67</SimpleData>
+            <SimpleData name="crown_diameter">6.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.7600809830613</SimpleData>
+            <SimpleData name="crown_diameter_standardized">5.67220171795791</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">106.410462433566</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.7892924237638</SimpleData>
+            <SimpleData name="volume_m^2">372.976917879593</SimpleData>
+            <SimpleData name="cover_area_m^2">25.2693002367413</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">15.677</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1375382,54.0825997977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.64">
+        <name>Quercus robur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">129bc901-f555-4d0a-a0a9-e30f8b32baf5</SimpleData>
+            <SimpleData name="botanical_genus">Quercus</SimpleData>
+            <SimpleData name="German_genus">Eiche</SimpleData>
+            <SimpleData name="botanical_species">Quercus robur</SimpleData>
+            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">23</SimpleData>
+            <SimpleData name="trunk_diameter">112</SimpleData>
+            <SimpleData name="trunk_circumference">351.86</SimpleData>
+            <SimpleData name="crown_diameter">16.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">true</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">23.1813506132305</SimpleData>
+            <SimpleData name="crown_diameter_standardized">15.8628109474074</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">356.605405138123</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">115.355157235485</SimpleData>
+            <SimpleData name="volume_m^2">4581.30191808619</SimpleData>
+            <SimpleData name="cover_area_m^2">197.628774721671</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">16.66</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1385296,54.0824394977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.65">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">bffe524d-01dd-4982-bf9a-0c103671523a</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">41</SimpleData>
+            <SimpleData name="trunk_circumference">128.81</SimpleData>
+            <SimpleData name="crown_diameter">8.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.465231776601</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.40510664009256</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">130.766418781923</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">42.2686482506282</SimpleData>
+            <SimpleData name="volume_m^2">709.121028313143</SimpleData>
+            <SimpleData name="cover_area_m^2">43.0677829461767</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">28.68</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1382939,54.0826153977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.66">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">eedf1ae2-beaa-4181-8af6-f3b2cd68977a</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">48</SimpleData>
+            <SimpleData name="trunk_circumference">150.8</SimpleData>
+            <SimpleData name="crown_diameter">7.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.9910030884413</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.26137635638046</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">154.30672588383</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">47.9640772524325</SimpleData>
+            <SimpleData name="volume_m^2">857.17679055331</SimpleData>
+            <SimpleData name="cover_area_m^2">53.6036911388566</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">29.559</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.138184,54.0825967977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.67">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">4fdc5ca8-5d9a-416f-ad24-109fbdfbc79c</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">35</SimpleData>
+            <SimpleData name="trunk_circumference">109.96</SimpleData>
+            <SimpleData name="crown_diameter">5.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">16.0032028834895</SimpleData>
+            <SimpleData name="crown_diameter_standardized">6.12395332013602</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">113.100339526297</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">32.348072192463</SimpleData>
+            <SimpleData name="volume_m^2">471.368477259094</SimpleData>
+            <SimpleData name="cover_area_m^2">29.4546335937168</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">19.982</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1383096,54.0826960977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.68">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">399627bd-ec63-4a93-bef6-68beb79fee9d</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">14.5</SimpleData>
+            <SimpleData name="trunk_diameter">30</SimpleData>
+            <SimpleData name="trunk_circumference">94.25</SimpleData>
+            <SimpleData name="crown_diameter">7.5</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.2776428315555</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.75443563701727</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">88.2633349610575</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">28.1376133207852</SimpleData>
+            <SimpleData name="volume_m^2">721.517094850644</SimpleData>
+            <SimpleData name="cover_area_m^2">47.2269906297569</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">20.596</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1382068,54.0826805977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.69">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">98e2fdbf-7081-43d1-8bd6-65f6c801f5ef</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">13.5</SimpleData>
+            <SimpleData name="trunk_diameter">36</SimpleData>
+            <SimpleData name="trunk_circumference">113.1</SimpleData>
+            <SimpleData name="crown_diameter">7</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">14.3361640120615</SimpleData>
+            <SimpleData name="crown_diameter_standardized">7.20790873610869</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">118.153443310903</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">35.7846803230044</SimpleData>
+            <SimpleData name="volume_m^2">584.980514995752</SimpleData>
+            <SimpleData name="cover_area_m^2">40.8045356138216</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">18.434</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1385037,54.0827288977623,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Reiferbahn_invalidated.70">
+        <name><![CDATA[<NA>]]></name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#Reiferbahn_invalidated.schema">
+            <SimpleData name="uuid">fc5b1e36-0a63-4cc8-a1a4-dff2ae479e8f</SimpleData>
+            <SimpleData name="botanical_genus">Tilia</SimpleData>
+            <SimpleData name="German_genus">Linde</SimpleData>
+            <SimpleData name="botanical_species">Tilia species</SimpleData>
+            <SimpleData name="German-species">Linde</SimpleData>
+            <SimpleData name="avenue_tree">false</SimpleData>
+            <SimpleData name="height">16</SimpleData>
+            <SimpleData name="trunk_diameter">43</SimpleData>
+            <SimpleData name="trunk_circumference">135.09</SimpleData>
+            <SimpleData name="crown_diameter">8</SimpleData>
+            <SimpleData name="tree_sponsorship">false</SimpleData>
+            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
+            <SimpleData name="qualified_species_representation">false</SimpleData>
+            <SimpleData name="in_qualified_cohort">false</SimpleData>
+            <SimpleData name="height_standardized">15.0730051118357</SimpleData>
+            <SimpleData name="crown_diameter_standardized">8.18063088741061</SimpleData>
+            <SimpleData name="trunk_circumference_standardized">135.749177133213</SimpleData>
+            <SimpleData name="trunk_diameter_standardized">42.524176371135</SimpleData>
+            <SimpleData name="volume_m^2">792.251961302296</SimpleData>
+            <SimpleData name="cover_area_m^2">52.5609827253493</SimpleData>
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+            <SimpleData name="type">park</SimpleData>
+            <SimpleData name="dist_to_edge">28.385</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            12.1383999,54.0826282977622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
