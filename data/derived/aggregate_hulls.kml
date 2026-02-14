@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document id="root_doc">
+    <Schema id="aggregate_hulls.schema">
+      <SimpleField name="designation" type="string"/>
+    </Schema>
+    <Schema id="aggregate_hulls.schema">
+      <SimpleField name="park_name_hull" type="string"/>
+      <SimpleField name="level_1" type="string"/>
+    </Schema>
+    <Schema id="aggregate_hulls.schema">
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="level_1" type="string"/>
+    </Schema>
+    <Schema id="aggregate_hulls.schema">
+      <SimpleField name="designation" type="string"/>
+    </Schema>
+    <Schema id="aggregate_hulls.schema">
+      <SimpleField name="designation" type="string"/>
+      <SimpleField name="level_1" type="string"/>
+    </Schema>
+    <Schema id="aggregate_hulls.schema">
+      <SimpleField name="designation" type="string"/>
+    </Schema>
+    <Schema id="aggregate_hulls.schema">
+      <SimpleField name="designation" type="string"/>
+    </Schema>
     <Document id="aggregate_hulls">
       <name>aggregate_hulls</name>
       <Placemark id="aggregate_hulls.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Alter Friedhof Gehlsdorf</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1227129,54.1103491977669,0
@@ -35,6 +64,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Am Bussebart</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1269307,54.0896108977635,0
@@ -167,6 +201,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Arankapark</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -508,6 +547,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Barnstorfer Anlagen</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -11347,6 +11391,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Friedhof Biestow</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1025561,54.0621240977588,0
@@ -11395,6 +11444,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Friedhof Toitenwinkel</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -11429,6 +11483,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Jüdischer Friedhof</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1180927,54.0818022977621,0
@@ -11445,6 +11504,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">KTC</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -11713,6 +11777,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Kanonsberg</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1270085,54.0902809977635,0
@@ -11925,6 +11994,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.10">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Kriegsgräberfelder Stephan-Jantzen-Park</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -12027,6 +12101,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.11">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Kringelgrabenpark</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -13263,6 +13342,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.12">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Kurpark</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -13760,6 +13844,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.13">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Lindenpark</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -14256,6 +14345,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.14">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Moennichpark</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1210657,54.1003706977653,0
@@ -14312,6 +14406,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.15">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Neuer Friedhof Biestow</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1061114,54.0631057977589,0
@@ -14329,6 +14428,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.16">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Neuer Friedhof Rostock</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.0906622,54.0743509977609,0
@@ -14401,6 +14505,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.17">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Neuer Friedhof Warnemünde</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.0551049,54.1740726977777,0
@@ -14436,6 +14545,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.18">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park Brinckmanshöhe</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -16499,6 +16613,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.19">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park Evershagen Süd</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -17287,6 +17406,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.20">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park Kassebohm</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -18913,6 +19037,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.21">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park Lichtenhagen</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.04706,54.1482285977733,0
@@ -19332,6 +19461,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.22">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park Rote Burg</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -19693,6 +19827,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.23">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park am Fischerdorf</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -20675,6 +20814,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.24">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park am Hechtgraben</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1379683,54.1079430977666,0
@@ -20810,6 +20954,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.25">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park am Mühlenteich</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -21395,6 +21544,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.26">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park an der Hundsburg</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.0782264,54.134189997771,0
@@ -21747,6 +21901,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.27">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park an der Mühle</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -23971,6 +24130,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.28">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -24413,6 +24577,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.29">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Petripark</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -25808,6 +25977,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.30">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Petrischanze</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -26296,6 +26470,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.31">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Reiferbahn</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -26571,6 +26750,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.32">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Rosengarten</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1362111,54.0863752977628,0
@@ -26656,6 +26840,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.33">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">RuheForst Rostocker Heide</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.2291759,54.1895177977803,0
@@ -26685,6 +26874,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.34">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Schröderplatz</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -26912,6 +27106,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.35">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Schwanenteichpark</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -27388,6 +27587,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.36">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Sowjetischer Soldatenfriedhof</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.1410997,54.0765757977612,0
@@ -27408,6 +27612,11 @@
         </LineString>
       </Placemark>
       <Placemark id="aggregate_hulls.37">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Stephan-Jantzen-Park</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -27666,6 +27875,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.38">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Wallanlagen</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -28131,6 +28345,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.39">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Westfriedhof</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -28241,6 +28460,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.40">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">Wossidlopark</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <MultiGeometry>
           <LineString>
             <coordinates>
@@ -28423,6 +28647,11 @@
         </MultiGeometry>
       </Placemark>
       <Placemark id="aggregate_hulls.41">
+        <ExtendedData>
+          <SchemaData schemaUrl="#aggregate_hulls.schema">
+            <SimpleData name="designation">ehem GSP Park am Fischerdorf</SimpleData>
+          </SchemaData>
+        </ExtendedData>
         <LineString>
           <coordinates>
             12.0516801,54.1310456977704,0

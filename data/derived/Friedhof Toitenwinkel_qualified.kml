@@ -1,331 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Friedhof_Toitenwinkel_qualified" name="Friedhof_Toitenwinkel_qualified">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Friedhof_Toitenwinkel_qualified.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Friedhof_Toitenwinkel_qualified.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Friedhof_Toitenwinkel_qualified.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Folder>
-      <name>Friedhof_Toitenwinkel_qualified</name>
-      <Placemark id="Friedhof_Toitenwinkel_qualified.1">
-        <name>e8fb6532-b178-4581-b993-0a2a327669bf</name>
-        <description>Quercus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Toitenwinkel_qualified">
-            <SimpleData name="uuid">Eiche</SimpleData>
-            <SimpleData name="botanical_genus">Quercus robur</SimpleData>
-            <SimpleData name="German_genus">Stiel-Eiche</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">20</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">235</SimpleData>
-            <SimpleData name="trunk_diameter">12</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">1</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">229.629478447393</SimpleData>
-            <SimpleData name="crown_diameter_standardized">73.4044314617631</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">2279.00026932998</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">115.046215922096</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.3787358867242545</SimpleData>
-            <SimpleData name="type">Quercus robur</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.138641,54.1188540977684,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Friedhof_Toitenwinkel_qualified.2">
-        <name>9a6738f4-0a3b-4d37-9734-7eed9383282b</name>
-        <description>Fraxinus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Toitenwinkel_qualified">
-            <SimpleData name="uuid">Esche</SimpleData>
-            <SimpleData name="botanical_genus">Fraxinus excelsior</SimpleData>
-            <SimpleData name="German_genus">Gemeine Esche</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">20</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">270</SimpleData>
-            <SimpleData name="trunk_diameter">16</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">1</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">266.53421560889</SimpleData>
-            <SimpleData name="crown_diameter_standardized">85.6049229641473</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">4318.96684428094</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">207.270702674572</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.3067682746402435</SimpleData>
-            <SimpleData name="type">Fraxinus excelsior</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1383858,54.1187572977684,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Friedhof_Toitenwinkel_qualified.3">
-        <name>ef841a31-b7bc-4fa0-9873-cc36e29e0b75</name>
-        <description>Carpinus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Toitenwinkel_qualified">
-            <SimpleData name="uuid">Hain-/Weißbuche</SimpleData>
-            <SimpleData name="botanical_genus">Carpinus betulus</SimpleData>
-            <SimpleData name="German_genus">Gemeine Hainbuche</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">8</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">120</SimpleData>
-            <SimpleData name="trunk_diameter">10</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">1</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">122.042382954324</SimpleData>
-            <SimpleData name="crown_diameter_standardized">37.477916151283</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">793.575747672146</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">88.166785103587</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.3729577257199349</SimpleData>
-            <SimpleData name="type">Carpinus betulus</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1391321,54.1190802977684,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Document id="Friedhof_Toitenwinkel_qualified">
-      <name>Friedhof Toitenwinkel_qualified</name>
-      <Placemark id="Friedhof_Toitenwinkel_qualified.1">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Toitenwinkel_qualified.schema">
-            <SimpleData name="uuid">e8fb6532-b178-4581-b993-0a2a327669bf</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">20</SimpleData>
-            <SimpleData name="trunk_diameter">74.8</SimpleData>
-            <SimpleData name="trunk_circumference">235</SimpleData>
-            <SimpleData name="crown_diameter">12</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">20.4146600907973</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.4162117766167</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">230.670535889335</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">76.8205292465168</SimpleData>
-            <SimpleData name="volume_m^2">2089.66210808081</SimpleData>
-            <SimpleData name="cover_area_m^2">102.360857285241</SimpleData>
-            <SimpleData name="designation">Friedhof Toitenwinkel</SimpleData>
-            <SimpleData name="type">cemetery</SimpleData>
-            <SimpleData name="dist_to_edge">0.379</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.138641,54.1188540977684,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Friedhof_Toitenwinkel_qualified.2">
-        <name>Fraxinus excelsior</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Toitenwinkel_qualified.schema">
-            <SimpleData name="uuid">9a6738f4-0a3b-4d37-9734-7eed9383282b</SimpleData>
-            <SimpleData name="botanical_genus">Fraxinus</SimpleData>
-            <SimpleData name="German_genus">Esche</SimpleData>
-            <SimpleData name="botanical_species">Fraxinus excelsior</SimpleData>
-            <SimpleData name="German-species">Gemeine Esche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">20</SimpleData>
-            <SimpleData name="trunk_diameter">85.94</SimpleData>
-            <SimpleData name="trunk_circumference">270</SimpleData>
-            <SimpleData name="crown_diameter">16</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Fraxinus excelsior</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">19.2975562862939</SimpleData>
-            <SimpleData name="crown_diameter_standardized">15.5735106966486</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">267.650766940739</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">88.1414218903199</SimpleData>
-            <SimpleData name="volume_m^2">3675.91320792489</SimpleData>
-            <SimpleData name="cover_area_m^2">190.485943058796</SimpleData>
-            <SimpleData name="designation">Friedhof Toitenwinkel</SimpleData>
-            <SimpleData name="type">cemetery</SimpleData>
-            <SimpleData name="dist_to_edge">0.307</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1383858,54.1187572977684,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Friedhof_Toitenwinkel_qualified.3">
-        <name>Carpinus betulus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Toitenwinkel_qualified.schema">
-            <SimpleData name="uuid">ef841a31-b7bc-4fa0-9873-cc36e29e0b75</SimpleData>
-            <SimpleData name="botanical_genus">Carpinus</SimpleData>
-            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
-            <SimpleData name="botanical_species">Carpinus betulus</SimpleData>
-            <SimpleData name="German-species">Gemeine Hainbuche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">38.2</SimpleData>
-            <SimpleData name="trunk_circumference">120</SimpleData>
-            <SimpleData name="crown_diameter">10</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Carpinus betulus</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">8.00855458015393</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.74841637549542</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">117.343552841966</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">38.1530441309917</SimpleData>
-            <SimpleData name="volume_m^2">597.739783855538</SimpleData>
-            <SimpleData name="cover_area_m^2">74.6376612499842</SimpleData>
-            <SimpleData name="designation">Friedhof Toitenwinkel</SimpleData>
-            <SimpleData name="type">cemetery</SimpleData>
-            <SimpleData name="dist_to_edge">0.373</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1391321,54.1190802977684,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="287539">
+        <Style id="287542">
+            <IconStyle id="287543">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="287544">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="287545">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="287548">
+            <IconStyle id="287549">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="287550">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="287551">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="287554">
+            <IconStyle id="287555">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="287556">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="287557">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="287541">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; e8fb6532-b178-4581-b993-0a2a327669bf&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 74.8&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 235.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 19.83798429683129&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.895778883688383&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 238.0578174203308&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 74.43318434392441&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2204.820252796335&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 111.14134479623061&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Friedhof Toitenwinkel&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; cemetery&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.379&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#287542</styleUrl>
+            <Point id="287540">
+                <coordinates>12.138640999999998,54.118854097768434,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="287547">
+            <name>Fraxinus excelsior</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 9a6738f4-0a3b-4d37-9734-7eed9383282b&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Fraxinus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Esche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Fraxinus excelsior&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Gemeine Esche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 85.94&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 270.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Fraxinus excelsior&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 19.181942808341006&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 15.284551885663126&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 270.63959770426175&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 86.72274867282404&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3519.5561180265804&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 183.48277612923283&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Friedhof Toitenwinkel&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; cemetery&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.307&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Fraxinus excelsior</description>
+            <styleUrl>#287548</styleUrl>
+            <Point id="287546">
+                <coordinates>12.138385799999995,54.11875729776841,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="287553">
+            <name>Carpinus betulus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; ef841a31-b7bc-4fa0-9873-cc36e29e0b75&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Carpinus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Hain-/Weißbuche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Carpinus betulus&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Gemeine Hainbuche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 38.2&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 120.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Carpinus betulus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 7.623319337899329&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.804890329036121&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 119.6046463254297&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 40.57240414773721&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 575.5982628238502&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 75.50493916242806&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Friedhof Toitenwinkel&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; cemetery&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.373&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Carpinus betulus</description>
+            <styleUrl>#287554</styleUrl>
+            <Point id="287552">
+                <coordinates>12.139132099999994,54.11908029776845,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

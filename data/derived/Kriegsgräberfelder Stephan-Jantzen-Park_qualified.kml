@@ -1,403 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Kriegsgräberfelder_Stephan_Jantzen_Park_qualified" name="Kriegsgräberfelder_Stephan_Jantzen_Park_qualified">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Folder>
-      <name>Kriegsgräberfelder_Stephan_Jantzen_Park_qualified</name>
-      <Placemark id="Kriegsgräberfelder_Stephan_Jantzen_Park_qualified.1">
-        <name>edf28527-7bd1-4067-9648-579a495140dd</name>
-        <description>Betula</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kriegsgräberfelder_Stephan_Jantzen_Park_qualified">
-            <SimpleData name="uuid">Birke</SimpleData>
-            <SimpleData name="botanical_genus">Betula pendula</SimpleData>
-            <SimpleData name="German_genus">Sand-Birke</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">22</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">126</SimpleData>
-            <SimpleData name="trunk_diameter">11</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">1</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">129.50048697745</SimpleData>
-            <SimpleData name="crown_diameter_standardized">40.3411366539508</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1961.90280413542</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">87.844111088741</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.7349928897317863</SimpleData>
-            <SimpleData name="type">Betula pendula</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0757637,54.1774842977783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kriegsgräberfelder_Stephan_Jantzen_Park_qualified.2">
-        <name>edf28527-7bd1-4067-9648-579a495140dd</name>
-        <description>Betula</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kriegsgräberfelder_Stephan_Jantzen_Park_qualified">
-            <SimpleData name="uuid">Birke</SimpleData>
-            <SimpleData name="botanical_genus">Betula pendula</SimpleData>
-            <SimpleData name="German_genus">Sand-Birke</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">22</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">126</SimpleData>
-            <SimpleData name="trunk_diameter">11</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">1</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">129.50048697745</SimpleData>
-            <SimpleData name="crown_diameter_standardized">40.3411366539508</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1961.90280413542</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">87.844111088741</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.7349928897317863</SimpleData>
-            <SimpleData name="type">Betula pendula</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0757637,54.1774842977783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kriegsgräberfelder_Stephan_Jantzen_Park_qualified.3">
-        <name>073e14c4-4f9e-472e-ac83-5fdb6359383b</name>
-        <description>Betula</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kriegsgräberfelder_Stephan_Jantzen_Park_qualified">
-            <SimpleData name="uuid">Birke</SimpleData>
-            <SimpleData name="botanical_genus">Betula pendula</SimpleData>
-            <SimpleData name="German_genus">Sand-Birke</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">21</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">133</SimpleData>
-            <SimpleData name="trunk_diameter">9</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">1</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">129.94704561333</SimpleData>
-            <SimpleData name="crown_diameter_standardized">41.4483841194764</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1243.07413426599</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">59.7097109650693</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.6015659919979189</SimpleData>
-            <SimpleData name="type">Betula pendula</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0757976,54.1774004977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kriegsgräberfelder_Stephan_Jantzen_Park_qualified.4">
-        <name>073e14c4-4f9e-472e-ac83-5fdb6359383b</name>
-        <description>Betula</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kriegsgräberfelder_Stephan_Jantzen_Park_qualified">
-            <SimpleData name="uuid">Birke</SimpleData>
-            <SimpleData name="botanical_genus">Betula pendula</SimpleData>
-            <SimpleData name="German_genus">Sand-Birke</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">21</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">133</SimpleData>
-            <SimpleData name="trunk_diameter">9</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">1</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">129.94704561333</SimpleData>
-            <SimpleData name="crown_diameter_standardized">41.4483841194764</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1243.07413426599</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">59.7097109650693</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.6015659919979189</SimpleData>
-            <SimpleData name="type">Betula pendula</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0757976,54.1774004977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Document id="Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified">
-      <name>Kriegsgräberfelder Stephan-Jantzen-Park_qualified</name>
-      <Placemark id="Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.1">
-        <name>Betula pendula</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.schema">
-            <SimpleData name="uuid">edf28527-7bd1-4067-9648-579a495140dd</SimpleData>
-            <SimpleData name="botanical_genus">Betula</SimpleData>
-            <SimpleData name="German_genus">Birke</SimpleData>
-            <SimpleData name="botanical_species">Betula pendula</SimpleData>
-            <SimpleData name="German-species">Sand-Birke</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">22</SimpleData>
-            <SimpleData name="trunk_diameter">40.11</SimpleData>
-            <SimpleData name="trunk_circumference">126</SimpleData>
-            <SimpleData name="crown_diameter">11</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">21.9942938906745</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.8144767523409</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">125.219378812613</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">37.6732699431413</SimpleData>
-            <SimpleData name="volume_m^2">2020.27703895392</SimpleData>
-            <SimpleData name="cover_area_m^2">91.8545986970969</SimpleData>
-            <SimpleData name="designation">Kriegsgräberfelder Stephan-Jantzen-Park</SimpleData>
-            <SimpleData name="type">cemetery</SimpleData>
-            <SimpleData name="dist_to_edge">0.735</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0757637,54.1774842977783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.2">
-        <name>Betula pendula</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.schema">
-            <SimpleData name="uuid">edf28527-7bd1-4067-9648-579a495140dd</SimpleData>
-            <SimpleData name="botanical_genus">Betula</SimpleData>
-            <SimpleData name="German_genus">Birke</SimpleData>
-            <SimpleData name="botanical_species">Betula pendula</SimpleData>
-            <SimpleData name="German-species">Sand-Birke</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">22</SimpleData>
-            <SimpleData name="trunk_diameter">40.11</SimpleData>
-            <SimpleData name="trunk_circumference">126</SimpleData>
-            <SimpleData name="crown_diameter">11</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">21.9942938906745</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.8144767523409</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">125.219378812613</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">37.6732699431413</SimpleData>
-            <SimpleData name="volume_m^2">2020.27703895392</SimpleData>
-            <SimpleData name="cover_area_m^2">91.8545986970969</SimpleData>
-            <SimpleData name="designation">Kriegsgräberfelder Stephan-Jantzen-Park</SimpleData>
-            <SimpleData name="type">cemetery</SimpleData>
-            <SimpleData name="dist_to_edge">0.735</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0757637,54.1774842977783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.3">
-        <name>Betula pendula</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.schema">
-            <SimpleData name="uuid">073e14c4-4f9e-472e-ac83-5fdb6359383b</SimpleData>
-            <SimpleData name="botanical_genus">Betula</SimpleData>
-            <SimpleData name="German_genus">Birke</SimpleData>
-            <SimpleData name="botanical_species">Betula pendula</SimpleData>
-            <SimpleData name="German-species">Sand-Birke</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">21</SimpleData>
-            <SimpleData name="trunk_diameter">42.34</SimpleData>
-            <SimpleData name="trunk_circumference">133</SimpleData>
-            <SimpleData name="crown_diameter">9</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">21.0393114606188</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.29669200819471</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">132.377946048346</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">44.1440908692519</SimpleData>
-            <SimpleData name="volume_m^2">1428.16468872413</SimpleData>
-            <SimpleData name="cover_area_m^2">67.8807712599036</SimpleData>
-            <SimpleData name="designation">Kriegsgräberfelder Stephan-Jantzen-Park</SimpleData>
-            <SimpleData name="type">cemetery</SimpleData>
-            <SimpleData name="dist_to_edge">0.602</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0757976,54.1774004977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.4">
-        <name>Betula pendula</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kriegsgr__berfelder_Stephan-Jantzen-Park_qualified.schema">
-            <SimpleData name="uuid">073e14c4-4f9e-472e-ac83-5fdb6359383b</SimpleData>
-            <SimpleData name="botanical_genus">Betula</SimpleData>
-            <SimpleData name="German_genus">Birke</SimpleData>
-            <SimpleData name="botanical_species">Betula pendula</SimpleData>
-            <SimpleData name="German-species">Sand-Birke</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">21</SimpleData>
-            <SimpleData name="trunk_diameter">42.34</SimpleData>
-            <SimpleData name="trunk_circumference">133</SimpleData>
-            <SimpleData name="crown_diameter">9</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">21.0393114606188</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.29669200819471</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">132.377946048346</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">44.1440908692519</SimpleData>
-            <SimpleData name="volume_m^2">1428.16468872413</SimpleData>
-            <SimpleData name="cover_area_m^2">67.8807712599036</SimpleData>
-            <SimpleData name="designation">Kriegsgräberfelder Stephan-Jantzen-Park</SimpleData>
-            <SimpleData name="type">cemetery</SimpleData>
-            <SimpleData name="dist_to_edge">0.602</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0757976,54.1774004977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="301315">
+        <Style id="301318">
+            <IconStyle id="301319">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="301320">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="301321">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="301324">
+            <IconStyle id="301325">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="301326">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="301327">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="301330">
+            <IconStyle id="301331">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="301332">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="301333">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="301336">
+            <IconStyle id="301337">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="301338">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="301339">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="301317">
+            <name>Betula pendula</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; edf28527-7bd1-4067-9648-579a495140dd&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Betula&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Birke&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Sand-Birke&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 22.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 40.11&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 126.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 11.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 21.891939657994236&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.66839976173027&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 127.10839360123872&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 37.25004340377793&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2340.974716763345&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 106.93317966955459&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kriegsgräberfelder Stephan-Jantzen-Park&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; cemetery&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.735&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Betula pendula</description>
+            <styleUrl>#301318</styleUrl>
+            <Point id="301316">
+                <coordinates>12.075763700000001,54.17748429777827,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="301323">
+            <name>Betula pendula</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; edf28527-7bd1-4067-9648-579a495140dd&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Betula&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Birke&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Sand-Birke&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 22.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 40.11&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 126.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 11.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 21.891939657994236&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.66839976173027&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 127.10839360123872&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 37.25004340377793&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2340.974716763345&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 106.93317966955459&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kriegsgräberfelder Stephan-Jantzen-Park&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; cemetery&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.735&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Betula pendula</description>
+            <styleUrl>#301324</styleUrl>
+            <Point id="301322">
+                <coordinates>12.075763700000001,54.17748429777827,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="301329">
+            <name>Betula pendula</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 073e14c4-4f9e-472e-ac83-5fdb6359383b&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Betula&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Birke&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Sand-Birke&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 21.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 42.34&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 133.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 20.770268234804306&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.077507427992632&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 134.28654608760704&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 44.11794490441899&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1344.2040900215943&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 64.7177048859263&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kriegsgräberfelder Stephan-Jantzen-Park&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; cemetery&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.602&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Betula pendula</description>
+            <styleUrl>#301330</styleUrl>
+            <Point id="301328">
+                <coordinates>12.075797600000001,54.17740049777823,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="301335">
+            <name>Betula pendula</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 073e14c4-4f9e-472e-ac83-5fdb6359383b&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Betula&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Birke&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Sand-Birke&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 21.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 42.34&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 133.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 20.770268234804306&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.077507427992632&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 134.28654608760704&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 44.11794490441899&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1344.2040900215943&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 64.7177048859263&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kriegsgräberfelder Stephan-Jantzen-Park&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; cemetery&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.602&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Betula pendula</description>
+            <styleUrl>#301336</styleUrl>
+            <Point id="301334">
+                <coordinates>12.075797600000001,54.17740049777823,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

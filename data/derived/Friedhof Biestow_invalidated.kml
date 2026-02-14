@@ -1,187 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Friedhof_Biestow_invalidated" name="Friedhof_Biestow_invalidated">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Friedhof_Biestow_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Friedhof_Biestow_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Friedhof_Biestow_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Folder>
-      <name>Friedhof_Biestow_invalidated</name>
-      <Placemark id="Friedhof_Biestow_invalidated.1">
-        <name>447c92e7-0ec4-4b2a-a032-e4005b20295f</name>
-        <description>Tilia</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Biestow_invalidated">
-            <SimpleData name="uuid">Linde</SimpleData>
-            <SimpleData name="botanical_genus">Tilia cordata</SimpleData>
-            <SimpleData name="German_genus">Winter-Linde</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">13.5</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">528</SimpleData>
-            <SimpleData name="trunk_diameter">12</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">536.509301788648</SimpleData>
-            <SimpleData name="crown_diameter_standardized">168.971920189573</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1587.56120968996</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">114.6865463801</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">27.12387231739629</SimpleData>
-            <SimpleData name="type">Tilia cordata</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1030217,54.0615367977587,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Document id="Friedhof_Biestow_invalidated">
-      <name>Friedhof Biestow_invalidated</name>
-      <Placemark id="Friedhof_Biestow_invalidated.1">
-        <name>Tilia cordata</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Biestow_invalidated.schema">
-            <SimpleData name="uuid">447c92e7-0ec4-4b2a-a032-e4005b20295f</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
-            <SimpleData name="German-species">Winter-Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">13.5</SimpleData>
-            <SimpleData name="trunk_diameter">168.07</SimpleData>
-            <SimpleData name="trunk_circumference">528</SimpleData>
-            <SimpleData name="crown_diameter">12</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">13.9916035981974</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.6460946523765</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">534.504852734737</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">170.445380349036</SimpleData>
-            <SimpleData name="volume_m^2">1490.45203648604</SimpleData>
-            <SimpleData name="cover_area_m^2">106.524747218972</SimpleData>
-            <SimpleData name="designation">Friedhof Biestow</SimpleData>
-            <SimpleData name="type">cemetery</SimpleData>
-            <SimpleData name="dist_to_edge">27.124</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1030217,54.0615367977587,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="296823">
+        <Style id="296826">
+            <IconStyle id="296827">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="296828">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="296829">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="296825">
+            <name>Tilia cordata</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 447c92e7-0ec4-4b2a-a032-e4005b20295f&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia cordata&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Winter-Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 13.5&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 168.07&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 528.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Tilia cordata&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 14.673239638992852&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.75245723661389&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 533.0986551334987&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 168.15540701654334&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1591.744107968939&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 108.47939154070777&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Friedhof Biestow&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; cemetery&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 27.124&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Tilia cordata</description>
+            <styleUrl>#296826</styleUrl>
+            <Point id="296824">
+                <coordinates>12.103021700000005,54.061536797758656,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

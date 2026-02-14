@@ -1,1699 +1,511 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Park_auf_dem_Kalverradd_invalidated" name="Park_auf_dem_Kalverradd_invalidated">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Park_auf_dem_Kalverradd_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Park_auf_dem_Kalverradd_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Park_auf_dem_Kalverradd_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Folder>
-      <name>Park_auf_dem_Kalverradd_invalidated</name>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.1">
-        <name>8594f470-1026-47fa-9303-9e52d0d08521</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">12</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">147.65</SimpleData>
-            <SimpleData name="trunk_diameter">10</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">144.206932912489</SimpleData>
-            <SimpleData name="crown_diameter_standardized">49.7353733330605</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">904.785345707077</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">74.2765660532795</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">4.64647917494911</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0586308,54.1537746977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.2">
-        <name>4fa65306-d067-469b-b685-ba49767a0067</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">14</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">157.08</SimpleData>
-            <SimpleData name="trunk_diameter">10</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">148.544061028904</SimpleData>
-            <SimpleData name="crown_diameter_standardized">52.0244732041391</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1158.11812605975</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">80.3847563366525</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">8.141381566383751</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583198,54.1537532977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.3">
-        <name>32560260-c2fa-48d3-8bf3-88ef9f37a41b</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">12</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">62.83</SimpleData>
-            <SimpleData name="trunk_diameter">6</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">60.5622480084376</SimpleData>
-            <SimpleData name="crown_diameter_standardized">19.6194881578865</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">271.762159517689</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">23.8631657901191</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">2.396228566287186</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0582932,54.1537028977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.4">
-        <name>45fd29d5-daba-4a77-acae-14a6236dc23f</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">15</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">100.53</SimpleData>
-            <SimpleData name="trunk_diameter">7</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">99.9671770459599</SimpleData>
-            <SimpleData name="crown_diameter_standardized">33.5409854118198</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">718.000845361109</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">47.0437017040566</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">2.494164514970806</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583205,54.1537022977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.5">
-        <name>64c303cc-f720-4ff2-ab9f-0b75527f1cff</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">15</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">69.12</SimpleData>
-            <SimpleData name="trunk_diameter">7</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">70.7385323321572</SimpleData>
-            <SimpleData name="crown_diameter_standardized">22.5428221120928</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">594.900879487525</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">41.0135515938466</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">3.695904397812085</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583802,54.1537098977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.6">
-        <name>fef3f849-f623-4e88-b092-f8f4c98cbd62</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">12</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">81.68</SimpleData>
-            <SimpleData name="trunk_diameter">7</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">79.9721242637229</SimpleData>
-            <SimpleData name="crown_diameter_standardized">30.0682787726898</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">439.579194949511</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">37.0580066406672</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">5.623084714661024</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583966,54.1537263977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.7">
-        <name>3e719a80-e025-4a50-9885-8089e66e37ef</name>
-        <description>Malus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Zierapfel</SimpleData>
-            <SimpleData name="botanical_genus">Malus species</SimpleData>
-            <SimpleData name="German_genus">Apfel</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">5</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">31.42</SimpleData>
-            <SimpleData name="trunk_diameter">4.3</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">27.7154114215198</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.848092326469</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">65.8014002619272</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">12.9880780034653</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">7.668644719992757</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583701,54.1537462977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.8">
-        <name>f3e1f84d-5691-420d-beb8-9eced250bb10</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">16</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">157.08</SimpleData>
-            <SimpleData name="trunk_diameter">13</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">150.967408127906</SimpleData>
-            <SimpleData name="crown_diameter_standardized">52.3956735896805</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1841.72049600425</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">118.245076404315</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.5246366751329742</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0584093,54.1536796977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.9">
-        <name>ca439300-5f18-4c5f-8a16-dfb502cc26a7</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">12</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">62.83</SimpleData>
-            <SimpleData name="trunk_diameter">3</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">74.2496394056796</SimpleData>
-            <SimpleData name="crown_diameter_standardized">22.3318265775509</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">129.011115023397</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">10.4804692489368</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.2241832320105136</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0582895,54.1536834977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.10">
-        <name>350e33bb-6a02-4c47-9d91-ec61b9c42439</name>
-        <description>Malus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Zierapfel</SimpleData>
-            <SimpleData name="botanical_genus">Malus sylvestris</SimpleData>
-            <SimpleData name="German_genus">Holz-Apfel</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">45</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">25.13</SimpleData>
-            <SimpleData name="trunk_diameter">2</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">27.2763963128709</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.81444415438147</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">197.807365177554</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">4.4010098732355</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">2.298716187690261</SimpleData>
-            <SimpleData name="type">Malus sylvestris</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0546279,54.1530721977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.11">
-        <name>13c25bc3-cd26-4b3c-9c4e-7547478737ad</name>
-        <description>Ulmus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Ulme</SimpleData>
-            <SimpleData name="botanical_genus">Ulmus species</SimpleData>
-            <SimpleData name="German_genus">Ulme</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">8</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">50.27</SimpleData>
-            <SimpleData name="trunk_diameter">6</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">60.2823575248147</SimpleData>
-            <SimpleData name="crown_diameter_standardized">16.250884399929</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">166.19100365772</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">24.2389660134763</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">3.490197459089512</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0511813,54.1531697977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.12">
-        <name>849424ac-1b2c-4228-b750-753f59f48c70</name>
-        <description>Crataegus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weißdorn</SimpleData>
-            <SimpleData name="botanical_genus">Crataegus species</SimpleData>
-            <SimpleData name="German_genus">Weißdorn</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">8</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">62.83</SimpleData>
-            <SimpleData name="trunk_diameter">8</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">59.2057288541527</SimpleData>
-            <SimpleData name="crown_diameter_standardized">19.2634201570822</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">437.466103694766</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">50.2369453902757</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">0.995459172862581</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0498219,54.1548492977745,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.13">
-        <name>af42c0b0-5492-417c-9742-9084b3ac95d4</name>
-        <description>Populus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Pappel</SimpleData>
-            <SimpleData name="botanical_genus">Populus species</SimpleData>
-            <SimpleData name="German_genus">Pappel</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">23</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">153.94</SimpleData>
-            <SimpleData name="trunk_diameter">14</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">150.710923888821</SimpleData>
-            <SimpleData name="crown_diameter_standardized">47.9061235230504</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">4014.52433668086</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">177.743525994383</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">6.272295864142794</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0573721,54.1536795977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.14">
-        <name>15a142d7-aaaf-4d09-8103-fe9b2ca89a4b</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">18</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">197.92</SimpleData>
-            <SimpleData name="trunk_diameter">13</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">209.956689734586</SimpleData>
-            <SimpleData name="crown_diameter_standardized">65.9553076649931</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">2376.29290972763</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">136.8234794685</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">3.490447332682828</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0573736,54.1536544977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.15">
-        <name>785835e1-a6ac-4333-a096-0cbb8cc7254f</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">17</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">109.96</SimpleData>
-            <SimpleData name="trunk_diameter">13</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">107.343393660192</SimpleData>
-            <SimpleData name="crown_diameter_standardized">35.9039892154662</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">2261.55370632637</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">129.131910922822</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">11.01520948509561</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.057123,54.1537029977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.16">
-        <name>b1ddabac-5996-46e3-b19a-bc1c15ee326d</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">16</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">75.4</SimpleData>
-            <SimpleData name="trunk_diameter">10</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">73.1372921365519</SimpleData>
-            <SimpleData name="crown_diameter_standardized">23.1033103054814</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1417.87724765318</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">88.784374921401</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">7.674431021673495</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0570834,54.1536695977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.17">
-        <name>fa2042ca-7c9d-4219-a817-5b1d48ef2915</name>
-        <description>Populus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Pappel</SimpleData>
-            <SimpleData name="botanical_genus">Populus species</SimpleData>
-            <SimpleData name="German_genus">Pappel</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">20</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">125.66</SimpleData>
-            <SimpleData name="trunk_diameter">10</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">125.294413011303</SimpleData>
-            <SimpleData name="crown_diameter_standardized">37.468051086158</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1535.83108538682</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">76.4106190935633</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">11.28633878586236</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0570104,54.1536965977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.18">
-        <name>3c4fd261-649f-45ad-ba53-796fcbcd4e2a</name>
-        <description>Salix</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Weide</SimpleData>
-            <SimpleData name="botanical_genus">Salix species</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">19</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">188.5</SimpleData>
-            <SimpleData name="trunk_diameter">17</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">187.472666896598</SimpleData>
-            <SimpleData name="crown_diameter_standardized">60.6418829789063</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">4689.52244719929</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">233.818780409673</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">5.22901396239628</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0569152,54.1536341977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.19">
-        <name>38dd3494-1b86-4ca0-8a0d-4ce658e8ea05</name>
-        <description>Populus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Pappel</SimpleData>
-            <SimpleData name="botanical_genus">Populus species</SimpleData>
-            <SimpleData name="German_genus">Pappel</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">20</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">194.78</SimpleData>
-            <SimpleData name="trunk_diameter">12</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">200.84714438883</SimpleData>
-            <SimpleData name="crown_diameter_standardized">61.8130098872705</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">2337.30985055262</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">114.776132938845</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">10.55652400234678</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0568123,54.1536743977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.20">
-        <name>682bd0cd-4768-459d-86f8-092c96975edd</name>
-        <description>Populus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Pappel</SimpleData>
-            <SimpleData name="botanical_genus">Populus species</SimpleData>
-            <SimpleData name="German_genus">Pappel</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">19</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">182.21</SimpleData>
-            <SimpleData name="trunk_diameter">13</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">183.542353763755</SimpleData>
-            <SimpleData name="crown_diameter_standardized">58.3698535249989</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">2720.61012460937</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">134.808218008946</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">2.087456118657487</SimpleData>
-            <SimpleData name="type"><![CDATA[<NA>]]></SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0567929,54.1535960977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.21">
-        <name>cf62b4d7-5c55-4f2d-9b7a-9fa3687f35bd</name>
-        <description>Gruppenbäume</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Gruppenbäume</SimpleData>
-            <SimpleData name="botanical_genus">Ahorn-Linde Mischbestand</SimpleData>
-            <SimpleData name="German_genus">Ahorn- Linde Mischbestand</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">10</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">53.41</SimpleData>
-            <SimpleData name="trunk_diameter">5</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">59.2949869134766</SimpleData>
-            <SimpleData name="crown_diameter_standardized">18.4107351460422</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">141.506847682255</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">13.0648082514332</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">4.839209076220972</SimpleData>
-            <SimpleData name="type">Ahorn-Linde Mischbestand</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0499866,54.1558662977747,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.22">
-        <name>e5906c2f-8880-4e23-9afa-07c1e60412bb</name>
-        <description>Elaeagnus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated">
-            <SimpleData name="uuid">Ölweide</SimpleData>
-            <SimpleData name="botanical_genus">Elaeagnus angustifolia</SimpleData>
-            <SimpleData name="German_genus">Schmalblättrige Ölweide</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">4</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">18</SimpleData>
-            <SimpleData name="trunk_diameter">1</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">0</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">15.8714952544685</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.85782609949182</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">10.519452518034</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">2.90811704213407</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">4.759347792923164</SimpleData>
-            <SimpleData name="type">Elaeagnus angustifolia</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0488851,54.1533011977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Document id="Park_auf_dem_Kalverradd_invalidated">
-      <name>Park auf dem Kalverradd_invalidated</name>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.1">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">8594f470-1026-47fa-9303-9e52d0d08521</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">12</SimpleData>
-            <SimpleData name="trunk_diameter">47</SimpleData>
-            <SimpleData name="trunk_circumference">147.65</SimpleData>
-            <SimpleData name="crown_diameter">10</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">11.9657437020055</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.63771243107672</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">136.626506394339</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">48.2685826994908</SimpleData>
-            <SimpleData name="volume_m^2">872.926152857131</SimpleData>
-            <SimpleData name="cover_area_m^2">72.9521018163563</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.646</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0586308,54.1537746977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.2">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">4fa65306-d067-469b-b685-ba49767a0067</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">14</SimpleData>
-            <SimpleData name="trunk_diameter">50</SimpleData>
-            <SimpleData name="trunk_circumference">157.08</SimpleData>
-            <SimpleData name="crown_diameter">10</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">14.0545535205095</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.6755697367559</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">152.990719474832</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">49.348103663</SimpleData>
-            <SimpleData name="volume_m^2">1258.02438324337</SimpleData>
-            <SimpleData name="cover_area_m^2">89.5100923275554</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">8.141</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583198,54.1537532977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.3">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">32560260-c2fa-48d3-8bf3-88ef9f37a41b</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">12</SimpleData>
-            <SimpleData name="trunk_diameter">20</SimpleData>
-            <SimpleData name="trunk_circumference">62.83</SimpleData>
-            <SimpleData name="crown_diameter">6</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">11.1726200895473</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.22906887575855</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">59.3964273990948</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">19.296787576792</SimpleData>
-            <SimpleData name="volume_m^2">340.479664772477</SimpleData>
-            <SimpleData name="cover_area_m^2">30.4744690183296</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.396</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0582932,54.1537028977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.4">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">45fd29d5-daba-4a77-acae-14a6236dc23f</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">15</SimpleData>
-            <SimpleData name="trunk_diameter">32</SimpleData>
-            <SimpleData name="trunk_circumference">100.53</SimpleData>
-            <SimpleData name="crown_diameter">7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">14.7374676023099</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.31514397596219</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">105.433137750289</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">32.5122005588712</SimpleData>
-            <SimpleData name="volume_m^2">461.614303476014</SimpleData>
-            <SimpleData name="cover_area_m^2">31.322498269897</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.494</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583205,54.1537022977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.5">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">64c303cc-f720-4ff2-ab9f-0b75527f1cff</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">15</SimpleData>
-            <SimpleData name="trunk_diameter">22</SimpleData>
-            <SimpleData name="trunk_circumference">69.12</SimpleData>
-            <SimpleData name="crown_diameter">7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">15.2765559941788</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.90240249814468</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">76.8538351154899</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">21.1784094466084</SimpleData>
-            <SimpleData name="volume_m^2">417.996823083292</SimpleData>
-            <SimpleData name="cover_area_m^2">27.36198022922</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.696</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583802,54.1537098977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.6">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">fef3f849-f623-4e88-b092-f8f4c98cbd62</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">12</SimpleData>
-            <SimpleData name="trunk_diameter">26</SimpleData>
-            <SimpleData name="trunk_circumference">81.68</SimpleData>
-            <SimpleData name="crown_diameter">7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">11.8445729530659</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.63701528146411</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">78.8833440752176</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">25.2371217902245</SimpleData>
-            <SimpleData name="volume_m^2">542.57103803325</SimpleData>
-            <SimpleData name="cover_area_m^2">45.8075643742654</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">5.623</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583966,54.1537263977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.7">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">3e719a80-e025-4a50-9885-8089e66e37ef</SimpleData>
-            <SimpleData name="botanical_genus">Malus</SimpleData>
-            <SimpleData name="German_genus">Zierapfel</SimpleData>
-            <SimpleData name="botanical_species">Malus species</SimpleData>
-            <SimpleData name="German-species">Apfel</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5</SimpleData>
-            <SimpleData name="trunk_diameter">10</SimpleData>
-            <SimpleData name="trunk_circumference">31.42</SimpleData>
-            <SimpleData name="crown_diameter">4.3</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">5.08855707675854</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.5151584184451</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">29.1026297411739</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">8.4674255461848</SimpleData>
-            <SimpleData name="volume_m^2">81.4761533028615</SimpleData>
-            <SimpleData name="cover_area_m^2">16.0116418218036</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">7.669</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0583701,54.1537462977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.8">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">f3e1f84d-5691-420d-beb8-9eced250bb10</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">16</SimpleData>
-            <SimpleData name="trunk_diameter">50</SimpleData>
-            <SimpleData name="trunk_circumference">157.08</SimpleData>
-            <SimpleData name="crown_diameter">13</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">15.1873120712065</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.7244210852847</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">160.844141420398</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">51.9294690014749</SimpleData>
-            <SimpleData name="volume_m^2">1639.6592900889</SimpleData>
-            <SimpleData name="cover_area_m^2">107.962441438042</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">0.525</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0584093,54.1536796977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.9">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">ca439300-5f18-4c5f-8a16-dfb502cc26a7</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">12</SimpleData>
-            <SimpleData name="trunk_diameter">20</SimpleData>
-            <SimpleData name="trunk_circumference">62.83</SimpleData>
-            <SimpleData name="crown_diameter">3</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">12.2448718561396</SimpleData>
-            <SimpleData name="crown_diameter_standardized">2.85814773064494</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">61.7826920949763</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">21.5584421326012</SimpleData>
-            <SimpleData name="volume_m^2">78.5621700786193</SimpleData>
-            <SimpleData name="cover_area_m^2">6.41592423355809</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">0.224</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0582895,54.1536834977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.10">
-        <name>Malus sylvestris</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">350e33bb-6a02-4c47-9d91-ec61b9c42439</SimpleData>
-            <SimpleData name="botanical_genus">Malus</SimpleData>
-            <SimpleData name="German_genus">Zierapfel</SimpleData>
-            <SimpleData name="botanical_species">Malus sylvestris</SimpleData>
-            <SimpleData name="German-species">Holz-Apfel</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">45</SimpleData>
-            <SimpleData name="trunk_diameter">8</SimpleData>
-            <SimpleData name="trunk_circumference">25.13</SimpleData>
-            <SimpleData name="crown_diameter">2</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Malus sylvestris</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">45.0907672021034</SimpleData>
-            <SimpleData name="crown_diameter_standardized">1.8930813366859</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">26.8879376480938</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">8.00799349085948</SimpleData>
-            <SimpleData name="volume_m^2">126.915905878198</SimpleData>
-            <SimpleData name="cover_area_m^2">2.81467612447892</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.299</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0546279,54.1530721977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.11">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">13c25bc3-cd26-4b3c-9c4e-7547478737ad</SimpleData>
-            <SimpleData name="botanical_genus">Ulmus</SimpleData>
-            <SimpleData name="German_genus">Ulme</SimpleData>
-            <SimpleData name="botanical_species">Ulmus species</SimpleData>
-            <SimpleData name="German-species">Ulme</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">16</SimpleData>
-            <SimpleData name="trunk_circumference">50.27</SimpleData>
-            <SimpleData name="crown_diameter">6</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">7.64286068832832</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.89761861413497</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">53.3756283855919</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">13.2296153925242</SimpleData>
-            <SimpleData name="volume_m^2">208.784951675216</SimpleData>
-            <SimpleData name="cover_area_m^2">27.3176445560572</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.49</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0511813,54.1531697977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.12">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">849424ac-1b2c-4228-b750-753f59f48c70</SimpleData>
-            <SimpleData name="botanical_genus">Crataegus</SimpleData>
-            <SimpleData name="German_genus">Weißdorn</SimpleData>
-            <SimpleData name="botanical_species">Crataegus species</SimpleData>
-            <SimpleData name="German-species">Weißdorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">20</SimpleData>
-            <SimpleData name="trunk_circumference">62.83</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">7.89680031197546</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.94962236495802</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">61.2471098095742</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">22.1900263918912</SimpleData>
-            <SimpleData name="volume_m^2">496.764392049467</SimpleData>
-            <SimpleData name="cover_area_m^2">62.9070474653039</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">0.995</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0498219,54.1548492977745,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.13">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">af42c0b0-5492-417c-9742-9084b3ac95d4</SimpleData>
-            <SimpleData name="botanical_genus">Populus</SimpleData>
-            <SimpleData name="German_genus">Pappel</SimpleData>
-            <SimpleData name="botanical_species">Populus species</SimpleData>
-            <SimpleData name="German-species">Pappel</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">23</SimpleData>
-            <SimpleData name="trunk_diameter">49</SimpleData>
-            <SimpleData name="trunk_circumference">153.94</SimpleData>
-            <SimpleData name="crown_diameter">14</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">22.771611386438</SimpleData>
-            <SimpleData name="crown_diameter_standardized">14.7112949439889</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">147.062884180031</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">47.5821705601207</SimpleData>
-            <SimpleData name="volume_m^2">3870.66379597517</SimpleData>
-            <SimpleData name="cover_area_m^2">169.977597557299</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.272</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0573721,54.1536795977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.14">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">15a142d7-aaaf-4d09-8103-fe9b2ca89a4b</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">18</SimpleData>
-            <SimpleData name="trunk_diameter">63</SimpleData>
-            <SimpleData name="trunk_circumference">197.92</SimpleData>
-            <SimpleData name="crown_diameter">13</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">17.9483227014149</SimpleData>
-            <SimpleData name="crown_diameter_standardized">13.4322879571645</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">198.655931828278</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">62.8316903244123</SimpleData>
-            <SimpleData name="volume_m^2">2543.39455782673</SimpleData>
-            <SimpleData name="cover_area_m^2">141.706531587279</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.49</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0573736,54.1536544977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.15">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">785835e1-a6ac-4333-a096-0cbb8cc7254f</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">17</SimpleData>
-            <SimpleData name="trunk_diameter">35</SimpleData>
-            <SimpleData name="trunk_circumference">109.96</SimpleData>
-            <SimpleData name="crown_diameter">13</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">16.7508704883184</SimpleData>
-            <SimpleData name="crown_diameter_standardized">13.9092483529091</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">111.216935490998</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">36.574283991801</SimpleData>
-            <SimpleData name="volume_m^2">2545.27425928827</SimpleData>
-            <SimpleData name="cover_area_m^2">151.948775501743</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">11.015</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.057123,54.1537029977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.16">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">b1ddabac-5996-46e3-b19a-bc1c15ee326d</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">16</SimpleData>
-            <SimpleData name="trunk_diameter">24</SimpleData>
-            <SimpleData name="trunk_circumference">75.4</SimpleData>
-            <SimpleData name="crown_diameter">10</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">16.4178780185679</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.69548976714893</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">72.5297440020659</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">25.198618871325</SimpleData>
-            <SimpleData name="volume_m^2">1212.12221466136</SimpleData>
-            <SimpleData name="cover_area_m^2">73.8294079959968</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">7.674</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0570834,54.1536695977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.17">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">fa2042ca-7c9d-4219-a817-5b1d48ef2915</SimpleData>
-            <SimpleData name="botanical_genus">Populus</SimpleData>
-            <SimpleData name="German_genus">Pappel</SimpleData>
-            <SimpleData name="botanical_species">Populus species</SimpleData>
-            <SimpleData name="German-species">Pappel</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">20</SimpleData>
-            <SimpleData name="trunk_diameter">40</SimpleData>
-            <SimpleData name="trunk_circumference">125.66</SimpleData>
-            <SimpleData name="crown_diameter">10</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">19.655533794338</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.6572344225538</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">124.8407161079</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">36.5916419488764</SimpleData>
-            <SimpleData name="volume_m^2">1439.72740501673</SimpleData>
-            <SimpleData name="cover_area_m^2">73.2479422884692</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">11.286</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0570104,54.1536965977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.18">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">3c4fd261-649f-45ad-ba53-796fcbcd4e2a</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">19</SimpleData>
-            <SimpleData name="trunk_diameter">60</SimpleData>
-            <SimpleData name="trunk_circumference">188.5</SimpleData>
-            <SimpleData name="crown_diameter">17</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">19.014468394385</SimpleData>
-            <SimpleData name="crown_diameter_standardized">17.1224347097546</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">189.027651947805</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">60.9127837513264</SimpleData>
-            <SimpleData name="volume_m^2">4378.29587689472</SimpleData>
-            <SimpleData name="cover_area_m^2">230.261282413114</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">5.229</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0569152,54.1536341977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.19">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">38dd3494-1b86-4ca0-8a0d-4ce658e8ea05</SimpleData>
-            <SimpleData name="botanical_genus">Populus</SimpleData>
-            <SimpleData name="German_genus">Pappel</SimpleData>
-            <SimpleData name="botanical_species">Populus species</SimpleData>
-            <SimpleData name="German-species">Pappel</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">20</SimpleData>
-            <SimpleData name="trunk_diameter">62</SimpleData>
-            <SimpleData name="trunk_circumference">194.78</SimpleData>
-            <SimpleData name="crown_diameter">12</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">20.324121143193</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.6135674015358</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">200.368696321525</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">60.2910387552161</SimpleData>
-            <SimpleData name="volume_m^2">2152.94505217106</SimpleData>
-            <SimpleData name="cover_area_m^2">105.930536282605</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">10.557</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0568123,54.1536743977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.20">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">682bd0cd-4768-459d-86f8-092c96975edd</SimpleData>
-            <SimpleData name="botanical_genus">Populus</SimpleData>
-            <SimpleData name="German_genus">Pappel</SimpleData>
-            <SimpleData name="botanical_species">Populus species</SimpleData>
-            <SimpleData name="German-species">Pappel</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">19</SimpleData>
-            <SimpleData name="trunk_diameter">58</SimpleData>
-            <SimpleData name="trunk_circumference">182.21</SimpleData>
-            <SimpleData name="crown_diameter">13</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">19.0024219053259</SimpleData>
-            <SimpleData name="crown_diameter_standardized">12.196117993482</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">177.422332214146</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">55.9402529643063</SimpleData>
-            <SimpleData name="volume_m^2">2219.94427271399</SimpleData>
-            <SimpleData name="cover_area_m^2">116.824280808743</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.087</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0567929,54.1535960977743,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.21">
-        <name>Ahorn-Linde Mischbestand</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">cf62b4d7-5c55-4f2d-9b7a-9fa3687f35bd</SimpleData>
-            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="botanical_species">Ahorn-Linde Mischbestand</SimpleData>
-            <SimpleData name="German-species">Ahorn- Linde Mischbestand</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">10</SimpleData>
-            <SimpleData name="trunk_diameter">17</SimpleData>
-            <SimpleData name="trunk_circumference">53.41</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Ahorn-Linde Mischbestand</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">9.84098125481471</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.42926215017766</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">55.4005879527473</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">16.0622109104437</SimpleData>
-            <SimpleData name="volume_m^2">227.829475208749</SimpleData>
-            <SimpleData name="cover_area_m^2">23.1510933015225</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.839</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0499866,54.1558662977747,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Park_auf_dem_Kalverradd_invalidated.22">
-        <name>Elaeagnus angustifolia</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Park_auf_dem_Kalverradd_invalidated.schema">
-            <SimpleData name="uuid">e5906c2f-8880-4e23-9afa-07c1e60412bb</SimpleData>
-            <SimpleData name="botanical_genus">Elaeagnus</SimpleData>
-            <SimpleData name="German_genus">Ölweide</SimpleData>
-            <SimpleData name="botanical_species">Elaeagnus angustifolia</SimpleData>
-            <SimpleData name="German-species">Schmalblättrige Ölweide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">4</SimpleData>
-            <SimpleData name="trunk_diameter">5.73</SimpleData>
-            <SimpleData name="trunk_circumference">18</SimpleData>
-            <SimpleData name="crown_diameter">1</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Elaeagnus angustifolia</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">4.02397881488792</SimpleData>
-            <SimpleData name="crown_diameter_standardized">2.1115360457013</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">19.4820285577014</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">9.60091488985739</SimpleData>
-            <SimpleData name="volume_m^2">14.0910243756518</SimpleData>
-            <SimpleData name="cover_area_m^2">3.50176405589357</SimpleData>
-            <SimpleData name="designation">Park auf dem Kalverradd</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.759</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0488851,54.1533011977742,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="491919">
+        <Style id="491922">
+            <IconStyle id="491923">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491924">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491925">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491928">
+            <IconStyle id="491929">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491930">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491931">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491934">
+            <IconStyle id="491935">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491936">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491937">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491940">
+            <IconStyle id="491941">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491942">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491943">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491946">
+            <IconStyle id="491947">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491948">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491949">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491952">
+            <IconStyle id="491953">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491954">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491955">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491958">
+            <IconStyle id="491959">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491960">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491961">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491964">
+            <IconStyle id="491965">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491966">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491967">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491970">
+            <IconStyle id="491971">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491972">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491973">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491976">
+            <IconStyle id="491977">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491978">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491979">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491982">
+            <IconStyle id="491983">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491984">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491985">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491988">
+            <IconStyle id="491989">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491990">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491991">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="491994">
+            <IconStyle id="491995">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="491996">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="491997">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="492000">
+            <IconStyle id="492001">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="492002">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="492003">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="492006">
+            <IconStyle id="492007">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="492008">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="492009">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="492012">
+            <IconStyle id="492013">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="492014">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="492015">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="492018">
+            <IconStyle id="492019">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="492020">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="492021">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="492024">
+            <IconStyle id="492025">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="492026">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="492027">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="492030">
+            <IconStyle id="492031">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="492032">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="492033">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="492036">
+            <IconStyle id="492037">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="492038">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="492039">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="492042">
+            <IconStyle id="492043">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="492044">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="492045">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="492048">
+            <IconStyle id="492049">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="492050">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="492051">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="491921">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 8594f470-1026-47fa-9303-9e52d0d08521&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 47.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 147.65&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 11.793850550436641&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 10.049263850775043&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 141.7740415611426&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 46.094972553604414&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 935.4358279668845&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 79.31555720216008&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.646&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491922</styleUrl>
+            <Point id="491920">
+                <coordinates>12.058630800000005,54.15377469777434,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491927">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 4fa65306-d067-469b-b685-ba49767a0067&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 14.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 50.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 157.08&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 14.081356513755242&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.565401320738953&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 149.78696845930628&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 51.676759733785886&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1479.298409790317&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 105.05368629402133&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 8.141&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491928</styleUrl>
+            <Point id="491926">
+                <coordinates>12.0583198,54.15375329777424,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491933">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 32560260-c2fa-48d3-8bf3-88ef9f37a41b&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 62.83&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 11.832399257165765&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.601271290451841&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 60.04243168247089&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 22.22259025490076&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 291.5653510955266&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 24.641270528371752&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.396&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491934</styleUrl>
+            <Point id="491932">
+                <coordinates>12.0582932,54.153702897774274,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491939">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 45fd29d5-daba-4a77-acae-14a6236dc23f&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 15.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 32.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 100.53&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 14.91871730979056&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.891086820400724&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 95.43757301140624&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 33.335687730238796&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 406.6419811329814&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 27.257167803971893&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.494&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491940</styleUrl>
+            <Point id="491938">
+                <coordinates>12.058320500000004,54.15370229777424,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491945">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 64c303cc-f720-4ff2-ab9f-0b75527f1cff&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 15.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 22.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 69.12&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 14.655032706506905&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 6.918461583299332&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 74.79057607757292&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 21.659395853779827&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 550.9291361633384&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 37.59317001856456&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.696&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491946</styleUrl>
+            <Point id="491944">
+                <coordinates>12.058380200000004,54.15370989777431,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491951">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; fef3f849-f623-4e88-b092-f8f4c98cbd62&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 26.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 81.68&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 12.179950776027889&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.478303074687037&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 82.99048502969067&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 27.905319992334256&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 534.9849174300766&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 43.92340554306782&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 5.623&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491952</styleUrl>
+            <Point id="491950">
+                <coordinates>12.058396600000004,54.1537263977743,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491957">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 3e719a80-e025-4a50-9885-8089e66e37ef&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Zierapfel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Malus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Apfel&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 31.42&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 4.3&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.647192756221777&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 4.570151163803893&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 23.53795005687366&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 9.066520753890718&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 92.63681683669002&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 16.404047255980007&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 7.669&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491958</styleUrl>
+            <Point id="491956">
+                <coordinates>12.0583701,54.15374629777431,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491963">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; f3e1f84d-5691-420d-beb8-9eced250bb10&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 50.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 157.08&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 13.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 15.72560748746018&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.896400639707569&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 159.90452487907308&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 50.41275846587129&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2385.074591663038&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 151.66820064439037&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.525&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491964</styleUrl>
+            <Point id="491962">
+                <coordinates>12.058409299999994,54.15367969777427,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491969">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; ca439300-5f18-4c5f-8a16-dfb502cc26a7&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 62.83&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 3.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 11.848454920683547&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 3.0868167439746212&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 58.7269315015086&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 20.047274914517367&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 88.66930340320597&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 7.483617399633958&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.224&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491970</styleUrl>
+            <Point id="491968">
+                <coordinates>12.058289499999999,54.15368349777421,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491975">
+            <name>Malus sylvestris</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 350e33bb-6a02-4c47-9d91-ec61b9c42439&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Zierapfel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Malus sylvestris&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Holz-Apfel&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 45.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 25.13&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 2.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Malus sylvestris&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 44.77042739143201&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.0351354100861263&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 31.29142947131314&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 11.146523952041441&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 145.63566502247969&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 3.2529433715066762&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.299&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Malus sylvestris</description>
+            <styleUrl>#491976</styleUrl>
+            <Point id="491974">
+                <coordinates>12.054627900000007,54.15307219777415,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491981">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 13c25bc3-cd26-4b3c-9c4e-7547478737ad&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Ulmus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ulme&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Ulmus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Ulme&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 50.27&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 7.674677384253045&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.941905175806028&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 47.697773253563476&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 17.246921686090058&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 212.8146118733902&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 27.729453789164435&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.49&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491982</styleUrl>
+            <Point id="491980">
+                <coordinates>12.051181299999996,54.153169797774154,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491987">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 849424ac-1b2c-4228-b750-753f59f48c70&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Crataegus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Crataegus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 62.83&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 8.174961694260675&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.27979486589757&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 58.01908030965954&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 21.011781832080985&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 440.1642455787705&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 53.8429734646699&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.995&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491988</styleUrl>
+            <Point id="491986">
+                <coordinates>12.0498219,54.154849297774454,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491993">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; af42c0b0-5492-417c-9742-9084b3ac95d4&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Populus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Populus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 23.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 49.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 153.94&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 14.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 23.600156194420656&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.593251256102157&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 149.41601561872818&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 50.038404783487216&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3424.928011605379&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 145.12310780447592&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.272&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#491994</styleUrl>
+            <Point id="491992">
+                <coordinates>12.057372100000006,54.153679597774236,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="491999">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 15a142d7-aaaf-4d09-8103-fe9b2ca89a4b&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 63.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 197.92&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 13.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 18.212377973651925&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.078660879496129&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 196.2798773480047&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 64.01655664216936&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2446.713364765642&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 134.343432159454&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.49&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#492000</styleUrl>
+            <Point id="491998">
+                <coordinates>12.057373599999998,54.15365449777425,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="492005">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 785835e1-a6ac-4333-a096-0cbb8cc7254f&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 17.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 35.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 109.96&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 13.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.30628256981486&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.287318662608584&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 98.03418878797643&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 34.612421678904354&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2399.763110124772&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 138.66427411224478&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 11.015&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#492006</styleUrl>
+            <Point id="492004">
+                <coordinates>12.057122999999999,54.153702997774246,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="492011">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; b1ddabac-5996-46e3-b19a-bc1c15ee326d&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 24.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 75.4&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 16.30478666546009&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 10.050674003774603&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 60.83022172261619&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 25.02041710146253&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1293.586205439124&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 79.33781851800889&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 7.674&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#492012</styleUrl>
+            <Point id="492010">
+                <coordinates>12.057083399999998,54.15366959777429,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="492017">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; fa2042ca-7c9d-4219-a817-5b1d48ef2915&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Populus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Populus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 40.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 125.66&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 19.406683473093445&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.968413946383844&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 123.5395494909269&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 39.4448059240174&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1514.583886453947&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 78.04444734484665&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 11.286&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#492018</styleUrl>
+            <Point id="492016">
+                <coordinates>12.057010399999994,54.15369659777431,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="492023">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 3c4fd261-649f-45ad-ba53-796fcbcd4e2a&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 19.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 60.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 188.5&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 17.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 18.40855880613697&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 17.23460183791472&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 187.20677276804034&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 61.41919696708168&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 4294.495774224117&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 233.28799497288375&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 5.229&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#492024</styleUrl>
+            <Point id="492022">
+                <coordinates>12.056915200000002,54.15363419777426,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="492029">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 38dd3494-1b86-4ca0-8a0d-4ce658e8ea05&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Populus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Populus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 62.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 194.78&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 20.23376617663123&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 10.651979519142632&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 194.61558833476013&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 63.879815665952584&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1803.1308912476677&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 89.11494160341609&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 10.557&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#492030</styleUrl>
+            <Point id="492028">
+                <coordinates>12.056812300000004,54.153674397774246,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="492035">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 682bd0cd-4768-459d-86f8-092c96975edd&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Populus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Populus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 19.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 58.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 182.21&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 13.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 19.353919870909014&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.139459039082608&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 173.06567188573212&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 55.490558618721856&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2624.301875270038&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 135.59536738677116&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.087&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#492036</styleUrl>
+            <Point id="492034">
+                <coordinates>12.056792900000007,54.15359609777427,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="492041">
+            <name>Ahorn-Linde Mischbestand</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; cf62b4d7-5c55-4f2d-9b7a-9fa3687f35bd&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Ahorn-Linde Mischbestand&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Ahorn- Linde Mischbestand&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 17.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 53.41&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Ahorn-Linde Mischbestand&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 9.95418121084607&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.27628292653532&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 56.29205422852177&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 19.344637602292558&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 217.64644342253456&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 21.864826328999026&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.839&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Ahorn-Linde Mischbestand</description>
+            <styleUrl>#492042</styleUrl>
+            <Point id="492040">
+                <coordinates>12.049986600000008,54.15586629777465,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="492047">
+            <name>Elaeagnus angustifolia</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; e5906c2f-8880-4e23-9afa-07c1e60412bb&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Elaeagnus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ölweide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Elaeagnus angustifolia&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Schmalblättrige Ölweide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 4.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 5.73&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Elaeagnus angustifolia&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 3.7676581961843865&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 1.1782135067004984&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 18.946522630611693&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 5.220437807498191&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 4.107800769969993&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 1.0902795731656545&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Park auf dem Kalverradd&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.759&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Elaeagnus angustifolia</description>
+            <styleUrl>#492048</styleUrl>
+            <Point id="492046">
+                <coordinates>12.048885099999996,54.15330119777416,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

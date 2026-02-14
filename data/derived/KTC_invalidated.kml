@@ -1,400 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="KTC_invalidated" name="KTC_invalidated">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="KTC_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="KTC_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="KTC_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Document id="KTC_invalidated">
-      <name>KTC_invalidated</name>
-      <Placemark id="KTC_invalidated.1">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#KTC_invalidated.schema">
-            <SimpleData name="uuid">c58e79f0-0e41-4886-9542-d9a2ea9dc2eb</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">17</SimpleData>
-            <SimpleData name="trunk_diameter">63</SimpleData>
-            <SimpleData name="trunk_circumference">197.92</SimpleData>
-            <SimpleData name="crown_diameter">8.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">17.2449210984327</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.47544849653904</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">201.545099539386</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">63.6736193059347</SimpleData>
-            <SimpleData name="volume_m^2">756.877509421782</SimpleData>
-            <SimpleData name="cover_area_m^2">43.8898795246196</SimpleData>
-            <SimpleData name="designation">KTC</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">11.122</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1281074,54.0891082977633,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="KTC_invalidated.2">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#KTC_invalidated.schema">
-            <SimpleData name="uuid">046e9025-ed51-4383-9fd1-2c9c0e95838f</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">33</SimpleData>
-            <SimpleData name="trunk_circumference">103.67</SimpleData>
-            <SimpleData name="crown_diameter">4.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">8.29598647108882</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.28642216414464</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">106.905783296427</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">32.3611279229029</SimpleData>
-            <SimpleData name="volume_m^2">119.714787875579</SimpleData>
-            <SimpleData name="cover_area_m^2">14.4304463722042</SimpleData>
-            <SimpleData name="designation">KTC</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.767</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1279741,54.0892974977634,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="KTC_invalidated.3">
-        <name>Prunus mahaleb</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#KTC_invalidated.schema">
-            <SimpleData name="uuid">6bea5e2f-82da-4ffc-9cdd-b0b02aeaeffb</SimpleData>
-            <SimpleData name="botanical_genus">Prunus</SimpleData>
-            <SimpleData name="German_genus">Kirsche</SimpleData>
-            <SimpleData name="botanical_species">Prunus mahaleb</SimpleData>
-            <SimpleData name="German-species">Steinweichsel</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">47</SimpleData>
-            <SimpleData name="trunk_circumference">147.65</SimpleData>
-            <SimpleData name="crown_diameter">11</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Prunus mahaleb</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">7.85605461302542</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.6126470514611</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">141.749357435267</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">47.6762996486009</SimpleData>
-            <SimpleData name="volume_m^2">694.931210854676</SimpleData>
-            <SimpleData name="cover_area_m^2">88.4580422471189</SimpleData>
-            <SimpleData name="designation">KTC</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">5.38</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.128018,54.0889676977634,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="KTC_invalidated.4">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#KTC_invalidated.schema">
-            <SimpleData name="uuid">754c0e7c-b29f-464c-b99d-12aeabe1ac5c</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">18.5</SimpleData>
-            <SimpleData name="trunk_diameter">57</SimpleData>
-            <SimpleData name="trunk_circumference">179.07</SimpleData>
-            <SimpleData name="crown_diameter">9</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">17.6843397077175</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.24411031184129</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">178.540491818999</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">56.4339427579174</SimpleData>
-            <SimpleData name="volume_m^2">1186.88589580656</SimpleData>
-            <SimpleData name="cover_area_m^2">67.1150812200583</SimpleData>
-            <SimpleData name="designation">KTC</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">13.47</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1281427,54.0890576977633,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="KTC_invalidated.5">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#KTC_invalidated.schema">
-            <SimpleData name="uuid">3cd92b77-c746-4154-a497-4baaeedf01f2</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">23</SimpleData>
-            <SimpleData name="trunk_diameter">85</SimpleData>
-            <SimpleData name="trunk_circumference">267.04</SimpleData>
-            <SimpleData name="crown_diameter">14.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">22.9428392563805</SimpleData>
-            <SimpleData name="crown_diameter_standardized">14.7154088177651</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">280.518584781637</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">84.7781567328793</SimpleData>
-            <SimpleData name="volume_m^2">3901.95006938553</SimpleData>
-            <SimpleData name="cover_area_m^2">170.072676087829</SimpleData>
-            <SimpleData name="designation">KTC</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">8.978</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1280752,54.0891555977633,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="KTC_invalidated.6">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#KTC_invalidated.schema">
-            <SimpleData name="uuid">b94dd4d1-10fc-4f5d-be14-3bba865a2a47</SimpleData>
-            <SimpleData name="botanical_genus">Platanus</SimpleData>
-            <SimpleData name="German_genus">Platane</SimpleData>
-            <SimpleData name="botanical_species">Platanus species</SimpleData>
-            <SimpleData name="German-species">Platane</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">18</SimpleData>
-            <SimpleData name="trunk_diameter">58</SimpleData>
-            <SimpleData name="trunk_circumference">182.21</SimpleData>
-            <SimpleData name="crown_diameter">16</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">18.6697797930621</SimpleData>
-            <SimpleData name="crown_diameter_standardized">16.2753903363758</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">183.9307125235</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">58.7637927255571</SimpleData>
-            <SimpleData name="volume_m^2">3884.11341960679</SimpleData>
-            <SimpleData name="cover_area_m^2">208.042808359752</SimpleData>
-            <SimpleData name="designation">KTC</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.381</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1290118,54.0892108977634,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="KTC_invalidated.7">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#KTC_invalidated.schema">
-            <SimpleData name="uuid">95462053-d0e0-4cfe-be18-e5a3dbfecae7</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">21</SimpleData>
-            <SimpleData name="trunk_diameter">47</SimpleData>
-            <SimpleData name="trunk_circumference">147.65</SimpleData>
-            <SimpleData name="crown_diameter">10</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">22.0069129706605</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.5859998416682</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">144.517856391384</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">44.0782742633896</SimpleData>
-            <SimpleData name="volume_m^2">1936.92486177848</SimpleData>
-            <SimpleData name="cover_area_m^2">88.0143827696678</SimpleData>
-            <SimpleData name="designation">KTC</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">5.122</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1280151,54.0890537977634,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="KTC_invalidated.8">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#KTC_invalidated.schema">
-            <SimpleData name="uuid">503fdcae-ef2a-4f0e-9922-46d7ca823cb9</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">20.5</SimpleData>
-            <SimpleData name="trunk_diameter">58</SimpleData>
-            <SimpleData name="trunk_circumference">182.21</SimpleData>
-            <SimpleData name="crown_diameter">11.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">19.5792082353272</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.7619073208915</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">179.487485318968</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">55.905840407579</SimpleData>
-            <SimpleData name="volume_m^2">2127.35766668794</SimpleData>
-            <SimpleData name="cover_area_m^2">108.653917008222</SimpleData>
-            <SimpleData name="designation">KTC</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.016</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1279835,54.0891053977633,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="459075">
+        <Style id="459078">
+            <IconStyle id="459079">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="459080">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="459081">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="459084">
+            <IconStyle id="459085">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="459086">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="459087">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="459090">
+            <IconStyle id="459091">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="459092">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="459093">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="459096">
+            <IconStyle id="459097">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="459098">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="459099">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="459102">
+            <IconStyle id="459103">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="459104">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="459105">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="459108">
+            <IconStyle id="459109">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="459110">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="459111">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="459114">
+            <IconStyle id="459115">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="459116">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="459117">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="459120">
+            <IconStyle id="459121">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="459122">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="459123">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="459077">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; c58e79f0-0e41-4886-9542-d9a2ea9dc2eb&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 17.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 63.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 197.92&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 16.933458361510365&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.380246329523497&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 196.10075728675685&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 62.42746819826354&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 724.3980298101329&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 42.77909534750945&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; KTC&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 11.122&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#459078</styleUrl>
+            <Point id="459076">
+                <coordinates>12.1281074,54.089108297763346,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="459083">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 046e9025-ed51-4383-9fd1-2c9c0e95838f&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 33.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 103.67&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 4.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 8.63858659148929&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 4.865557771481685&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 104.95442690061076&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 33.874503175217654&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 160.61934086048535&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 18.593243137566862&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; KTC&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.767&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#459084</styleUrl>
+            <Point id="459082">
+                <coordinates>12.127974099999994,54.08929749776343,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="459089">
+            <name>Prunus mahaleb</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 6bea5e2f-82da-4ffc-9cdd-b0b02aeaeffb&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Prunus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Kirsche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Prunus mahaleb&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Steinweichsel&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 47.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 147.65&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 11.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Prunus mahaleb&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 8.134438561090471&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.073477609260161&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 147.50263645982395&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 47.199051139116314&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 783.4035375953918&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 96.3070200496261&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; KTC&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 5.38&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Prunus mahaleb</description>
+            <styleUrl>#459090</styleUrl>
+            <Point id="459088">
+                <coordinates>12.128017999999996,54.08896769776338,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="459095">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 754c0e7c-b29f-464c-b99d-12aeabe1ac5c&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 18.5&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 57.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 179.07&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.912224324696105&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.642662481126543&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 187.76430601080693&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 58.01380951237113&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1050.8349455784225&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 58.665798648446234&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; KTC&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 13.47&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#459096</styleUrl>
+            <Point id="459094">
+                <coordinates>12.1281427,54.08905769776332,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="459101">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 3cd92b77-c746-4154-a497-4baaeedf01f2&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 23.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 85.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 267.04&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 14.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 23.091090250174503&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.570052845417955&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 270.76745650835267&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 86.473427882939&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3339.6226503230214&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 144.62819269860086&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; KTC&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 8.978&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#459102</styleUrl>
+            <Point id="459100">
+                <coordinates>12.12807519999999,54.089155597763344,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="459107">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; b94dd4d1-10fc-4f5d-be14-3bba865a2a47&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Platanus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Platane&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Platanus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Platane&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 58.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 182.21&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.346527477487314&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 16.448263350022128&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 176.4825373944033&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 58.09148634690956&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3685.8913674154023&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 212.48583453945056&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; KTC&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.381&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#459108</styleUrl>
+            <Point id="459106">
+                <coordinates>12.129011799999999,54.08921089776339,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="459113">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 95462053-d0e0-4cfe-be18-e5a3dbfecae7&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 21.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 47.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 147.65&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 21.201515000333146&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 10.385446384641767&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 146.03947972787182&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 48.62309148414276&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1796.0032279033871&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 84.71107974478079&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; KTC&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 5.122&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#459114</styleUrl>
+            <Point id="459112">
+                <coordinates>12.128015099999997,54.08905379776339,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="459119">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 503fdcae-ef2a-4f0e-9922-46d7ca823cb9&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 20.5&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 58.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 182.21&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 11.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 20.55643000086835&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.959735519215482&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 178.7331487909642&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 56.9038204574925&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2309.3019718191185&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 112.33964125685095&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; KTC&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.016&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#459120</styleUrl>
+            <Point id="459118">
+                <coordinates>12.127983499999994,54.089105397763326,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

@@ -1,187 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Friedhof_Toitenwinkel_invalidated" name="Friedhof_Toitenwinkel_invalidated">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Friedhof_Toitenwinkel_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Friedhof_Toitenwinkel_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Friedhof_Toitenwinkel_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Folder>
-      <name>Friedhof_Toitenwinkel_invalidated</name>
-      <Placemark id="Friedhof_Toitenwinkel_invalidated.1">
-        <name>935640c4-d3b8-48c3-b6bd-0a189af2bc11</name>
-        <description>Quercus</description>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Toitenwinkel_invalidated">
-            <SimpleData name="uuid">Eiche</SimpleData>
-            <SimpleData name="botanical_genus">Quercus robur</SimpleData>
-            <SimpleData name="German_genus">Stiel-Eiche</SimpleData>
-            <SimpleData name="botanical_species">0</SimpleData>
-            <SimpleData name="German-species">25</SimpleData>
-            <SimpleData name="avenue_tree">1</SimpleData>
-            <SimpleData name="height">387</SimpleData>
-            <SimpleData name="trunk_diameter">20</SimpleData>
-            <SimpleData name="trunk_circumference">0</SimpleData>
-            <SimpleData name="crown_diameter">0</SimpleData>
-            <SimpleData name="tree_sponsorship">0</SimpleData>
-            <SimpleData name="botanical_species_formal_name">1</SimpleData>
-            <SimpleData name="botanical_species_common_name">0</SimpleData>
-            <SimpleData name="qualified_species_representation">1</SimpleData>
-            <SimpleData name="in_qualified_cohort">1</SimpleData>
-            <SimpleData name="height_standardized">387.298819924723</SimpleData>
-            <SimpleData name="crown_diameter_standardized">120.634882016954</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">7346.34072713435</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">303.99058893833</SimpleData>
-            <SimpleData name="volume_m^2">0</SimpleData>
-            <SimpleData name="cover_area_m^2">0</SimpleData>
-            <SimpleData name="designation">1.094534824229267</SimpleData>
-            <SimpleData name="type">Quercus robur</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1379488,54.1186472977684,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Document id="Friedhof_Toitenwinkel_invalidated">
-      <name>Friedhof Toitenwinkel_invalidated</name>
-      <Placemark id="Friedhof_Toitenwinkel_invalidated.1">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Friedhof_Toitenwinkel_invalidated.schema">
-            <SimpleData name="uuid">935640c4-d3b8-48c3-b6bd-0a189af2bc11</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">25</SimpleData>
-            <SimpleData name="trunk_diameter">123.19</SimpleData>
-            <SimpleData name="trunk_circumference">387</SimpleData>
-            <SimpleData name="crown_diameter">20</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">25.0307555354886</SimpleData>
-            <SimpleData name="crown_diameter_standardized">19.9586508531017</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">387.613511572766</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">119.177215728811</SimpleData>
-            <SimpleData name="volume_m^2">7831.16188646807</SimpleData>
-            <SimpleData name="cover_area_m^2">312.86158643374</SimpleData>
-            <SimpleData name="designation">Friedhof Toitenwinkel</SimpleData>
-            <SimpleData name="type">cemetery</SimpleData>
-            <SimpleData name="dist_to_edge">1.095</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1379488,54.1186472977684,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="287559">
+        <Style id="287562">
+            <IconStyle id="287563">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="287564">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="287565">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="287561">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 935640c4-d3b8-48c3-b6bd-0a189af2bc11&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 25.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 123.19&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 387.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 25.294654828471632&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 20.379598008550698&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 383.0411393295347&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 124.24877456639273&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 8251.062279058146&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 326.1978601807509&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Friedhof Toitenwinkel&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; cemetery&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.095&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#287562</styleUrl>
+            <Point id="287560">
+                <coordinates>12.137948799999995,54.11864729776839,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

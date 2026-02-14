@@ -1,742 +1,419 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Arankapark_invalidated" name="Arankapark_invalidated">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Arankapark_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Arankapark_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Arankapark_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Document id="Arankapark_invalidated">
-      <name>Arankapark_invalidated</name>
-      <Placemark id="Arankapark_invalidated.1">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">601ce491-70e3-488e-81c9-22a2d9bde788</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">28.512</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0701825,54.1772288977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.2">
-        <name>Fagus sylvatica</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">e28f6fc4-2ec2-4f68-823f-1e1057915182</SimpleData>
-            <SimpleData name="botanical_genus">Fagus</SimpleData>
-            <SimpleData name="German_genus">Buche</SimpleData>
-            <SimpleData name="botanical_species">Fagus sylvatica</SimpleData>
-            <SimpleData name="German-species">Rotbuche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">24</SimpleData>
-            <SimpleData name="trunk_diameter">46.47</SimpleData>
-            <SimpleData name="trunk_circumference">146</SimpleData>
-            <SimpleData name="crown_diameter">812</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">23.4064241643874</SimpleData>
-            <SimpleData name="crown_diameter_standardized">811.690720963858</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">136.848873971029</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">42.6901672425078</SimpleData>
-            <SimpleData name="volume_m^2">12111728.1599033</SimpleData>
-            <SimpleData name="cover_area_m^2">517453.160501599</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">18.223</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0693261,54.1772789977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.3">
-        <name>Acer saccharum</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">4554d7d3-3285-43ea-8d0a-00ffef40bc71</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer saccharum</SimpleData>
-            <SimpleData name="German-species">Zucker-Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">22</SimpleData>
-            <SimpleData name="trunk_diameter">85.31</SimpleData>
-            <SimpleData name="trunk_circumference">268</SimpleData>
-            <SimpleData name="crown_diameter">14</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Acer saccharum</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">22.1800637428863</SimpleData>
-            <SimpleData name="crown_diameter_standardized">13.5804121343865</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">272.965942977355</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">83.9491354924551</SimpleData>
-            <SimpleData name="volume_m^2">3212.76212477881</SimpleData>
-            <SimpleData name="cover_area_m^2">144.849093403044</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">5.52</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.07052,54.1767503977781,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.4">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">0770fc5f-5160-4f63-9496-cecc50aae711</SimpleData>
-            <SimpleData name="botanical_genus">Carpinus</SimpleData>
-            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
-            <SimpleData name="botanical_species">Carpinus species</SimpleData>
-            <SimpleData name="German-species">Hainbuche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">16</SimpleData>
-            <SimpleData name="trunk_diameter">32.15</SimpleData>
-            <SimpleData name="trunk_circumference">101</SimpleData>
-            <SimpleData name="crown_diameter">7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">16.2954945257048</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.60912338026085</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">101.968718249726</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">34.7893536908866</SimpleData>
-            <SimpleData name="volume_m^2">559.042911261063</SimpleData>
-            <SimpleData name="cover_area_m^2">34.3065937875785</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">55.57</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.072463,54.1770246977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.5">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">a0fee734-50ac-4251-b33a-5a949bb1bc38</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">25</SimpleData>
-            <SimpleData name="trunk_diameter">353.32</SimpleData>
-            <SimpleData name="trunk_circumference">1110</SimpleData>
-            <SimpleData name="crown_diameter">6</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">24.0628513179425</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.38612618546178</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1110.82722253179</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">354.355900443865</SimpleData>
-            <SimpleData name="volume_m^2">770.747208141301</SimpleData>
-            <SimpleData name="cover_area_m^2">32.0305851520843</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">34.702</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0721636,54.1773067977783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.6">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">573cbd4a-ea7a-40ac-9d84-90ea88eda158</SimpleData>
-            <SimpleData name="botanical_genus">Carpinus</SimpleData>
-            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
-            <SimpleData name="botanical_species">Carpinus species</SimpleData>
-            <SimpleData name="German-species">Hainbuche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">15</SimpleData>
-            <SimpleData name="trunk_diameter">22.6</SimpleData>
-            <SimpleData name="trunk_circumference">71</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">14.778481915774</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.09707026736251</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">75.1758587754554</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">23.5780935380952</SimpleData>
-            <SimpleData name="volume_m^2">760.983993888697</SimpleData>
-            <SimpleData name="cover_area_m^2">51.4927039343906</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">29.307</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0732273,54.1772218977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.7">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">6d078d9c-cd8d-44d8-82d5-f86626e56fa4</SimpleData>
-            <SimpleData name="botanical_genus">Carpinus</SimpleData>
-            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
-            <SimpleData name="botanical_species">Carpinus species</SimpleData>
-            <SimpleData name="German-species">Hainbuche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">18</SimpleData>
-            <SimpleData name="trunk_diameter">35.97</SimpleData>
-            <SimpleData name="trunk_circumference">113</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">17.7340993878375</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.92831145799007</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">113.863466571401</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">31.0477505857912</SimpleData>
-            <SimpleData name="volume_m^2">1110.29320842012</SimpleData>
-            <SimpleData name="cover_area_m^2">62.6078147042296</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">38.937</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0725129,54.1773023977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.8">
-        <name>Fagus sylvatica</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">046d3ce1-970f-4e51-8fae-5c76e5bb57c8</SimpleData>
-            <SimpleData name="botanical_genus">Fagus</SimpleData>
-            <SimpleData name="German_genus">Buche</SimpleData>
-            <SimpleData name="botanical_species">Fagus sylvatica</SimpleData>
-            <SimpleData name="German-species">Rotbuche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">16</SimpleData>
-            <SimpleData name="trunk_diameter">518.53</SimpleData>
-            <SimpleData name="trunk_circumference">1629</SimpleData>
-            <SimpleData name="crown_diameter">7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">16.8678051011358</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.65162161497394</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1624.83706926003</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">519.494762888971</SimpleData>
-            <SimpleData name="volume_m^2">586.142925392147</SimpleData>
-            <SimpleData name="cover_area_m^2">34.7492114046704</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.242</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.068518,54.1769082977781,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.9">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">d06d54c8-3feb-4b0d-aac2-31e96382748c</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">22</SimpleData>
-            <SimpleData name="trunk_diameter">335.18</SimpleData>
-            <SimpleData name="trunk_circumference">1053</SimpleData>
-            <SimpleData name="crown_diameter">7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">21.7964078915781</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.65700793984457</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1052.00886924883</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">335.876765569647</SimpleData>
-            <SimpleData name="volume_m^2">758.635144267641</SimpleData>
-            <SimpleData name="cover_area_m^2">34.8055123597119</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">18.215</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0689714,54.1772568977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.10">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">cef12a1e-6c69-4b2d-96da-51476a9b7b64</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">10</SimpleData>
-            <SimpleData name="trunk_diameter">28.33</SimpleData>
-            <SimpleData name="trunk_circumference">89</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">9.63160854345592</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.91009231342126</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">87.8565185319559</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">28.0954771167326</SimpleData>
-            <SimpleData name="volume_m^2">182.376139818548</SimpleData>
-            <SimpleData name="cover_area_m^2">18.9351694471077</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.026</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0729374,54.1776773977783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.11">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">3b7587a4-a834-485b-b0cd-250919c14c2c</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">19</SimpleData>
-            <SimpleData name="trunk_diameter">33.74</SimpleData>
-            <SimpleData name="trunk_circumference">106</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">18.3562863294809</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.9748956368442</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">115.307930666614</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">32.2679463004532</SimpleData>
-            <SimpleData name="volume_m^2">916.905803411233</SimpleData>
-            <SimpleData name="cover_area_m^2">49.9505067067214</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.926</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0726914,54.1776568977783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.12">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">45d6af04-6984-4e84-b227-af40ed2b7c68</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">9</SimpleData>
-            <SimpleData name="trunk_diameter">22.6</SimpleData>
-            <SimpleData name="trunk_circumference">71</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">8.14212406575728</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.60181132233196</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">73.5460817029357</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">24.3974366084829</SimpleData>
-            <SimpleData name="volume_m^2">135.420749662052</SimpleData>
-            <SimpleData name="cover_area_m^2">16.632115719236</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.966</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0729655,54.1776800977783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.13">
-        <name>Fagus sylvatica</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">ebc6bacf-1d12-4c1b-b418-4611a87a95f4</SimpleData>
-            <SimpleData name="botanical_genus">Fagus</SimpleData>
-            <SimpleData name="German_genus">Buche</SimpleData>
-            <SimpleData name="botanical_species">Fagus sylvatica</SimpleData>
-            <SimpleData name="German-species">Rotbuche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">27</SimpleData>
-            <SimpleData name="trunk_diameter">433.22</SimpleData>
-            <SimpleData name="trunk_circumference">1361</SimpleData>
-            <SimpleData name="crown_diameter">11</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">27.1538586657615</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.624168150797</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1359.89198116265</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">431.366275421198</SimpleData>
-            <SimpleData name="volume_m^2">2881.67634768663</SimpleData>
-            <SimpleData name="cover_area_m^2">106.124009230414</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">10.253</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.072662,54.1775781977783,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.14">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">764f15ea-8afc-4f14-a693-fa056a581cc1</SimpleData>
-            <SimpleData name="botanical_genus">Fagus</SimpleData>
-            <SimpleData name="German_genus">Buche</SimpleData>
-            <SimpleData name="botanical_species">Fagus species</SimpleData>
-            <SimpleData name="German-species">Buche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">25</SimpleData>
-            <SimpleData name="trunk_diameter">51.57</SimpleData>
-            <SimpleData name="trunk_circumference">162</SimpleData>
-            <SimpleData name="crown_diameter">11</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">24.6551386442418</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.4839299977056</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">152.679682457477</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">49.9024361684124</SimpleData>
-            <SimpleData name="volume_m^2">2128.362288913</SimpleData>
-            <SimpleData name="cover_area_m^2">86.3253019836527</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">29.703</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0731795,54.1773323977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.15">
-        <name>Acer platanoides</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">51129737-b35e-4c8b-a38f-a73f775d0284</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer platanoides</SimpleData>
-            <SimpleData name="German-species">Spitz-Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">18</SimpleData>
-            <SimpleData name="trunk_diameter">321.49</SimpleData>
-            <SimpleData name="trunk_circumference">1010</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Acer platanoides</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">18.3116036614237</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.57269305904395</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">1005.34915996901</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">322.186956772582</SimpleData>
-            <SimpleData name="volume_m^2">824.739830965583</SimpleData>
-            <SimpleData name="cover_area_m^2">45.0391918815407</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">5.177</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0701069,54.1774354977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.16">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">08754566-4f53-4360-9f78-da202f6b72c1</SimpleData>
-            <SimpleData name="botanical_genus">Carpinus</SimpleData>
-            <SimpleData name="German_genus">Hain-/Weißbuche</SimpleData>
-            <SimpleData name="botanical_species">Carpinus species</SimpleData>
-            <SimpleData name="German-species">Hainbuche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5</SimpleData>
-            <SimpleData name="trunk_diameter">5.09</SimpleData>
-            <SimpleData name="trunk_circumference">16</SimpleData>
-            <SimpleData name="crown_diameter">3</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">4.65278942173644</SimpleData>
-            <SimpleData name="crown_diameter_standardized">2.96543787124548</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">19.9790325408503</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">5.51422130299696</SimpleData>
-            <SimpleData name="volume_m^2">32.1351948806349</SimpleData>
-            <SimpleData name="cover_area_m^2">6.90665146600207</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">21.985</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0709745,54.1768957977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.17">
-        <name>Fagus sylvatica</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">70c533a3-f1eb-4b7e-86b6-7799a1f22ff7</SimpleData>
-            <SimpleData name="botanical_genus">Fagus</SimpleData>
-            <SimpleData name="German_genus">Buche</SimpleData>
-            <SimpleData name="botanical_species">Fagus sylvatica</SimpleData>
-            <SimpleData name="German-species">Rotbuche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">11</SimpleData>
-            <SimpleData name="trunk_diameter">56.98</SimpleData>
-            <SimpleData name="trunk_circumference">179</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Fagus sylvatica</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">11.0498316024686</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">175.833868666454</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">56.8835984948765</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">25.802</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0722039,54.1767795977781,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Arankapark_invalidated.18">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Arankapark_invalidated.schema">
-            <SimpleData name="uuid">1a74f6fa-19f8-4a78-b9b4-116bff097d07</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">6</SimpleData>
-            <SimpleData name="trunk_diameter">38.2</SimpleData>
-            <SimpleData name="trunk_circumference">120</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">5.67196673176378</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">118.458522587936</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">37.0340622143353</SimpleData>
-            <SimpleData name="designation">Arankapark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">13.005</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.0687948,54.1772940977782,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="511827">
+        <Style id="511830">
+            <IconStyle id="511831">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511832">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511833">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511836">
+            <IconStyle id="511837">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511838">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511839">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511842">
+            <IconStyle id="511843">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511844">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511845">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511848">
+            <IconStyle id="511849">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511850">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511851">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511854">
+            <IconStyle id="511855">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511856">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511857">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511860">
+            <IconStyle id="511861">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511862">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511863">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511866">
+            <IconStyle id="511867">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511868">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511869">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511872">
+            <IconStyle id="511873">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511874">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511875">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511878">
+            <IconStyle id="511879">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511880">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511881">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511884">
+            <IconStyle id="511885">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511886">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511887">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511890">
+            <IconStyle id="511891">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511892">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511893">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511896">
+            <IconStyle id="511897">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511898">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511899">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511902">
+            <IconStyle id="511903">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511904">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511905">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511908">
+            <IconStyle id="511909">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511910">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511911">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511914">
+            <IconStyle id="511915">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511916">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511917">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511920">
+            <IconStyle id="511921">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511922">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511923">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511926">
+            <IconStyle id="511927">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511928">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511929">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="511932">
+            <IconStyle id="511933">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="511934">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="511935">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="511829">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 601ce491-70e3-488e-81c9-22a2d9bde788&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 28.512&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#511830</styleUrl>
+            <Point id="511828">
+                <coordinates>12.0701825,54.177228897778235,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511835">
+            <name>Fagus sylvatica</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; e28f6fc4-2ec2-4f68-823f-1e1057915182&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Fagus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Buche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Fagus sylvatica&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Rotbuche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 24.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 46.47&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 146.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 812.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Fagus sylvatica&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 23.96671345695657&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 812.7379421848683&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 144.1947151853298&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 41.77613238804066&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 12433672.813342847&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 518789.22972368804&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 18.223&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Fagus sylvatica</description>
+            <styleUrl>#511836</styleUrl>
+            <Point id="511834">
+                <coordinates>12.069326099999998,54.177278997778224,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511841">
+            <name>Acer saccharum</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 4554d7d3-3285-43ea-8d0a-00ffef40bc71&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer saccharum&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Zucker-Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 22.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 85.31&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 268.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 14.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Acer saccharum&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 22.227312226203882&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.210141760076315&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 273.5797925849622&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 82.47498385657964&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3046.4340979023764&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 137.05814121380456&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 5.52&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Acer saccharum</description>
+            <styleUrl>#511842</styleUrl>
+            <Point id="511840">
+                <coordinates>12.070520000000004,54.17675039777812,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511847">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 0770fc5f-5160-4f63-9496-cecc50aae711&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Carpinus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Hain-/Weißbuche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Carpinus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Hainbuche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 32.15&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 101.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 15.323408679960194&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 6.748466202510492&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 96.95844239738182&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 32.676428647830086&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 548.0944699976931&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 35.76844300410037&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 55.57&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#511848</styleUrl>
+            <Point id="511846">
+                <coordinates>12.072463000000004,54.1770246977782,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511853">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; a0fee734-50ac-4251-b33a-5a949bb1bc38&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 25.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 353.32&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 1110.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 25.740533667554594&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.576325188473914&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 1111.310437599999&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 354.71593384556667&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 628.6423171798381&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 24.42227209812004&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 34.702&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#511854</styleUrl>
+            <Point id="511852">
+                <coordinates>12.072163599999993,54.177306797778265,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511859">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 573cbd4a-ea7a-40ac-9d84-90ea88eda158&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Carpinus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Hain-/Weißbuche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Carpinus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Hainbuche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 15.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 22.6&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 71.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 15.39237192451492&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.111051300994031&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 70.71986004261636&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 24.394102374779205&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 795.3343257000129&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 51.6706801005315&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 29.307&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#511860</styleUrl>
+            <Point id="511858">
+                <coordinates>12.0732273,54.17722189777821,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511865">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 6d078d9c-cd8d-44d8-82d5-f86626e56fa4&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Carpinus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Hain-/Weißbuche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Carpinus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Hainbuche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 35.97&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 113.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.765716162220688&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.111666221292136&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 122.63454735586923&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 34.00351927184087&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 918.1058288187362&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 51.67851497994294&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 38.937&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#511866</styleUrl>
+            <Point id="511864">
+                <coordinates>12.072512899999992,54.177302397778185,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511871">
+            <name>Fagus sylvatica</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 046d3ce1-970f-4e51-8fae-5c76e5bb57c8&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Fagus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Buche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Fagus sylvatica&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Rotbuche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 518.53&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 1629.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Fagus sylvatica&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 15.603286393415145&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.051172903727076&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 1626.7093962239262&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 520.1425901229635&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 609.296508968832&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 39.04924216644294&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.242&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Fagus sylvatica</description>
+            <styleUrl>#511872</styleUrl>
+            <Point id="511870">
+                <coordinates>12.068518000000006,54.17690829777815,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511877">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; d06d54c8-3feb-4b0d-aac2-31e96382748c&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 22.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 335.18&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 1053.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 21.618687202812524&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 6.675228139035202&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 1053.2103033122708&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 336.98336403524144&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 756.574022693714&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 34.996298137626326&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 18.215&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#511878</styleUrl>
+            <Point id="511876">
+                <coordinates>12.068971399999993,54.17725689777818,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511883">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; cef12a1e-6c69-4b2d-96da-51476a9b7b64&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 28.33&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 89.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 10.196552262692219&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 4.1788080481266645&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 88.37978644002091&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 26.230072375024406&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 139.84536469453573&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 13.714965715049651&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.026&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#511884</styleUrl>
+            <Point id="511882">
+                <coordinates>12.072937400000004,54.17767739777827,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511889">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 3b7587a4-a834-485b-b0cd-250919c14c2c&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 19.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 33.74&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 106.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 20.147833974134173&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.482425787818054&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 104.24744824163875&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 31.93634622970483&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1138.566449719251&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 56.51061306048803&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.926&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#511890</styleUrl>
+            <Point id="511888">
+                <coordinates>12.072691400000007,54.177656897778284,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511895">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 45d6af04-6984-4e84-b227-af40ed2b7c68&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 22.6&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 71.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 8.23593073347339&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 4.91078195987853&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 78.73186185697597&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 23.690664279826997&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 155.99255459564208&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 18.940488894793603&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.966&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#511896</styleUrl>
+            <Point id="511894">
+                <coordinates>12.072965500000002,54.177680097778314,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511901">
+            <name>Fagus sylvatica</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; ebc6bacf-1d12-4c1b-b418-4611a87a95f4&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Fagus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Buche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Fagus sylvatica&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Rotbuche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 27.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 433.22&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 1361.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 11.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Fagus sylvatica&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 27.028652121517798&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.275940375504074&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 1361.3489603741657&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 431.4586902996355&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2699.1051975842&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 99.8608878256054&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 10.253&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Fagus sylvatica</description>
+            <styleUrl>#511902</styleUrl>
+            <Point id="511900">
+                <coordinates>12.072661999999996,54.17757819777832,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511907">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 764f15ea-8afc-4f14-a693-fa056a581cc1&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Fagus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Buche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Fagus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Buche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 25.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 51.57&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 162.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 11.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 25.88179140048174&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 10.63398028690079&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 159.95055486255112&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 53.29049958600676&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2298.666230804326&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 88.81403127148072&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 29.703&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#511908</styleUrl>
+            <Point id="511906">
+                <coordinates>12.073179499999993,54.17733239777824,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511913">
+            <name>Acer platanoides</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 51129737-b35e-4c8b-a38f-a73f775d0284&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer platanoides&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Spitz-Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 321.49&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 1010.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Acer platanoides&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.79421899400806&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.245675818153508&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 1002.003704773712&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 319.80511604251814&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 733.7136704555544&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 41.23326068441788&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 5.177&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Acer platanoides</description>
+            <styleUrl>#511914</styleUrl>
+            <Point id="511912">
+                <coordinates>12.070106899999994,54.17743549777822,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511919">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 08754566-4f53-4360-9f78-da202f6b72c1&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Carpinus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Hain-/Weißbuche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Carpinus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Hainbuche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 5.09&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 3.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 4.4049405628178295&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.9378318650095268&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 13.586497950468328&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 4.8628235554262&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 29.859587804089504&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 6.778658503620853&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 21.985&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#511920</styleUrl>
+            <Point id="511918">
+                <coordinates>12.070974499999998,54.17689579777815,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511925">
+            <name>Fagus sylvatica</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 70c533a3-f1eb-4b7e-86b6-7799a1f22ff7&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Fagus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Buche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Fagus sylvatica&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Rotbuche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 11.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 56.98&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 179.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Fagus sylvatica&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 10.539902082543433&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 177.9561707749946&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 57.68890217021679&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 25.802&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Fagus sylvatica</description>
+            <styleUrl>#511926</styleUrl>
+            <Point id="511924">
+                <coordinates>12.072203899999998,54.17677959777811,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="511931">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 1a74f6fa-19f8-4a78-b9b4-116bff097d07&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 38.2&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 120.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.462147235650904&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 122.39246268424189&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 38.911896938336795&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Arankapark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 13.005&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#511932</styleUrl>
+            <Point id="511930">
+                <coordinates>12.068794799999997,54.177294097778194,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

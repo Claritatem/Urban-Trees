@@ -1,220 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Petrischanze_invalidated" name="Petrischanze_invalidated">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Petrischanze_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Petrischanze_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Petrischanze_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Document id="Petrischanze_invalidated">
-      <name>Petrischanze_invalidated</name>
-      <Placemark id="Petrischanze_invalidated.1">
-        <name>Quercus palustris</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petrischanze_invalidated.schema">
-            <SimpleData name="uuid">d210fd02-8c4b-48cf-b835-fadd85db4a57</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus palustris</SimpleData>
-            <SimpleData name="German-species">Sumpf-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">56</SimpleData>
-            <SimpleData name="trunk_diameter">9</SimpleData>
-            <SimpleData name="trunk_circumference">28.27</SimpleData>
-            <SimpleData name="crown_diameter">2.2</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus palustris</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">55.7405708801932</SimpleData>
-            <SimpleData name="crown_diameter_standardized">1.2517389277108</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">28.6398989929971</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">8.08954254023852</SimpleData>
-            <SimpleData name="volume_m^2">68.5944235489355</SimpleData>
-            <SimpleData name="cover_area_m^2">1.23060138182599</SimpleData>
-            <SimpleData name="designation">Petrischanze</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.418</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1502191,54.0905017977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petrischanze_invalidated.2">
-        <name>Amelanchier arborea</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petrischanze_invalidated.schema">
-            <SimpleData name="uuid">abf16a25-79eb-45d5-b429-c98725de4930</SimpleData>
-            <SimpleData name="botanical_genus">Amelanchier</SimpleData>
-            <SimpleData name="German_genus">Felsenbirne</SimpleData>
-            <SimpleData name="botanical_species">Amelanchier arborea „Robin Hill“</SimpleData>
-            <SimpleData name="German-species">Baum-Felsenbirne „Robin Hill“</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">6</SimpleData>
-            <SimpleData name="trunk_diameter">5.73</SimpleData>
-            <SimpleData name="trunk_circumference">18</SimpleData>
-            <SimpleData name="crown_diameter">1</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Amelanchier arborea</SimpleData>
-            <SimpleData name="botanical_species_common_name">Robin Hill</SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">6.26060240485725</SimpleData>
-            <SimpleData name="crown_diameter_standardized">0.546208194819493</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">17.2215747346391</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">3.34215995148159</SimpleData>
-            <SimpleData name="volume_m^2">1.46697403933344</SimpleData>
-            <SimpleData name="cover_area_m^2">0.234318352207655</SimpleData>
-            <SimpleData name="designation">Petrischanze</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">12.994</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1498884,54.0904223977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petrischanze_invalidated.3">
-        <name>Amelanchier lamarckii</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petrischanze_invalidated.schema">
-            <SimpleData name="uuid">d8c1e57a-7d6e-48f6-8055-a48ea8a5ebc2</SimpleData>
-            <SimpleData name="botanical_genus">Amelanchier</SimpleData>
-            <SimpleData name="German_genus">Felsenbirne</SimpleData>
-            <SimpleData name="botanical_species">Amelanchier lamarckii</SimpleData>
-            <SimpleData name="German-species">Kupfer-Felsenbirne</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5</SimpleData>
-            <SimpleData name="trunk_diameter">5.09</SimpleData>
-            <SimpleData name="trunk_circumference">16</SimpleData>
-            <SimpleData name="crown_diameter">1</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Amelanchier lamarckii</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">4.79818228112131</SimpleData>
-            <SimpleData name="crown_diameter_standardized">0.761954911455251</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">18.461263148223</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">10.6190489019746</SimpleData>
-            <SimpleData name="volume_m^2">2.18788841965738</SimpleData>
-            <SimpleData name="cover_area_m^2">0.455982764195045</SimpleData>
-            <SimpleData name="designation">Petrischanze</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">14.739</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1499282,54.0905293977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="544479">
+        <Style id="544482">
+            <IconStyle id="544483">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="544484">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="544485">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="544488">
+            <IconStyle id="544489">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="544490">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="544491">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="544494">
+            <IconStyle id="544495">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="544496">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="544497">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="544481">
+            <name>Quercus palustris</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; d210fd02-8c4b-48cf-b835-fadd85db4a57&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus palustris&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Sumpf-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 56.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 28.27&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 2.2&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus palustris&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 55.63113993166686&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 1.2863386793391043&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 23.088266443659638&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 7.340981387154695&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 72.29670395558918&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 1.2995725783148262&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petrischanze&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.418&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus palustris</description>
+            <styleUrl>#544482</styleUrl>
+            <Point id="544480">
+                <coordinates>12.150219099999997,54.09050179776361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="544487">
+            <name>Amelanchier arborea</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; abf16a25-79eb-45d5-b429-c98725de4930&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Amelanchier&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Felsenbirne&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Amelanchier arborea „Robin Hill“&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Baum-Felsenbirne „Robin Hill“&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 5.73&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Amelanchier arborea&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; Robin Hill&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 6.6539123352013885&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 0.29622653206887484&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 20.61881666491715&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 5.313886737565676&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 0.45857974106515936&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 0.0689188131678744&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petrischanze&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 12.994&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Amelanchier arborea</description>
+            <styleUrl>#544488</styleUrl>
+            <Point id="544486">
+                <coordinates>12.1498884,54.090422397763575,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="544493">
+            <name>Amelanchier lamarckii</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; d8c1e57a-7d6e-48f6-8055-a48ea8a5ebc2&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Amelanchier&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Felsenbirne&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Amelanchier lamarckii&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Kupfer-Felsenbirne&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 5.09&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Amelanchier lamarckii&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 4.406308935845858&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.078106697760199&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 11.862384052676642&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 3.059749595215928&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 14.945157931444072&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 3.3917635256718834&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petrischanze&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 14.739&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Amelanchier lamarckii</description>
+            <styleUrl>#544494</styleUrl>
+            <Point id="544492">
+                <coordinates>12.1499282,54.09052939776357,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

@@ -1,900 +1,511 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Kanonsberg_invalidated" name="Kanonsberg_invalidated">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Kanonsberg_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Kanonsberg_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Kanonsberg_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Document id="Kanonsberg_invalidated">
-      <name>Kanonsberg_invalidated</name>
-      <Placemark id="Kanonsberg_invalidated.1">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">6f6f97b1-d8ed-4c57-b7e9-e69ee4d34bc5</SimpleData>
-            <SimpleData name="botanical_genus">Prunus</SimpleData>
-            <SimpleData name="German_genus">Kirsche</SimpleData>
-            <SimpleData name="botanical_species">Prunus species</SimpleData>
-            <SimpleData name="German-species">Kirsche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">7</SimpleData>
-            <SimpleData name="trunk_diameter">24</SimpleData>
-            <SimpleData name="trunk_circumference">75.4</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">6.89548111119545</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.72105101425806</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">70.6316163087412</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">21.3945469366132</SimpleData>
-            <SimpleData name="volume_m^2">322.854837723361</SimpleData>
-            <SimpleData name="cover_area_m^2">46.8212199434752</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">14.587</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1275741,54.0901773977635,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.2">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">da320f3f-5192-4b0b-8377-74ba23899e71</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus species</SimpleData>
-            <SimpleData name="German-species">Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">9</SimpleData>
-            <SimpleData name="trunk_diameter">16.87</SimpleData>
-            <SimpleData name="trunk_circumference">53</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">9.04041917841185</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.80371434322022</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">52.8085854468777</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">15.8654087464651</SimpleData>
-            <SimpleData name="volume_m^2">163.844850693597</SimpleData>
-            <SimpleData name="cover_area_m^2">18.1235900083982</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.17</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.127918,54.0917131977638,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.3">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">51b72484-2fc8-4959-992b-9394704a30c5</SimpleData>
-            <SimpleData name="botanical_genus">Fagus</SimpleData>
-            <SimpleData name="German_genus">Buche</SimpleData>
-            <SimpleData name="botanical_species">Fagus species</SimpleData>
-            <SimpleData name="German-species">Buche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">108.23</SimpleData>
-            <SimpleData name="trunk_circumference">340</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">8.13117995989351</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.3861926396539</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">339.483209318531</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">105.417299648278</SimpleData>
-            <SimpleData name="volume_m^2">122.862361340563</SimpleData>
-            <SimpleData name="cover_area_m^2">15.1100285501702</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.982</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1281715,54.0915278977638,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.4">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">cfeea55b-a82e-431c-af3f-4febcf5f1e94</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer species</SimpleData>
-            <SimpleData name="German-species">Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">7</SimpleData>
-            <SimpleData name="trunk_diameter">9.55</SimpleData>
-            <SimpleData name="trunk_circumference">30</SimpleData>
-            <SimpleData name="crown_diameter">3</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">7.38558375504881</SimpleData>
-            <SimpleData name="crown_diameter_standardized">2.62041163069785</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">31.1069723208648</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">10.6075961307682</SimpleData>
-            <SimpleData name="volume_m^2">39.8303154234909</SimpleData>
-            <SimpleData name="cover_area_m^2">5.3929813464322</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">9.794</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.128165,54.0913217977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.5">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">9d6ff7b0-fc12-4887-b0f6-32f2d3092796</SimpleData>
-            <SimpleData name="botanical_genus">Crataegus</SimpleData>
-            <SimpleData name="German_genus">Weißdorn</SimpleData>
-            <SimpleData name="botanical_species">Crataegus species</SimpleData>
-            <SimpleData name="German-species">Weißdorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">40</SimpleData>
-            <SimpleData name="trunk_circumference">125.66</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">8.26183373123424</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.92061916202094</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">127.755287335643</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">38.933986287244</SimpleData>
-            <SimpleData name="volume_m^2">516.36444395604</SimpleData>
-            <SimpleData name="cover_area_m^2">62.4999801198976</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">8.615</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1279868,54.0911529977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.6">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">3185c365-87ed-4640-83fe-21bf8971f670</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia species</SimpleData>
-            <SimpleData name="German-species">Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">25</SimpleData>
-            <SimpleData name="trunk_diameter">60</SimpleData>
-            <SimpleData name="trunk_circumference">188.5</SimpleData>
-            <SimpleData name="crown_diameter">14.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">25.0979300707226</SimpleData>
-            <SimpleData name="crown_diameter_standardized">13.4400799655631</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">187.372341249754</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">58.6915758559319</SimpleData>
-            <SimpleData name="volume_m^2">3560.66808283349</SimpleData>
-            <SimpleData name="cover_area_m^2">141.870985886087</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">9.914</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1278816,54.0910717977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.7">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">4bb122c3-cd71-4f93-a114-97f55f3f59da</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia species</SimpleData>
-            <SimpleData name="German-species">Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">7</SimpleData>
-            <SimpleData name="trunk_diameter">14.96</SimpleData>
-            <SimpleData name="trunk_circumference">47</SimpleData>
-            <SimpleData name="crown_diameter">4</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">6.68452942123761</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.02804591847984</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">45.0756508022269</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">14.0244564496564</SimpleData>
-            <SimpleData name="volume_m^2">85.182336034141</SimpleData>
-            <SimpleData name="cover_area_m^2">12.7432060906944</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.146</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1276273,54.0911131977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.8">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">e52daae3-3f18-4e27-9597-414e237188ae</SimpleData>
-            <SimpleData name="botanical_genus">Crataegus</SimpleData>
-            <SimpleData name="German_genus">Weißdorn</SimpleData>
-            <SimpleData name="botanical_species">Crataegus species</SimpleData>
-            <SimpleData name="German-species">Weißdorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">12</SimpleData>
-            <SimpleData name="trunk_diameter">40</SimpleData>
-            <SimpleData name="trunk_circumference">125.66</SimpleData>
-            <SimpleData name="crown_diameter">9</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">11.9508097736298</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.50922159647167</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">130.079856294875</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">39.6188318057332</SimpleData>
-            <SimpleData name="volume_m^2">679.621144554481</SimpleData>
-            <SimpleData name="cover_area_m^2">56.8682087178817</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.382</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1276861,54.0909805977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.9">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">2629df52-85b0-4c90-8d94-77b9e2e8514a</SimpleData>
-            <SimpleData name="botanical_genus">Crataegus</SimpleData>
-            <SimpleData name="German_genus">Weißdorn</SimpleData>
-            <SimpleData name="botanical_species">Crataegus species</SimpleData>
-            <SimpleData name="German-species">Weißdorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">12</SimpleData>
-            <SimpleData name="trunk_diameter">33</SimpleData>
-            <SimpleData name="trunk_circumference">103.67</SimpleData>
-            <SimpleData name="crown_diameter">10</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">12.0989754032758</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.49151991804365</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">103.415006657119</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">31.4621996520128</SimpleData>
-            <SimpleData name="volume_m^2">856.071427371664</SimpleData>
-            <SimpleData name="cover_area_m^2">70.7556961509219</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">5.562</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1276551,54.0909233977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.10">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">f5481d66-cba5-48cc-917d-51ce2777c22d</SimpleData>
-            <SimpleData name="botanical_genus">Crataegus</SimpleData>
-            <SimpleData name="German_genus">Weißdorn</SimpleData>
-            <SimpleData name="botanical_species">Crataegus species</SimpleData>
-            <SimpleData name="German-species">Weißdorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">9</SimpleData>
-            <SimpleData name="trunk_diameter">36</SimpleData>
-            <SimpleData name="trunk_circumference">113.1</SimpleData>
-            <SimpleData name="crown_diameter">6.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">8.79319362124366</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.62413381234704</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">112.351944292215</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">33.9182482643014</SimpleData>
-            <SimpleData name="volume_m^2">218.44786663868</SimpleData>
-            <SimpleData name="cover_area_m^2">24.8428359533591</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">7.401</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1276036,54.0908474977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.11">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">31c1a0d8-5fbc-4c6c-9933-343101736ac2</SimpleData>
-            <SimpleData name="botanical_genus">Crataegus</SimpleData>
-            <SimpleData name="German_genus">Weißdorn</SimpleData>
-            <SimpleData name="botanical_species">Crataegus species</SimpleData>
-            <SimpleData name="German-species">Weißdorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">32</SimpleData>
-            <SimpleData name="trunk_circumference">100.53</SimpleData>
-            <SimpleData name="crown_diameter">6</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">7.76002160394245</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.93025738005048</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">93.1604589046189</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">36.9348435374548</SimpleData>
-            <SimpleData name="volume_m^2">214.338356848522</SimpleData>
-            <SimpleData name="cover_area_m^2">27.6208453774959</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.167</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1275825,54.0908484977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.12">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">779ff8e4-c3eb-483f-b5cd-9815525b316c</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia species</SimpleData>
-            <SimpleData name="German-species">Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">22</SimpleData>
-            <SimpleData name="trunk_diameter">70</SimpleData>
-            <SimpleData name="trunk_circumference">219.91</SimpleData>
-            <SimpleData name="crown_diameter">12.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">21.2121968979768</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.8545578067276</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">220.268102279005</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">70.3031829567606</SimpleData>
-            <SimpleData name="volume_m^2">2341.24168842187</SimpleData>
-            <SimpleData name="cover_area_m^2">110.372428640108</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.559</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1274468,54.0907258977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.13">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">8fe287b6-5d35-4e24-b858-1c147ce9afe9</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia species</SimpleData>
-            <SimpleData name="German-species">Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">18</SimpleData>
-            <SimpleData name="trunk_diameter">50</SimpleData>
-            <SimpleData name="trunk_circumference">157.08</SimpleData>
-            <SimpleData name="crown_diameter">12</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">18.091106261309</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.4143595706626</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">151.861375251849</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">48.7206193866895</SimpleData>
-            <SimpleData name="volume_m^2">1851.22030306842</SimpleData>
-            <SimpleData name="cover_area_m^2">102.327645215792</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.45</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1271865,54.0903293977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.14">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">863dd9d7-b4e4-4a0a-b7e4-86500e3117f3</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia species</SimpleData>
-            <SimpleData name="German-species">Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">20</SimpleData>
-            <SimpleData name="trunk_diameter">52</SimpleData>
-            <SimpleData name="trunk_circumference">163.36</SimpleData>
-            <SimpleData name="crown_diameter">13.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">20.3688756184926</SimpleData>
-            <SimpleData name="crown_diameter_standardized">14.1926097341352</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">158.577303942586</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">49.3682972450644</SimpleData>
-            <SimpleData name="volume_m^2">3222.41491572402</SimpleData>
-            <SimpleData name="cover_area_m^2">158.202886407654</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.683</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1271674,54.0902631977635,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.15">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">e124e964-bc21-4504-8b89-118285c261cc</SimpleData>
-            <SimpleData name="botanical_genus">Crataegus</SimpleData>
-            <SimpleData name="German_genus">Weißdorn</SimpleData>
-            <SimpleData name="botanical_species">Crataegus species</SimpleData>
-            <SimpleData name="German-species">Weißdorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">17</SimpleData>
-            <SimpleData name="trunk_diameter">50</SimpleData>
-            <SimpleData name="trunk_circumference">157.08</SimpleData>
-            <SimpleData name="crown_diameter">10.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">17.7070681786584</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.08749262915834</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">159.739258752072</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">51.0694371460745</SimpleData>
-            <SimpleData name="volume_m^2">1148.48329877342</SimpleData>
-            <SimpleData name="cover_area_m^2">64.8601613313734</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.124</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1271482,54.0901803977635,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.16">
-        <name>Pinus nigra ssp. nigra</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">55c66161-e54b-4298-bc66-9a2e29895507</SimpleData>
-            <SimpleData name="botanical_genus">Pinus</SimpleData>
-            <SimpleData name="German_genus">Kiefer</SimpleData>
-            <SimpleData name="botanical_species">Pinus nigra ssp. nigra</SimpleData>
-            <SimpleData name="German-species">Östereichische Schwarz-Kiefer</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">19.1</SimpleData>
-            <SimpleData name="trunk_circumference">60</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Pinus nigra ssp. nigra</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">8.48190705763621</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.94983323067024</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">53.4006094215205</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">16.6121955461859</SimpleData>
-            <SimpleData name="volume_m^2">163.216674354472</SimpleData>
-            <SimpleData name="cover_area_m^2">19.242921815269</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">11.263</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1282569,54.0916274977638,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.17">
-        <name>Tilia cordata</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">cbb31b8c-6326-4431-9d4c-4f09f9ae719b</SimpleData>
-            <SimpleData name="botanical_genus">Tilia</SimpleData>
-            <SimpleData name="German_genus">Linde</SimpleData>
-            <SimpleData name="botanical_species">Tilia cordata</SimpleData>
-            <SimpleData name="German-species">Winter-Linde</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">7</SimpleData>
-            <SimpleData name="trunk_diameter">21</SimpleData>
-            <SimpleData name="trunk_circumference">65.97</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Tilia cordata</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">7.58351852939775</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">61.4990502986322</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">21.5614851570557</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">16.226</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1276577,54.0902429977635,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.18">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">3d544a0d-6545-4843-a1b4-7de8e28d7b59</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer species</SimpleData>
-            <SimpleData name="German-species">Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">18</SimpleData>
-            <SimpleData name="trunk_diameter">32</SimpleData>
-            <SimpleData name="trunk_circumference">100.53</SimpleData>
-            <SimpleData name="crown_diameter">9</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">17.5339422305405</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.11309855431504</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">99.3958078858012</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">33.1294482035185</SimpleData>
-            <SimpleData name="volume_m^2">1143.6722583986</SimpleData>
-            <SimpleData name="cover_area_m^2">65.2261906285146</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.978</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1273788,54.0906517977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.19">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">4e07e1df-471c-4955-88b3-9a9d9b93c3cf</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia species</SimpleData>
-            <SimpleData name="German-species">Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">22</SimpleData>
-            <SimpleData name="trunk_diameter">75</SimpleData>
-            <SimpleData name="trunk_circumference">235.62</SimpleData>
-            <SimpleData name="crown_diameter">15</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">21.7213106505007</SimpleData>
-            <SimpleData name="crown_diameter_standardized">14.2400727448487</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">234.998982932368</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">74.6656816415005</SimpleData>
-            <SimpleData name="volume_m^2">3459.39635830688</SimpleData>
-            <SimpleData name="cover_area_m^2">159.262781789235</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.356</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.127352,54.0906075977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.20">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">f84ac962-4421-41eb-924a-f790bef3d8c7</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia species</SimpleData>
-            <SimpleData name="German-species">Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">7</SimpleData>
-            <SimpleData name="trunk_diameter">32</SimpleData>
-            <SimpleData name="trunk_circumference">100.53</SimpleData>
-            <SimpleData name="crown_diameter">1</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">7.16203166046429</SimpleData>
-            <SimpleData name="crown_diameter_standardized">1.30157643915655</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">98.6696646478818</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">31.7984957627303</SimpleData>
-            <SimpleData name="volume_m^2">9.52939819827539</SimpleData>
-            <SimpleData name="cover_area_m^2">1.33054399226959</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.16</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1272783,54.0905100977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.21">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">2d320a49-fc18-4571-b9cd-15e84bb7314b</SimpleData>
-            <SimpleData name="botanical_genus">Crataegus</SimpleData>
-            <SimpleData name="German_genus">Weißdorn</SimpleData>
-            <SimpleData name="botanical_species">Crataegus species</SimpleData>
-            <SimpleData name="German-species">Weißdorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">12</SimpleData>
-            <SimpleData name="trunk_circumference">37.7</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">7.7815552651319</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.80094348557071</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">41.9851615751511</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">12.1107531006325</SimpleData>
-            <SimpleData name="volume_m^2">140.867067877532</SimpleData>
-            <SimpleData name="cover_area_m^2">18.1026880974217</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.857</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1272825,54.0904969977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Kanonsberg_invalidated.22">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Kanonsberg_invalidated.schema">
-            <SimpleData name="uuid">1db850ae-2799-4da9-9b0b-590b5fad4543</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia species</SimpleData>
-            <SimpleData name="German-species">Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">19</SimpleData>
-            <SimpleData name="trunk_diameter">70</SimpleData>
-            <SimpleData name="trunk_circumference">219.91</SimpleData>
-            <SimpleData name="crown_diameter">12</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">18.1129948698466</SimpleData>
-            <SimpleData name="crown_diameter_standardized">12.2200913392187</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">219.547236613144</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">67.4996101670385</SimpleData>
-            <SimpleData name="volume_m^2">2124.36456961215</SimpleData>
-            <SimpleData name="cover_area_m^2">117.28400437791</SimpleData>
-            <SimpleData name="designation">Kanonsberg</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.176</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1272234,54.0904063977636,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="428055">
+        <Style id="428058">
+            <IconStyle id="428059">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428060">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428061">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428064">
+            <IconStyle id="428065">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428066">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428067">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428070">
+            <IconStyle id="428071">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428072">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428073">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428076">
+            <IconStyle id="428077">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428078">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428079">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428082">
+            <IconStyle id="428083">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428084">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428085">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428088">
+            <IconStyle id="428089">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428090">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428091">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428094">
+            <IconStyle id="428095">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428096">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428097">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428100">
+            <IconStyle id="428101">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428102">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428103">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428106">
+            <IconStyle id="428107">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428108">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428109">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428112">
+            <IconStyle id="428113">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428114">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428115">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428118">
+            <IconStyle id="428119">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428120">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428121">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428124">
+            <IconStyle id="428125">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428126">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428127">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428130">
+            <IconStyle id="428131">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428132">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428133">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428136">
+            <IconStyle id="428137">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428138">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428139">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428142">
+            <IconStyle id="428143">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428144">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428145">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428148">
+            <IconStyle id="428149">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428150">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428151">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428154">
+            <IconStyle id="428155">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428156">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428157">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428160">
+            <IconStyle id="428161">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428162">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428163">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428166">
+            <IconStyle id="428167">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428168">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428169">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428172">
+            <IconStyle id="428173">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428174">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428175">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428178">
+            <IconStyle id="428179">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428180">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428181">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="428184">
+            <IconStyle id="428185">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="428186">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="428187">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="428057">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 6f6f97b1-d8ed-4c57-b7e9-e69ee4d34bc5&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Prunus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Kirsche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Prunus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Kirsche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 24.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 75.4&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 7.3398806837160455&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.001918438321942&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 72.10170011316704&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 23.574160440906134&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 369.1196133901382&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 50.2895931549748&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 14.587&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428058</styleUrl>
+            <Point id="428056">
+                <coordinates>12.127574100000004,54.09017739776354,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428063">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; da320f3f-5192-4b0b-8377-74ba23899e71&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 16.87&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 53.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 9.100001918368932&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 4.8528204431240844&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 57.008891115011885&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 21.10936459550203&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 168.31383298423643&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 18.496021703521212&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.17&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428064</styleUrl>
+            <Point id="428062">
+                <coordinates>12.127918000000003,54.09171319776381,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428069">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 51b72484-2fc8-4959-992b-9394704a30c5&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Fagus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Buche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Fagus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Buche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 108.23&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 340.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 9.153087010337433&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 3.872616545134609&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 338.3299580285507&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 108.02777251447715&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 107.81184180061486&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 11.778741060677442&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.982&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428070</styleUrl>
+            <Point id="428068">
+                <coordinates>12.128171500000006,54.091527897763804,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428075">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; cfeea55b-a82e-431c-af3f-4febcf5f1e94&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 9.55&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 30.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 3.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 7.436478492751918&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 3.276337998047162&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 28.47933020076408&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 10.85495872208307&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 62.69524516083141&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 8.430770723258103&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 9.794&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428076</styleUrl>
+            <Point id="428074">
+                <coordinates>12.128164999999997,54.09132179776373,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428081">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 9d6ff7b0-fc12-4887-b0f6-32f2d3092796&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Crataegus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Crataegus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 40.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 125.66&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 8.100448269500983&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.923223026006545&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 123.86113497884263&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 38.6376622706234&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 399.39506638442253&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 49.30530423707362&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 8.615&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428082</styleUrl>
+            <Point id="428080">
+                <coordinates>12.127986799999997,54.09115299776368,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428087">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 3185c365-87ed-4640-83fe-21bf8971f670&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 25.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 60.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 188.5&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 14.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 24.429775886167345&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 14.01924299083973&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 187.14845012448043&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 59.25248091057699&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3771.017004938948&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 154.36150632368992&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 9.914&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428088</styleUrl>
+            <Point id="428086">
+                <coordinates>12.127881599999997,54.09107179776365,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428093">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 4bb122c3-cd71-4f93-a114-97f55f3f59da&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 14.96&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 47.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 4.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 6.80549241488568&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 3.314534905023007&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 44.722714863568534&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 15.700582671749501&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 58.72116043364065&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 8.628495464222343&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.146&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428094</styleUrl>
+            <Point id="428092">
+                <coordinates>12.127627299999999,54.091113197763704,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428099">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; e52daae3-3f18-4e27-9597-414e237188ae&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Crataegus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Crataegus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 40.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 125.66&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 10.978349026578433&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.957704242381242&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 123.76487806703943&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 38.58648988767355&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 854.9591432967633&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 77.87684115588955&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.382&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428100</styleUrl>
+            <Point id="428098">
+                <coordinates>12.127686099999993,54.090980597763696,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428105">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 2629df52-85b0-4c90-8d94-77b9e2e8514a&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Crataegus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Crataegus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 33.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 103.67&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 11.838827338376909&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.036309182329026&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 118.42628236110994&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 34.4136852085167&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1132.5210568524533&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 95.6615908385839&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 5.562&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428106</styleUrl>
+            <Point id="428104">
+                <coordinates>12.127655099999995,54.09092339776366,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428111">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; f5481d66-cba5-48cc-917d-51ce2777c22d&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Crataegus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Crataegus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 36.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 113.1&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 8.608586325930467&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.726278228948719&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 107.70240350868976&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 35.498538724375855&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 221.70046893610962&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 25.753411831198303&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 7.401&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428112</styleUrl>
+            <Point id="428110">
+                <coordinates>12.127603600000002,54.09084749776362,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428117">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 31c1a0d8-5fbc-4c6c-9933-343101736ac2&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Crataegus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Crataegus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 32.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 100.53&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 7.891356815350781&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 6.689209354057709&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 110.71551910395966&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 35.62363999507674&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 277.32635208680955&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 35.143050628167806&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.167&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428118</styleUrl>
+            <Point id="428116">
+                <coordinates>12.127582500000008,54.09084849776366,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428123">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 779ff8e4-c3eb-483f-b5cd-9815525b316c&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 22.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 70.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 219.91&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 12.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 21.6449009286825&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.776639346637461&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 220.49240494236807&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 68.31678828361075&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2357.6983205775305&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 108.92626990282284&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.559&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428124</styleUrl>
+            <Point id="428122">
+                <coordinates>12.127446799999998,54.09072589776361,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428129">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 8fe287b6-5d35-4e24-b858-1c147ce9afe9&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 50.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 157.08&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 18.487369119015984&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 12.749929508961616&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 154.19152373295518&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 50.8950036784774&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2360.3725814877484&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 127.67487717113221&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.45&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428130</styleUrl>
+            <Point id="428128">
+                <coordinates>12.1271865,54.09032939776357,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428135">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 863dd9d7-b4e4-4a0a-b7e4-86500e3117f3&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 52.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 163.36&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 13.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 19.56968201474964&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.569963301888121&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 165.0942459776939&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 52.45401816992983&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2830.2903891268&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 144.6262840138953&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.683&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428136</styleUrl>
+            <Point id="428134">
+                <coordinates>12.1271674,54.09026319776351,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428141">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; e124e964-bc21-4504-8b89-118285c261cc&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Crataegus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Crataegus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 17.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 50.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 157.08&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.345381223418787&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.866146347719614&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 157.28980073785283&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 52.56222208304392&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1326.0772888453926&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 76.45131990843737&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.124&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428142</styleUrl>
+            <Point id="428140">
+                <coordinates>12.127148199999997,54.09018039776351,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428147">
+            <name>Pinus nigra ssp. nigra</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 55c66161-e54b-4298-bc66-9a2e29895507&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Pinus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Kiefer&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Pinus nigra ssp. nigra&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Östereichische Schwarz-Kiefer&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 19.1&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 60.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Pinus nigra ssp. nigra&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 8.466314451798578&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.233176696513082&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 61.435351422035275&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 21.401486741154695&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 182.10215017246614&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 21.50902275237137&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 11.263&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Pinus nigra ssp. nigra</description>
+            <styleUrl>#428148</styleUrl>
+            <Point id="428146">
+                <coordinates>12.128256900000006,54.0916274977638,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428153">
+            <name>Tilia cordata</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; cbb31b8c-6326-4431-9d4c-4f09f9ae719b&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Tilia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Linde&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Tilia cordata&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Winter-Linde&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 21.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 65.97&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Tilia cordata&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 6.816285418597142&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 73.58039022176538&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 21.509688711298505&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 16.226&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Tilia cordata</description>
+            <styleUrl>#428154</styleUrl>
+            <Point id="428152">
+                <coordinates>12.127657700000007,54.090242997763546,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428159">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 3d544a0d-6545-4843-a1b4-7de8e28d7b59&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 32.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 100.53&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 16.81149215160581&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.42395922181501&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 102.24188383417652&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 31.870508250845045&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1172.6352360776616&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 69.7520021127722&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.978&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428160</styleUrl>
+            <Point id="428158">
+                <coordinates>12.127378799999994,54.0906517977636,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428165">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 4e07e1df-471c-4955-88b3-9a9d9b93c3cf&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 22.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 75.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 235.62&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 15.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 20.875243806951378&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 15.351483068738828&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 237.94207348853132&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 72.75220161820329&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3863.866508388935&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 185.09323982612753&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.356&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428166</styleUrl>
+            <Point id="428164">
+                <coordinates>12.127352,54.09060759776362,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428171">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; f84ac962-4421-41eb-924a-f790bef3d8c7&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 32.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 100.53&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 7.29390719710777&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 0.4990863673826458&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 101.6400320910206&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 31.42602721100651&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1.4269262556835567&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 0.19563263106080803&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.16&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428172</styleUrl>
+            <Point id="428170">
+                <coordinates>12.127278300000006,54.09051009776359,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428177">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 2d320a49-fc18-4571-b9cd-15e84bb7314b&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Crataegus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Crataegus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weißdorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 37.7&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 6.878269190721555&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.0988990884883565&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 30.782369283341353&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 10.946586599347429&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 140.45004539495335&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 20.4193877123061&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.857&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428178</styleUrl>
+            <Point id="428176">
+                <coordinates>12.1272825,54.09049699776356,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="428183">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 1db850ae-2799-4da9-9b0b-590b5fad4543&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 19.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 70.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 219.91&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 19.08446169888284&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.442025775916465&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 219.4754114189948&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 68.83800606888049&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1962.3462492425997&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 102.82429131115974&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Kanonsberg&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.176&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#428184</styleUrl>
+            <Point id="428182">
+                <coordinates>12.1272234,54.09040639776355,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

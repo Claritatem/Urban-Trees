@@ -1,1372 +1,810 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Wossidlopark_qualified" name="Wossidlopark_qualified">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Wossidlopark_qualified.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Wossidlopark_qualified.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Wossidlopark_qualified.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Document id="Wossidlopark_qualified">
-      <name>Wossidlopark_qualified</name>
-      <Placemark id="Wossidlopark_qualified.1">
-        <name>Buchen-Eichen-Mischwald</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">d33ee854-f0f7-4ab4-80ea-a74c3a6cb544</SimpleData>
-            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="botanical_species">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="German-species">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">22</SimpleData>
-            <SimpleData name="trunk_diameter">30</SimpleData>
-            <SimpleData name="trunk_circumference">94.25</SimpleData>
-            <SimpleData name="crown_diameter">6</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">21.2874415714374</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.49665384032852</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">89.4480596029786</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">32.6129530418298</SimpleData>
-            <SimpleData name="volume_m^2">505.138098783452</SimpleData>
-            <SimpleData name="cover_area_m^2">23.7293944924422</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">18.813</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1746969,54.0818662977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.2">
-        <name>Buchen-Eichen-Mischwald</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">8f3cb4dc-9a9f-44eb-9b71-6fff985e17b5</SimpleData>
-            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="botanical_species">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="German-species">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">31</SimpleData>
-            <SimpleData name="trunk_diameter">35</SimpleData>
-            <SimpleData name="trunk_circumference">109.96</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">31.1177315135672</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.65697315804248</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">104.035080506722</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">37.537296595493</SimpleData>
-            <SimpleData name="volume_m^2">530.035893038438</SimpleData>
-            <SimpleData name="cover_area_m^2">17.0332433393271</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">29.379</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1760677,54.0821606977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.3">
-        <name>Buchen-Eichen-Mischwald</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">33186a1c-64d6-4799-8d5f-eefa2256f701</SimpleData>
-            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="botanical_species">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="German-species">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">22</SimpleData>
-            <SimpleData name="trunk_diameter">48</SimpleData>
-            <SimpleData name="trunk_circumference">150.8</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">22.1851204792984</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.82920326639143</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">152.488782521432</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">48.6599031059719</SimpleData>
-            <SimpleData name="volume_m^2">1068.03825900327</SimpleData>
-            <SimpleData name="cover_area_m^2">48.1420986647285</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">20.406</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.176519,54.0818394977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.4">
-        <name>Acer platanoides</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">902677bb-abb8-4d68-9859-a98d83052f99</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer platanoides</SimpleData>
-            <SimpleData name="German-species">Spitz-Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">15</SimpleData>
-            <SimpleData name="trunk_diameter">54.11</SimpleData>
-            <SimpleData name="trunk_circumference">170</SimpleData>
-            <SimpleData name="crown_diameter">10</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Acer platanoides</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">14.2397803146493</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.3391102212736</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">164.667326028308</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">52.7358674188443</SimpleData>
-            <SimpleData name="volume_m^2">1195.52730900687</SimpleData>
-            <SimpleData name="cover_area_m^2">83.9568646839979</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.057</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1735493,54.0825899977623,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.5">
-        <name>Betula pendula</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">e843c7ba-0eab-4e3a-8a0e-8a054fca3118</SimpleData>
-            <SimpleData name="botanical_genus">Betula</SimpleData>
-            <SimpleData name="German_genus">Birke</SimpleData>
-            <SimpleData name="botanical_species">Betula pendula</SimpleData>
-            <SimpleData name="German-species">Sand-Birke</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">27</SimpleData>
-            <SimpleData name="trunk_diameter">35.01</SimpleData>
-            <SimpleData name="trunk_circumference">110</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Betula pendula</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">26.9987333375191</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.3117228319281</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">103.983959901333</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">36.1390883946347</SimpleData>
-            <SimpleData name="volume_m^2">394.21663084126</SimpleData>
-            <SimpleData name="cover_area_m^2">14.6013009541241</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.386</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1767722,54.0817699977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.6">
-        <name>Castanea sativa</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">73e06264-7f65-4fd1-9d19-e3ace03dd1e1</SimpleData>
-            <SimpleData name="botanical_genus">Castanea</SimpleData>
-            <SimpleData name="German_genus">Edelkastanie</SimpleData>
-            <SimpleData name="botanical_species">Castanea sativa</SimpleData>
-            <SimpleData name="German-species">Esskastanie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">34.5</SimpleData>
-            <SimpleData name="trunk_diameter">86.9</SimpleData>
-            <SimpleData name="trunk_circumference">273</SimpleData>
-            <SimpleData name="crown_diameter">14</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Castanea sativa</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">33.428558546352</SimpleData>
-            <SimpleData name="crown_diameter_standardized">13.2306124833957</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">270.519919747356</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">87.6198474484317</SimpleData>
-            <SimpleData name="volume_m^2">4595.8667679848</SimpleData>
-            <SimpleData name="cover_area_m^2">137.483246895381</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">25.23</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1738787,54.0822038977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.7">
-        <name>Acer pseudoplatanus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">102c9cb6-e52c-4bfe-98cb-fcfc5d384332</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
-            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">34</SimpleData>
-            <SimpleData name="trunk_diameter">77.03</SimpleData>
-            <SimpleData name="trunk_circumference">242</SimpleData>
-            <SimpleData name="crown_diameter">13.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">34.623934886083</SimpleData>
-            <SimpleData name="crown_diameter_standardized">14.3621068612567</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">237.309663175403</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">78.1775176392751</SimpleData>
-            <SimpleData name="volume_m^2">5609.2217745657</SimpleData>
-            <SimpleData name="cover_area_m^2">162.004168302093</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">14.717</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1735504,54.0822261977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.8">
-        <name>Castanea sativa</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">8cc32de0-1aee-49a3-a447-479a834546e0</SimpleData>
-            <SimpleData name="botanical_genus">Castanea</SimpleData>
-            <SimpleData name="German_genus">Edelkastanie</SimpleData>
-            <SimpleData name="botanical_species">Castanea sativa</SimpleData>
-            <SimpleData name="German-species">Esskastanie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">32</SimpleData>
-            <SimpleData name="trunk_diameter">66.85</SimpleData>
-            <SimpleData name="trunk_circumference">210</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Castanea sativa</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">31.6154284420874</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.59380885750472</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">207.624629206021</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">63.7893107866879</SimpleData>
-            <SimpleData name="volume_m^2">1833.8353190106</SimpleData>
-            <SimpleData name="cover_area_m^2">58.0044430639234</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">26.884</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1737606,54.0821921977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.9">
-        <name>Castanea sativa</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">ac491876-9df6-4d55-a34c-b424affa683c</SimpleData>
-            <SimpleData name="botanical_genus">Castanea</SimpleData>
-            <SimpleData name="German_genus">Edelkastanie</SimpleData>
-            <SimpleData name="botanical_species">Castanea sativa</SimpleData>
-            <SimpleData name="German-species">Esskastanie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">27</SimpleData>
-            <SimpleData name="trunk_diameter">41.38</SimpleData>
-            <SimpleData name="trunk_circumference">130</SimpleData>
-            <SimpleData name="crown_diameter">5.7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Castanea sativa</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">27.0223792716604</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.60823827701774</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">123.804495984779</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">44.0349346105308</SimpleData>
-            <SimpleData name="volume_m^2">667.523225568732</SimpleData>
-            <SimpleData name="cover_area_m^2">24.7026073780556</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">10.701</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1733244,54.0816987977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.10">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">83c039c7-86fc-445a-88ca-524692a86aab</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">20</SimpleData>
-            <SimpleData name="trunk_diameter">18.14</SimpleData>
-            <SimpleData name="trunk_circumference">57</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">20.1086088605887</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.0425659468428</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">58.7266709212132</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">18.8743655339834</SimpleData>
-            <SimpleData name="volume_m^2">401.582779429099</SimpleData>
-            <SimpleData name="cover_area_m^2">19.9706892810556</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">26.214</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1736627,54.0820341977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.11">
-        <name>Acer pseudoplatanus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">a9f41569-e885-48c6-807b-6fd43a4d535f</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
-            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">23</SimpleData>
-            <SimpleData name="trunk_diameter">42.02</SimpleData>
-            <SimpleData name="trunk_circumference">132</SimpleData>
-            <SimpleData name="crown_diameter">7.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">21.8129350589158</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.62556265049326</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">139.172908712471</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">41.8947481580412</SimpleData>
-            <SimpleData name="volume_m^2">996.202838424859</SimpleData>
-            <SimpleData name="cover_area_m^2">45.6702793885443</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">41.698</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1753368,54.0819487977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.12">
-        <name>Acer platanoides</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">01f0cdd9-def1-427e-88e2-e44f9230c910</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer platanoides</SimpleData>
-            <SimpleData name="German-species">Spitz-Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">24</SimpleData>
-            <SimpleData name="trunk_diameter">62.07</SimpleData>
-            <SimpleData name="trunk_circumference">195</SimpleData>
-            <SimpleData name="crown_diameter">14</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Acer platanoides</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">22.9755301512582</SimpleData>
-            <SimpleData name="crown_diameter_standardized">14.4153464514883</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">192.506595822874</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">60.7075024362898</SimpleData>
-            <SimpleData name="volume_m^2">3749.77830157095</SimpleData>
-            <SimpleData name="cover_area_m^2">163.207476688654</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">33.693</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1751989,54.0819699977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.13">
-        <name>Acer pseudoplatanus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">45dcfc4c-8645-4d1a-9894-a36cf94f32ad</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
-            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">32</SimpleData>
-            <SimpleData name="trunk_diameter">72</SimpleData>
-            <SimpleData name="trunk_circumference">226.19</SimpleData>
-            <SimpleData name="crown_diameter">11</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">31.975638688633</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.8015375664118</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">220.074090995908</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">71.2329533651633</SimpleData>
-            <SimpleData name="volume_m^2">2930.08534371422</SimpleData>
-            <SimpleData name="cover_area_m^2">91.6349278351031</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">7.28</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1735908,54.0823730977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.14">
-        <name>Castanea sativa</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">7bbc3ddd-d693-48e4-9c64-9acbbc9ce970</SimpleData>
-            <SimpleData name="botanical_genus">Castanea</SimpleData>
-            <SimpleData name="German_genus">Edelkastanie</SimpleData>
-            <SimpleData name="botanical_species">Castanea sativa</SimpleData>
-            <SimpleData name="German-species">Esskastanie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">17</SimpleData>
-            <SimpleData name="trunk_diameter">39.15</SimpleData>
-            <SimpleData name="trunk_circumference">123</SimpleData>
-            <SimpleData name="crown_diameter">9.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Castanea sativa</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">17.117680662995</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.4788155825341</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">113.50955423658</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">39.4137115143074</SimpleData>
-            <SimpleData name="volume_m^2">1476.24757098918</SimpleData>
-            <SimpleData name="cover_area_m^2">86.2410977312207</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">47.757</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1760141,54.0818776977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.15">
-        <name>Castanea sativa</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">8537705b-9317-4189-ad52-ad9197e87d86</SimpleData>
-            <SimpleData name="botanical_genus">Castanea</SimpleData>
-            <SimpleData name="German_genus">Edelkastanie</SimpleData>
-            <SimpleData name="botanical_species">Castanea sativa</SimpleData>
-            <SimpleData name="German-species">Esskastanie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">20</SimpleData>
-            <SimpleData name="trunk_diameter">59.84</SimpleData>
-            <SimpleData name="trunk_circumference">188</SimpleData>
-            <SimpleData name="crown_diameter">6</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Castanea sativa</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">19.9748855626848</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.52750643648495</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">191.736552781607</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">60.6136702869609</SimpleData>
-            <SimpleData name="volume_m^2">479.32788531847</SimpleData>
-            <SimpleData name="cover_area_m^2">23.9965272298684</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">33.1</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1749828,54.0817702977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.16">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">9f4c28df-4226-496f-b526-fb1b2d3b5ff1</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">25</SimpleData>
-            <SimpleData name="trunk_diameter">53</SimpleData>
-            <SimpleData name="trunk_circumference">166.5</SimpleData>
-            <SimpleData name="crown_diameter">9</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">25.2552675662219</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.05751945601958</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">156.595641821531</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">52.7583301264369</SimpleData>
-            <SimpleData name="volume_m^2">1627.27295481289</SimpleData>
-            <SimpleData name="cover_area_m^2">64.4330118675645</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">19.132</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1755433,54.0821873977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.17">
-        <name>Castanea sativa</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">3c582acc-0174-43fb-b910-cec7fdabac00</SimpleData>
-            <SimpleData name="botanical_genus">Castanea</SimpleData>
-            <SimpleData name="German_genus">Edelkastanie</SimpleData>
-            <SimpleData name="botanical_species">Castanea sativa</SimpleData>
-            <SimpleData name="German-species">Esskastanie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">23</SimpleData>
-            <SimpleData name="trunk_diameter">76.08</SimpleData>
-            <SimpleData name="trunk_circumference">239</SimpleData>
-            <SimpleData name="crown_diameter">12.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Castanea sativa</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">22.6624288205983</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.5761430315633</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">239.737364562755</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">75.5203711545793</SimpleData>
-            <SimpleData name="volume_m^2">2385.19616688964</SimpleData>
-            <SimpleData name="cover_area_m^2">105.248920394698</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">24.329</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1749621,54.0819511977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.18">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">695369b9-b553-48cf-8d45-7809d4c926d8</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">24</SimpleData>
-            <SimpleData name="trunk_diameter">49.97</SimpleData>
-            <SimpleData name="trunk_circumference">157</SimpleData>
-            <SimpleData name="crown_diameter">7.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">24.1269138913652</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.68024161855661</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">152.188650618435</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">51.2691648751457</SimpleData>
-            <SimpleData name="volume_m^2">1117.74161780836</SimpleData>
-            <SimpleData name="cover_area_m^2">46.3275834962214</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">10.163</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1745606,54.0815774977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.19">
-        <name>Pseudotsuga menziesii</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">a254c5c6-9065-4cee-aec9-c9f69912861c</SimpleData>
-            <SimpleData name="botanical_genus">Pseudotsuga</SimpleData>
-            <SimpleData name="German_genus">Douglasie</SimpleData>
-            <SimpleData name="botanical_species">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="German-species">Gewöhnliche Douglasie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">33</SimpleData>
-            <SimpleData name="trunk_diameter">49.97</SimpleData>
-            <SimpleData name="trunk_circumference">157</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">32.9539323840769</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.30876018549226</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">158.130754279728</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">48.2888114613857</SimpleData>
-            <SimpleData name="volume_m^2">1786.77380133321</SimpleData>
-            <SimpleData name="cover_area_m^2">54.220351626277</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.466</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.173972,54.0815950977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.20">
-        <name>Robinia pseudoacacia</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">fd97e6b6-9649-487d-9af1-e5f74557ec8f</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia pseudoacacia</SimpleData>
-            <SimpleData name="German-species">Gemeine Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">17</SimpleData>
-            <SimpleData name="trunk_diameter">42.02</SimpleData>
-            <SimpleData name="trunk_circumference">132</SimpleData>
-            <SimpleData name="crown_diameter">10.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Robinia pseudoacacia</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">17.2141061359998</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.3025915006501</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">133.934869341764</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">43.8592820901391</SimpleData>
-            <SimpleData name="volume_m^2">1435.05094284616</SimpleData>
-            <SimpleData name="cover_area_m^2">83.3648248424031</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">8.508</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.175723,54.0823071977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.21">
-        <name>Verschiedene oder Baumart unbekannt</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">5baf5916-4e6d-47fd-ac4f-9ed11051a490</SimpleData>
-            <SimpleData name="botanical_genus">Species</SimpleData>
-            <SimpleData name="German_genus">Unbestimmt</SimpleData>
-            <SimpleData name="botanical_species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="German-species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">29</SimpleData>
-            <SimpleData name="trunk_diameter">44.56</SimpleData>
-            <SimpleData name="trunk_circumference">140</SimpleData>
-            <SimpleData name="crown_diameter">8.8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">29.2496816374074</SimpleData>
-            <SimpleData name="crown_diameter_standardized">9.21172895822843</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">152.227102795072</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">43.7605496123596</SimpleData>
-            <SimpleData name="volume_m^2">1949.36572972365</SimpleData>
-            <SimpleData name="cover_area_m^2">66.6457075973984</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">13.464</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1763595,54.0823483977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.22">
-        <name>Pseudotsuga menziesii</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">5e781339-2950-41e6-a894-c8a824ab288e</SimpleData>
-            <SimpleData name="botanical_genus">Pseudotsuga</SimpleData>
-            <SimpleData name="German_genus">Douglasie</SimpleData>
-            <SimpleData name="botanical_species">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="German-species">Gewöhnliche Douglasie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">34.5</SimpleData>
-            <SimpleData name="trunk_diameter">48.06</SimpleData>
-            <SimpleData name="trunk_circumference">151</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">33.1649183899801</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.56795375954727</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">153.646374436591</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">49.2109991098055</SimpleData>
-            <SimpleData name="volume_m^2">1912.15477476884</SimpleData>
-            <SimpleData name="cover_area_m^2">57.6559469341723</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.333</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1761163,54.0815028977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.23">
-        <name>Pseudotsuga menziesii</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">b87e4571-e57e-468e-bf08-162fa52f454b</SimpleData>
-            <SimpleData name="botanical_genus">Pseudotsuga</SimpleData>
-            <SimpleData name="German_genus">Douglasie</SimpleData>
-            <SimpleData name="botanical_species">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="German-species">Gewöhnliche Douglasie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">33</SimpleData>
-            <SimpleData name="trunk_diameter">57.93</SimpleData>
-            <SimpleData name="trunk_circumference">182</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">34.5673579455856</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.57544231187397</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">185.537208195867</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">54.8996067625016</SimpleData>
-            <SimpleData name="volume_m^2">1996.49914067102</SimpleData>
-            <SimpleData name="cover_area_m^2">57.7567757366305</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">17.303</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1752541,54.0816215977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.24">
-        <name>Pseudotsuga menziesii</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">165e9e2a-5ddf-4586-9fa1-2d2064b41823</SimpleData>
-            <SimpleData name="botanical_genus">Pseudotsuga</SimpleData>
-            <SimpleData name="German_genus">Douglasie</SimpleData>
-            <SimpleData name="botanical_species">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="German-species">Gewöhnliche Douglasie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">29</SimpleData>
-            <SimpleData name="trunk_diameter">40.11</SimpleData>
-            <SimpleData name="trunk_circumference">126</SimpleData>
-            <SimpleData name="crown_diameter">6.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">29.7858413382154</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.71651043761461</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">125.152746381849</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">38.5008248490393</SimpleData>
-            <SimpleData name="volume_m^2">764.472301774552</SimpleData>
-            <SimpleData name="cover_area_m^2">25.6656272721674</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.732</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1750111,54.081514497762,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.25">
-        <name>Verschiedene oder Baumart unbekannt</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">d454dc7d-bb9b-470e-bfd5-39d163a1e5b6</SimpleData>
-            <SimpleData name="botanical_genus">Species</SimpleData>
-            <SimpleData name="German_genus">Unbestimmt</SimpleData>
-            <SimpleData name="botanical_species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="German-species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">29</SimpleData>
-            <SimpleData name="trunk_diameter">42.65</SimpleData>
-            <SimpleData name="trunk_circumference">134</SimpleData>
-            <SimpleData name="crown_diameter">2.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">28.8941293421125</SimpleData>
-            <SimpleData name="crown_diameter_standardized">2.28820208507001</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">132.53676123336</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">42.747485237966</SimpleData>
-            <SimpleData name="volume_m^2">118.819644295871</SimpleData>
-            <SimpleData name="cover_area_m^2">4.1122417252661</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">21.71</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1764131,54.0820276977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.26">
-        <name>Verschiedene oder Baumart unbekannt</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">139819ec-fe65-4704-89f2-9788a7a9cef0</SimpleData>
-            <SimpleData name="botanical_genus">Species</SimpleData>
-            <SimpleData name="German_genus">Unbestimmt</SimpleData>
-            <SimpleData name="botanical_species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="German-species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">25</SimpleData>
-            <SimpleData name="trunk_diameter">60.48</SimpleData>
-            <SimpleData name="trunk_circumference">190</SimpleData>
-            <SimpleData name="crown_diameter">7.7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">24.9216649159139</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.7634089553094</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">196.824419673443</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">59.1061057112907</SimpleData>
-            <SimpleData name="volume_m^2">1179.70076821158</SimpleData>
-            <SimpleData name="cover_area_m^2">47.3363546212465</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">18.529</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1764515,54.0816049977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.27">
-        <name>Verschiedene oder Baumart unbekannt</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">bff4877b-fc6f-4b4b-92dc-3fef2c6e5cce</SimpleData>
-            <SimpleData name="botanical_genus">Species</SimpleData>
-            <SimpleData name="German_genus">Unbestimmt</SimpleData>
-            <SimpleData name="botanical_species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="German-species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">25</SimpleData>
-            <SimpleData name="trunk_diameter">15.92</SimpleData>
-            <SimpleData name="trunk_circumference">50</SimpleData>
-            <SimpleData name="crown_diameter">7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">25.8110562691117</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.45507583941398</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">58.3081453392973</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">15.3168743954153</SimpleData>
-            <SimpleData name="volume_m^2">1126.67793886955</SimpleData>
-            <SimpleData name="cover_area_m^2">43.6509814678858</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">7.671</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1734778,54.0817097977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.28">
-        <name>Verschiedene oder Baumart unbekannt</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">94082e6f-5a9c-4185-aebf-3d238d8a7a79</SimpleData>
-            <SimpleData name="botanical_genus">Species</SimpleData>
-            <SimpleData name="German_genus">Unbestimmt</SimpleData>
-            <SimpleData name="botanical_species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="German-species">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">12</SimpleData>
-            <SimpleData name="trunk_diameter">9.55</SimpleData>
-            <SimpleData name="trunk_circumference">30</SimpleData>
-            <SimpleData name="crown_diameter">4</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Verschiedene oder Baumart unbekannt</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">12.0268938048898</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.65553641260521</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">24.1112248796608</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">11.663515467182</SimpleData>
-            <SimpleData name="volume_m^2">204.730625429385</SimpleData>
-            <SimpleData name="cover_area_m^2">17.0227349430945</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">7.218</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1748178,54.0815414977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.29">
-        <name>Windschutz Laub-Mischbestand</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">a402aa9c-a029-4387-9f54-d34b4caa893b</SimpleData>
-            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="botanical_species">Windschutz Laub-Mischbestand</SimpleData>
-            <SimpleData name="German-species">Windschutz Laub-Mischbestand</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">27</SimpleData>
-            <SimpleData name="trunk_diameter">30</SimpleData>
-            <SimpleData name="trunk_circumference">94.25</SimpleData>
-            <SimpleData name="crown_diameter">6.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Windschutz Laub-Mischbestand</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">26.9239902914762</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.37595320459473</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">90.15357746462</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">28.525135254674</SimpleData>
-            <SimpleData name="volume_m^2">859.645805722122</SimpleData>
-            <SimpleData name="cover_area_m^2">31.9286181734464</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">11.456</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1753114,54.081567597762,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.30">
-        <name>Buchen-Eichen-Mischwald</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">56101790-2fe3-4ae7-9b5c-8be5a4cad8c6</SimpleData>
-            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="botanical_species">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="German-species">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">18</SimpleData>
-            <SimpleData name="trunk_diameter">89</SimpleData>
-            <SimpleData name="trunk_circumference">279.6</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Buchen-Eichen-Mischwald</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">18.4749093680535</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.29667057131087</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">276.81403087927</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">86.2283335072246</SimpleData>
-            <SimpleData name="volume_m^2">998.80312042729</SimpleData>
-            <SimpleData name="cover_area_m^2">54.0626803915155</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.325</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1733064,54.0819915977622,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.31">
-        <name>Robinia pseudoacacia</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">23c1f696-a63a-44e4-8efb-3dfdd4fa0594</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia pseudoacacia</SimpleData>
-            <SimpleData name="German-species">Gemeine Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">24</SimpleData>
-            <SimpleData name="trunk_diameter">43</SimpleData>
-            <SimpleData name="trunk_circumference">135.09</SimpleData>
-            <SimpleData name="crown_diameter">7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Robinia pseudoacacia</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">24.7483408028708</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.91404667395328</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">129.796969338961</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">43.1996542096183</SimpleData>
-            <SimpleData name="volume_m^2">929.181561671899</SimpleData>
-            <SimpleData name="cover_area_m^2">37.5452063260788</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.311</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1749082,54.0814951977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.32">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">8a93402f-4152-4075-ad71-19ed1000d6f7</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">19</SimpleData>
-            <SimpleData name="trunk_diameter">98</SimpleData>
-            <SimpleData name="trunk_circumference">307.88</SimpleData>
-            <SimpleData name="crown_diameter">7.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">19.2246711664334</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.853208149668</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">308.057359582945</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">97.9845567717624</SimpleData>
-            <SimpleData name="volume_m^2">931.200109981487</SimpleData>
-            <SimpleData name="cover_area_m^2">48.4377653027106</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">11.892</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1755622,54.0815653977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.33">
-        <name>Quercus robur</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">ef9933ff-8eb4-4cad-8744-ac6fd53d09a9</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus robur</SimpleData>
-            <SimpleData name="German-species">Stiel-Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">17</SimpleData>
-            <SimpleData name="trunk_diameter">47.11</SimpleData>
-            <SimpleData name="trunk_circumference">148</SimpleData>
-            <SimpleData name="crown_diameter">14</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus robur</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">17.2046764241511</SimpleData>
-            <SimpleData name="crown_diameter_standardized">14.084414652291</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">145.049090128325</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">46.9029336586004</SimpleData>
-            <SimpleData name="volume_m^2">2680.48878994797</SimpleData>
-            <SimpleData name="cover_area_m^2">155.80001180291</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.369</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1757736,54.0814749977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.34">
-        <name>Quercus rubra</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">8fa960e0-2617-4f67-91bf-15a2081ceda0</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus rubra</SimpleData>
-            <SimpleData name="German-species">Amerikanische Roteiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">12</SimpleData>
-            <SimpleData name="trunk_diameter">23.24</SimpleData>
-            <SimpleData name="trunk_circumference">73</SimpleData>
-            <SimpleData name="crown_diameter">10</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Quercus rubra</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">11.93649895513</SimpleData>
-            <SimpleData name="crown_diameter_standardized">10.3512461973713</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">68.6101480549622</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">25.066195381756</SimpleData>
-            <SimpleData name="volume_m^2">1004.50504422589</SimpleData>
-            <SimpleData name="cover_area_m^2">84.1540763335948</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">0.508</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1735372,54.0825300977623,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Wossidlopark_qualified.35">
-        <name>Pseudotsuga menziesii</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Wossidlopark_qualified.schema">
-            <SimpleData name="uuid">7e5e3fb3-43aa-4713-b8f6-18492d0a34f7</SimpleData>
-            <SimpleData name="botanical_genus">Pseudotsuga</SimpleData>
-            <SimpleData name="German_genus">Douglasie</SimpleData>
-            <SimpleData name="botanical_species">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="German-species">Gewöhnliche Douglasie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">29</SimpleData>
-            <SimpleData name="trunk_diameter">47</SimpleData>
-            <SimpleData name="trunk_circumference">147.65</SimpleData>
-            <SimpleData name="crown_diameter">8</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Pseudotsuga menziesii</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">true</SimpleData>
-            <SimpleData name="height_standardized">29.0570058912258</SimpleData>
-            <SimpleData name="crown_diameter_standardized">8.54160102174387</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">142.041474812495</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">51.4098450804308</SimpleData>
-            <SimpleData name="volume_m^2">1665.0194309826</SimpleData>
-            <SimpleData name="cover_area_m^2">57.3018237741206</SimpleData>
-            <SimpleData name="designation">Wossidlopark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">11.042</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1753999,54.0815616977621,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="464989">
+        <Style id="464992">
+            <IconStyle id="464993">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="464994">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="464995">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="464998">
+            <IconStyle id="464999">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465000">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465001">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465004">
+            <IconStyle id="465005">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465006">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465007">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465010">
+            <IconStyle id="465011">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465012">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465013">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465016">
+            <IconStyle id="465017">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465018">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465019">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465022">
+            <IconStyle id="465023">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465024">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465025">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465028">
+            <IconStyle id="465029">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465030">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465031">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465034">
+            <IconStyle id="465035">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465036">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465037">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465040">
+            <IconStyle id="465041">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465042">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465043">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465046">
+            <IconStyle id="465047">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465048">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465049">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465052">
+            <IconStyle id="465053">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465054">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465055">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465058">
+            <IconStyle id="465059">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465060">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465061">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465064">
+            <IconStyle id="465065">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465066">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465067">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465070">
+            <IconStyle id="465071">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465072">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465073">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465076">
+            <IconStyle id="465077">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465078">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465079">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465082">
+            <IconStyle id="465083">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465084">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465085">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465088">
+            <IconStyle id="465089">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465090">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465091">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465094">
+            <IconStyle id="465095">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465096">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465097">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465100">
+            <IconStyle id="465101">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465102">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465103">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465106">
+            <IconStyle id="465107">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465108">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465109">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465112">
+            <IconStyle id="465113">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465114">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465115">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465118">
+            <IconStyle id="465119">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465120">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465121">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465124">
+            <IconStyle id="465125">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465126">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465127">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465130">
+            <IconStyle id="465131">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465132">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465133">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465136">
+            <IconStyle id="465137">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465138">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465139">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465142">
+            <IconStyle id="465143">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465144">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465145">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465148">
+            <IconStyle id="465149">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465150">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465151">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465154">
+            <IconStyle id="465155">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465156">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465157">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465160">
+            <IconStyle id="465161">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465162">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465163">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465166">
+            <IconStyle id="465167">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465168">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465169">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465172">
+            <IconStyle id="465173">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465174">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465175">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465178">
+            <IconStyle id="465179">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465180">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465181">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465184">
+            <IconStyle id="465185">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465186">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465187">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465190">
+            <IconStyle id="465191">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465192">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465193">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="465196">
+            <IconStyle id="465197">
+                <color>FF14F000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="465198">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="465199">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="464991">
+            <name>Buchen-Eichen-Mischwald</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; d33ee854-f0f7-4ab4-80ea-a74c3a6cb544&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 22.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 30.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 94.25&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 21.875546298668112&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.829455598611291&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 95.20097422809818&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 29.395833018296763&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 583.8547077029302&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 26.68983438088941&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 18.813&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Buchen-Eichen-Mischwald</description>
+            <styleUrl>#464992</styleUrl>
+            <Point id="464990">
+                <coordinates>12.174696900000004,54.081866297762076,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="464997">
+            <name>Buchen-Eichen-Mischwald</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 8f3cb4dc-9a9f-44eb-9b71-6fff985e17b5&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 31.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 35.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 109.96&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 31.392293774270073&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.650385511051522&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 107.39300082309195&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 36.61811696016145&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 787.1710082205749&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 25.075294398071684&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 29.379&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Buchen-Eichen-Mischwald</description>
+            <styleUrl>#464998</styleUrl>
+            <Point id="464996">
+                <coordinates>12.176067700000008,54.08216069776221,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465003">
+            <name>Buchen-Eichen-Mischwald</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 33186a1c-64d6-4799-8d5f-eefa2256f701&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 22.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 48.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 150.8&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 21.826430946479423&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.175225450286165&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 155.92633296543076&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 46.96267787110874&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1145.7030874408695&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 52.491545239358985&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 20.406&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Buchen-Eichen-Mischwald</description>
+            <styleUrl>#465004</styleUrl>
+            <Point id="465002">
+                <coordinates>12.176518999999999,54.081839497762076,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465009">
+            <name>Acer platanoides</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 902677bb-abb8-4d68-9859-a98d83052f99&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer platanoides&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Spitz-Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 15.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 54.11&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 170.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Acer platanoides&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 15.16465300806193&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.645872847973163&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 171.23052712589066&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 53.88284938288467&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1108.1675385396513&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 73.07569371686382&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.057&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Acer platanoides</description>
+            <styleUrl>#465010</styleUrl>
+            <Point id="465008">
+                <coordinates>12.173549299999998,54.08258999776228,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465015">
+            <name>Betula pendula</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; e843c7ba-0eab-4e3a-8a0e-8a054fca3118&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Betula&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Birke&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Sand-Birke&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 27.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 35.01&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 110.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Betula pendula&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 27.85310477330971&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 4.936622815292466&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 104.12846458839618&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 32.99828316308653&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 533.1180492645165&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 19.140345523540265&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.386&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Betula pendula</description>
+            <styleUrl>#465016</styleUrl>
+            <Point id="465014">
+                <coordinates>12.176772199999998,54.081769997762095,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465021">
+            <name>Castanea sativa</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 73e06264-7f65-4fd1-9d19-e3ace03dd1e1&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Castanea&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Edelkastanie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Esskastanie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 34.5&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 86.9&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 273.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 14.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 33.74729688365883&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 14.78223459381613&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 265.9225809694597&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 85.08647028867863&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 5791.739953046786&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 171.62085523511283&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 25.23&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Castanea sativa</description>
+            <styleUrl>#465022</styleUrl>
+            <Point id="465020">
+                <coordinates>12.173878699999994,54.08220389776219,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465027">
+            <name>Acer pseudoplatanus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 102c9cb6-e52c-4bfe-98cb-fcfc5d384332&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer pseudoplatanus&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Berg-Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 34.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 77.03&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 242.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 13.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Acer pseudoplatanus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 32.850148950574564&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.760895176454978&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 243.88221695496932&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 74.3009344332099&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 4885.630269512838&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 148.72475241630178&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 14.717&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Acer pseudoplatanus</description>
+            <styleUrl>#465028</styleUrl>
+            <Point id="465026">
+                <coordinates>12.173550400000005,54.08222619776219,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465033">
+            <name>Castanea sativa</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 8cc32de0-1aee-49a3-a447-479a834546e0&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Castanea&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Edelkastanie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Esskastanie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 32.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 66.85&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 210.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 31.172415104699418&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.370942532336289&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 206.88371075792648&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 65.82719265437073&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1330.1676536612924&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 42.671305678229665&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 26.884&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Castanea sativa</description>
+            <styleUrl>#465034</styleUrl>
+            <Point id="465032">
+                <coordinates>12.1737606,54.082192197762154,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465039">
+            <name>Castanea sativa</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; ac491876-9df6-4d55-a34c-b424affa683c&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Castanea&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Edelkastanie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Esskastanie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 27.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 41.38&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 130.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.7&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 27.5714364626893&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.205257288082525&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 134.43443150419347&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 38.12996908547445&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 586.7237609185747&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 21.28013031575454&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 10.701&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Castanea sativa</description>
+            <styleUrl>#465040</styleUrl>
+            <Point id="465038">
+                <coordinates>12.173324400000006,54.08169879776211,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465045">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 83c039c7-86fc-445a-88ca-524692a86aab&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 18.14&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 57.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 19.5805577133506&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.1920123645877805&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 57.97544739451452&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 14.509941439850868&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 414.5590258583236&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 21.171972316992026&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 26.214&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#465046</styleUrl>
+            <Point id="465044">
+                <coordinates>12.173662699999998,54.08203419776216,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465051">
+            <name>Acer pseudoplatanus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; a9f41569-e885-48c6-807b-6fd43a4d535f&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer pseudoplatanus&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Berg-Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 23.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 42.02&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 132.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Acer pseudoplatanus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 22.727808289358318&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.845770354987414&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 136.925338640953&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 41.569843175809616&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1098.799930371922&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 48.346057674483525&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 41.698&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Acer pseudoplatanus</description>
+            <styleUrl>#465052</styleUrl>
+            <Point id="465050">
+                <coordinates>12.175336799999993,54.081948797762124,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465057">
+            <name>Acer platanoides</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 01f0cdd9-def1-427e-88e2-e44f9230c910&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer platanoides&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Spitz-Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 24.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 62.07&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 195.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 14.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Acer platanoides&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 24.762669910372345&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.344059267832193&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 198.93329793064458&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 61.73996969285132&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3463.085981157704&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 139.851073963035&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 33.693&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Acer platanoides</description>
+            <styleUrl>#465058</styleUrl>
+            <Point id="465056">
+                <coordinates>12.175198900000007,54.08196999776214,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465063">
+            <name>Acer pseudoplatanus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 45dcfc4c-8645-4d1a-9894-a36cf94f32ad&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer pseudoplatanus&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Berg-Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 32.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 72.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 226.19&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 11.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Acer pseudoplatanus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 32.33636385085819&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 12.375762523990646&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 227.53333211841087&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 73.64625464373961&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3889.779638596285&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 120.29118847551105&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 7.28&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Acer pseudoplatanus</description>
+            <styleUrl>#465064</styleUrl>
+            <Point id="465062">
+                <coordinates>12.173590799999998,54.08237309776217,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465069">
+            <name>Castanea sativa</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 7bbc3ddd-d693-48e4-9c64-9acbbc9ce970&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Castanea&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Edelkastanie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Esskastanie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 17.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 39.15&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 123.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 9.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.64169515073418&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 10.204397398532437&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 125.77988363366818&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 39.32240794506836&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1442.7959723140825&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 81.78329576531873&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 47.757&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Castanea sativa</description>
+            <styleUrl>#465070</styleUrl>
+            <Point id="465068">
+                <coordinates>12.1760141,54.081877697762124,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465075">
+            <name>Castanea sativa</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 8537705b-9317-4189-ad52-ad9197e87d86&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Castanea&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Edelkastanie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Esskastanie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 59.84&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 188.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 18.90318996349848&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 6.390699242625988&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 190.3833113246242&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 58.771398781931445&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 606.3477059853524&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 32.076475301586264&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 33.1&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Castanea sativa</description>
+            <styleUrl>#465076</styleUrl>
+            <Point id="465074">
+                <coordinates>12.174982799999993,54.08177029776213,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465081">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 9f4c28df-4226-496f-b526-fb1b2d3b5ff1&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 25.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 53.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 166.5&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 25.28653088621478&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.148812829167683&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 164.66566934707893&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 54.78652497414038&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1662.2969895232393&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 65.73843588918155&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 19.132&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#465082</styleUrl>
+            <Point id="465080">
+                <coordinates>12.175543300000005,54.082187397762176,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465087">
+            <name>Castanea sativa</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 3c582acc-0174-43fb-b910-cec7fdabac00&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Castanea&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Edelkastanie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Esskastanie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 23.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 76.08&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 239.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 12.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Castanea sativa&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 23.121807000268223&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 12.580946614008631&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 242.55290879594517&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 74.47026894595857&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2874.341015292558&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 124.31299228729027&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 24.329&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Castanea sativa</description>
+            <styleUrl>#465088</styleUrl>
+            <Point id="465086">
+                <coordinates>12.174962100000005,54.08195119776211,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465093">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 695369b9-b553-48cf-8d45-7809d4c926d8&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 24.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 49.97&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 157.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 23.69839197128093&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.228426790467717&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 155.36624204645221&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 53.03458972831305&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1260.2084252681243&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 53.17695929729397&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 10.163&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#465094</styleUrl>
+            <Point id="465092">
+                <coordinates>12.174560600000003,54.08157749776207,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465099">
+            <name>Pseudotsuga menziesii</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; a254c5c6-9065-4cee-aec9-c9f69912861c&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Pseudotsuga&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Douglasie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Gewöhnliche Douglasie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 33.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 49.97&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 157.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 33.31954431026471&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.845529831161325&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 150.97868091731874&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 50.26069789818665&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1610.769845251822&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 48.34309347849017&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.466&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Pseudotsuga menziesii</description>
+            <styleUrl>#465100</styleUrl>
+            <Point id="465098">
+                <coordinates>12.173972000000006,54.08159509776209,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465105">
+            <name>Robinia pseudoacacia</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; fd97e6b6-9649-487d-9af1-e5f74557ec8f&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia pseudoacacia&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Gemeine Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 17.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 42.02&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 132.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Robinia pseudoacacia&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.85572598781734&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.954881814889363&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 130.69321835224108&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 44.251764730464224&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1389.7593701910553&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 77.83270034157472&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 8.508&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Robinia pseudoacacia</description>
+            <styleUrl>#465106</styleUrl>
+            <Point id="465104">
+                <coordinates>12.175723,54.082307197762226,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465111">
+            <name>Verschiedene oder Baumart unbekannt</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 5baf5916-4e6d-47fd-ac4f-9ed11051a490&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Species&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Unbestimmt&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 29.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 44.56&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 140.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.8&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 29.44660483799825&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.944370791798441&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 144.0512074173455&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 43.22926443553159&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1850.225657643993&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 62.83324233211564&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 13.464&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Verschiedene oder Baumart unbekannt</description>
+            <styleUrl>#465112</styleUrl>
+            <Point id="465110">
+                <coordinates>12.176359500000006,54.08234839776221,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465117">
+            <name>Pseudotsuga menziesii</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 5e781339-2950-41e6-a894-c8a824ab288e&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Pseudotsuga&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Douglasie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Gewöhnliche Douglasie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 34.5&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 48.06&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 151.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 34.02798037176628&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.969971135157472&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 152.7067583050117&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 46.878985237665745&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1697.6163604868952&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 49.88883683192208&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.333&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Pseudotsuga menziesii</description>
+            <styleUrl>#465118</styleUrl>
+            <Point id="465116">
+                <coordinates>12.1761163,54.081502897762064,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465123">
+            <name>Pseudotsuga menziesii</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; b87e4571-e57e-468e-bf08-162fa52f454b&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Pseudotsuga&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Douglasie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Gewöhnliche Douglasie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 33.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 57.93&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 182.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 32.51641237876653&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.013401288071414&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 180.82295185781015&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 58.97722767824246&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1256.174235455822&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 38.63200591822096&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 17.303&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Pseudotsuga menziesii</description>
+            <styleUrl>#465124</styleUrl>
+            <Point id="465122">
+                <coordinates>12.175254100000004,54.08162159776211,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465129">
+            <name>Pseudotsuga menziesii</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 165e9e2a-5ddf-4586-9fa1-2d2064b41823&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Pseudotsuga&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Douglasie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Gewöhnliche Douglasie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 29.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 40.11&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 126.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 28.483045877696675&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.876685526058025&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 130.24502679224926&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 39.16608253268635&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 772.5760012117089&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 27.124065471406123&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.732&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Pseudotsuga menziesii</description>
+            <styleUrl>#465130</styleUrl>
+            <Point id="465128">
+                <coordinates>12.175011100000006,54.081514497762036,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465135">
+            <name>Verschiedene oder Baumart unbekannt</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; d454dc7d-bb9b-470e-bfd5-39d163a1e5b6&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Species&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Unbestimmt&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 29.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 42.65&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 134.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 2.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 29.84461275051585&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.5629960079025462&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 141.4476800332165&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 39.93769014821609&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 153.9755233500988&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 5.159240116038611&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 21.71&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Verschiedene oder Baumart unbekannt</description>
+            <styleUrl>#465136</styleUrl>
+            <Point id="465134">
+                <coordinates>12.1764131,54.08202769776216,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465141">
+            <name>Verschiedene oder Baumart unbekannt</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 139819ec-fe65-4704-89f2-9788a7a9cef0&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Species&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Unbestimmt&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 25.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 60.48&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 190.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.7&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 24.678520577867236&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.656179354040013&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 189.38541708437285&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 59.505526798281124&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1136.1435307024644&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 46.037748783101975&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 18.529&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Verschiedene oder Baumart unbekannt</description>
+            <styleUrl>#465142</styleUrl>
+            <Point id="465140">
+                <coordinates>12.176451499999995,54.08160499776211,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465147">
+            <name>Verschiedene oder Baumart unbekannt</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; bff4877b-fc6f-4b4b-92dc-3fef2c6e5cce&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Species&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Unbestimmt&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 25.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 15.92&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 50.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 25.156479533240624&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.0467466184526435&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 58.56304079413143&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 14.231444070840041&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 981.1085434031977&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 39.00023221082289&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 7.671&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Verschiedene oder Baumart unbekannt</description>
+            <styleUrl>#465148</styleUrl>
+            <Point id="465146">
+                <coordinates>12.173477799999997,54.08170979776211,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465153">
+            <name>Verschiedene oder Baumart unbekannt</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 94082e6f-5a9c-4185-aebf-3d238d8a7a79&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Species&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Unbestimmt&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 9.55&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 30.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 4.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Verschiedene oder Baumart unbekannt&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 12.395135337858456&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 4.31641722592635&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 25.41350398844619&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 8.50977510079154&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 181.3794115135417&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 14.633112634079488&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 7.218&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Verschiedene oder Baumart unbekannt</description>
+            <styleUrl>#465154</styleUrl>
+            <Point id="465152">
+                <coordinates>12.174817800000005,54.08154149776206,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465159">
+            <name>Windschutz Laub-Mischbestand</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; a402aa9c-a029-4387-9f54-d34b4caa893b&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Windschutz Laub-Mischbestand&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Windschutz Laub-Mischbestand&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 27.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 30.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 94.25&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Windschutz Laub-Mischbestand&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 27.775348615712375&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.499765321248013&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 83.84009859470888&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 31.557857115515553&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 659.838597931791&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 23.756267007159135&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 11.456&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Windschutz Laub-Mischbestand</description>
+            <styleUrl>#465160</styleUrl>
+            <Point id="465158">
+                <coordinates>12.1753114,54.08156759776204,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465165">
+            <name>Buchen-Eichen-Mischwald</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 56101790-2fe3-4ae7-9b5c-8be5a4cad8c6&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 89.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 279.6&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Buchen-Eichen-Mischwald&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.920195113532564&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.956236649718807&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 278.6885719935214&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 91.24739840985633&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 890.9390608020949&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 49.71704019725186&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.325&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Buchen-Eichen-Mischwald</description>
+            <styleUrl>#465166</styleUrl>
+            <Point id="465164">
+                <coordinates>12.17330639999999,54.0819915977622,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465171">
+            <name>Robinia pseudoacacia</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 23c1f696-a63a-44e4-8efb-3dfdd4fa0594&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia pseudoacacia&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Gemeine Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 24.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 43.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 135.09&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Robinia pseudoacacia&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 23.464828340708713&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 6.8792620833894205&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 143.7947046115623&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 41.320309813832175&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 872.1495749858566&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 37.16837653028042&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.311&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Robinia pseudoacacia</description>
+            <styleUrl>#465172</styleUrl>
+            <Point id="465170">
+                <coordinates>12.174908199999994,54.08149519776205,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465177">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 8a93402f-4152-4075-ad71-19ed1000d6f7&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 19.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 98.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 307.88&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 18.284671000128316&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 7.718728452701344&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 301.476004535518&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 99.49330500747085&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 855.5956284259684&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 46.79305569238648&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 11.892&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#465178</styleUrl>
+            <Point id="465176">
+                <coordinates>12.175562199999998,54.081565397762056,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465183">
+            <name>Quercus robur</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; ef9933ff-8eb4-4cad-8744-ac6fd53d09a9&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Stiel-Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 17.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 47.11&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 148.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 14.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus robur&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 17.062226465894387&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 13.33924386307445&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 149.0796940930369&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 48.355268075638776&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2384.44883492583&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 139.7501574423534&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.369&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus robur</description>
+            <styleUrl>#465184</styleUrl>
+            <Point id="465182">
+                <coordinates>12.175773599999996,54.081474997762065,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465189">
+            <name>Quercus rubra</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 8fa960e0-2617-4f67-91bf-15a2081ceda0&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus rubra&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Amerikanische Roteiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 23.24&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 73.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 10.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Quercus rubra&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 11.73605700333663&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 9.999644023171209&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 81.42911112646735&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 24.286649912803593&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 921.6821385938456&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 78.5342247683192&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.508&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Quercus rubra</description>
+            <styleUrl>#465190</styleUrl>
+            <Point id="465188">
+                <coordinates>12.173537200000002,54.08253009776226,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="465195">
+            <name>Pseudotsuga menziesii</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 7e5e3fb3-43aa-4713-b8f6-18492d0a34f7&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Pseudotsuga&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Douglasie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Gewöhnliche Douglasie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 29.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 47.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 147.65&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Pseudotsuga menziesii&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 28.65367983354861&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 8.233110309914279&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 145.99066968224682&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 46.55037619420003&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 1525.4506202357857&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 53.237511869234375&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Wossidlopark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 11.042&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Pseudotsuga menziesii</description>
+            <styleUrl>#465196</styleUrl>
+            <Point id="465194">
+                <coordinates>12.175399900000002,54.081561697762055,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>

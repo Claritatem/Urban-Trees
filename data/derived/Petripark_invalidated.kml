@@ -1,998 +1,580 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document id="root_doc">
-    <Schema id="Petripark_invalidated" name="Petripark_invalidated">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="int"/>
-      <SimpleField name="height" type="float"/>
-      <SimpleField name="trunk_diameter" type="float"/>
-      <SimpleField name="trunk_circumference" type="float"/>
-      <SimpleField name="crown_diameter" type="float"/>
-      <SimpleField name="tree_sponsorship" type="int"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="int"/>
-      <SimpleField name="in_qualified_cohort" type="int"/>
-      <SimpleField name="height_standardized" type="float"/>
-      <SimpleField name="crown_diameter_standardized" type="float"/>
-      <SimpleField name="trunk_circumference_standardized" type="float"/>
-      <SimpleField name="trunk_diameter_standardized" type="float"/>
-      <SimpleField name="volume_m^2" type="float"/>
-      <SimpleField name="cover_area_m^2" type="float"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="float"/>
-    </Schema>
-    <Schema id="Petripark_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Petripark_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Schema id="Petripark_invalidated.schema">
-      <SimpleField name="uuid" type="string"/>
-      <SimpleField name="botanical_genus" type="string"/>
-      <SimpleField name="German_genus" type="string"/>
-      <SimpleField name="botanical_species" type="string"/>
-      <SimpleField name="German-species" type="string"/>
-      <SimpleField name="avenue_tree" type="bool"/>
-      <SimpleField name="height" type="double"/>
-      <SimpleField name="trunk_diameter" type="double"/>
-      <SimpleField name="trunk_circumference" type="double"/>
-      <SimpleField name="crown_diameter" type="double"/>
-      <SimpleField name="tree_sponsorship" type="bool"/>
-      <SimpleField name="botanical_species_formal_name" type="string"/>
-      <SimpleField name="botanical_species_common_name" type="string"/>
-      <SimpleField name="qualified_species_representation" type="bool"/>
-      <SimpleField name="in_qualified_cohort" type="bool"/>
-      <SimpleField name="height_standardized" type="double"/>
-      <SimpleField name="crown_diameter_standardized" type="double"/>
-      <SimpleField name="trunk_circumference_standardized" type="double"/>
-      <SimpleField name="trunk_diameter_standardized" type="double"/>
-      <SimpleField name="volume_m^2" type="double"/>
-      <SimpleField name="cover_area_m^2" type="double"/>
-      <SimpleField name="designation" type="string"/>
-      <SimpleField name="type" type="string"/>
-      <SimpleField name="dist_to_edge" type="double"/>
-    </Schema>
-    <Document id="Petripark_invalidated">
-      <name>Petripark_invalidated</name>
-      <Placemark id="Petripark_invalidated.1">
-        <name>Sequoia sempervirens</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">193738bb-2525-491d-a602-57c78d54347c</SimpleData>
-            <SimpleData name="botanical_genus">Sequoia</SimpleData>
-            <SimpleData name="German_genus">Küstenmammutbaum</SimpleData>
-            <SimpleData name="botanical_species">Sequoia sempervirens</SimpleData>
-            <SimpleData name="German-species">Küsten-Sequoie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">4.5</SimpleData>
-            <SimpleData name="trunk_diameter">7.96</SimpleData>
-            <SimpleData name="trunk_circumference">25</SimpleData>
-            <SimpleData name="crown_diameter">1.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Sequoia sempervirens</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">3.86553673700389</SimpleData>
-            <SimpleData name="crown_diameter_standardized">2.6808452169961</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">25.9220794840647</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">10.1144740567152</SimpleData>
-            <SimpleData name="volume_m^2">21.8194182086408</SimpleData>
-            <SimpleData name="cover_area_m^2">5.64460246872536</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.167</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1524883,54.0888176977633,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.2">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">6b952b79-9264-4d00-a328-5fb30b876297</SimpleData>
-            <SimpleData name="botanical_genus">Prunus</SimpleData>
-            <SimpleData name="German_genus">Kirsche</SimpleData>
-            <SimpleData name="botanical_species">Prunus species</SimpleData>
-            <SimpleData name="German-species">Kirsche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">7</SimpleData>
-            <SimpleData name="trunk_diameter">8</SimpleData>
-            <SimpleData name="trunk_circumference">25.13</SimpleData>
-            <SimpleData name="crown_diameter">0.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">7.44752622198704</SimpleData>
-            <SimpleData name="crown_diameter_standardized">-0.307955786530202</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">23.2797691331596</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">11.4172077889366</SimpleData>
-            <SimpleData name="volume_m^2">0.55472617695606</SimpleData>
-            <SimpleData name="cover_area_m^2">0.0744846221982225</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">5.993</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1522438,54.0891148977634,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.3">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">1304967e-bfbc-4810-9d60-9ed7580384e0</SimpleData>
-            <SimpleData name="botanical_genus">Prunus</SimpleData>
-            <SimpleData name="German_genus">Kirsche</SimpleData>
-            <SimpleData name="botanical_species">Prunus species</SimpleData>
-            <SimpleData name="German-species">Kirsche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">7</SimpleData>
-            <SimpleData name="trunk_diameter">8</SimpleData>
-            <SimpleData name="trunk_circumference">25.13</SimpleData>
-            <SimpleData name="crown_diameter">0.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">6.75272388162696</SimpleData>
-            <SimpleData name="crown_diameter_standardized">0.0429384642396538</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">26.5963950475908</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">9.55806160068724</SimpleData>
-            <SimpleData name="volume_m^2">0.00977826690581665</SimpleData>
-            <SimpleData name="cover_area_m^2">0.00144804779185799</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">5.582</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1523923,54.0890455977633,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.4">
-        <name>Acer pseudoplatanus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">61d2554e-eeb1-4c4a-9427-210a5e0f1d02</SimpleData>
-            <SimpleData name="botanical_genus">Acer</SimpleData>
-            <SimpleData name="German_genus">Ahorn</SimpleData>
-            <SimpleData name="botanical_species">Acer pseudoplatanus</SimpleData>
-            <SimpleData name="German-species">Berg-Ahorn</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">9</SimpleData>
-            <SimpleData name="crown_diameter">6</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Acer pseudoplatanus</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">9.16499076235519</SimpleData>
-            <SimpleData name="crown_diameter_standardized">6.04963103209581</SimpleData>
-            <SimpleData name="volume_m^2">263.438769087734</SimpleData>
-            <SimpleData name="cover_area_m^2">28.744029963434</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.116</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1520682,54.0875184977631,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.5">
-        <name>Metasequoia glyptostroboides</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">e45a0416-0831-4c30-bcdb-7b39fea147b6</SimpleData>
-            <SimpleData name="botanical_genus">Metasequoia</SimpleData>
-            <SimpleData name="German_genus">Urweltmammutbaum</SimpleData>
-            <SimpleData name="botanical_species">Metasequoia glyptostroboides</SimpleData>
-            <SimpleData name="German-species">Urwelt-Mammutbaum</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">16</SimpleData>
-            <SimpleData name="trunk_diameter">40</SimpleData>
-            <SimpleData name="trunk_circumference">125.66</SimpleData>
-            <SimpleData name="crown_diameter">6</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Metasequoia glyptostroboides</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">14.7514183929931</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.57124434079694</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">132.415434643173</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">39.476084214979</SimpleData>
-            <SimpleData name="volume_m^2">359.606948083458</SimpleData>
-            <SimpleData name="cover_area_m^2">24.3777878508463</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.131</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1523421,54.0891008977634,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.6">
-        <name>Salix alba</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">a165c03e-3b1c-4582-85a5-549f98c6e96a</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix alba</SimpleData>
-            <SimpleData name="German-species">Silber-Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">16</SimpleData>
-            <SimpleData name="trunk_diameter">125</SimpleData>
-            <SimpleData name="trunk_circumference">392.7</SimpleData>
-            <SimpleData name="crown_diameter">16</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Salix alba</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">15.6848527894738</SimpleData>
-            <SimpleData name="crown_diameter_standardized">16.5869607143656</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">401.995415018445</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">124.226627815965</SimpleData>
-            <SimpleData name="volume_m^2">3389.25277599548</SimpleData>
-            <SimpleData name="cover_area_m^2">216.084449212685</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.949</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1536848,54.0914450977638,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.7">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">84d77db3-5731-4dc5-967d-24563ae9bb53</SimpleData>
-            <SimpleData name="botanical_genus">Pinus</SimpleData>
-            <SimpleData name="German_genus">Kiefer</SimpleData>
-            <SimpleData name="botanical_species">Pinus species</SimpleData>
-            <SimpleData name="German-species">Kiefer</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">6.5</SimpleData>
-            <SimpleData name="trunk_diameter">12</SimpleData>
-            <SimpleData name="trunk_circumference">37.7</SimpleData>
-            <SimpleData name="crown_diameter">4</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">5.98272291410046</SimpleData>
-            <SimpleData name="crown_diameter_standardized">3.6811358223155</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">31.8564388220767</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">12.5420607707872</SimpleData>
-            <SimpleData name="volume_m^2">63.6725809596688</SimpleData>
-            <SimpleData name="cover_area_m^2">10.6427427567473</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">32.786</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1525102,54.0912337977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.8">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">5bcc78a2-9399-4fc7-a4a2-bc0c1a29d32f</SimpleData>
-            <SimpleData name="botanical_genus">Quercus</SimpleData>
-            <SimpleData name="German_genus">Eiche</SimpleData>
-            <SimpleData name="botanical_species">Quercus species</SimpleData>
-            <SimpleData name="German-species">Eiche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">12</SimpleData>
-            <SimpleData name="trunk_diameter">11</SimpleData>
-            <SimpleData name="trunk_circumference">34.56</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">11.5067490810769</SimpleData>
-            <SimpleData name="crown_diameter_standardized">4.74632894912996</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">28.9619031249522</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">13.1350324577905</SimpleData>
-            <SimpleData name="volume_m^2">203.590820442273</SimpleData>
-            <SimpleData name="cover_area_m^2">17.693165898358</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">13.77</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1522716,54.0913480977638,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.9">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">4b78ef16-3bd8-49d2-9576-e639daf4e961</SimpleData>
-            <SimpleData name="botanical_genus">Populus</SimpleData>
-            <SimpleData name="German_genus">Pappel</SimpleData>
-            <SimpleData name="botanical_species">Populus species</SimpleData>
-            <SimpleData name="German-species">Pappel</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">20</SimpleData>
-            <SimpleData name="trunk_diameter">80</SimpleData>
-            <SimpleData name="trunk_circumference">251.33</SimpleData>
-            <SimpleData name="crown_diameter">12</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">20.3791597306887</SimpleData>
-            <SimpleData name="crown_diameter_standardized">11.9080953284462</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">247.540717471521</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">82.5956745566056</SimpleData>
-            <SimpleData name="volume_m^2">2269.65977104955</SimpleData>
-            <SimpleData name="cover_area_m^2">111.371607124297</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">21.38</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1520859,54.0911828977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.10">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">66b16fd8-344f-4fd1-9a39-05b7a8d06a77</SimpleData>
-            <SimpleData name="botanical_genus">Prunus</SimpleData>
-            <SimpleData name="German_genus">Kirsche</SimpleData>
-            <SimpleData name="botanical_species">Prunus species</SimpleData>
-            <SimpleData name="German-species">Kirsche</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">20</SimpleData>
-            <SimpleData name="trunk_circumference">62.83</SimpleData>
-            <SimpleData name="crown_diameter">7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">8.55550205187571</SimpleData>
-            <SimpleData name="crown_diameter_standardized">7.18831300086369</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">55.0407402246571</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">20.9942961175627</SimpleData>
-            <SimpleData name="volume_m^2">347.207693532049</SimpleData>
-            <SimpleData name="cover_area_m^2">40.5829712186122</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.183</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.151968,54.0913021977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.11">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">5ad029ab-0f7b-49e5-833b-0756eeed92bd</SimpleData>
-            <SimpleData name="botanical_genus">Robinia</SimpleData>
-            <SimpleData name="German_genus">Scheinakazie</SimpleData>
-            <SimpleData name="botanical_species">Robinia species</SimpleData>
-            <SimpleData name="German-species">Robinie</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">8</SimpleData>
-            <SimpleData name="trunk_diameter">15</SimpleData>
-            <SimpleData name="trunk_circumference">47.12</SimpleData>
-            <SimpleData name="crown_diameter">5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">8.3002014358466</SimpleData>
-            <SimpleData name="crown_diameter_standardized">5.63970866694567</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">50.0188496294017</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">14.932381066707</SimpleData>
-            <SimpleData name="volume_m^2">207.344181982074</SimpleData>
-            <SimpleData name="cover_area_m^2">24.9806204806794</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">7.544</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1516776,54.0911206977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.12">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">d38609b5-4e0a-4dd0-9b6c-9824e0d44680</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">4</SimpleData>
-            <SimpleData name="trunk_diameter">15</SimpleData>
-            <SimpleData name="trunk_circumference">47.12</SimpleData>
-            <SimpleData name="crown_diameter">2</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">3.62831567709377</SimpleData>
-            <SimpleData name="crown_diameter_standardized">2.31109531694937</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">43.3426510033481</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">12.7023987462966</SimpleData>
-            <SimpleData name="volume_m^2">15.2205610615673</SimpleData>
-            <SimpleData name="cover_area_m^2">4.19493848279452</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.377</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1537694,54.0911239977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.13">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">d77b7a02-1390-4b25-9a18-c9cc62985c42</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix species</SimpleData>
-            <SimpleData name="German-species">Weide/Kopfbaum</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">4</SimpleData>
-            <SimpleData name="trunk_diameter">15</SimpleData>
-            <SimpleData name="trunk_circumference">47.12</SimpleData>
-            <SimpleData name="crown_diameter">2</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">3.34838789829556</SimpleData>
-            <SimpleData name="crown_diameter_standardized">1.14931523335178</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">43.4127139352094</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">14.6260314787482</SimpleData>
-            <SimpleData name="volume_m^2">3.47379328252748</SimpleData>
-            <SimpleData name="cover_area_m^2">1.03745246609443</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">2.679</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1537535,54.0912492977638,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.14">
-        <name>Windschutz Laub-Mischbestand</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">101d16c2-9826-4365-9005-f42ad5ca10cc</SimpleData>
-            <SimpleData name="botanical_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="German_genus">Gruppenbäume</SimpleData>
-            <SimpleData name="botanical_species">Windschutz Laub-Mischbestand</SimpleData>
-            <SimpleData name="German-species">Windschutz Laub-Mischbestand</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Windschutz Laub-Mischbestand</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">true</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">18.021</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1521961,54.0912730977638,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.15">
-        <name>Malus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">b7ca1592-e706-43f5-879f-13c2d20721c1</SimpleData>
-            <SimpleData name="botanical_genus">Malus</SimpleData>
-            <SimpleData name="German_genus">Zierapfel</SimpleData>
-            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
-            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5</SimpleData>
-            <SimpleData name="trunk_diameter">8</SimpleData>
-            <SimpleData name="trunk_circumference">25.13</SimpleData>
-            <SimpleData name="crown_diameter">1.4</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
-            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">5.63272953531559</SimpleData>
-            <SimpleData name="crown_diameter_standardized">0.503097808110603</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">24.0354920832092</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">11.2108732153255</SimpleData>
-            <SimpleData name="volume_m^2">1.11973081497047</SimpleData>
-            <SimpleData name="cover_area_m^2">0.198790090656774</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.723</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1515023,54.0873774977631,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.16">
-        <name>Malus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">8001c44e-1a83-4b5d-8480-68aa036f6860</SimpleData>
-            <SimpleData name="botanical_genus">Malus</SimpleData>
-            <SimpleData name="German_genus">Zierapfel</SimpleData>
-            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
-            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5</SimpleData>
-            <SimpleData name="trunk_diameter">8</SimpleData>
-            <SimpleData name="trunk_circumference">25.13</SimpleData>
-            <SimpleData name="crown_diameter">1</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
-            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">4.5933736433556</SimpleData>
-            <SimpleData name="crown_diameter_standardized">0.746981455202498</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">19.9371538113799</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">8.82818185876019</SimpleData>
-            <SimpleData name="volume_m^2">2.0129885078232</SimpleData>
-            <SimpleData name="cover_area_m^2">0.438237483844804</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.55</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1516423,54.087331697763,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.17">
-        <name>Malus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">69934c6e-0c18-43ad-a637-b3e95f3f0b65</SimpleData>
-            <SimpleData name="botanical_genus">Malus</SimpleData>
-            <SimpleData name="German_genus">Zierapfel</SimpleData>
-            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
-            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5</SimpleData>
-            <SimpleData name="trunk_diameter">6.37</SimpleData>
-            <SimpleData name="trunk_circumference">20</SimpleData>
-            <SimpleData name="crown_diameter">4</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
-            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">6.27509809911443</SimpleData>
-            <SimpleData name="crown_diameter_standardized">3.20987027253276</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">13.7728933065585</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">6.85280715836654</SimpleData>
-            <SimpleData name="volume_m^2">50.7791424468792</SimpleData>
-            <SimpleData name="cover_area_m^2">8.09216710955409</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">3.177</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1511382,54.086550397763,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.18">
-        <name>Morus alba</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">56d1588d-a4c1-4767-8896-545aaef36d9f</SimpleData>
-            <SimpleData name="botanical_genus">Morus</SimpleData>
-            <SimpleData name="German_genus">Maulbeerebaum</SimpleData>
-            <SimpleData name="botanical_species">Morus alba</SimpleData>
-            <SimpleData name="German-species">Weiße Maulbeere</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5.5</SimpleData>
-            <SimpleData name="trunk_diameter">15</SimpleData>
-            <SimpleData name="trunk_circumference">47.12</SimpleData>
-            <SimpleData name="crown_diameter">3.5</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Morus alba</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">6.13735988065243</SimpleData>
-            <SimpleData name="crown_diameter_standardized">3.9731962108645</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">49.4595828616843</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">16.4445166701598</SimpleData>
-            <SimpleData name="volume_m^2">76.0941896866756</SimpleData>
-            <SimpleData name="cover_area_m^2">12.398521704187</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">0.73</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1509769,54.0870480977631,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.19">
-        <name>Malus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">81ab1d84-eb93-4fd7-9ed4-2fccc42acd7e</SimpleData>
-            <SimpleData name="botanical_genus">Malus</SimpleData>
-            <SimpleData name="German_genus">Zierapfel</SimpleData>
-            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
-            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5</SimpleData>
-            <SimpleData name="trunk_diameter">8</SimpleData>
-            <SimpleData name="trunk_circumference">25.13</SimpleData>
-            <SimpleData name="crown_diameter">2</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
-            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">5.6870162381295</SimpleData>
-            <SimpleData name="crown_diameter_standardized">2.47211044779587</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">32.3706567852137</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">11.3064496047038</SimpleData>
-            <SimpleData name="volume_m^2">27.296696419932</SimpleData>
-            <SimpleData name="cover_area_m^2">4.79982740983172</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.104</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1509626,54.0866114977629,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.20">
-        <name>Malus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">b329552b-a390-401a-82b5-de69d65f04f3</SimpleData>
-            <SimpleData name="botanical_genus">Malus</SimpleData>
-            <SimpleData name="German_genus">Zierapfel</SimpleData>
-            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
-            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5</SimpleData>
-            <SimpleData name="trunk_diameter">6.37</SimpleData>
-            <SimpleData name="trunk_circumference">20</SimpleData>
-            <SimpleData name="crown_diameter">0.6</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
-            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">4.33475513496574</SimpleData>
-            <SimpleData name="crown_diameter_standardized">1.15673521348406</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">14.9469477414199</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">4.59717549290289</SimpleData>
-            <SimpleData name="volume_m^2">4.55535643763953</SimpleData>
-            <SimpleData name="cover_area_m^2">1.05089129508016</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">1.868</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1523942,54.0886876977633,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.21">
-        <name><![CDATA[<NA>]]></name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">89f09eba-fb3f-4bff-90c6-c006f6a99afa</SimpleData>
-            <SimpleData name="botanical_genus">Alnus</SimpleData>
-            <SimpleData name="German_genus">Erle</SimpleData>
-            <SimpleData name="botanical_species">Alnus species</SimpleData>
-            <SimpleData name="German-species">Erle</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">6</SimpleData>
-            <SimpleData name="trunk_diameter">12</SimpleData>
-            <SimpleData name="trunk_circumference">37.7</SimpleData>
-            <SimpleData name="crown_diameter">1.7</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">6.06765151253095</SimpleData>
-            <SimpleData name="crown_diameter_standardized">1.7618006795758</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">33.4329112552319</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">10.0352542058316</SimpleData>
-            <SimpleData name="volume_m^2">14.791903245218</SimpleData>
-            <SimpleData name="cover_area_m^2">2.4378300590714</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">4.671</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1525807,54.0875619977631,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.22">
-        <name>Malus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">5c70dd3d-1609-4c27-9eb3-e19c08743168</SimpleData>
-            <SimpleData name="botanical_genus">Malus</SimpleData>
-            <SimpleData name="German_genus">Zierapfel</SimpleData>
-            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
-            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">5.4</SimpleData>
-            <SimpleData name="trunk_diameter">7</SimpleData>
-            <SimpleData name="trunk_circumference">21.99</SimpleData>
-            <SimpleData name="crown_diameter">1</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
-            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">5.1743930023772</SimpleData>
-            <SimpleData name="crown_diameter_standardized">0.657953159802406</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">21.953119441304</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">8.26764032510995</SimpleData>
-            <SimpleData name="volume_m^2">1.75929734048474</SimpleData>
-            <SimpleData name="cover_area_m^2">0.340000718862384</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">6.419</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1527906,54.0885539977633,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.23">
-        <name>Salix babylonica</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">bd0281ab-c6ac-42d1-8d3a-4f4995c6f544</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix babylonica</SimpleData>
-            <SimpleData name="German-species">Chinesische-Hänge-Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">6</SimpleData>
-            <SimpleData name="trunk_diameter">5.73</SimpleData>
-            <SimpleData name="trunk_circumference">18</SimpleData>
-            <SimpleData name="crown_diameter">1</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Salix babylonica</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">5.85064111302202</SimpleData>
-            <SimpleData name="crown_diameter_standardized">-0.211120138257835</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">16.5909185621887</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">6.56723193657</SimpleData>
-            <SimpleData name="volume_m^2">0.204810710078173</SimpleData>
-            <SimpleData name="cover_area_m^2">0.0350065413553255</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">11.303</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1536393,54.0910403977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.24">
-        <name>Salix babylonica</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">77321c77-96af-47d6-8de6-7101f50ce6db</SimpleData>
-            <SimpleData name="botanical_genus">Salix</SimpleData>
-            <SimpleData name="German_genus">Weide</SimpleData>
-            <SimpleData name="botanical_species">Salix babylonica</SimpleData>
-            <SimpleData name="German-species">Chinesische-Hänge-Weide</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">6</SimpleData>
-            <SimpleData name="trunk_diameter">5.73</SimpleData>
-            <SimpleData name="trunk_circumference">18</SimpleData>
-            <SimpleData name="crown_diameter">1</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Salix babylonica</SimpleData>
-            <SimpleData name="botanical_species_common_name"><![CDATA[<NA>]]></SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">5.33501763333114</SimpleData>
-            <SimpleData name="crown_diameter_standardized">0.453274868321894</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">19.3053141533276</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">5.75968791201028</SimpleData>
-            <SimpleData name="volume_m^2">0.860892692422988</SimpleData>
-            <SimpleData name="cover_area_m^2">0.16136641930562</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">7.687</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1537011,54.0910855977637,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Petripark_invalidated.25">
-        <name>Malus</name>
-        <ExtendedData>
-          <SchemaData schemaUrl="#Petripark_invalidated.schema">
-            <SimpleData name="uuid">9fce6722-5982-4fd5-9f3f-8c6560658d26</SimpleData>
-            <SimpleData name="botanical_genus">Malus</SimpleData>
-            <SimpleData name="German_genus">Zierapfel</SimpleData>
-            <SimpleData name="botanical_species">Malus „Evereste“</SimpleData>
-            <SimpleData name="German-species">Zier-Apfel „Evereste“</SimpleData>
-            <SimpleData name="avenue_tree">false</SimpleData>
-            <SimpleData name="height">6</SimpleData>
-            <SimpleData name="trunk_diameter">5.73</SimpleData>
-            <SimpleData name="trunk_circumference">18</SimpleData>
-            <SimpleData name="crown_diameter">1</SimpleData>
-            <SimpleData name="tree_sponsorship">false</SimpleData>
-            <SimpleData name="botanical_species_formal_name">Malus</SimpleData>
-            <SimpleData name="botanical_species_common_name">Evereste</SimpleData>
-            <SimpleData name="qualified_species_representation">false</SimpleData>
-            <SimpleData name="in_qualified_cohort">false</SimpleData>
-            <SimpleData name="height_standardized">5.30985878882884</SimpleData>
-            <SimpleData name="crown_diameter_standardized">1.67251544228356</SimpleData>
-            <SimpleData name="trunk_circumference_standardized">23.5759537140731</SimpleData>
-            <SimpleData name="trunk_diameter_standardized">5.06505643357016</SimpleData>
-            <SimpleData name="volume_m^2">11.6657623650851</SimpleData>
-            <SimpleData name="cover_area_m^2">2.19700049079047</SimpleData>
-            <SimpleData name="designation">Petripark</SimpleData>
-            <SimpleData name="type">park</SimpleData>
-            <SimpleData name="dist_to_edge">7.459</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            12.1514162,54.0872862977631,0
-          </coordinates>
-        </Point>
-      </Placemark>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="423561">
+        <Style id="423564">
+            <IconStyle id="423565">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423566">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423567">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423570">
+            <IconStyle id="423571">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423572">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423573">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423576">
+            <IconStyle id="423577">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423578">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423579">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423582">
+            <IconStyle id="423583">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423584">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423585">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423588">
+            <IconStyle id="423589">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423590">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423591">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423594">
+            <IconStyle id="423595">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423596">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423597">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423600">
+            <IconStyle id="423601">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423602">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423603">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423606">
+            <IconStyle id="423607">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423608">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423609">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423612">
+            <IconStyle id="423613">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423614">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423615">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423618">
+            <IconStyle id="423619">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423620">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423621">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423624">
+            <IconStyle id="423625">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423626">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423627">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423630">
+            <IconStyle id="423631">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423632">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423633">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423636">
+            <IconStyle id="423637">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423638">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423639">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423642">
+            <IconStyle id="423643">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423644">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423645">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423648">
+            <IconStyle id="423649">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423650">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423651">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423654">
+            <IconStyle id="423655">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423656">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423657">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423660">
+            <IconStyle id="423661">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423662">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423663">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423666">
+            <IconStyle id="423667">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423668">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423669">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423672">
+            <IconStyle id="423673">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423674">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423675">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423678">
+            <IconStyle id="423679">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423680">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423681">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423684">
+            <IconStyle id="423685">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423686">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423687">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423690">
+            <IconStyle id="423691">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423692">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423693">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423696">
+            <IconStyle id="423697">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423698">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423699">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423702">
+            <IconStyle id="423703">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423704">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423705">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="423708">
+            <IconStyle id="423709">
+                <color>FF1478FF</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="423710">
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="423711">
+                <colorMode>normal</colorMode>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="423563">
+            <name>Sequoia sempervirens</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 193738bb-2525-491d-a602-57c78d54347c&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Sequoia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Küstenmammutbaum&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Sequoia sempervirens&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Küsten-Sequoie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 4.5&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 7.96&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 25.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Sequoia sempervirens&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 3.896528278147284&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 1.8270130230471646&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 29.111036037598495&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 7.832801891552627&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 10.215297046357408&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 2.6216406804096297&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.167&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Sequoia sempervirens</description>
+            <styleUrl>#423564</styleUrl>
+            <Point id="423562">
+                <coordinates>12.152488300000005,54.088817697763325,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423569">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 6b952b79-9264-4d00-a328-5fb30b876297&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Prunus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Kirsche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Prunus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Kirsche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 25.13&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 0.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 6.901651522838341&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; -0.3591712173493449&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 27.778489453840965&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 7.5874023488143045&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 0.6992717151627507&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 0.10131947590352569&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 5.993&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423570</styleUrl>
+            <Point id="423568">
+                <coordinates>12.152243799999999,54.08911489776337,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423575">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 1304967e-bfbc-4810-9d60-9ed7580384e0&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Prunus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Kirsche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Prunus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Kirsche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 25.13&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 0.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 6.883742926632437&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 0.16337469173410113&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 29.983789025093877&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 7.464824106382328&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 0.14430589970767674&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 0.02096329006555042&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 5.582&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423576</styleUrl>
+            <Point id="423574">
+                <coordinates>12.152392299999995,54.08904559776331,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423581">
+            <name>Acer pseudoplatanus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 61d2554e-eeb1-4c4a-9427-210a5e0f1d02&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Acer&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Ahorn&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Acer pseudoplatanus&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Berg-Ahorn&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 9.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Acer pseudoplatanus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 9.401883562240775&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.480064353562109&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 221.75635105259707&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 23.586374962480956&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.116&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Acer pseudoplatanus</description>
+            <styleUrl>#423582</styleUrl>
+            <Point id="423580">
+                <coordinates>12.152068200000002,54.0875184977631,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423587">
+            <name>Metasequoia glyptostroboides</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; e45a0416-0831-4c30-bcdb-7b39fea147b6&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Metasequoia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Urweltmammutbaum&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Metasequoia glyptostroboides&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Urwelt-Mammutbaum&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 40.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 125.66&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Metasequoia glyptostroboides&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 15.407163347549611&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.630367826199982&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 126.63619765573017&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 38.34844731282822&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 383.60662941870135&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 24.897940053300662&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.131&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Metasequoia glyptostroboides</description>
+            <styleUrl>#423588</styleUrl>
+            <Point id="423586">
+                <coordinates>12.152342100000002,54.08910089776339,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423593">
+            <name>Salix alba</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; a165c03e-3b1c-4582-85a5-549f98c6e96a&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix alba&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Silber-Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 125.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 392.7&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 16.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Salix alba&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 16.476267261951694&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 15.032229563431578&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 389.0105594832782&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 125.74479530230653&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2924.122134751049&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 177.4747937904397&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.949&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Salix alba</description>
+            <styleUrl>#423594</styleUrl>
+            <Point id="423592">
+                <coordinates>12.153684800000006,54.09144509776376,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423599">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 84d77db3-5731-4dc5-967d-24563ae9bb53&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Pinus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Kiefer&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Pinus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Kiefer&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 6.5&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 37.7&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 4.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 6.253732830562082&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 3.483692426443085&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 29.97304314828405&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 9.663255031267731&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 59.608585147944474&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 9.531680799767535&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 32.786&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423600</styleUrl>
+            <Point id="423598">
+                <coordinates>12.152510199999991,54.0912337977637,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423605">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 5bcc78a2-9399-4fc7-a4a2-bc0c1a29d32f&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Quercus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Quercus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Eiche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 11.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 34.56&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 12.08946214973237&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 4.862826183094964&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 36.680247142181386&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 11.581927368023706&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 224.52998848675227&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 18.572372013400347&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 13.77&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423606</styleUrl>
+            <Point id="423604">
+                <coordinates>12.152271600000006,54.091348097763756,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423611">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 4b78ef16-3bd8-49d2-9576-e639daf4e961&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Populus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Populus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Pappel&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 80.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 251.33&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 20.464473445265806&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 11.85960223967642&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 249.01033461789805&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 82.95971919555768&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2260.6363307006905&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 110.46638149508117&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 21.38&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423612</styleUrl>
+            <Point id="423610">
+                <coordinates>12.152085899999994,54.091182897763666,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423617">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 66b16fd8-344f-4fd1-9a39-05b7a8d06a77&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Prunus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Kirsche&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Prunus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Kirsche&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 62.83&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 8.485298222006325&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 6.229182218521269&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 58.94512846695286&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 22.399970609503924&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 258.5943681730951&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 30.4755780418465&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.183&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423618</styleUrl>
+            <Point id="423616">
+                <coordinates>12.151967999999995,54.091302197763696,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423623">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 5ad029ab-0f7b-49e5-833b-0756eeed92bd&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Robinia&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Scheinakazie&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Robinia species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Robinie&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 15.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 47.12&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 8.777568056238444&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 5.321459663446649&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 51.319607433220064&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 15.788772128582293&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 195.22059670994608&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 22.24085252989839&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 7.544&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423624</styleUrl>
+            <Point id="423622">
+                <coordinates>12.151677600000003,54.09112069776374,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423629">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; d38609b5-4e0a-4dd0-9b6c-9824e0d44680&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide/Kopfbaum&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 4.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 15.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 47.12&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 2.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 3.8348960230624645&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.3106803085623393&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 49.7154441408778&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 13.963580314530825&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 16.081375813693356&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 4.1934320297036685&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.377&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423630</styleUrl>
+            <Point id="423628">
+                <coordinates>12.153769400000002,54.09112399776369,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423635">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; d77b7a02-1390-4b25-9a18-c9cc62985c42&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weide/Kopfbaum&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 4.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 15.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 47.12&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 2.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 3.479149351143844&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.7523143739012776&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 46.62304728854069&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 14.317146933750942&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 20.699460679632363&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 5.949575195105372&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 2.679&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423636</styleUrl>
+            <Point id="423634">
+                <coordinates>12.153753500000006,54.09124929776375,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423641">
+            <name>Windschutz Laub-Mischbestand</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 101d16c2-9826-4365-9005-f42ad5ca10cc&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Gruppenbäume&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Windschutz Laub-Mischbestand&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Windschutz Laub-Mischbestand&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Windschutz Laub-Mischbestand&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; True&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; nan&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 18.021&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Windschutz Laub-Mischbestand</description>
+            <styleUrl>#423642</styleUrl>
+            <Point id="423640">
+                <coordinates>12.152196099999998,54.09127309776376,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423647">
+            <name>Malus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; b7ca1592-e706-43f5-879f-13c2d20721c1&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Zierapfel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Malus „Evereste“&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Zier-Apfel „Evereste“&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 25.13&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.4&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; Evereste&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.17537805675415&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.0903683972220417&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 24.327084846999863&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 10.093246700244947&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 17.761417521377954&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 3.43190725906455&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.723&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Malus</description>
+            <styleUrl>#423648</styleUrl>
+            <Point id="423646">
+                <coordinates>12.151502299999994,54.08737749776305,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423653">
+            <name>Malus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 8001c44e-1a83-4b5d-8480-68aa036f6860&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Zierapfel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Malus „Evereste“&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Zier-Apfel „Evereste“&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 25.13&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; Evereste&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 4.659774660158531&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 0.39863951488518257&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 27.142609752634172&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 9.750597302883188&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 0.581588068251124&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 0.12481034184415639&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.55&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Malus</description>
+            <styleUrl>#423654</styleUrl>
+            <Point id="423652">
+                <coordinates>12.151642300000006,54.08733169776304,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423659">
+            <name>Malus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 69934c6e-0c18-43ad-a637-b3e95f3f0b65&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Zierapfel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Malus „Evereste“&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Zier-Apfel „Evereste“&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 6.37&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 4.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; Evereste&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.033011121169129&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 4.147316316593168&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 23.424716455472915&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 4.252700658674095&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 67.99110385068063&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 13.509031117516551&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 3.177&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Malus</description>
+            <styleUrl>#423660</styleUrl>
+            <Point id="423658">
+                <coordinates>12.1511382,54.08655039776297,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423665">
+            <name>Morus alba</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 56d1588d-a4c1-4767-8896-545aaef36d9f&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Morus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Maulbeerebaum&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Morus alba&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Weiße Maulbeere&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.5&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 15.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 47.12&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 3.5&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Morus alba&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.567325783377735&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 3.64722826443122&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 46.22766106151306&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 14.82114215811176&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 58.16509029711971&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 10.447581578714537&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 0.73&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Morus alba</description>
+            <styleUrl>#423666</styleUrl>
+            <Point id="423664">
+                <coordinates>12.150976900000002,54.08704809776305,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423671">
+            <name>Malus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 81ab1d84-eb93-4fd7-9ed4-2fccc42acd7e&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Zierapfel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Malus „Evereste“&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Zier-Apfel „Evereste“&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 8.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 25.13&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 2.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; Evereste&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 4.963615588293679&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.4234985028153737&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 38.4654230852685&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 7.568562714381032&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 22.89673367746501&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 4.612914370618318&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.104&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Malus</description>
+            <styleUrl>#423672</styleUrl>
+            <Point id="423670">
+                <coordinates>12.150962600000002,54.08661149776292,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423677">
+            <name>Malus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; b329552b-a390-401a-82b5-de69d65f04f3&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Zierapfel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Malus „Evereste“&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Zier-Apfel „Evereste“&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 6.37&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 20.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 0.6&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; Evereste&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.282611804756777&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.5756928796057457&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 21.128233905626956&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 5.687905173994132&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 27.52496235365772&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 5.210483634037355&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 1.868&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Malus</description>
+            <styleUrl>#423678</styleUrl>
+            <Point id="423676">
+                <coordinates>12.1523942,54.088687697763326,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423683">
+            <name>&lt;NA&gt;</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 89f09eba-fb3f-4bff-90c6-c006f6a99afa&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Alnus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Erle&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Alnus species&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Erle&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 12.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 37.7&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.7&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.386765853068601&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 2.14625289034044&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 39.605144191286584&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 12.209358091674623&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 19.488560689876298&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 3.617859253855359&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 4.671&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; &lt;NA&gt;</description>
+            <styleUrl>#423684</styleUrl>
+            <Point id="423682">
+                <coordinates>12.152580699999996,54.087561997763096,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423689">
+            <name>Malus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 5c70dd3d-1609-4c27-9eb3-e19c08743168&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Zierapfel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Malus „Evereste“&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Zier-Apfel „Evereste“&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 5.4&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 7.0&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 21.99&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; Evereste&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.2029743899149725&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 0.38433573008009303&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 19.819993478293355&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 7.145332367182927&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 0.6036192638184458&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 0.11601426772125822&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 6.419&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Malus</description>
+            <styleUrl>#423690</styleUrl>
+            <Point id="423688">
+                <coordinates>12.152790600000005,54.08855399776328,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423695">
+            <name>Salix babylonica</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; bd0281ab-c6ac-42d1-8d3a-4f4995c6f544&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix babylonica&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Chinesische-Hänge-Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 5.73&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Salix babylonica&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.201428485521087&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 0.7495988621184562&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 21.179757479715636&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 6.794265293031513&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 2.295463282738513&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 0.4413140138575893&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 11.303&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Salix babylonica</description>
+            <styleUrl>#423696</styleUrl>
+            <Point id="423694">
+                <coordinates>12.153639300000007,54.09104039776366,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423701">
+            <name>Salix babylonica</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 77321c77-96af-47d6-8de6-7101f50ce6db&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Salix&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Weide&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Salix babylonica&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Chinesische-Hänge-Weide&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 5.73&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Salix babylonica&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; &lt;NA&gt;&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.586662991038356&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 0.9176361557819123&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 17.5680713653288&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 6.4139282513902325&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 3.694735802181294&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 0.6613493257259425&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 7.687&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Salix babylonica</description>
+            <styleUrl>#423702</styleUrl>
+            <Point id="423700">
+                <coordinates>12.153701100000003,54.091085597763715,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="423707">
+            <name>Malus</name>
+            <description>&lt;b&gt;uuid:&lt;/b&gt; 9fce6722-5982-4fd5-9f3f-8c6560658d26&lt;br&gt;&lt;b&gt;botanical_genus:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;German_genus:&lt;/b&gt; Zierapfel&lt;br&gt;&lt;b&gt;botanical_species:&lt;/b&gt; Malus „Evereste“&lt;br&gt;&lt;b&gt;German-species:&lt;/b&gt; Zier-Apfel „Evereste“&lt;br&gt;&lt;b&gt;avenue_tree:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height:&lt;/b&gt; 6.0&lt;br&gt;&lt;b&gt;trunk_diameter:&lt;/b&gt; 5.73&lt;br&gt;&lt;b&gt;trunk_circumference:&lt;/b&gt; 18.0&lt;br&gt;&lt;b&gt;crown_diameter:&lt;/b&gt; 1.0&lt;br&gt;&lt;b&gt;tree_sponsorship:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;botanical_species_formal_name:&lt;/b&gt; Malus&lt;br&gt;&lt;b&gt;botanical_species_common_name:&lt;/b&gt; Evereste&lt;br&gt;&lt;b&gt;outlier_height:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_trunk_circumference:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;outlier_crown_diameter:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;qualified_species_representation:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;in_qualified_cohort:&lt;/b&gt; False&lt;br&gt;&lt;b&gt;height_standardized:&lt;/b&gt; 5.858272606172651&lt;br&gt;&lt;b&gt;crown_diameter_standardized:&lt;/b&gt; 1.0660882527251527&lt;br&gt;&lt;b&gt;trunk_circumference_standardized:&lt;/b&gt; 16.490034325001687&lt;br&gt;&lt;b&gt;trunk_diameter_standardized:&lt;/b&gt; 4.306171311652286&lt;br&gt;&lt;b&gt;volume_m^2:&lt;/b&gt; 5.229326689536299&lt;br&gt;&lt;b&gt;cover_area_m^2:&lt;/b&gt; 0.892639697925007&lt;br&gt;&lt;b&gt;designation:&lt;/b&gt; Petripark&lt;br&gt;&lt;b&gt;type:&lt;/b&gt; park&lt;br&gt;&lt;b&gt;dist_to_edge:&lt;/b&gt; 7.459&lt;br&gt;&lt;b&gt;Name:&lt;/b&gt; Malus</description>
+            <styleUrl>#423708</styleUrl>
+            <Point id="423706">
+                <coordinates>12.151416199999998,54.08728629776306,0.0</coordinates>
+            </Point>
+        </Placemark>
     </Document>
-  </Document>
 </kml>
